@@ -1,0 +1,142 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Which Sports Skew Young or Old?",
+    "subtitle": "Age composition of the 10 most youth-skewed and 10 most elderly-skewed activities",
+    "fontSize": 22,
+    "subtitleFontSize": 15
+  },
+  "data": { "url": "data/chart_1_sports_australians_play.csv" },
+  "transform": [
+    { "filter": "datum.group_type === 'Age'" },
+    {
+      "joinaggregate": [{ "op": "sum", "field": "participants", "as": "total" }],
+      "groupby": ["activity"]
+    },
+    {
+      "window": [{ "op": "dense_rank", "as": "rank" }],
+      "sort": [{ "field": "total", "order": "descending" }]
+    },
+    { "filter": "datum.rank <= 150" },
+    { "calculate": "datum.participants / datum.total", "as": "pct" },
+    {
+      "calculate": "indexof(['15-17','18-24','25-34','35-44','45-54','55-64','65+'], datum.group)",
+      "as": "ageOrder"
+    },
+    { "calculate": "datum.group === '65+' ? datum.pct : 0", "as": "pctOld_row" },
+    {
+      "calculate": "(datum.group === '15-17' || datum.group === '18-24') ? datum.pct : 0",
+      "as": "pctYoung_row"
+    },
+    {
+      "joinaggregate": [
+        { "op": "sum", "field": "pctOld_row", "as": "pctOld" },
+        { "op": "sum", "field": "pctYoung_row", "as": "pctYoung" }
+      ],
+      "groupby": ["activity"]
+    }
+  ],
+  "vconcat": [
+    {
+      "title": { "text": "Top 10 skewed towards the young (share aged 15–24)", "fontSize": 15, "anchor": "start" },
+      "width": 500,
+      "height": { "step": 22 },
+      "transform": [
+        {
+          "window": [{ "op": "dense_rank", "as": "youngRank" }],
+          "sort": [{ "field": "pctYoung", "order": "descending" }]
+        },
+        { "filter": "datum.youngRank <= 10" }
+      ],
+      "mark": "bar",
+      "encoding": {
+        "y": {
+          "field": "activity",
+          "type": "nominal",
+          "title": null,
+          "sort": { "field": "pctYoung", "op": "max", "order": "descending" }
+        },
+        "x": {
+          "field": "participants",
+          "type": "quantitative",
+          "stack": "normalize",
+          "title": null,
+          "axis": { "format": "%" }
+        },
+        "color": {
+          "field": "group",
+          "type": "ordinal",
+          "title": "Age",
+          "scale": {
+            "domain": ["15-17", "18-24", "25-34", "35-44", "45-54", "55-64", "65+"],
+            "scheme": "yellowgreenblue"
+          }
+        },
+        "order": { "field": "ageOrder", "type": "quantitative" },
+        "tooltip": [
+          { "field": "activity", "title": "Activity" },
+          { "field": "group", "title": "Age" },
+          { "field": "participants", "title": "Participants", "format": "," },
+          { "field": "pct", "title": "Share", "format": ".1%" },
+          { "field": "pctYoung", "title": "Share aged 15–24", "format": ".1%" }
+        ]
+      }
+    },
+    {
+      "title": { "text": "Top 10 skewed towards the elderly (share aged 65+)", "fontSize": 15, "anchor": "start" },
+      "width": 500,
+      "height": { "step": 22 },
+      "transform": [
+        {
+          "window": [{ "op": "dense_rank", "as": "oldRank" }],
+          "sort": [{ "field": "pctOld", "order": "descending" }]
+        },
+        { "filter": "datum.oldRank <= 10" }
+      ],
+      "mark": "bar",
+      "encoding": {
+        "y": {
+          "field": "activity",
+          "type": "nominal",
+          "title": null,
+          "sort": { "field": "pctOld", "op": "max", "order": "descending" }
+        },
+        "x": {
+          "field": "participants",
+          "type": "quantitative",
+          "stack": "normalize",
+          "title": "Share of participants",
+          "axis": { "format": "%" }
+        },
+        "color": {
+          "field": "group",
+          "type": "ordinal",
+          "title": "Age",
+          "scale": {
+            "domain": ["15-17", "18-24", "25-34", "35-44", "45-54", "55-64", "65+"],
+            "scheme": "yellowgreenblue"
+          }
+        },
+        "order": { "field": "ageOrder", "type": "quantitative" },
+        "tooltip": [
+          { "field": "activity", "title": "Activity" },
+          { "field": "group", "title": "Age" },
+          { "field": "participants", "title": "Participants", "format": "," },
+          { "field": "pct", "title": "Share", "format": ".1%" },
+          { "field": "pctOld", "title": "Share aged 65+", "format": ".1%" }
+        ]
+      }
+    }
+  ],
+  "resolve": { "scale": { "color": "shared" } },
+  "config": {
+    "axis": {
+      "labelFontSize": 15,
+      "titleFontSize": 13
+    },
+    "legend": {
+      "labelFontSize": 15,
+      "titleFontSize": 13
+    }
+  }
+}

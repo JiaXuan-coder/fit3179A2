@@ -1,0 +1,53 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Top 20 Sports and Activities Australians Play",
+    "subtitle": "Total participants aged 15+",
+    "fontSize": 22,
+    "subtitleFontSize": 17
+  },
+  "data": { "url": "data/chart_1_sports_australians_play.csv" },
+  "width": 500,
+  "height": { "step": 22 },
+  "transform": [
+    { "filter": "datum.group_type === 'Age'" },
+    {
+      "aggregate": [{ "op": "sum", "field": "participants", "as": "total" }],
+      "groupby": ["activity"]
+    },
+    {
+      "window": [{ "op": "rank", "as": "rank" }],
+      "sort": [{ "field": "total", "order": "descending" }]
+    },
+    { "filter": "datum.rank <= 20" }
+  ],
+  "mark": { "type": "bar", "color": "#5d4dc5" },
+  "encoding": {
+    "y": {
+      "field": "activity",
+      "type": "nominal",
+      "sort": "-x",
+      "title": null
+    },
+    "x": {
+      "field": "total",
+      "type": "quantitative",
+      "title": "Participants",
+      "axis": { "format": "~s" }
+    },
+    "tooltip": [
+      { "field": "activity", "title": "Activity" },
+      { "field": "total", "title": "Participants", "format": "," }
+    ]
+  },
+  "config": {
+    "axis": {
+      "labelFontSize": 15,
+      "titleFontSize": 13
+    },
+    "legend": {
+      "labelFontSize": 15,
+      "titleFontSize": 13
+    }
+  }
+}
