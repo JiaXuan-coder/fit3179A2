@@ -1,0 +1,110 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "background": "transparent",
+  "title": {
+    "text": "Who Organises Australia's Sports and Activities?",
+    "subtitle": "Share of each activity's organised participation, by type of activity",
+    "fontSize": 22,
+    "subtitleFontSize": 17
+  },
+  "data": { "url": "data/organising_entity_by_activity.csv" },
+  "params": [
+    {
+      "name": "catSel",
+      "value": "Fitness & gym",
+      "bind": {
+        "input": "select",
+        "name": "Activity group: ",
+        "options": [
+          "Fitness & gym",
+          "Running, walking & outdoor",
+          "Football codes",
+          "Other team sports",
+          "Racquet & target sports",
+          "Water sports",
+          "Combat sports & martial arts",
+          "Dance, gymnastics & performance",
+          "Cycling, wheels & motor",
+          "Equestrian",
+          "Winter & ice sports",
+          "Other"
+        ]
+      }
+    }
+  ],
+  "width": { "step": 85 },
+  "height": 456,
+  "transform": [
+    {
+      "joinaggregate": [{ "op": "sum", "field": "participants", "as": "row_total" }],
+      "groupby": ["activity"]
+    },
+    { "filter": "datum.row_total > 0" },
+    {
+      "window": [{ "op": "dense_rank", "as": "rank" }],
+      "sort": [{ "field": "row_total", "order": "descending" }]
+    },
+    { "filter": "datum.category === catSel" },
+    { "calculate": "datum.participants / datum.row_total", "as": "share" },
+    {
+      "calculate": "datum.entity === 'Sports club or association' ? 'Sports club' : datum.entity === 'Recreation club or association' ? 'Recreation club' : datum.entity === 'Gym/fitness club/sports/leisure centre' ? 'Gym / leisure centre' : datum.entity === 'Private or commercial business' ? 'Commercial business' : datum.entity === 'Individual personal trainer or coach' ? 'Personal trainer / coach' : datum.entity",
+      "as": "entity_short"
+    }
+  ],
+  "encoding": {
+    "y": {
+      "field": "activity",
+      "type": "nominal",
+      "title": null,
+      "sort": { "field": "row_total", "op": "max", "order": "descending" }
+    },
+    "x": {
+      "field": "entity_short",
+      "type": "nominal",
+      "title": null,
+      "sort": [
+        "Sports club",
+        "Recreation club",
+        "Gym / leisure centre",
+        "Commercial business",
+        "Personal trainer / coach",
+        "Educational institution"
+      ],
+      "axis": { "orient": "top", "labelAngle": -30, "labelAlign": "left" }
+    }
+  },
+  "layer": [
+    {
+      "mark": "rect",
+      "encoding": {
+        "color": {
+          "field": "share",
+          "type": "quantitative",
+          "title": "Share",
+          "scale": { "domain": [0, 1], "range": ["#ffffff", "#000080"], "interpolate": "rgb" },
+          "legend": { "format": "%" }
+        },
+        "tooltip": [
+          { "field": "activity", "title": "Activity" },
+          { "field": "entity", "title": "Organiser" },
+          { "field": "participants", "title": "Participants", "format": "," },
+          { "field": "share", "title": "Share of activity", "format": ".1%" }
+        ]
+      }
+    },
+    {
+      "mark": { "type": "text", "fontSize": 15 },
+      "encoding": {
+        "text": { "field": "share", "type": "quantitative", "format": ".0%" },
+        "color": {
+          "condition": { "test": "datum.share > 0.5", "value": "white" },
+          "value": "black"
+        }
+      }
+    }
+  ],
+  "config": {
+    "axis": { "grid": true, "tickBand": "extent", "labelFontSize": 15, "titleFontSize": 13 },
+    "view": { "stroke": null }
+  }
+}

@@ -1,5 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "background": "transparent",
   "title": {
     "text": "Which Sports Skew Young or Old?",
     "subtitle": "Age composition of the 10 most youth-skewed and 10 most elderly-skewed activities",
@@ -38,8 +39,8 @@
   ],
   "vconcat": [
     {
-      "title": { "text": "Top 10 skewed towards the young (share aged 15–24)", "fontSize": 15, "anchor": "start" },
-      "width": 500,
+      "title": { "text": "Top 10 skewed towards the young (share aged 15–24)", "fontSize": 16, "anchor": "start" },
+      "width": 400,
       "height": { "step": 22 },
       "transform": [
         {
@@ -83,8 +84,8 @@
       }
     },
     {
-      "title": { "text": "Top 10 skewed towards the elderly (share aged 65+)", "fontSize": 15, "anchor": "start" },
-      "width": 500,
+      "title": { "text": "Top 10 skewed towards the elderly (share aged 65+)", "fontSize": 16, "anchor": "start" },
+      "width": 400,
       "height": { "step": 22 },
       "transform": [
         {

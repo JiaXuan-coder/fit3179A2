@@ -1,7 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "background": "transparent",
   "title": {
-    "text": "Top 20 Sports and Activities Australians Play",
+    "text": "Top 25 Sports and Activities Australians Play",
     "subtitle": "Total participants aged 15+",
     "fontSize": 22,
     "subtitleFontSize": 17
@@ -19,7 +20,7 @@
       "window": [{ "op": "rank", "as": "rank" }],
       "sort": [{ "field": "total", "order": "descending" }]
     },
-    { "filter": "datum.rank <= 20" }
+    { "filter": "datum.rank <= 25" }
   ],
   "mark": { "type": "bar", "color": "#5d4dc5" },
   "encoding": {

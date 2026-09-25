@@ -1,0 +1,237 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "background": "transparent",
+  "title": {
+    "text": "Technology and the Modern Athlete",
+    "subtitle": "Rank of each technology used during sport/physical activity, by age group",
+    "anchor": "start",
+    "fontSize": 22,
+    "subtitleFontSize": 17,
+    "subtitleColor": "#555"
+  },
+  "width": 580,
+  "height": 460,
+  "data": {
+    "url": "data/technology_by_age_group.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "percentage": "number"
+      }
+    }
+  },
+  "transform": [
+    {
+      "window": [
+        {
+          "op": "rank",
+          "as": "rank"
+        }
+      ],
+      "sort": [
+        {
+          "field": "percentage",
+          "order": "descending"
+        }
+      ],
+      "groupby": [
+        "age_group"
+      ]
+    },
+    {
+      "calculate": "datum.rank + '.  ' + datum.tech_label",
+      "as": "rank_label"
+    }
+  ],
+  "encoding": {
+    "x": {
+      "field": "age_group",
+      "type": "ordinal",
+      "sort": [
+        "15-17",
+        "18-24",
+        "25-34",
+        "35-44",
+        "45-54",
+        "55-64",
+        "65+"
+      ],
+      "scale": {
+        "padding": 0.1
+      },
+      "axis": {
+        "title": "Age group",
+        "labelAngle": 0,
+        "orient": "top",
+        "domain": false,
+        "ticks": false,
+        "labelFontSize": 12
+      }
+    },
+    "y": {
+      "field": "rank",
+      "type": "ordinal",
+      "scale": {
+        "domain": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      },
+      "axis": null
+    },
+    "color": {
+      "field": "tech_label",
+      "type": "nominal",
+      "scale": {
+        "scheme": "tableau20"
+      },
+      "legend": null
+    }
+  },
+  "layer": [
+    {
+      "params": [
+        {
+          "name": "highlight",
+          "select": {
+            "type": "point",
+            "fields": [
+              "tech_label"
+            ],
+            "on": "pointerover",
+            "clear": "pointerout"
+          }
+        },
+        {
+          "name": "pinned",
+          "select": {
+            "type": "point",
+            "fields": [
+              "tech_label"
+            ],
+            "on": "click",
+            "toggle": "true"
+          }
+        }
+      ],
+      "mark": {
+        "type": "line",
+        "strokeWidth": 3,
+        "interpolate": "monotone"
+      },
+      "encoding": {
+        "opacity": {
+          "condition": {
+            "test": "(!length(data('highlight_store')) && !length(data('pinned_store'))) || highlight || pinned",
+            "value": 1
+          },
+          "value": 0.12
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "circle",
+        "size": 110,
+        "stroke": "white",
+        "strokeWidth": 1.5
+      },
+      "encoding": {
+        "opacity": {
+          "condition": {
+            "test": "(!length(data('highlight_store')) && !length(data('pinned_store'))) || highlight || pinned",
+            "value": 1
+          },
+          "value": 0.12
+        },
+        "tooltip": [
+          {
+            "field": "technology",
+            "type": "nominal",
+            "title": "Technology"
+          },
+          {
+            "field": "age_group",
+            "type": "ordinal",
+            "title": "Age group"
+          },
+          {
+            "field": "percentage",
+            "type": "quantitative",
+            "title": "% of active adults",
+            "format": ".1f"
+          }
+        ]
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.age_group === '15-17'"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "dx": -12,
+        "fontSize": 11
+      },
+      "encoding": {
+        "text": {
+          "field": "rank_label"
+        },
+        "opacity": {
+          "condition": {
+            "test": "(!length(data('highlight_store')) && !length(data('pinned_store'))) || highlight || pinned",
+            "value": 1
+          },
+          "value": 0.25
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.age_group === '65+'"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 12,
+        "fontSize": 11
+      },
+      "encoding": {
+        "text": {
+          "field": "rank_label"
+        },
+        "opacity": {
+          "condition": {
+            "test": "(!length(data('highlight_store')) && !length(data('pinned_store'))) || highlight || pinned",
+            "value": 1
+          },
+          "value": 0.25
+        }
+      }
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "font": "Helvetica, Arial, sans-serif"
+  }
+}

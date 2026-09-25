@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="css/layout.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
 
     <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
@@ -18,14 +21,87 @@
 </head>
 
 <body>
-    <div class="pure-g">
-        <div class="pure-u-1">
-            <img src="images/banner.png" />
-        </div>
-    </div>
-    <br></br>
-    <div id="top15_activities_chart"></div>
-    <div id="age_skewed_chart"></div>
+    <header class="page-banner">
+        <img src="images/banner.png" alt="Physical Activity in Australia 2025" />
+    </header>
+
+    <main>
+        <section class="intro-heading">
+            <h1>How Australians Stay Active: Activities, Ages, Organisers and Tech</h1>
+            <p>Participation in sports and activities among Australians aged 15 and over</p>
+        </section>
+
+        <section class="dashboard-layout" aria-label="Physical activity charts and key insights">
+            <article class="chart-panel ranking-panel">
+                <div id="top15_activities_chart"></div>
+            </article>
+
+            <article class="chart-panel age-panel">
+                <div id="age_skewed_chart"></div>
+            </article>
+
+            <aside class="insights-panel">
+                <h2>Key insights</h2>
+                <div class="insight-item">
+                    <img src="images/shoe icon.png" alt="" />
+                    <p>Recreational walking is the most popular activity, with roughly 11 million Australians aged 15+ taking part, about 1.5 times as many as fitness/gym.</p>
+                </div>
+                <div class="insight-item">
+                    <img src="images/thumbs up.png" alt="" />
+                    <p>Fitness/gym, bushwalking, running/jogging and swimming follow, each with roughly 3.5–8 million participants, while other top-20 activities have under 2 million.</p>
+                </div>
+                <div class="insight-item">
+                    <img src="images/young.png" alt="" />
+                    <p>Team and field sports such as volleyball, handball, gridiron and Oztag draw most of their players from young people, with around 55–65% aged 15–24.</p>
+                </div>
+                <div class="insight-item">
+                    <img src="images/elderly.png" alt="" />
+                    <p>Low-intensity activities such as croquet and bowls are dominated by Australians aged 65+, while golf and walking also draw about a quarter from this age group.</p>
+                </div>
+            </aside>
+
+            <section class="organiser-row" aria-label="Organiser heatmap and explanation">
+                <article class="chart-panel organiser-panel">
+                    <div id="who_organised_chart"></div>
+                </article>
+
+                <aside class="organiser-explanation">
+                    <h2>Who Organises Australia's Sports and Activities?</h2>
+                    <p>The organiser behind an activity depends on what that activity needs. Competition runs through clubs, facilities and equipment through businesses, and first exposure through schools.</p>
+                    <h3>Key insights</h3>
+                    <ul>
+                        <li><strong>Sports clubs run competitive sport.</strong> Clubs are the main organiser for team and traditional sports such as Hockey (69%), Shooting/field (69%), and Sailing (65%).</li>
+                        <li><strong>Commercial businesses lead lifestyle fitness and equipment-based activities.</strong> Pilates (61%), Yoga (54%) and Dancing (51%) are mostly delivered by paid providers. So are Underwater sports (62%), Canoeing/Kayaking (43%) and Ice skating (43%).</li>
+                        <li><strong>Gyms and leisure centres anchor strength and fitness training.</strong> Crossfit (47%) and Fitness/Gym (45%) are mainly organised through gyms.</li>
+                        <li><strong>Personal coaches are a major secondary organiser.</strong> They account for 22% of Fitness/Gym and 25% of Weight lifting mentions, and lead Equestrian (35%).</li>
+                        <li><strong>Schools are the gateway for some sports.</strong> Educational institutions are the leading organiser for Rock climbing/Abseiling (42%), Badminton (36%) and Volleyball (34%).</li>
+                        <li><strong>Recreation clubs play a supporting role.</strong> They contribute steadily, for example Bowls (28%) and Netball (20%), but are not the leading organiser for any activity with a reliable estimate.</li>
+                        <li><strong>Everyday activities have no dominant organiser.</strong> Running, Walking, Cycling and Bush walking are spread across all organiser types, reflecting their largely informal, self-organised nature.</li>
+                    </ul>
+                    <p class="organiser-note"><strong>Note:</strong> Participants could name more than one organiser, so percentages show each organiser's share of mentions, not of participants. Activities with very few survey responses have been removed, and results for other small activities are less precise. Source: AusPlay survey, Jan-Dec 2025 (Australian Sports Commission).</p>
+                </aside>
+            </section>
+        </section>
+
+        <section class="technology-section" aria-label="Technology used during physical activity">
+            <article class="chart-panel technology-panel">
+                <div id="technology_gadgets_chart"></div>
+            </article>
+
+            <aside class="organiser-explanation technology-explanation">
+                <h2>Technology and the Modern Athlete</h2>
+                <p>Which technology people use during sport shifts with age, from entertainment for younger participants to health tracking for older ones.</p>
+                <h3>Key insights</h3>
+                <ul>
+                    <li><strong>The same five technologies stay on top.</strong> Music apps, headphones, tracking apps, wearables and Maps/GPS are the top five in every age group; only their order changes.</li>
+                    <li><strong>Gaming-based exercise is mainly for teenagers.</strong> Motion-sensing games rank 8th among 15–17 year olds but fall to 14th among those aged 65+. Use drops from 11% to under 1%.</li>
+                    <li><strong>Bike computers rise from 12th to 6th with age.</strong> Their usage stays at 6–9% across all ages.</li>
+                    <li><strong>Few people pay for digital training.</strong> Online training platforms and paid online programs rank near the bottom for every age group.</li>
+                </ul>
+                <p class="organiser-note"><strong>Note:</strong> Ranks show how popular each technology is within an age group, not how many people use it. Overall technology use declines with age, e.g. music app use falls from 66% of 15–17 year olds to 12% of those aged 65+.</p>
+            </aside>
+        </section>
+    </main>
 </body>
 
 </html>
