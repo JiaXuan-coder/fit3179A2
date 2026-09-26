@@ -27,7 +27,7 @@ body {
 main {
     margin: 0 auto;
     max-width: 1548px;
-    padding: 0 35px;
+    padding: 0 25px;
     width: 100%;
 }
 
@@ -47,6 +47,15 @@ main {
     text-align: left;
 }
 
+.section-2-heading h1,
+.section-3-heading h1 {
+    color: #0D4E83;
+    font-family: "Times New Roman", Times, serif;
+    font-size: clamp(26px, 3vw, 42px);
+    margin: 0;
+    text-align: left;
+}
+
 .intro-heading p {
     color: #3479A8;
     font-size: 15px;
@@ -58,6 +67,16 @@ main {
     display: grid;
     gap: 12px;
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    margin: 0 auto;
+    max-width: 1500px;
+    padding: 14px 12px 28px;
+}
+
+.section-1-heading {
+    align-items: stretch;
+    display: grid;
+    gap: 12px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     margin: 0 auto;
     max-width: 1500px;
     padding: 14px 12px 28px;
@@ -86,6 +105,11 @@ main {
     grid-template-columns: minmax(0, 1.7fr) minmax(320px, 1fr);
 }
 
+.section-1-heading > .insights-panel,
+.section-1-heading > .organiser-row {
+    grid-column: 1 / -1;
+}
+
 .technology-section {
     align-items: stretch;
     display: grid;
@@ -97,6 +121,42 @@ main {
 
 .technology-panel {
     min-width: 0;
+}
+
+.motivation-barriers-grid {
+    align-items: start;
+    display: grid;
+    gap: 12px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin: 0 auto 28px;
+    max-width: 1500px;
+}
+
+.trend-charts-grid {
+    display: grid;
+    gap: 12px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin: 0 auto 28px;
+    max-width: 1500px;
+}
+
+.barriers-chart-panel {
+    grid-column: 2;
+    justify-self: end;
+    width: 100%;
+}
+
+.barriers-explanation {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.barriers-explanation ul {
+    list-style-position: inside;
+    padding-left: 0;
 }
 
 .organiser-panel {
@@ -249,8 +309,8 @@ main {
 }
 
 @media (max-width: 1050px) {
-    .dashboard-layout {
-        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    .section-1-heading {
+        grid-template-columns: minmax(0, 1fr);
     }
 
     .insights-panel {
@@ -263,6 +323,18 @@ main {
 
     .technology-section {
         grid-template-columns: 1fr;
+    }
+
+    .motivation-barriers-grid {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .trend-charts-grid {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .barriers-chart-panel {
+        grid-column: 1;
     }
 }
 

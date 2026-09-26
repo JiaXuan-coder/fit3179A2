@@ -1,0 +1,89 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "background": "transparent",
+  "title": {
+    "text": "Rising or Falling? Participation by Activity, 2024-2025",
+    "subtitle": "Percentage-point change in adult participation rate, biggest movers"
+  },
+  "data": { "url": "data/activity_change_2024_2025.csv" },
+  "params": [
+    {
+      "name": "topN",
+      "value": 20,
+      "bind": { "input": "range", "min": 10, "max": 40, "step": 5, "name": "Number of top movers: " }
+    }
+  ],
+  "width": "container",
+  "height": { "step": 20 },
+  "autosize": { "type": "fit", "contains": "padding", "resize": true },
+  "transform": [
+    { "filter": "datum.mover_rank <= topN" },
+    {
+      "calculate": "datum.reliability == '**' ? 'Very high sampling error: use with caution' : datum.reliability == '*' ? 'High sampling error: use with caution' : 'OK'",
+      "as": "rel_note"
+    }
+  ],
+  "encoding": {
+    "y": {
+      "field": "activity",
+      "type": "nominal",
+      "title": null,
+      "sort": { "field": "change_pp", "op": "max", "order": "descending" }
+    }
+  },
+  "layer": [
+    {
+      "mark": { "type": "bar", "height": { "band": 0.75 } },
+      "encoding": {
+        "x": {
+          "field": "change_pp",
+          "type": "quantitative",
+          "title": "Change in participation rate (percentage points)",
+          "scale": { "domain": [-4, 4], "nice": false },
+          "axis": {
+            "format": "+.1f",
+            "values": [-4, -3, -2, -1, 0, 1, 2, 3, 4]
+          }
+        },
+        "color": {
+          "field": "direction",
+          "type": "nominal",
+          "title": null,
+          "scale": { "domain": ["Rising", "Falling"], "range": ["#1a9850", "#d73027"] }
+        },
+        "tooltip": [
+          { "field": "activity", "title": "Activity" },
+          { "field": "rate_2024", "title": "2024 rate (%)", "format": ".2f" },
+          { "field": "rate_2025", "title": "2025 rate (%)", "format": ".2f" },
+          { "field": "change_pp", "title": "Change (pp)", "format": "+.2f" },
+          { "field": "mover_rank", "title": "Mover rank" },
+          { "field": "rel_note", "title": "Reliability" }
+        ]
+      }
+    },
+    {
+      "transform": [{ "filter": "datum.change_pp >= 0" }],
+      "mark": { "type": "text", "fontSize": 11, "align": "left", "dx": 4 },
+      "encoding": {
+        "x": { "field": "change_pp", "type": "quantitative" },
+        "text": { "field": "change_pp", "type": "quantitative", "format": "+.2f" }
+      }
+    },
+    {
+      "transform": [{ "filter": "datum.change_pp < 0" }],
+      "mark": { "type": "text", "fontSize": 11, "align": "left", "dx": 4 },
+      "encoding": {
+        "x": { "datum": 0 },
+        "text": { "field": "change_pp", "type": "quantitative", "format": "+.2f" }
+      }
+    },
+    {
+      "mark": { "type": "rule", "color": "#333333" },
+      "encoding": { "x": { "datum": 0 } }
+    }
+  ],
+  "config": {
+    "axis": { "labelFontSize": 12, "titleFontSize": 13, "labelLimit": 250 },
+    "legend": { "labelFontSize": 12, "orient": "top" }
+  }
+}

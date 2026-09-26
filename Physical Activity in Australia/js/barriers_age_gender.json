@@ -1,0 +1,85 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "background": "transparent",
+  "title": {
+    "text": "What Stops Australians Being Active?",
+    "subtitle": "Barriers to participation, compared by gender or age group (sorted by all adults)"
+  },
+  "data": { "url": "data/barriers.csv" },
+  "params": [
+    {
+      "name": "dimSel",
+      "value": "Gender",
+      "bind": { "input": "radio", "options": ["Gender", "Age group"], "name": "Compare by: " }
+    }
+  ],
+  "width": 450,
+  "height": { "step": 22 },
+  "transform": [
+    { "calculate": "datum.group === 'All adults' ? datum.percentage : null", "as": "allPct_row" },
+    {
+      "joinaggregate": [{ "op": "max", "field": "allPct_row", "as": "allPct" }],
+      "groupby": ["barrier"]
+    },
+    { "filter": "datum.dimension === dimSel" },
+    {
+      "calculate": "datum.reliability == '**' ? 'Very high sampling error: use with caution' : datum.reliability == '*' ? 'High sampling error: use with caution' : 'OK'",
+      "as": "rel_note"
+    }
+  ],
+  "encoding": {
+    "y": {
+      "field": "barrier",
+      "type": "nominal",
+      "title": null,
+      "sort": { "field": "allPct", "op": "max", "order": "descending" }
+    }
+  },
+  "layer": [
+    {
+      "mark": { "type": "rule", "color": "#bbbbbb", "strokeWidth": 2 },
+      "encoding": {
+        "x": { "aggregate": "min", "field": "percentage", "type": "quantitative" },
+        "x2": { "aggregate": "max", "field": "percentage" }
+      }
+    },
+    {
+      "mark": { "type": "circle", "size": 110, "opacity": 0.9 },
+      "encoding": {
+        "x": {
+          "field": "percentage",
+          "type": "quantitative",
+          "title": "% reporting barrier",
+          "scale": { "domain": [0, 100], "nice": false }
+        },
+        "color": {
+          "field": "group",
+          "type": "nominal",
+          "title": null,
+          "scale": {
+            "domain": ["Female", "Male", "15-17", "18-24", "25-34", "35-44", "45-54", "55-64", "65+"],
+            "range": ["#d95f02", "#7570b3", "#fde725", "#90d743", "#35b779", "#21918c", "#31688e", "#443983", "#440154"]
+          },
+          "legend": {
+            "orient": "bottom",
+            "direction": "horizontal",
+            "columns": 7,
+            "values": {
+              "expr": "dimSel === 'Gender' ? ['Female', 'Male'] : ['15-17', '18-24', '25-34', '35-44', '45-54', '55-64', '65+']"
+            }
+          }
+        },
+        "tooltip": [
+          { "field": "barrier", "title": "Barrier" },
+          { "field": "group", "title": "Group" },
+          { "field": "percentage", "title": "% of group", "format": ".1f" },
+          { "field": "rel_note", "title": "Reliability" }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "axis": { "labelFontSize": 12, "titleFontSize": 13, "labelLimit": 300 },
+    "legend": { "labelFontSize": 12, "titleFontSize": 13 }
+  }
+}

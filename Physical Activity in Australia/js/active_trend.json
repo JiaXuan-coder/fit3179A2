@@ -1,0 +1,95 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "background": "transparent",
+  "title": {
+    "text": "Has Australia Become More Active?",
+    "subtitle": "Adult participation rate in 2024 vs 2025, by sex and age group"
+  },
+  "data": { "url": "data/participation_frequency_2024_2025.csv" },
+  "params": [
+    {
+      "name": "freqSel",
+      "value": "At least once per week",
+      "bind": {
+        "input": "radio",
+        "options": ["At least once per week", "At least three times per week"],
+        "name": "Participation: "
+      }
+    }
+  ],
+  "width": "container",
+  "height": { "step": 30 },
+  "autosize": { "type": "fit", "contains": "padding", "resize": true },
+  "transform": [
+    { "filter": "datum.frequency === freqSel" },
+    { "calculate": "toString(datum.year)", "as": "year_str" }
+  ],
+  "encoding": {
+    "y": {
+      "field": "group",
+      "type": "nominal",
+      "title": null,
+      "sort": ["All adults", "Male", "Female", "15-17", "18-24", "25-34", "35-44", "45-54", "55-64", "65+"]
+    }
+  },
+  "layer": [
+    {
+      "transform": [
+        { "pivot": "year_str", "value": "rate", "groupby": ["group", "dimension"] },
+        { "calculate": "datum['2025'] - datum['2024']", "as": "change" }
+      ],
+      "mark": { "type": "rule", "strokeWidth": 3 },
+      "encoding": {
+        "x": { "field": "2024", "type": "quantitative" },
+        "x2": { "field": "2025" },
+        "color": {
+          "condition": { "test": "datum.change >= 0", "value": "#9ecae1" },
+          "value": "#fcae91"
+        }
+      }
+    },
+    {
+      "mark": { "type": "circle", "size": 150, "opacity": 1 },
+      "encoding": {
+        "x": {
+          "field": "rate",
+          "type": "quantitative",
+          "title": "Participation rate (% of adults)",
+          "scale": { "domain": [0, 100], "nice": false },
+          "axis": { "values": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100] }
+        },
+        "color": {
+          "field": "year_str",
+          "type": "ordinal",
+          "title": "Year",
+          "scale": { "domain": ["2024", "2025"], "range": ["#bdbdbd", "#08519c"] }
+        },
+        "tooltip": [
+          { "field": "group", "title": "Group" },
+          { "field": "year", "title": "Year" },
+          { "field": "rate", "title": "Rate (%)", "format": ".1f" }
+        ]
+      }
+    },
+    {
+      "transform": [
+        { "pivot": "year_str", "value": "rate", "groupby": ["group", "dimension"] },
+        { "calculate": "datum['2025'] - datum['2024']", "as": "change" },
+        { "calculate": "max(datum['2024'], datum['2025'])", "as": "right_end" }
+      ],
+      "mark": { "type": "text", "align": "left", "dx": 10, "fontSize": 11 },
+      "encoding": {
+        "x": { "field": "right_end", "type": "quantitative" },
+        "text": { "field": "change", "type": "quantitative", "format": "+.1f" },
+        "color": {
+          "condition": { "test": "datum.change >= 0", "value": "#08519c" },
+          "value": "#cb181d"
+        }
+      }
+    }
+  ],
+  "config": {
+    "axis": { "labelFontSize": 12, "titleFontSize": 13 },
+    "legend": { "labelFontSize": 12, "titleFontSize": 12, "orient": "top" }
+  }
+}

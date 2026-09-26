@@ -15,7 +15,7 @@
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
 
-    <script src="js/vega_lite_vis.js"></script>
+    <script src="js/vega_lite_vis.js" defer></script>
 
     <title>Physical Activity in Australia </title>
 </head>
@@ -31,7 +31,7 @@
             <p>Participation in sports and activities among Australians aged 15 and over</p>
         </section>
 
-        <section class="dashboard-layout" aria-label="Physical activity charts and key insights">
+        <section class="section-1-heading" aria-label="Physical activity charts and key insights">
             <article class="chart-panel ranking-panel">
                 <div id="top15_activities_chart"></div>
             </article>
@@ -74,11 +74,9 @@
                         <li><strong>Commercial businesses lead lifestyle fitness and equipment-based activities.</strong> Pilates (61%), Yoga (54%) and Dancing (51%) are mostly delivered by paid providers. So are Underwater sports (62%), Canoeing/Kayaking (43%) and Ice skating (43%).</li>
                         <li><strong>Gyms and leisure centres anchor strength and fitness training.</strong> Crossfit (47%) and Fitness/Gym (45%) are mainly organised through gyms.</li>
                         <li><strong>Personal coaches are a major secondary organiser.</strong> They account for 22% of Fitness/Gym and 25% of Weight lifting mentions, and lead Equestrian (35%).</li>
-                        <li><strong>Schools are the gateway for some sports.</strong> Educational institutions are the leading organiser for Rock climbing/Abseiling (42%), Badminton (36%) and Volleyball (34%).</li>
-                        <li><strong>Recreation clubs play a supporting role.</strong> They contribute steadily, for example Bowls (28%) and Netball (20%), but are not the leading organiser for any activity with a reliable estimate.</li>
                         <li><strong>Everyday activities have no dominant organiser.</strong> Running, Walking, Cycling and Bush walking are spread across all organiser types, reflecting their largely informal, self-organised nature.</li>
                     </ul>
-                    <p class="organiser-note"><strong>Note:</strong> Participants could name more than one organiser, so percentages show each organiser's share of mentions, not of participants. Activities with very few survey responses have been removed, and results for other small activities are less precise. Source: AusPlay survey, Jan-Dec 2025 (Australian Sports Commission).</p>
+                    <p class="organiser-note"><strong>Note:</strong> Participants could name more than one organiser, so percentages show each organiser's share of mentions, not of participants. Activities with very few survey responses have been removed, and results for other small activities are less precise.</p>
                 </aside>
             </section>
         </section>
@@ -100,6 +98,63 @@
                 </ul>
                 <p class="organiser-note"><strong>Note:</strong> Ranks show how popular each technology is within an age group, not how many people use it. Overall technology use declines with age, e.g. music app use falls from 66% of 15–17 year olds to 12% of those aged 65+.</p>
             </aside>
+        </section>
+
+        <section class="section-2-heading">
+            <h1>Why Australians Stay Active and Why they don't</h1>
+            <p>Motivations and Barriers to Physical Activity in Australia</p>
+        </section>
+
+        <section class="motivation-barriers-grid" aria-label="Motivations and barriers by gender and age">
+            <article class="chart-panel motivation-chart-panel">
+                <div id="motivation_age_gender_chart"></div>
+            </article>
+
+            <aside class="organiser-explanation motivation-explanation">
+                <h2>Why Do Australians Play Sport?</h2>
+                <p>Australians share the same top reasons for playing sport: physical health and fun rank first and second across every age group and both genders. Beyond these, motivations shift with life stage.</p>
+                <h3>Key insights</h3>
+                <ul>
+                    <li><strong>Health is the leading motivation, and it grows with age.</strong> Physical health or fitness motivates 62% of 15–17 year olds, rising to 74% of those aged 65+.</li>
+                    <li><strong>Young people play for fun, friends and challenge.</strong> 15–17 year olds are more likely than those aged 65+ to play for fun (72% vs 50%), social reasons (57% vs 40%) and competition (35% vs 9%).</li>
+                    <li><strong>Older adults exercise to stay mobile.</strong> Physio and rehabilitation motivates 16% of those aged 65+, nearly three times the 6% of 15–17 year olds.</li>
+                    <li><strong>Weight management and being outdoors peak before retirement.</strong> Both are highest among 55–64 year olds (60% and 58%). Weight management then falls to 46% at 65+.</li>
+                    <li><strong>Women are driven more by wellbeing.</strong> Women lead men on mental health (42% vs 33%), weight management (56% vs 51%), being outdoors (54% vs 48%) and walking the dog (24% vs 16%).</li>
+                    <li><strong>Men are driven more by performance.</strong> Men lead women on competition (18% vs 10%), training (25% vs 16%) and playing as a hobby (32% vs 25%).</li>
+                    <li><strong>Few play sport for work.</strong> Only 4% of adults are motivated by professional or work-related reasons, the lowest of all motivations.</li>
+                </ul>
+            </aside>
+
+            <aside class="organiser-explanation barriers-explanation">
+                <h2>What Stops Australians Being Active?</h2>
+                <p>Reasons for not being active are more varied than reasons for playing. The most common barriers relate to physical condition (poor health, age and disability) and personal preference (low motivation, disliking sport and other priorities).</p>
+                <h3>Key insights</h3>
+                <ul>
+                    <li><strong>Physical condition is the biggest barrier.</strong> Poor health or injury and increasing age are the most common reasons adults are inactive.</li>
+                    <li><strong>Barriers shift from attitude to the body with age.</strong></li>
+                    <li><strong>Confidence holds young people back.</strong> 15–17 year olds are the most likely to feel not good enough (17.2%), have nobody to be active with (17.0%) or fear discrimination (10.0%).</li>
+                    <li><strong>Barriers are similar regardless of gender.</strong> Men and women report broadly the same reasons for not being active.</li>
+                    <li><strong>Access is rarely the issue.</strong> Only a small proportion cite a lack of facilities or transport. This suggests inactivity is driven by health and attitude rather than infrastructure.</li>
+                </ul>
+            </aside>
+
+            <article class="chart-panel barriers-chart-panel">
+                <div id="barriers_age_gender_chart"></div>
+            </article>
+        </section>
+
+        <section class="section-3-heading">
+            <h1>Change of Australians participation rate over time</h1>
+            <p>How has adult participation in physical activity changed between 2024 and 2025?</p>
+        </section>
+
+        <section class="trend-charts-grid" aria-label="Participation trends from 2024 to 2025">
+            <article class="chart-panel">
+                <div id="active_trend_chart"></div>
+            </article>
+            <article class="chart-panel">
+                <div id="activity_participation_trend_chart"></div>
+            </article>
         </section>
     </main>
 </body>

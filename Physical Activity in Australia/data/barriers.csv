@@ -1,0 +1,241 @@
+dimension,group,barrier,percentage,reliability
+All adults,All adults,Poor health or injury,27.218,
+All adults,All adults,Increasing age/too old,22.476,
+All adults,All adults,Disability,15.109,
+All adults,All adults,Too lazy,15.641,
+All adults,All adults,Not enough time/too many other commitments,13.051,
+All adults,All adults,Don't like sport/physical activity,14.366,
+All adults,All adults,Not a priority,12.225,
+All adults,All adults,Nobody to do it with,7.727,
+All adults,All adults,Can't afford it,6.676,
+All adults,All adults,Fear of injury,6.591,
+All adults,All adults,Physical job,5.75,
+All adults,All adults,The weather,5.189,
+All adults,All adults,Not good enough,5.679,
+All adults,All adults,Too busy doing children's activities,3.411,
+All adults,All adults,Looking after child/ren,3.662,
+All adults,All adults,Not value for money/not worth it,3.324,
+All adults,All adults,No transport/can't get there,2.569,
+All adults,All adults,No opportunities/facilities/clubs in my areas,2.311,
+All adults,All adults,Too competitive,2.831,
+All adults,All adults,Fear of discrimination,2.31,
+All adults,All adults,Not familiar with activity/rules,1.932,
+All adults,All adults,Pregnancy,1.359,
+All adults,All adults,No longer interested/don't like it,0.923,
+All adults,All adults,Not culturally appropriate,0.58,
+Gender,Male,Poor health or injury,24.57,
+Gender,Male,Increasing age/too old,20.004,
+Gender,Male,Disability,13.027,
+Gender,Male,Too lazy,15.99,
+Gender,Male,Not enough time/too many other commitments,13.226,
+Gender,Male,Don't like sport/physical activity,11.499,
+Gender,Male,Not a priority,13.702,
+Gender,Male,Nobody to do it with,7.495,
+Gender,Male,Can't afford it,4.473,
+Gender,Male,Fear of injury,6.593,
+Gender,Male,Physical job,7.59,
+Gender,Male,The weather,5.049,
+Gender,Male,Not good enough,5.121,
+Gender,Male,Too busy doing children's activities,2.784,
+Gender,Male,Looking after child/ren,2.859,
+Gender,Male,Not value for money/not worth it,3.284,
+Gender,Male,No transport/can't get there,2.051,
+Gender,Male,No opportunities/facilities/clubs in my areas,2.526,
+Gender,Male,Too competitive,3.511,
+Gender,Male,Fear of discrimination,2.298,
+Gender,Male,Not familiar with activity/rules,2.276,
+Gender,Male,Pregnancy,0.44,*
+Gender,Male,No longer interested/don't like it,1.087,
+Gender,Male,Not culturally appropriate,0.739,*
+Gender,Female,Poor health or injury,29.614,
+Gender,Female,Increasing age/too old,24.871,
+Gender,Female,Disability,16.896,
+Gender,Female,Too lazy,15.476,
+Gender,Female,Not enough time/too many other commitments,13.04,
+Gender,Female,Don't like sport/physical activity,16.831,
+Gender,Female,Not a priority,11.128,
+Gender,Female,Nobody to do it with,7.978,
+Gender,Female,Can't afford it,8.374,
+Gender,Female,Fear of injury,6.634,
+Gender,Female,Physical job,4.071,
+Gender,Female,The weather,5.395,
+Gender,Female,Not good enough,6.164,
+Gender,Female,Too busy doing children's activities,4.014,
+Gender,Female,Looking after child/ren,4.385,
+Gender,Female,Not value for money/not worth it,3.309,
+Gender,Female,No transport/can't get there,3.022,
+Gender,Female,No opportunities/facilities/clubs in my areas,2.053,
+Gender,Female,Too competitive,2.281,
+Gender,Female,Fear of discrimination,2.319,
+Gender,Female,Not familiar with activity/rules,1.662,
+Gender,Female,Pregnancy,2.185,
+Gender,Female,No longer interested/don't like it,0.794,
+Gender,Female,Not culturally appropriate,0.451,*
+Age group,15-17,Poor health or injury,19.891,
+Age group,15-17,Increasing age/too old,1.329,**
+Age group,15-17,Disability,8.447,*
+Age group,15-17,Too lazy,27.513,
+Age group,15-17,Not enough time/too many other commitments,14.132,
+Age group,15-17,Don't like sport/physical activity,23.421,
+Age group,15-17,Not a priority,13.833,
+Age group,15-17,Nobody to do it with,16.951,
+Age group,15-17,Can't afford it,9.397,
+Age group,15-17,Fear of injury,7.949,*
+Age group,15-17,Physical job,6.15,*
+Age group,15-17,The weather,5.493,*
+Age group,15-17,Not good enough,17.229,
+Age group,15-17,Too busy doing children's activities,0.945,**
+Age group,15-17,Looking after child/ren,2.992,*
+Age group,15-17,Not value for money/not worth it,4.981,*
+Age group,15-17,No transport/can't get there,3.439,*
+Age group,15-17,No opportunities/facilities/clubs in my areas,3.586,*
+Age group,15-17,Too competitive,7.164,*
+Age group,15-17,Fear of discrimination,9.979,
+Age group,15-17,Not familiar with activity/rules,7.187,*
+Age group,15-17,Pregnancy,1.601,**
+Age group,15-17,No longer interested/don't like it,5.522,*
+Age group,15-17,Not culturally appropriate,1.329,**
+Age group,18-24,Poor health or injury,19.877,
+Age group,18-24,Increasing age/too old,1.878,*
+Age group,18-24,Disability,4.877,
+Age group,18-24,Too lazy,18.352,
+Age group,18-24,Not enough time/too many other commitments,16.499,
+Age group,18-24,Don't like sport/physical activity,9.975,
+Age group,18-24,Not a priority,12.986,
+Age group,18-24,Nobody to do it with,11.36,
+Age group,18-24,Can't afford it,9.227,
+Age group,18-24,Fear of injury,6.19,
+Age group,18-24,Physical job,8.108,
+Age group,18-24,The weather,6.858,
+Age group,18-24,Not good enough,7.384,
+Age group,18-24,Too busy doing children's activities,1.71,*
+Age group,18-24,Looking after child/ren,2.807,*
+Age group,18-24,Not value for money/not worth it,5.865,
+Age group,18-24,No transport/can't get there,3.809,*
+Age group,18-24,No opportunities/facilities/clubs in my areas,5.826,
+Age group,18-24,Too competitive,5.931,
+Age group,18-24,Fear of discrimination,6.362,
+Age group,18-24,Not familiar with activity/rules,4.507,
+Age group,18-24,Pregnancy,1.636,*
+Age group,18-24,No longer interested/don't like it,1.968,*
+Age group,18-24,Not culturally appropriate,1.295,*
+Age group,25-34,Poor health or injury,18.196,
+Age group,25-34,Increasing age/too old,3.489,
+Age group,25-34,Disability,7.992,
+Age group,25-34,Too lazy,20.747,
+Age group,25-34,Not enough time/too many other commitments,17.282,
+Age group,25-34,Don't like sport/physical activity,11.552,
+Age group,25-34,Not a priority,13.683,
+Age group,25-34,Nobody to do it with,10.734,
+Age group,25-34,Can't afford it,8.002,
+Age group,25-34,Fear of injury,6.732,
+Age group,25-34,Physical job,9.102,
+Age group,25-34,The weather,5.995,
+Age group,25-34,Not good enough,8.053,
+Age group,25-34,Too busy doing children's activities,8.098,
+Age group,25-34,Looking after child/ren,9.904,
+Age group,25-34,Not value for money/not worth it,5.755,
+Age group,25-34,No transport/can't get there,3.965,
+Age group,25-34,No opportunities/facilities/clubs in my areas,3.414,
+Age group,25-34,Too competitive,5.242,
+Age group,25-34,Fear of discrimination,3.896,
+Age group,25-34,Not familiar with activity/rules,2.964,
+Age group,25-34,Pregnancy,5.266,
+Age group,25-34,No longer interested/don't like it,1.287,*
+Age group,25-34,Not culturally appropriate,1.767,*
+Age group,35-44,Poor health or injury,18.636,
+Age group,35-44,Increasing age/too old,4.662,
+Age group,35-44,Disability,5.984,
+Age group,35-44,Too lazy,24.89,
+Age group,35-44,Not enough time/too many other commitments,20.932,
+Age group,35-44,Don't like sport/physical activity,15.29,
+Age group,35-44,Not a priority,14.919,
+Age group,35-44,Nobody to do it with,7.866,
+Age group,35-44,Can't afford it,9.349,
+Age group,35-44,Fear of injury,6.223,
+Age group,35-44,Physical job,8.784,
+Age group,35-44,The weather,5.33,
+Age group,35-44,Not good enough,5.408,
+Age group,35-44,Too busy doing children's activities,9.141,
+Age group,35-44,Looking after child/ren,10.692,
+Age group,35-44,Not value for money/not worth it,5.619,
+Age group,35-44,No transport/can't get there,1.584,*
+Age group,35-44,No opportunities/facilities/clubs in my areas,3.2,
+Age group,35-44,Too competitive,3.786,
+Age group,35-44,Fear of discrimination,2.704,
+Age group,35-44,Not familiar with activity/rules,1.989,*
+Age group,35-44,Pregnancy,2.997,
+Age group,35-44,No longer interested/don't like it,0.678,*
+Age group,35-44,Not culturally appropriate,0.742,*
+Age group,45-54,Poor health or injury,23.294,
+Age group,45-54,Increasing age/too old,11.443,
+Age group,45-54,Disability,10.97,
+Age group,45-54,Too lazy,19.427,
+Age group,45-54,Not enough time/too many other commitments,19.997,
+Age group,45-54,Don't like sport/physical activity,15.243,
+Age group,45-54,Not a priority,12.297,
+Age group,45-54,Nobody to do it with,6.386,
+Age group,45-54,Can't afford it,8.507,
+Age group,45-54,Fear of injury,5.719,
+Age group,45-54,Physical job,10.308,
+Age group,45-54,The weather,5.752,
+Age group,45-54,Not good enough,4.305,
+Age group,45-54,Too busy doing children's activities,4.714,
+Age group,45-54,Looking after child/ren,2.92,*
+Age group,45-54,Not value for money/not worth it,2.979,*
+Age group,45-54,No transport/can't get there,2.174,*
+Age group,45-54,No opportunities/facilities/clubs in my areas,2.216,*
+Age group,45-54,Too competitive,2.225,*
+Age group,45-54,Fear of discrimination,1.799,*
+Age group,45-54,Not familiar with activity/rules,2.327,*
+Age group,45-54,Pregnancy,0.161,**
+Age group,45-54,No longer interested/don't like it,0.756,**
+Age group,45-54,Not culturally appropriate,0.254,**
+Age group,55-64,Poor health or injury,32.517,
+Age group,55-64,Increasing age/too old,20.376,
+Age group,55-64,Disability,19.633,
+Age group,55-64,Too lazy,16.109,
+Age group,55-64,Not enough time/too many other commitments,18.129,
+Age group,55-64,Don't like sport/physical activity,16.106,
+Age group,55-64,Not a priority,14.743,
+Age group,55-64,Nobody to do it with,7.348,
+Age group,55-64,Can't afford it,7.245,
+Age group,55-64,Fear of injury,7.593,
+Age group,55-64,Physical job,6.062,
+Age group,55-64,The weather,5.168,
+Age group,55-64,Not good enough,3.863,
+Age group,55-64,Too busy doing children's activities,1.607,*
+Age group,55-64,Looking after child/ren,0.71,*
+Age group,55-64,Not value for money/not worth it,2.492,*
+Age group,55-64,No transport/can't get there,1.24,*
+Age group,55-64,No opportunities/facilities/clubs in my areas,1.191,*
+Age group,55-64,Too competitive,1.966,*
+Age group,55-64,Fear of discrimination,1.665,*
+Age group,55-64,Not familiar with activity/rules,1.13,*
+Age group,55-64,Pregnancy,0.106,**
+Age group,55-64,No longer interested/don't like it,0.0,**
+Age group,55-64,Not culturally appropriate,0.372,**
+Age group,65+,Poor health or injury,35.746,
+Age group,65+,Increasing age/too old,47.429,
+Age group,65+,Disability,24.081,
+Age group,65+,Too lazy,7.041,
+Age group,65+,Not enough time/too many other commitments,3.78,
+Age group,65+,Don't like sport/physical activity,14.273,
+Age group,65+,Not a priority,9.465,
+Age group,65+,Nobody to do it with,5.24,
+Age group,65+,Can't afford it,3.531,
+Age group,65+,Fear of injury,6.562,
+Age group,65+,Physical job,1.271,
+Age group,65+,The weather,4.244,
+Age group,65+,Not good enough,4.272,
+Age group,65+,Too busy doing children's activities,0.408,*
+Age group,65+,Looking after child/ren,0.214,**
+Age group,65+,Not value for money/not worth it,1.165,
+Age group,65+,No transport/can't get there,2.597,
+Age group,65+,No opportunities/facilities/clubs in my areas,0.997,
+Age group,65+,Too competitive,0.849,*
+Age group,65+,Fear of discrimination,0.153,**
+Age group,65+,Not familiar with activity/rules,0.491,*
+Age group,65+,Pregnancy,0.0,**
+Age group,65+,No longer interested/don't like it,0.49,*
+Age group,65+,Not culturally appropriate,0.0,**

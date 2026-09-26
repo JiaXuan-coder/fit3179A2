@@ -1,0 +1,143 @@
+activity,rate_2024,rate_2025,change_pp,direction,reliability,mover_rank
+Fitness/Gym,30.331,34.102,3.771,Rising,,1
+Pilates,5.788,7.181,1.392,Rising,,2
+Pickleball/padel,0.698,1.314,0.615,Rising,,3
+Bush walking,16.857,17.468,0.612,Rising,,4
+Running/jogging,15.988,16.525,0.537,Rising,,5
+Weight lifting,1.448,0.982,-0.466,Falling,,6
+Cycling,8.589,8.294,-0.295,Falling,,7
+Walking (Recreational),49.926,50.204,0.277,Rising,,8
+Basketball,4.734,4.526,-0.209,Falling,,9
+Swimming,15.191,15.39,0.199,Rising,,10
+"Athletics, track and field",1.51,1.318,-0.192,Falling,,11
+Australian football,2.609,2.417,-0.192,Falling,,12
+Football/soccer,5.437,5.624,0.187,Rising,,13
+Adventure racing,0.236,0.072,-0.163,Falling,,14
+Table tennis,1.639,1.79,0.151,Rising,,15
+Dancing (recreational),1.778,1.629,-0.149,Falling,,16
+Motor cycling,1.095,0.947,-0.148,Falling,,17
+Fishing (recreational),1.21,1.07,-0.14,Falling,,18
+Tennis,5.081,4.941,-0.14,Falling,,19
+Mountain biking,0.592,0.726,0.133,Rising,,20
+Air sports,0.355,0.224,-0.131,Falling,,21
+Golf,4.685,4.563,-0.122,Falling,,22
+Calisthenics,0.24,0.359,0.12,Rising,,23
+Volleyball (indoor and outdoor),1.426,1.307,-0.119,Falling,,24
+Sport climbing,0.43,0.542,0.113,Rising,,25
+Yoga,4.98,5.072,0.092,Rising,,26
+Scootering,0.175,0.085,-0.09,Falling,,27
+Virtual based physical activity,1.03,0.95,-0.081,Falling,,28
+Oztag,0.301,0.223,-0.077,Falling,,29
+Skate,0.473,0.396,-0.077,Falling,,30
+Crossfit/Functional fitness,0.571,0.648,0.076,Rising,,31
+DanceSport,1.047,1.123,0.076,Rising,,32
+Cricket,2.419,2.492,0.073,Rising,,33
+Baseball,0.382,0.309,-0.072,Falling,,34
+Squash,0.461,0.39,-0.071,Falling,,35
+Archery,0.247,0.179,-0.068,Falling,,36
+eSports,0.275,0.211,-0.064,Falling,,37
+Hockey,0.448,0.512,0.064,Rising,,38
+Muay Thai,0.105,0.166,0.061,Rising,,39
+Touch football,0.768,0.712,-0.056,Falling,,40
+Martial arts,0.678,0.626,-0.052,Falling,,41
+Bowls,0.885,0.834,-0.05,Falling,,42
+Waterskiing/Wakeboarding,0.197,0.15,-0.047,Falling,,43
+Boxing,0.893,0.848,-0.046,Falling,,44
+Karate,0.232,0.186,-0.045,Falling,,45
+Rope skipping,0.293,0.248,-0.045,Falling,,46
+Rugby union,0.332,0.374,0.042,Rising,,47
+Paintball,0.051,0.012,-0.039,Falling,**,48
+Badminton,1.848,1.886,0.038,Rising,,49
+Motor sport,0.291,0.254,-0.038,Falling,,50
+Canoeing/Kayaking,0.963,0.997,0.033,Rising,,51
+Handball,0.146,0.114,-0.032,Falling,,52
+Fencing,0.076,0.045,-0.031,Falling,*,53
+Shooting/field,0.173,0.203,0.031,Rising,,54
+Jujitsu,0.2,0.17,-0.03,Falling,,55
+Triathlon,0.113,0.143,0.03,Rising,,56
+Physical Culture,0.032,0.061,0.028,Rising,*,57
+Taekwondo/Taekwon-do,0.143,0.115,-0.028,Falling,,58
+Underwater sports,0.808,0.836,0.028,Rising,,59
+Obstacle,0.029,0.056,0.027,Rising,*,60
+Gaelic football,0.037,0.063,0.026,Rising,*,61
+Rowing,0.611,0.585,-0.026,Falling,,62
+Billiards/Snooker/Pool,0.329,0.304,-0.025,Falling,,63
+Floorball,0.006,0.028,0.022,Rising,**,64
+Judo,0.044,0.066,0.022,Rising,*,65
+Rock climbing/Abseiling/Caving,0.435,0.457,0.022,Rising,,66
+Dragon boat racing,0.049,0.07,0.021,Rising,,67
+Kendo,0.009,0.03,0.021,Rising,**,68
+Mountain climbing,0.119,0.099,-0.02,Falling,,69
+Orienteering,0.05,0.07,0.02,Rising,,70
+Powerlifting,0.062,0.042,-0.02,Falling,*,71
+Jet skiing,0.086,0.067,-0.019,Falling,,72
+Ski & snowboard,0.83,0.812,-0.019,Falling,,73
+Synchronised swimming,0.071,0.052,-0.019,Falling,,74
+Gymnastics,0.557,0.54,-0.018,Falling,,75
+Baton twirling,0.029,0.012,-0.017,Falling,**,76
+Gridiron,0.062,0.045,-0.017,Falling,*,77
+Tee ball,0.03,0.012,-0.017,Falling,*,78
+Eight ball,0.043,0.027,-0.016,Falling,*,79
+Horse racing,0.04,0.024,-0.016,Falling,*,80
+Rugby league,0.747,0.763,0.016,Rising,,81
+Scouts,0.037,0.022,-0.016,Falling,*,82
+BMX,0.043,0.028,-0.015,Falling,*,83
+Paddle sports,0.194,0.209,0.015,Rising,,84
+Croquet,0.074,0.088,0.014,Rising,,85
+Water polo,0.079,0.092,0.014,Rising,,86
+Rogaining,0.009,0.022,0.013,Rising,**,87
+Roller Derby,0.026,0.013,-0.013,Falling,*,88
+Shooting/range,0.122,0.136,0.013,Rising,,89
+Flying disc,0.237,0.249,0.012,Rising,,90
+Lifesaving surf,0.141,0.13,-0.011,Falling,,91
+Mixed martial arts,0.082,0.093,0.011,Rising,,92
+Sailing,0.338,0.327,-0.011,Falling,,93
+Biathlon,0.014,0.006,-0.009,Falling,**,94
+Campdrafting,0.022,0.013,-0.009,Falling,*,95
+Circus,0.043,0.034,-0.009,Falling,*,96
+Wheelchair rugby,0.012,0.002,-0.009,Falling,**,97
+Harness racing,0.018,0.011,-0.008,Falling,**,98
+Marching,0.004,0.012,0.008,Rising,**,99
+Sword fighting,0.015,0.023,0.008,Rising,*,100
+Netball,2.1,2.107,0.007,Rising,,101
+Wood chopping,0.04,0.033,-0.007,Falling,*,102
+Kitesurfing/kiteboarding,0.019,0.013,-0.006,Falling,*,103
+Parkour,0.028,0.022,-0.006,Falling,*,104
+Petanque,0.009,0.003,-0.006,Falling,**,105
+Softball,0.131,0.136,0.006,Rising,,106
+Body building,0.036,0.041,0.005,Rising,*,107
+Guides,0.009,0.004,-0.005,Falling,**,108
+Korfball,0.0,0.005,0.005,Rising,**,109
+Lifesaving royal,0.0,0.005,0.005,Rising,**,110
+Tenpin bowling,0.634,0.629,-0.005,Falling,,111
+Wrestling,0.035,0.04,0.005,Rising,*,112
+Boomerang throwing,0.011,0.015,0.004,Rising,**,113
+Geocaching,0.028,0.032,0.004,Rising,*,114
+Luging,0.004,0.0,-0.004,Falling,**,115
+Modern pentathlon,0.007,0.003,-0.004,Falling,**,116
+Broomball,0.005,0.002,-0.003,Falling,**,117
+Darts,0.16,0.162,0.003,Rising,,118
+Kung fu wushu,0.012,0.009,-0.003,Falling,**,119
+Pony Club,0.048,0.046,-0.003,Falling,*,120
+Ready Steady Go Kids,0.004,0.008,0.003,Rising,**,121
+Surfing,1.382,1.385,0.003,Rising,,122
+Bobsledding,0.0,0.002,0.002,Rising,**,123
+Curling,0.011,0.01,-0.002,Falling,**,124
+Ice racing/speed skating,0.009,0.007,-0.002,Falling,**,125
+Tobogganing,0.0,0.002,0.002,Rising,**,126
+Diving,0.049,0.05,0.001,Rising,,127
+Dodgeball,0.076,0.077,0.001,Rising,,128
+Equestrian,0.443,0.442,-0.001,Falling,,129
+Goalball,0.012,0.01,-0.001,Falling,**,130
+Ice hockey,0.06,0.061,0.001,Rising,,131
+Ice skating,0.213,0.214,0.001,Rising,,132
+Lacrosse,0.029,0.03,0.001,Rising,*,133
+Polo,0.0,0.001,0.001,Rising,**,134
+Skirmish,0.003,0.003,-0.001,Falling,**,135
+Bocce/Boules,0.014,0.014,-0.0,Falling,*,136
+Boccia,0.0,0.0,0.0,No change,**,137
+Outrigger canoe,0.026,0.027,0.0,Rising,*,138
+Polocrosse,0.005,0.004,-0.0,Falling,**,139
+Rodeo,0.003,0.003,-0.0,Falling,**,140
+Sepak takraw,0.002,0.003,0.0,Rising,**,141
+Skeleton,0.0,0.0,0.0,No change,**,142
