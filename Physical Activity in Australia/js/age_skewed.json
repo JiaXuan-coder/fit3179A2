@@ -70,7 +70,7 @@
           "title": "Age",
           "scale": {
             "domain": ["15-17", "18-24", "25-34", "35-44", "45-54", "55-64", "65+"],
-            "scheme": "yellowgreenblue"
+            "range": ["#fde725", "#90d743", "#35b779", "#21918c", "#31688e", "#443983", "#440154"]
           }
         },
         "order": { "field": "ageOrder", "type": "quantitative" },
@@ -79,7 +79,7 @@
           { "field": "group", "title": "Age" },
           { "field": "participants", "title": "Participants", "format": "," },
           { "field": "pct", "title": "Share", "format": ".1%" },
-          { "field": "pctYoung", "title": "Share aged 15–24", "format": ".1%" }
+          { "field": "pctYoung", "title": "Share aged 15-24", "format": ".1%" }
         ]
       }
     },
@@ -115,7 +115,7 @@
           "title": "Age",
           "scale": {
             "domain": ["15-17", "18-24", "25-34", "35-44", "45-54", "55-64", "65+"],
-            "scheme": "yellowgreenblue"
+            "range": ["#fde725", "#90d743", "#35b779", "#21918c", "#31688e", "#443983", "#440154"]
           }
         },
         "order": { "field": "ageOrder", "type": "quantitative" },

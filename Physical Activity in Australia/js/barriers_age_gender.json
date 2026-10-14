@@ -3,7 +3,9 @@
   "background": "transparent",
   "title": {
     "text": "What Stops Australians Being Active?",
-    "subtitle": "Barriers to participation, compared by gender or age group (sorted by all adults)"
+    "subtitle": "Barriers to participation, compared by gender or age group (sorted by all adults)",
+    "fontSize": 22,
+    "subtitleFontSize": 17
   },
   "data": { "url": "data/barriers.csv" },
   "params": [
@@ -58,7 +60,7 @@
           "title": null,
           "scale": {
             "domain": ["Female", "Male", "15-17", "18-24", "25-34", "35-44", "45-54", "55-64", "65+"],
-            "range": ["#d95f02", "#7570b3", "#fde725", "#90d743", "#35b779", "#21918c", "#31688e", "#443983", "#440154"]
+            "range": ["#e0529c", "#3a63d8", "#fde725", "#90d743", "#35b779", "#21918c", "#31688e", "#443983", "#440154"]
           },
           "legend": {
             "orient": "bottom",

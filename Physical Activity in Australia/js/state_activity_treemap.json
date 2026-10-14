@@ -1,0 +1,682 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "background": "transparent",
+  "width": 680,
+  "height": 760,
+  "params": [
+    {
+      "name": "selState",
+      "value": "Victoria"
+    }
+  ],
+  "datasets": {
+    "group_lines": [
+      {
+        "category": "Fitness & gym",
+        "lines": "Fitness & gym"
+      },
+      {
+        "category": "Running, walking & outdoor",
+        "lines": "Running, walking|& outdoor"
+      },
+      {
+        "category": "Football codes",
+        "lines": "Football codes"
+      },
+      {
+        "category": "Other team sports",
+        "lines": "Other team|sports"
+      },
+      {
+        "category": "Racquet & target sports",
+        "lines": "Racquet &|target sports"
+      },
+      {
+        "category": "Water sports",
+        "lines": "Water sports"
+      },
+      {
+        "category": "Combat sports & martial arts",
+        "lines": "Combat sports|& martial arts"
+      },
+      {
+        "category": "Dance, gymnastics & performance",
+        "lines": "Dance, gymnastics|& performance"
+      },
+      {
+        "category": "Cycling, wheels & motor",
+        "lines": "Cycling, wheels|& motor"
+      },
+      {
+        "category": "Equestrian",
+        "lines": "Equestrian"
+      },
+      {
+        "category": "Winter & ice sports",
+        "lines": "Winter &|ice sports"
+      },
+      {
+        "category": "Other",
+        "lines": "Other"
+      }
+    ]
+  },
+  "data": {
+    "url": "data/activity_by_state_2025.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "rate": "number",
+        "national_rate": "number",
+        "participants": "number"
+      }
+    }
+  },
+  "transform": [
+    {
+      "filter": "datum.state_name === selState"
+    },
+    {
+      "filter": "isValid(datum.rate) && datum.rate > 0"
+    }
+  ],
+  "layer": [
+    {
+      "transform": [
+        {
+          "aggregate": [],
+          "groupby": [
+            "state_name"
+          ]
+        }
+      ],
+      "layer": [
+        {
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "baseline": "top",
+            "fontSize": 18,
+            "fontWeight": "bold",
+            "color": "#0D4E83"
+          },
+          "encoding": {
+            "x": {
+              "value": 0
+            },
+            "y": {
+              "value": 0
+            },
+            "text": {
+              "field": "state_name"
+            }
+          }
+        },
+        {
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "baseline": "top",
+            "fontSize": 13,
+            "lineHeight": 17,
+            "color": "#5B7183"
+          },
+          "encoding": {
+            "x": {
+              "value": 0
+            },
+            "y": {
+              "value": 28
+            },
+            "text": {
+              "value": [
+                "Tile area = share of the state's total activity participation",
+                "(sum of all activity rates). Hover a tile for details."
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "transform": [
+        {
+          "joinaggregate": [
+            {
+              "op": "sum",
+              "field": "rate",
+              "as": "total_rate"
+            }
+          ]
+        },
+        {
+          "joinaggregate": [
+            {
+              "op": "sum",
+              "field": "rate",
+              "as": "g_rate"
+            }
+          ],
+          "groupby": [
+            "category"
+          ]
+        },
+        {
+          "window": [
+            {
+              "op": "sum",
+              "field": "rate",
+              "as": "run"
+            }
+          ],
+          "sort": [
+            {
+              "field": "g_rate",
+              "order": "descending"
+            },
+            {
+              "field": "category",
+              "order": "ascending"
+            },
+            {
+              "field": "rate",
+              "order": "descending"
+            }
+          ],
+          "frame": [
+            null,
+            0
+          ],
+          "ignorePeers": true
+        },
+        {
+          "joinaggregate": [
+            {
+              "op": "max",
+              "field": "run",
+              "as": "g_cum"
+            }
+          ],
+          "groupby": [
+            "category"
+          ]
+        },
+        {
+          "window": [
+            {
+              "op": "sum",
+              "field": "rate",
+              "as": "a_cum"
+            }
+          ],
+          "groupby": [
+            "category"
+          ],
+          "sort": [
+            {
+              "field": "rate",
+              "order": "descending"
+            }
+          ],
+          "frame": [
+            null,
+            0
+          ],
+          "ignorePeers": true
+        },
+        {
+          "calculate": "70 + (datum.g_cum - datum.g_rate) / datum.total_rate * 690",
+          "as": "y0"
+        },
+        {
+          "calculate": "70 + datum.g_cum / datum.total_rate * 690",
+          "as": "y1"
+        },
+        {
+          "calculate": "240 + (datum.a_cum - datum.rate) / datum.g_rate * 440",
+          "as": "x0"
+        },
+        {
+          "calculate": "240 + datum.a_cum / datum.g_rate * 440",
+          "as": "x1"
+        },
+        {
+          "calculate": "datum.rate / datum.total_rate",
+          "as": "share"
+        },
+        {
+          "calculate": "datum.g_rate / datum.total_rate",
+          "as": "g_share"
+        },
+        {
+          "calculate": "indexof(['Fitness & gym', 'Running, walking & outdoor', 'Football codes', 'Other team sports', 'Racquet & target sports', 'Water sports', 'Combat sports & martial arts', 'Dance, gymnastics & performance', 'Cycling, wheels & motor', 'Equestrian', 'Winter & ice sports', 'Other'], datum.category) % 2 == 0 ? 'white' : '#222222'",
+          "as": "txt_col"
+        }
+      ],
+      "layer": [
+        {
+          "mark": {
+            "type": "rect",
+            "stroke": "white",
+            "strokeWidth": 1
+          },
+          "encoding": {
+            "x": {
+              "field": "x0",
+              "type": "quantitative",
+              "scale": null
+            },
+            "x2": {
+              "field": "x1"
+            },
+            "y": {
+              "field": "y0",
+              "type": "quantitative",
+              "scale": null
+            },
+            "y2": {
+              "field": "y1"
+            },
+            "color": {
+              "field": "category",
+              "type": "nominal",
+              "legend": null,
+              "scale": {
+                "domain": [
+                  "Fitness & gym",
+                  "Running, walking & outdoor",
+                  "Football codes",
+                  "Other team sports",
+                  "Racquet & target sports",
+                  "Water sports",
+                  "Combat sports & martial arts",
+                  "Dance, gymnastics & performance",
+                  "Cycling, wheels & motor",
+                  "Equestrian",
+                  "Winter & ice sports",
+                  "Other"
+                ],
+                "scheme": "tableau20"
+              }
+            },
+            "tooltip": [
+              {
+                "field": "activity",
+                "title": "Activity"
+              },
+              {
+                "field": "category",
+                "title": "Activity group"
+              },
+              {
+                "field": "rate",
+                "title": "Participation rate (%)",
+                "format": ".2f"
+              },
+              {
+                "field": "share",
+                "title": "Share of state's total participation",
+                "format": ".1%"
+              },
+              {
+                "field": "g_share",
+                "title": "Group share of state's total",
+                "format": ".1%"
+              }
+            ]
+          }
+        },
+        {
+          "transform": [
+            {
+              "filter": "(datum.x1 - datum.x0) > 7.2 * length(datum.activity) + 14 && (datum.y1 - datum.y0) > 24"
+            },
+            {
+              "calculate": "datum.x0 + 7",
+              "as": "lx"
+            },
+            {
+              "calculate": "datum.y0 + 6",
+              "as": "ly"
+            }
+          ],
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "baseline": "top",
+            "fontSize": 13
+          },
+          "encoding": {
+            "x": {
+              "field": "lx",
+              "type": "quantitative",
+              "scale": null
+            },
+            "y": {
+              "field": "ly",
+              "type": "quantitative",
+              "scale": null
+            },
+            "text": {
+              "field": "activity"
+            },
+            "color": {
+              "field": "txt_col",
+              "type": "nominal",
+              "scale": null
+            }
+          }
+        },
+        {
+          "transform": [
+            {
+              "filter": "(datum.x1 - datum.x0) > 7.2 * length(datum.activity) + 14 && (datum.y1 - datum.y0) > 46"
+            },
+            {
+              "calculate": "datum.x0 + 7",
+              "as": "lx"
+            },
+            {
+              "calculate": "datum.y0 + 24",
+              "as": "ly"
+            },
+            {
+              "calculate": "format(datum.share, '.1%')",
+              "as": "share_txt"
+            }
+          ],
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "baseline": "top",
+            "fontSize": 16,
+            "fontWeight": "bold"
+          },
+          "encoding": {
+            "x": {
+              "field": "lx",
+              "type": "quantitative",
+              "scale": null
+            },
+            "y": {
+              "field": "ly",
+              "type": "quantitative",
+              "scale": null
+            },
+            "text": {
+              "field": "share_txt"
+            },
+            "color": {
+              "field": "txt_col",
+              "type": "nominal",
+              "scale": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "transform": [
+        {
+          "aggregate": [
+            {
+              "op": "sum",
+              "field": "rate",
+              "as": "g_rate"
+            }
+          ],
+          "groupby": [
+            "category"
+          ]
+        },
+        {
+          "joinaggregate": [
+            {
+              "op": "sum",
+              "field": "g_rate",
+              "as": "total_rate"
+            },
+            {
+              "op": "count",
+              "field": "category",
+              "as": "n_cat"
+            }
+          ]
+        },
+        {
+          "window": [
+            {
+              "op": "row_number",
+              "as": "rk"
+            },
+            {
+              "op": "sum",
+              "field": "g_rate",
+              "as": "g_cum"
+            }
+          ],
+          "sort": [
+            {
+              "field": "g_rate",
+              "order": "descending"
+            },
+            {
+              "field": "category",
+              "order": "ascending"
+            }
+          ],
+          "frame": [
+            null,
+            0
+          ],
+          "ignorePeers": true
+        },
+        {
+          "calculate": "70 + (datum.g_cum - datum.g_rate / 2) / datum.total_rate * 690",
+          "as": "mid"
+        },
+        {
+          "calculate": "datum.g_rate / datum.total_rate * 690",
+          "as": "row_h"
+        },
+        {
+          "calculate": "datum.g_rate / datum.total_rate",
+          "as": "g_share"
+        },
+        {
+          "calculate": "datum.g_share < 0.01 ? format(datum.g_share, '.1%') : format(datum.g_share, '.0%')",
+          "as": "share_label"
+        },
+        {
+          "lookup": "category",
+          "from": {
+            "data": {
+              "name": "group_lines"
+            },
+            "key": "category",
+            "fields": [
+              "lines"
+            ]
+          }
+        },
+        {
+          "calculate": "datum.row_h >= 58",
+          "as": "big"
+        },
+        {
+          "calculate": "datum.big ? datum.mid : min(datum.mid, 760 - 8 - 16 * (datum.n_cat - datum.rk))",
+          "as": "label_y"
+        },
+        {
+          "calculate": "split(datum.lines + '|' + datum.share_label, '|')",
+          "as": "big_lines"
+        }
+      ],
+      "layer": [
+        {
+          "mark": {
+            "type": "rule",
+            "color": "#9AA9B5",
+            "strokeWidth": 1
+          },
+          "encoding": {
+            "x": {
+              "value": 234
+            },
+            "x2": {
+              "value": 240
+            },
+            "y": {
+              "field": "label_y",
+              "type": "quantitative",
+              "scale": null
+            },
+            "y2": {
+              "field": "mid"
+            }
+          }
+        },
+        {
+          "mark": {
+            "type": "circle",
+            "size": 90,
+            "opacity": 1
+          },
+          "encoding": {
+            "x": {
+              "value": 8
+            },
+            "y": {
+              "field": "label_y",
+              "type": "quantitative",
+              "scale": null
+            },
+            "color": {
+              "field": "category",
+              "type": "nominal",
+              "legend": null,
+              "scale": {
+                "domain": [
+                  "Fitness & gym",
+                  "Running, walking & outdoor",
+                  "Football codes",
+                  "Other team sports",
+                  "Racquet & target sports",
+                  "Water sports",
+                  "Combat sports & martial arts",
+                  "Dance, gymnastics & performance",
+                  "Cycling, wheels & motor",
+                  "Equestrian",
+                  "Winter & ice sports",
+                  "Other"
+                ],
+                "scheme": "tableau20"
+              }
+            }
+          }
+        },
+        {
+          "transform": [
+            {
+              "filter": "datum.big"
+            }
+          ],
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "baseline": "middle",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "lineHeight": 18,
+            "color": "#1F3B57"
+          },
+          "encoding": {
+            "x": {
+              "value": 22
+            },
+            "y": {
+              "field": "label_y",
+              "type": "quantitative",
+              "scale": null
+            },
+            "text": {
+              "field": "big_lines"
+            },
+            "tooltip": [
+              {
+                "field": "category",
+                "title": "Activity group"
+              },
+              {
+                "field": "g_share",
+                "title": "Share of all activity participation",
+                "format": ".1%"
+              }
+            ]
+          }
+        },
+        {
+          "transform": [
+            {
+              "filter": "!datum.big"
+            }
+          ],
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "baseline": "middle",
+            "fontSize": 12,
+            "color": "#1F3B57"
+          },
+          "encoding": {
+            "x": {
+              "value": 22
+            },
+            "y": {
+              "field": "label_y",
+              "type": "quantitative",
+              "scale": null
+            },
+            "text": {
+              "field": "category"
+            }
+          }
+        },
+        {
+          "transform": [
+            {
+              "filter": "!datum.big"
+            }
+          ],
+          "mark": {
+            "type": "text",
+            "align": "right",
+            "baseline": "middle",
+            "fontSize": 12,
+            "fontWeight": "bold",
+            "color": "#1F3B57"
+          },
+          "encoding": {
+            "x": {
+              "value": 231
+            },
+            "y": {
+              "field": "label_y",
+              "type": "quantitative",
+              "scale": null
+            },
+            "text": {
+              "field": "share_label"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "font": "Open Sans, Arial, sans-serif"
+  }
+}

@@ -1,0 +1,53 @@
+factor,factor_order,state,state_order,axis,axis_order,minutes
+Waist circumference,1,Lowered risk,1,Inactive,1,681
+Waist circumference,1,Lowered risk,1,Light,2,167
+Waist circumference,1,Lowered risk,1,Moderate,3,128
+Waist circumference,1,Lowered risk,1,Vigorous,4,7
+Waist circumference,1,Increased risk,2,Inactive,1,710
+Waist circumference,1,Increased risk,2,Light,2,159
+Waist circumference,1,Increased risk,2,Moderate,3,106
+Waist circumference,1,Increased risk,2,Vigorous,4,4
+Waist circumference,1,Substantially increased risk,3,Inactive,1,734
+Waist circumference,1,Substantially increased risk,3,Light,2,152
+Waist circumference,1,Substantially increased risk,3,Moderate,3,92
+Waist circumference,1,Substantially increased risk,3,Vigorous,4,2
+BMI,2,Normal,1,Inactive,1,683
+BMI,2,Normal,1,Light,2,164
+BMI,2,Normal,1,Moderate,3,121
+BMI,2,Normal,1,Vigorous,4,6
+BMI,2,Overweight,2,Inactive,1,711
+BMI,2,Overweight,2,Light,2,160
+BMI,2,Overweight,2,Moderate,3,105
+BMI,2,Overweight,2,Vigorous,4,4
+BMI,2,Obese,3,Inactive,1,744
+BMI,2,Obese,3,Light,2,150
+BMI,2,Obese,3,Moderate,3,92
+BMI,2,Obese,3,Vigorous,4,2
+Blood pressure,3,Normal,1,Inactive,1,710
+Blood pressure,3,Normal,1,Light,2,159
+Blood pressure,3,Normal,1,Moderate,3,108
+Blood pressure,3,Normal,1,Vigorous,4,4
+Blood pressure,3,High,2,Inactive,1,723
+Blood pressure,3,High,2,Light,2,154
+Blood pressure,3,High,2,Moderate,3,97
+Blood pressure,3,High,2,Vigorous,4,3
+Blood pressure,3,Very high/severe,3,Inactive,1,738
+Blood pressure,3,Very high/severe,3,Light,2,153
+Blood pressure,3,Very high/severe,3,Moderate,3,89
+Blood pressure,3,Very high/severe,3,Vigorous,4,2
+Health condition,4,No condition,1,Inactive,1,707
+Health condition,4,No condition,1,Light,2,160
+Health condition,4,No condition,1,Moderate,3,110
+Health condition,4,No condition,1,Vigorous,4,4
+Health condition,4,Kidney disease,2,Inactive,1,743
+Health condition,4,Kidney disease,2,Light,2,152
+Health condition,4,Kidney disease,2,Moderate,3,86
+Health condition,4,Kidney disease,2,Vigorous,4,4
+Health condition,4,Diabetes,3,Inactive,1,760
+Health condition,4,Diabetes,3,Light,2,141
+Health condition,4,Diabetes,3,Moderate,3,72
+Health condition,4,Diabetes,3,Vigorous,4,1
+Health condition,4,Heart/stroke/vascular disease,4,Inactive,1,771
+Health condition,4,Heart/stroke/vascular disease,4,Light,2,131
+Health condition,4,Heart/stroke/vascular disease,4,Moderate,3,61
+Health condition,4,Heart/stroke/vascular disease,4,Vigorous,4,1

@@ -1,0 +1,1137 @@
+category,activity,state_code,state_name,abs_code,latitude,longitude,rate,participants,national_rate,diff_from_national,reliability
+Fitness & gym,Body building,ACT,Australian Capital Territory,8,-35.49,149.0,0.106,423,0.041,0.065,**
+Fitness & gym,Body building,NSW,New South Wales,1,-32.16,147.02,0.043,3005,0.041,0.001,*
+Fitness & gym,Body building,NT,Northern Territory,7,-19.49,132.55,0.2,416,0.041,0.159,**
+Fitness & gym,Body building,QLD,Queensland,3,-22.49,144.43,0.041,1875,0.041,-0.001,**
+Fitness & gym,Body building,SA,South Australia,4,-30.06,135.8,0.045,707,0.041,0.003,**
+Fitness & gym,Body building,TAS,Tasmania,6,-42.02,146.59,0.0,0,0.041,-0.041,**
+Fitness & gym,Body building,VIC,Victoria,2,-36.85,144.28,0.02,1165,0.041,-0.021,**
+Fitness & gym,Body building,WA,Western Australia,5,-25.33,122.3,0.07,1739,0.041,0.029,**
+Fitness & gym,Crossfit/Functional fitness,ACT,Australian Capital Territory,8,-35.49,149.0,0.896,3568,0.648,0.249,*
+Fitness & gym,Crossfit/Functional fitness,NSW,New South Wales,1,-32.16,147.02,0.649,45828,0.648,0.002,
+Fitness & gym,Crossfit/Functional fitness,NT,Northern Territory,7,-19.49,132.55,2.153,4486,0.648,1.506,*
+Fitness & gym,Crossfit/Functional fitness,QLD,Queensland,3,-22.49,144.43,0.727,33622,0.648,0.079,
+Fitness & gym,Crossfit/Functional fitness,SA,South Australia,4,-30.06,135.8,0.248,3919,0.648,-0.4,*
+Fitness & gym,Crossfit/Functional fitness,TAS,Tasmania,6,-42.02,146.59,0.454,2195,0.648,-0.193,*
+Fitness & gym,Crossfit/Functional fitness,VIC,Victoria,2,-36.85,144.28,0.492,28602,0.648,-0.155,
+Fitness & gym,Crossfit/Functional fitness,WA,Western Australia,5,-25.33,122.3,0.986,24353,0.648,0.339,
+Fitness & gym,Fitness/Gym,ACT,Australian Capital Territory,8,-35.49,149.0,44.16,175753,34.102,10.058,
+Fitness & gym,Fitness/Gym,NSW,New South Wales,1,-32.16,147.02,32.492,2293134,34.102,-1.61,
+Fitness & gym,Fitness/Gym,NT,Northern Territory,7,-19.49,132.55,43.141,89894,34.102,9.039,
+Fitness & gym,Fitness/Gym,QLD,Queensland,3,-22.49,144.43,34.757,1608081,34.102,0.655,
+Fitness & gym,Fitness/Gym,SA,South Australia,4,-30.06,135.8,31.003,490202,34.102,-3.099,
+Fitness & gym,Fitness/Gym,TAS,Tasmania,6,-42.02,146.59,29.935,144687,34.102,-4.167,
+Fitness & gym,Fitness/Gym,VIC,Victoria,2,-36.85,144.28,35.008,2034397,34.102,0.906,
+Fitness & gym,Fitness/Gym,WA,Western Australia,5,-25.33,122.3,35.761,882894,34.102,1.659,
+Fitness & gym,Pilates,ACT,Australian Capital Territory,8,-35.49,149.0,10.0,39801,7.181,2.82,
+Fitness & gym,Pilates,NSW,New South Wales,1,-32.16,147.02,6.553,462494,7.181,-0.627,
+Fitness & gym,Pilates,NT,Northern Territory,7,-19.49,132.55,6.709,13979,7.181,-0.472,
+Fitness & gym,Pilates,QLD,Queensland,3,-22.49,144.43,6.422,297137,7.181,-0.758,
+Fitness & gym,Pilates,SA,South Australia,4,-30.06,135.8,6.257,98933,7.181,-0.924,
+Fitness & gym,Pilates,TAS,Tasmania,6,-42.02,146.59,6.242,30170,7.181,-0.938,
+Fitness & gym,Pilates,VIC,Victoria,2,-36.85,144.28,8.297,482186,7.181,1.117,
+Fitness & gym,Pilates,WA,Western Australia,5,-25.33,122.3,8.126,200625,7.181,0.946,
+Fitness & gym,Powerlifting,ACT,Australian Capital Territory,8,-35.49,149.0,0.111,443,0.042,0.069,**
+Fitness & gym,Powerlifting,NSW,New South Wales,1,-32.16,147.02,0.023,1621,0.042,-0.019,**
+Fitness & gym,Powerlifting,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.042,-0.042,**
+Fitness & gym,Powerlifting,QLD,Queensland,3,-22.49,144.43,0.044,2042,0.042,0.002,**
+Fitness & gym,Powerlifting,SA,South Australia,4,-30.06,135.8,0.044,703,0.042,0.002,**
+Fitness & gym,Powerlifting,TAS,Tasmania,6,-42.02,146.59,0.099,479,0.042,0.057,**
+Fitness & gym,Powerlifting,VIC,Victoria,2,-36.85,144.28,0.054,3143,0.042,0.012,*
+Fitness & gym,Powerlifting,WA,Western Australia,5,-25.33,122.3,0.045,1111,0.042,0.003,**
+Fitness & gym,Rope skipping,ACT,Australian Capital Territory,8,-35.49,149.0,0.204,810,0.248,-0.044,**
+Fitness & gym,Rope skipping,NSW,New South Wales,1,-32.16,147.02,0.181,12800,0.248,-0.066,
+Fitness & gym,Rope skipping,NT,Northern Territory,7,-19.49,132.55,0.614,1280,0.248,0.366,**
+Fitness & gym,Rope skipping,QLD,Queensland,3,-22.49,144.43,0.233,10794,0.248,-0.014,*
+Fitness & gym,Rope skipping,SA,South Australia,4,-30.06,135.8,0.12,1898,0.248,-0.128,**
+Fitness & gym,Rope skipping,TAS,Tasmania,6,-42.02,146.59,0.056,270,0.248,-0.192,**
+Fitness & gym,Rope skipping,VIC,Victoria,2,-36.85,144.28,0.348,20243,0.248,0.101,
+Fitness & gym,Rope skipping,WA,Western Australia,5,-25.33,122.3,0.323,7980,0.248,0.076,*
+Fitness & gym,Virtual based physical activity,ACT,Australian Capital Territory,8,-35.49,149.0,0.705,2806,0.95,-0.245,*
+Fitness & gym,Virtual based physical activity,NSW,New South Wales,1,-32.16,147.02,0.858,60573,0.95,-0.092,
+Fitness & gym,Virtual based physical activity,NT,Northern Territory,7,-19.49,132.55,0.747,1556,0.95,-0.203,**
+Fitness & gym,Virtual based physical activity,QLD,Queensland,3,-22.49,144.43,1.183,54733,0.95,0.233,
+Fitness & gym,Virtual based physical activity,SA,South Australia,4,-30.06,135.8,0.667,10543,0.95,-0.283,*
+Fitness & gym,Virtual based physical activity,TAS,Tasmania,6,-42.02,146.59,0.954,4609,0.95,0.004,*
+Fitness & gym,Virtual based physical activity,VIC,Victoria,2,-36.85,144.28,0.966,56133,0.95,0.016,
+Fitness & gym,Virtual based physical activity,WA,Western Australia,5,-25.33,122.3,0.974,24040,0.95,0.024,
+Fitness & gym,Weight lifting,ACT,Australian Capital Territory,8,-35.49,149.0,0.949,3777,0.982,-0.033,*
+Fitness & gym,Weight lifting,NSW,New South Wales,1,-32.16,147.02,0.995,70231,0.982,0.013,
+Fitness & gym,Weight lifting,NT,Northern Territory,7,-19.49,132.55,0.985,2053,0.982,0.003,*
+Fitness & gym,Weight lifting,QLD,Queensland,3,-22.49,144.43,1.03,47666,0.982,0.048,
+Fitness & gym,Weight lifting,SA,South Australia,4,-30.06,135.8,0.89,14079,0.982,-0.092,
+Fitness & gym,Weight lifting,TAS,Tasmania,6,-42.02,146.59,1.181,5710,0.982,0.199,*
+Fitness & gym,Weight lifting,VIC,Victoria,2,-36.85,144.28,0.974,56607,0.982,-0.008,
+Fitness & gym,Weight lifting,WA,Western Australia,5,-25.33,122.3,0.9,22226,0.982,-0.082,
+Fitness & gym,Yoga,ACT,Australian Capital Territory,8,-35.49,149.0,4.77,18983,5.072,-0.302,
+Fitness & gym,Yoga,NSW,New South Wales,1,-32.16,147.02,4.986,351865,5.072,-0.086,
+Fitness & gym,Yoga,NT,Northern Territory,7,-19.49,132.55,9.769,20355,5.072,4.697,
+Fitness & gym,Yoga,QLD,Queensland,3,-22.49,144.43,5.112,236522,5.072,0.04,
+Fitness & gym,Yoga,SA,South Australia,4,-30.06,135.8,3.948,62429,5.072,-1.123,
+Fitness & gym,Yoga,TAS,Tasmania,6,-42.02,146.59,4.698,22706,5.072,-0.374,
+Fitness & gym,Yoga,VIC,Victoria,2,-36.85,144.28,5.256,305441,5.072,0.184,
+Fitness & gym,Yoga,WA,Western Australia,5,-25.33,122.3,5.254,129703,5.072,0.182,
+"Running, walking & outdoor",Adventure racing,ACT,Australian Capital Territory,8,-35.49,149.0,0.104,414,0.072,0.032,**
+"Running, walking & outdoor",Adventure racing,NSW,New South Wales,1,-32.16,147.02,0.053,3766,0.072,-0.019,*
+"Running, walking & outdoor",Adventure racing,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.072,-0.072,**
+"Running, walking & outdoor",Adventure racing,QLD,Queensland,3,-22.49,144.43,0.106,4923,0.072,0.034,*
+"Running, walking & outdoor",Adventure racing,SA,South Australia,4,-30.06,135.8,0.069,1096,0.072,-0.003,**
+"Running, walking & outdoor",Adventure racing,TAS,Tasmania,6,-42.02,146.59,0.0,0,0.072,-0.072,**
+"Running, walking & outdoor",Adventure racing,VIC,Victoria,2,-36.85,144.28,0.096,5577,0.072,0.024,*
+"Running, walking & outdoor",Adventure racing,WA,Western Australia,5,-25.33,122.3,0.023,565,0.072,-0.049,**
+"Running, walking & outdoor","Athletics, track and field",ACT,Australian Capital Territory,8,-35.49,149.0,0.559,2226,1.318,-0.759,*
+"Running, walking & outdoor","Athletics, track and field",NSW,New South Wales,1,-32.16,147.02,1.41,99522,1.318,0.092,
+"Running, walking & outdoor","Athletics, track and field",NT,Northern Territory,7,-19.49,132.55,0.845,1761,1.318,-0.473,*
+"Running, walking & outdoor","Athletics, track and field",QLD,Queensland,3,-22.49,144.43,1.489,68906,1.318,0.171,
+"Running, walking & outdoor","Athletics, track and field",SA,South Australia,4,-30.06,135.8,0.829,13114,1.318,-0.489,
+"Running, walking & outdoor","Athletics, track and field",TAS,Tasmania,6,-42.02,146.59,1.001,4836,1.318,-0.317,*
+"Running, walking & outdoor","Athletics, track and field",VIC,Victoria,2,-36.85,144.28,1.529,88844,1.318,0.211,
+"Running, walking & outdoor","Athletics, track and field",WA,Western Australia,5,-25.33,122.3,0.774,19102,1.318,-0.544,
+"Running, walking & outdoor",Bush walking,ACT,Australian Capital Territory,8,-35.49,149.0,26.847,106848,17.468,9.379,
+"Running, walking & outdoor",Bush walking,NSW,New South Wales,1,-32.16,147.02,17.358,1225023,17.468,-0.11,
+"Running, walking & outdoor",Bush walking,NT,Northern Territory,7,-19.49,132.55,18.957,39501,17.468,1.489,
+"Running, walking & outdoor",Bush walking,QLD,Queensland,3,-22.49,144.43,17.684,818181,17.468,0.216,
+"Running, walking & outdoor",Bush walking,SA,South Australia,4,-30.06,135.8,15.384,243246,17.468,-2.084,
+"Running, walking & outdoor",Bush walking,TAS,Tasmania,6,-42.02,146.59,27.515,132990,17.468,10.047,
+"Running, walking & outdoor",Bush walking,VIC,Victoria,2,-36.85,144.28,16.125,937035,17.468,-1.344,
+"Running, walking & outdoor",Bush walking,WA,Western Australia,5,-25.33,122.3,18.273,451127,17.468,0.804,
+"Running, walking & outdoor",Fishing (recreational),ACT,Australian Capital Territory,8,-35.49,149.0,0.194,773,1.07,-0.876,**
+"Running, walking & outdoor",Fishing (recreational),NSW,New South Wales,1,-32.16,147.02,1.049,74053,1.07,-0.021,
+"Running, walking & outdoor",Fishing (recreational),NT,Northern Territory,7,-19.49,132.55,1.525,3178,1.07,0.455,*
+"Running, walking & outdoor",Fishing (recreational),QLD,Queensland,3,-22.49,144.43,1.41,65258,1.07,0.34,
+"Running, walking & outdoor",Fishing (recreational),SA,South Australia,4,-30.06,135.8,1.25,19759,1.07,0.179,
+"Running, walking & outdoor",Fishing (recreational),TAS,Tasmania,6,-42.02,146.59,0.971,4694,1.07,-0.099,*
+"Running, walking & outdoor",Fishing (recreational),VIC,Victoria,2,-36.85,144.28,0.666,38710,1.07,-0.404,
+"Running, walking & outdoor",Fishing (recreational),WA,Western Australia,5,-25.33,122.3,1.451,35819,1.07,0.381,
+"Running, walking & outdoor",Geocaching,ACT,Australian Capital Territory,8,-35.49,149.0,0.0,0,0.032,-0.032,**
+"Running, walking & outdoor",Geocaching,NSW,New South Wales,1,-32.16,147.02,0.024,1690,0.032,-0.008,**
+"Running, walking & outdoor",Geocaching,NT,Northern Territory,7,-19.49,132.55,0.273,570,0.032,0.241,**
+"Running, walking & outdoor",Geocaching,QLD,Queensland,3,-22.49,144.43,0.008,393,0.032,-0.024,**
+"Running, walking & outdoor",Geocaching,SA,South Australia,4,-30.06,135.8,0.034,536,0.032,0.002,**
+"Running, walking & outdoor",Geocaching,TAS,Tasmania,6,-42.02,146.59,0.093,447,0.032,0.06,**
+"Running, walking & outdoor",Geocaching,VIC,Victoria,2,-36.85,144.28,0.053,3077,0.032,0.021,*
+"Running, walking & outdoor",Geocaching,WA,Western Australia,5,-25.33,122.3,0.023,569,0.032,-0.009,**
+"Running, walking & outdoor",Mountain climbing,ACT,Australian Capital Territory,8,-35.49,149.0,0.34,1352,0.099,0.241,**
+"Running, walking & outdoor",Mountain climbing,NSW,New South Wales,1,-32.16,147.02,0.053,3753,0.099,-0.046,*
+"Running, walking & outdoor",Mountain climbing,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.099,-0.099,**
+"Running, walking & outdoor",Mountain climbing,QLD,Queensland,3,-22.49,144.43,0.098,4517,0.099,-0.002,*
+"Running, walking & outdoor",Mountain climbing,SA,South Australia,4,-30.06,135.8,0.1,1579,0.099,0.001,**
+"Running, walking & outdoor",Mountain climbing,TAS,Tasmania,6,-42.02,146.59,0.332,1607,0.099,0.233,**
+"Running, walking & outdoor",Mountain climbing,VIC,Victoria,2,-36.85,144.28,0.1,5807,0.099,0.001,*
+"Running, walking & outdoor",Mountain climbing,WA,Western Australia,5,-25.33,122.3,0.155,3825,0.099,0.056,*
+"Running, walking & outdoor",Obstacle,ACT,Australian Capital Territory,8,-35.49,149.0,0.201,798,0.056,0.144,**
+"Running, walking & outdoor",Obstacle,NSW,New South Wales,1,-32.16,147.02,0.049,3484,0.056,-0.007,*
+"Running, walking & outdoor",Obstacle,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.056,-0.056,**
+"Running, walking & outdoor",Obstacle,QLD,Queensland,3,-22.49,144.43,0.088,4056,0.056,0.031,*
+"Running, walking & outdoor",Obstacle,SA,South Australia,4,-30.06,135.8,0.0,0,0.056,-0.056,**
+"Running, walking & outdoor",Obstacle,TAS,Tasmania,6,-42.02,146.59,0.0,0,0.056,-0.056,**
+"Running, walking & outdoor",Obstacle,VIC,Victoria,2,-36.85,144.28,0.068,3933,0.056,0.011,*
+"Running, walking & outdoor",Obstacle,WA,Western Australia,5,-25.33,122.3,0.02,503,0.056,-0.036,**
+"Running, walking & outdoor",Orienteering,ACT,Australian Capital Territory,8,-35.49,149.0,0.118,469,0.07,0.048,**
+"Running, walking & outdoor",Orienteering,NSW,New South Wales,1,-32.16,147.02,0.067,4705,0.07,-0.003,*
+"Running, walking & outdoor",Orienteering,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.07,-0.07,**
+"Running, walking & outdoor",Orienteering,QLD,Queensland,3,-22.49,144.43,0.032,1477,0.07,-0.038,**
+"Running, walking & outdoor",Orienteering,SA,South Australia,4,-30.06,135.8,0.0,0,0.07,-0.07,**
+"Running, walking & outdoor",Orienteering,TAS,Tasmania,6,-42.02,146.59,0.213,1030,0.07,0.143,**
+"Running, walking & outdoor",Orienteering,VIC,Victoria,2,-36.85,144.28,0.123,7148,0.07,0.053,*
+"Running, walking & outdoor",Orienteering,WA,Western Australia,5,-25.33,122.3,0.042,1025,0.07,-0.029,**
+"Running, walking & outdoor",Parkour,ACT,Australian Capital Territory,8,-35.49,149.0,0.0,0,0.022,-0.022,**
+"Running, walking & outdoor",Parkour,NSW,New South Wales,1,-32.16,147.02,0.007,501,0.022,-0.015,**
+"Running, walking & outdoor",Parkour,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.022,-0.022,**
+"Running, walking & outdoor",Parkour,QLD,Queensland,3,-22.49,144.43,0.0,0,0.022,-0.022,**
+"Running, walking & outdoor",Parkour,SA,South Australia,4,-30.06,135.8,0.0,0,0.022,-0.022,**
+"Running, walking & outdoor",Parkour,TAS,Tasmania,6,-42.02,146.59,0.0,0,0.022,-0.022,**
+"Running, walking & outdoor",Parkour,VIC,Victoria,2,-36.85,144.28,0.079,4578,0.022,0.056,*
+"Running, walking & outdoor",Parkour,WA,Western Australia,5,-25.33,122.3,0.0,0,0.022,-0.022,**
+"Running, walking & outdoor",Rock climbing/Abseiling/Caving,ACT,Australian Capital Territory,8,-35.49,149.0,0.588,2339,0.457,0.13,*
+"Running, walking & outdoor",Rock climbing/Abseiling/Caving,NSW,New South Wales,1,-32.16,147.02,0.455,32127,0.457,-0.002,
+"Running, walking & outdoor",Rock climbing/Abseiling/Caving,NT,Northern Territory,7,-19.49,132.55,0.569,1187,0.457,0.112,**
+"Running, walking & outdoor",Rock climbing/Abseiling/Caving,QLD,Queensland,3,-22.49,144.43,0.497,22977,0.457,0.039,
+"Running, walking & outdoor",Rock climbing/Abseiling/Caving,SA,South Australia,4,-30.06,135.8,0.17,2686,0.457,-0.288,**
+"Running, walking & outdoor",Rock climbing/Abseiling/Caving,TAS,Tasmania,6,-42.02,146.59,0.458,2215,0.457,0.001,*
+"Running, walking & outdoor",Rock climbing/Abseiling/Caving,VIC,Victoria,2,-36.85,144.28,0.457,26539,0.457,-0.001,
+"Running, walking & outdoor",Rock climbing/Abseiling/Caving,WA,Western Australia,5,-25.33,122.3,0.546,13469,0.457,0.088,
+"Running, walking & outdoor",Rogaining,ACT,Australian Capital Territory,8,-35.49,149.0,0.087,347,0.022,0.066,**
+"Running, walking & outdoor",Rogaining,NSW,New South Wales,1,-32.16,147.02,0.006,394,0.022,-0.016,**
+"Running, walking & outdoor",Rogaining,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.022,-0.022,**
+"Running, walking & outdoor",Rogaining,QLD,Queensland,3,-22.49,144.43,0.02,909,0.022,-0.002,**
+"Running, walking & outdoor",Rogaining,SA,South Australia,4,-30.06,135.8,0.0,0,0.022,-0.022,**
+"Running, walking & outdoor",Rogaining,TAS,Tasmania,6,-42.02,146.59,0.079,383,0.022,0.058,**
+"Running, walking & outdoor",Rogaining,VIC,Victoria,2,-36.85,144.28,0.025,1473,0.022,0.004,**
+"Running, walking & outdoor",Rogaining,WA,Western Australia,5,-25.33,122.3,0.056,1385,0.022,0.035,**
+"Running, walking & outdoor",Running/jogging,ACT,Australian Capital Territory,8,-35.49,149.0,23.153,92147,16.525,6.628,
+"Running, walking & outdoor",Running/jogging,NSW,New South Wales,1,-32.16,147.02,15.602,1101086,16.525,-0.924,
+"Running, walking & outdoor",Running/jogging,NT,Northern Territory,7,-19.49,132.55,21.033,43827,16.525,4.508,
+"Running, walking & outdoor",Running/jogging,QLD,Queensland,3,-22.49,144.43,16.022,741275,16.525,-0.503,
+"Running, walking & outdoor",Running/jogging,SA,South Australia,4,-30.06,135.8,15.538,245678,16.525,-0.987,
+"Running, walking & outdoor",Running/jogging,TAS,Tasmania,6,-42.02,146.59,16.885,81608,16.525,0.359,
+"Running, walking & outdoor",Running/jogging,VIC,Victoria,2,-36.85,144.28,17.347,1008069,16.525,0.822,
+"Running, walking & outdoor",Running/jogging,WA,Western Australia,5,-25.33,122.3,17.287,426793,16.525,0.762,
+"Running, walking & outdoor",Sport climbing,ACT,Australian Capital Territory,8,-35.49,149.0,1.207,4803,0.542,0.665,*
+"Running, walking & outdoor",Sport climbing,NSW,New South Wales,1,-32.16,147.02,0.633,44651,0.542,0.09,
+"Running, walking & outdoor",Sport climbing,NT,Northern Territory,7,-19.49,132.55,0.301,627,0.542,-0.241,**
+"Running, walking & outdoor",Sport climbing,QLD,Queensland,3,-22.49,144.43,0.625,28928,0.542,0.083,
+"Running, walking & outdoor",Sport climbing,SA,South Australia,4,-30.06,135.8,0.29,4584,0.542,-0.252,*
+"Running, walking & outdoor",Sport climbing,TAS,Tasmania,6,-42.02,146.59,0.357,1723,0.542,-0.186,*
+"Running, walking & outdoor",Sport climbing,VIC,Victoria,2,-36.85,144.28,0.502,29169,0.542,-0.04,
+"Running, walking & outdoor",Sport climbing,WA,Western Australia,5,-25.33,122.3,0.335,8262,0.542,-0.208,*
+"Running, walking & outdoor",Triathlon,ACT,Australian Capital Territory,8,-35.49,149.0,0.179,712,0.143,0.036,**
+"Running, walking & outdoor",Triathlon,NSW,New South Wales,1,-32.16,147.02,0.095,6684,0.143,-0.048,*
+"Running, walking & outdoor",Triathlon,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.143,-0.143,**
+"Running, walking & outdoor",Triathlon,QLD,Queensland,3,-22.49,144.43,0.288,13302,0.143,0.144,
+"Running, walking & outdoor",Triathlon,SA,South Australia,4,-30.06,135.8,0.073,1160,0.143,-0.07,**
+"Running, walking & outdoor",Triathlon,TAS,Tasmania,6,-42.02,146.59,0.0,0,0.143,-0.143,**
+"Running, walking & outdoor",Triathlon,VIC,Victoria,2,-36.85,144.28,0.101,5874,0.143,-0.042,*
+"Running, walking & outdoor",Triathlon,WA,Western Australia,5,-25.33,122.3,0.189,4662,0.143,0.046,*
+"Running, walking & outdoor",Walking (Recreational),ACT,Australian Capital Territory,8,-35.49,149.0,54.196,215693,50.204,3.992,
+"Running, walking & outdoor",Walking (Recreational),NSW,New South Wales,1,-32.16,147.02,48.205,3402079,50.204,-1.998,
+"Running, walking & outdoor",Walking (Recreational),NT,Northern Territory,7,-19.49,132.55,48.07,100164,50.204,-2.133,
+"Running, walking & outdoor",Walking (Recreational),QLD,Queensland,3,-22.49,144.43,49.758,2302114,50.204,-0.446,
+"Running, walking & outdoor",Walking (Recreational),SA,South Australia,4,-30.06,135.8,51.576,815506,50.204,1.373,
+"Running, walking & outdoor",Walking (Recreational),TAS,Tasmania,6,-42.02,146.59,55.906,270211,50.204,5.703,
+"Running, walking & outdoor",Walking (Recreational),VIC,Victoria,2,-36.85,144.28,51.598,2998481,50.204,1.394,
+"Running, walking & outdoor",Walking (Recreational),WA,Western Australia,5,-25.33,122.3,51.01,1259372,50.204,0.806,
+Football codes,Australian football,ACT,Australian Capital Territory,8,-35.49,149.0,0.933,3712,2.417,-1.485,*
+Football codes,Australian football,NSW,New South Wales,1,-32.16,147.02,1.141,80529,2.417,-1.276,
+Football codes,Australian football,NT,Northern Territory,7,-19.49,132.55,4.476,9327,2.417,2.059,
+Football codes,Australian football,QLD,Queensland,3,-22.49,144.43,1.34,61984,2.417,-1.077,
+Football codes,Australian football,SA,South Australia,4,-30.06,135.8,3.527,55771,2.417,1.11,
+Football codes,Australian football,TAS,Tasmania,6,-42.02,146.59,2.721,13153,2.417,0.304,
+Football codes,Australian football,VIC,Victoria,2,-36.85,144.28,3.836,222899,2.417,1.418,
+Football codes,Australian football,WA,Western Australia,5,-25.33,122.3,4.04,99754,2.417,1.623,
+Football codes,Football/soccer,ACT,Australian Capital Territory,8,-35.49,149.0,6.61,26306,5.624,0.986,
+Football codes,Football/soccer,NSW,New South Wales,1,-32.16,147.02,7.105,501468,5.624,1.481,
+Football codes,Football/soccer,NT,Northern Territory,7,-19.49,132.55,4.358,9082,5.624,-1.266,
+Football codes,Football/soccer,QLD,Queensland,3,-22.49,144.43,4.559,210920,5.624,-1.065,
+Football codes,Football/soccer,SA,South Australia,4,-30.06,135.8,5.08,80318,5.624,-0.544,
+Football codes,Football/soccer,TAS,Tasmania,6,-42.02,146.59,4.323,20894,5.624,-1.301,
+Football codes,Football/soccer,VIC,Victoria,2,-36.85,144.28,4.929,286443,5.624,-0.695,
+Football codes,Football/soccer,WA,Western Australia,5,-25.33,122.3,5.573,137597,5.624,-0.051,
+Football codes,Gaelic football,ACT,Australian Capital Territory,8,-35.49,149.0,0.0,0,0.063,-0.063,**
+Football codes,Gaelic football,NSW,New South Wales,1,-32.16,147.02,0.055,3878,0.063,-0.008,*
+Football codes,Gaelic football,NT,Northern Territory,7,-19.49,132.55,0.255,532,0.063,0.193,**
+Football codes,Gaelic football,QLD,Queensland,3,-22.49,144.43,0.025,1179,0.063,-0.037,**
+Football codes,Gaelic football,SA,South Australia,4,-30.06,135.8,0.115,1826,0.063,0.053,**
+Football codes,Gaelic football,TAS,Tasmania,6,-42.02,146.59,0.0,0,0.063,-0.063,**
+Football codes,Gaelic football,VIC,Victoria,2,-36.85,144.28,0.079,4609,0.063,0.017,*
+Football codes,Gaelic football,WA,Western Australia,5,-25.33,122.3,0.089,2185,0.063,0.026,**
+Football codes,Gridiron,ACT,Australian Capital Territory,8,-35.49,149.0,0.106,423,0.045,0.061,**
+Football codes,Gridiron,NSW,New South Wales,1,-32.16,147.02,0.089,6289,0.045,0.044,*
+Football codes,Gridiron,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.045,-0.045,**
+Football codes,Gridiron,QLD,Queensland,3,-22.49,144.43,0.024,1105,0.045,-0.022,**
+Football codes,Gridiron,SA,South Australia,4,-30.06,135.8,0.0,0,0.045,-0.045,**
+Football codes,Gridiron,TAS,Tasmania,6,-42.02,146.59,0.099,479,0.045,0.054,**
+Football codes,Gridiron,VIC,Victoria,2,-36.85,144.28,0.034,2002,0.045,-0.011,**
+Football codes,Gridiron,WA,Western Australia,5,-25.33,122.3,0.0,0,0.045,-0.045,**
+Football codes,Oztag,ACT,Australian Capital Territory,8,-35.49,149.0,1.159,4611,0.223,0.935,*
+Football codes,Oztag,NSW,New South Wales,1,-32.16,147.02,0.527,37163,0.223,0.303,
+Football codes,Oztag,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.223,-0.223,**
+Football codes,Oztag,QLD,Queensland,3,-22.49,144.43,0.19,8802,0.223,-0.033,*
+Football codes,Oztag,SA,South Australia,4,-30.06,135.8,0.0,0,0.223,-0.223,**
+Football codes,Oztag,TAS,Tasmania,6,-42.02,146.59,0.0,0,0.223,-0.223,**
+Football codes,Oztag,VIC,Victoria,2,-36.85,144.28,0.0,0,0.223,-0.223,**
+Football codes,Oztag,WA,Western Australia,5,-25.33,122.3,0.0,0,0.223,-0.223,**
+Football codes,Rugby league,ACT,Australian Capital Territory,8,-35.49,149.0,0.477,1899,0.763,-0.286,*
+Football codes,Rugby league,NSW,New South Wales,1,-32.16,147.02,1.157,81625,0.763,0.394,
+Football codes,Rugby league,NT,Northern Territory,7,-19.49,132.55,1.082,2254,0.763,0.319,*
+Football codes,Rugby league,QLD,Queensland,3,-22.49,144.43,1.291,59741,0.763,0.528,
+Football codes,Rugby league,SA,South Australia,4,-30.06,135.8,0.114,1795,0.763,-0.65,**
+Football codes,Rugby league,TAS,Tasmania,6,-42.02,146.59,0.083,399,0.763,-0.68,**
+Football codes,Rugby league,VIC,Victoria,2,-36.85,144.28,0.234,13594,0.763,-0.529,
+Football codes,Rugby league,WA,Western Australia,5,-25.33,122.3,0.462,11410,0.763,-0.301,
+Football codes,Rugby union,ACT,Australian Capital Territory,8,-35.49,149.0,0.381,1517,0.374,0.007,**
+Football codes,Rugby union,NSW,New South Wales,1,-32.16,147.02,0.389,27476,0.374,0.015,
+Football codes,Rugby union,NT,Northern Territory,7,-19.49,132.55,1.013,2110,0.374,0.639,*
+Football codes,Rugby union,QLD,Queensland,3,-22.49,144.43,0.682,31574,0.374,0.308,
+Football codes,Rugby union,SA,South Australia,4,-30.06,135.8,0.18,2851,0.374,-0.194,**
+Football codes,Rugby union,TAS,Tasmania,6,-42.02,146.59,0.243,1175,0.374,-0.131,**
+Football codes,Rugby union,VIC,Victoria,2,-36.85,144.28,0.128,7410,0.374,-0.246,*
+Football codes,Rugby union,WA,Western Australia,5,-25.33,122.3,0.427,10534,0.374,0.053,
+Football codes,Touch football,ACT,Australian Capital Territory,8,-35.49,149.0,0.66,2625,0.712,-0.052,*
+Football codes,Touch football,NSW,New South Wales,1,-32.16,147.02,1.016,71716,0.712,0.305,
+Football codes,Touch football,NT,Northern Territory,7,-19.49,132.55,1.029,2144,0.712,0.317,*
+Football codes,Touch football,QLD,Queensland,3,-22.49,144.43,1.448,67009,0.712,0.737,
+Football codes,Touch football,SA,South Australia,4,-30.06,135.8,0.039,624,0.712,-0.672,**
+Football codes,Touch football,TAS,Tasmania,6,-42.02,146.59,0.355,1714,0.712,-0.357,*
+Football codes,Touch football,VIC,Victoria,2,-36.85,144.28,0.135,7846,0.712,-0.577,*
+Football codes,Touch football,WA,Western Australia,5,-25.33,122.3,0.299,7378,0.712,-0.413,*
+Football codes,Wheelchair rugby,ACT,Australian Capital Territory,8,-35.49,149.0,0.0,0,0.002,-0.002,**
+Football codes,Wheelchair rugby,NSW,New South Wales,1,-32.16,147.02,0.0,0,0.002,-0.002,**
+Football codes,Wheelchair rugby,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.002,-0.002,**
+Football codes,Wheelchair rugby,QLD,Queensland,3,-22.49,144.43,0.0,0,0.002,-0.002,**
+Football codes,Wheelchair rugby,SA,South Australia,4,-30.06,135.8,0.0,0,0.002,-0.002,**
+Football codes,Wheelchair rugby,TAS,Tasmania,6,-42.02,146.59,0.0,0,0.002,-0.002,**
+Football codes,Wheelchair rugby,VIC,Victoria,2,-36.85,144.28,0.009,520,0.002,0.007,**
+Football codes,Wheelchair rugby,WA,Western Australia,5,-25.33,122.3,0.0,0,0.002,-0.002,**
+Other team sports,Baseball,ACT,Australian Capital Territory,8,-35.49,149.0,0.301,1197,0.309,-0.009,**
+Other team sports,Baseball,NSW,New South Wales,1,-32.16,147.02,0.303,21415,0.309,-0.006,
+Other team sports,Baseball,NT,Northern Territory,7,-19.49,132.55,0.662,1379,0.309,0.353,**
+Other team sports,Baseball,QLD,Queensland,3,-22.49,144.43,0.412,19043,0.309,0.102,
+Other team sports,Baseball,SA,South Australia,4,-30.06,135.8,0.396,6266,0.309,0.087,*
+Other team sports,Baseball,TAS,Tasmania,6,-42.02,146.59,0.147,711,0.309,-0.162,**
+Other team sports,Baseball,VIC,Victoria,2,-36.85,144.28,0.261,15184,0.309,-0.048,
+Other team sports,Baseball,WA,Western Australia,5,-25.33,122.3,0.197,4854,0.309,-0.113,*
+Other team sports,Basketball,ACT,Australian Capital Territory,8,-35.49,149.0,4.476,17814,4.526,-0.05,
+Other team sports,Basketball,NSW,New South Wales,1,-32.16,147.02,4.6,324624,4.526,0.074,
+Other team sports,Basketball,NT,Northern Territory,7,-19.49,132.55,4.534,9448,4.526,0.009,
+Other team sports,Basketball,QLD,Queensland,3,-22.49,144.43,3.148,145633,4.526,-1.378,
+Other team sports,Basketball,SA,South Australia,4,-30.06,135.8,3.893,61551,4.526,-0.633,
+Other team sports,Basketball,TAS,Tasmania,6,-42.02,146.59,4.385,21194,4.526,-0.141,
+Other team sports,Basketball,VIC,Victoria,2,-36.85,144.28,5.517,320582,4.526,0.991,
+Other team sports,Basketball,WA,Western Australia,5,-25.33,122.3,5.003,123515,4.526,0.477,
+Other team sports,Cricket,ACT,Australian Capital Territory,8,-35.49,149.0,2.138,8509,2.492,-0.354,
+Other team sports,Cricket,NSW,New South Wales,1,-32.16,147.02,2.577,181839,2.492,0.085,
+Other team sports,Cricket,NT,Northern Territory,7,-19.49,132.55,2.891,6024,2.492,0.4,*
+Other team sports,Cricket,QLD,Queensland,3,-22.49,144.43,1.918,88723,2.492,-0.574,
+Other team sports,Cricket,SA,South Australia,4,-30.06,135.8,2.68,42376,2.492,0.189,
+Other team sports,Cricket,TAS,Tasmania,6,-42.02,146.59,2.169,10485,2.492,-0.322,
+Other team sports,Cricket,VIC,Victoria,2,-36.85,144.28,2.752,159925,2.492,0.26,
+Other team sports,Cricket,WA,Western Australia,5,-25.33,122.3,2.677,66084,2.492,0.185,
+Other team sports,Dodgeball,ACT,Australian Capital Territory,8,-35.49,149.0,0.176,700,0.077,0.099,**
+Other team sports,Dodgeball,NSW,New South Wales,1,-32.16,147.02,0.079,5549,0.077,0.002,*
+Other team sports,Dodgeball,NT,Northern Territory,7,-19.49,132.55,0.204,426,0.077,0.127,**
+Other team sports,Dodgeball,QLD,Queensland,3,-22.49,144.43,0.083,3837,0.077,0.006,*
+Other team sports,Dodgeball,SA,South Australia,4,-30.06,135.8,0.054,858,0.077,-0.023,**
+Other team sports,Dodgeball,TAS,Tasmania,6,-42.02,146.59,0.0,0,0.077,-0.077,**
+Other team sports,Dodgeball,VIC,Victoria,2,-36.85,144.28,0.073,4254,0.077,-0.004,*
+Other team sports,Dodgeball,WA,Western Australia,5,-25.33,122.3,0.071,1753,0.077,-0.006,**
+Other team sports,Floorball,ACT,Australian Capital Territory,8,-35.49,149.0,0.0,0,0.028,-0.028,**
+Other team sports,Floorball,NSW,New South Wales,1,-32.16,147.02,0.007,501,0.028,-0.021,**
+Other team sports,Floorball,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.028,-0.028,**
+Other team sports,Floorball,QLD,Queensland,3,-22.49,144.43,0.051,2348,0.028,0.022,**
+Other team sports,Floorball,SA,South Australia,4,-30.06,135.8,0.0,0,0.028,-0.028,**
+Other team sports,Floorball,TAS,Tasmania,6,-42.02,146.59,0.0,0,0.028,-0.028,**
+Other team sports,Floorball,VIC,Victoria,2,-36.85,144.28,0.01,595,0.028,-0.018,**
+Other team sports,Floorball,WA,Western Australia,5,-25.33,122.3,0.12,2951,0.028,0.091,*
+Other team sports,Flying disc,ACT,Australian Capital Territory,8,-35.49,149.0,0.597,2377,0.249,0.348,*
+Other team sports,Flying disc,NSW,New South Wales,1,-32.16,147.02,0.25,17651,0.249,0.001,
+Other team sports,Flying disc,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.249,-0.249,**
+Other team sports,Flying disc,QLD,Queensland,3,-22.49,144.43,0.224,10375,0.249,-0.025,*
+Other team sports,Flying disc,SA,South Australia,4,-30.06,135.8,0.337,5322,0.249,0.088,*
+Other team sports,Flying disc,TAS,Tasmania,6,-42.02,146.59,0.131,634,0.249,-0.118,**
+Other team sports,Flying disc,VIC,Victoria,2,-36.85,144.28,0.209,12146,0.249,-0.04,
+Other team sports,Flying disc,WA,Western Australia,5,-25.33,122.3,0.317,7836,0.249,0.068,*
+Other team sports,Goalball,ACT,Australian Capital Territory,8,-35.49,149.0,0.0,0,0.01,-0.01,**
+Other team sports,Goalball,NSW,New South Wales,1,-32.16,147.02,0.009,606,0.01,-0.002,**
+Other team sports,Goalball,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.01,-0.01,**
+Other team sports,Goalball,QLD,Queensland,3,-22.49,144.43,0.0,0,0.01,-0.01,**
+Other team sports,Goalball,SA,South Australia,4,-30.06,135.8,0.0,0,0.01,-0.01,**
+Other team sports,Goalball,TAS,Tasmania,6,-42.02,146.59,0.0,0,0.01,-0.01,**
+Other team sports,Goalball,VIC,Victoria,2,-36.85,144.28,0.029,1686,0.01,0.019,**
+Other team sports,Goalball,WA,Western Australia,5,-25.33,122.3,0.0,0,0.01,-0.01,**
+Other team sports,Handball,ACT,Australian Capital Territory,8,-35.49,149.0,0.158,630,0.114,0.044,**
+Other team sports,Handball,NSW,New South Wales,1,-32.16,147.02,0.207,14613,0.114,0.093,
+Other team sports,Handball,NT,Northern Territory,7,-19.49,132.55,0.268,559,0.114,0.154,**
+Other team sports,Handball,QLD,Queensland,3,-22.49,144.43,0.123,5677,0.114,0.008,*
+Other team sports,Handball,SA,South Australia,4,-30.06,135.8,0.027,429,0.114,-0.087,**
+Other team sports,Handball,TAS,Tasmania,6,-42.02,146.59,0.0,0,0.114,-0.114,**
+Other team sports,Handball,VIC,Victoria,2,-36.85,144.28,0.058,3343,0.114,-0.057,*
+Other team sports,Handball,WA,Western Australia,5,-25.33,122.3,0.027,659,0.114,-0.088,**
+Other team sports,Hockey,ACT,Australian Capital Territory,8,-35.49,149.0,0.44,1750,0.512,-0.072,*
+Other team sports,Hockey,NSW,New South Wales,1,-32.16,147.02,0.487,34397,0.512,-0.025,
+Other team sports,Hockey,NT,Northern Territory,7,-19.49,132.55,1.075,2240,0.512,0.563,*
+Other team sports,Hockey,QLD,Queensland,3,-22.49,144.43,0.49,22664,0.512,-0.022,
+Other team sports,Hockey,SA,South Australia,4,-30.06,135.8,0.337,5334,0.512,-0.175,*
+Other team sports,Hockey,TAS,Tasmania,6,-42.02,146.59,0.889,4295,0.512,0.377,*
+Other team sports,Hockey,VIC,Victoria,2,-36.85,144.28,0.401,23283,0.512,-0.112,
+Other team sports,Hockey,WA,Western Australia,5,-25.33,122.3,0.89,21965,0.512,0.378,
+Other team sports,Korfball,ACT,Australian Capital Territory,8,-35.49,149.0,0.0,0,0.005,-0.005,**
+Other team sports,Korfball,NSW,New South Wales,1,-32.16,147.02,0.0,0,0.005,-0.005,**
+Other team sports,Korfball,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.005,-0.005,**
+Other team sports,Korfball,QLD,Queensland,3,-22.49,144.43,0.0,0,0.005,-0.005,**
+Other team sports,Korfball,SA,South Australia,4,-30.06,135.8,0.0,0,0.005,-0.005,**
+Other team sports,Korfball,TAS,Tasmania,6,-42.02,146.59,0.0,0,0.005,-0.005,**
+Other team sports,Korfball,VIC,Victoria,2,-36.85,144.28,0.02,1166,0.005,0.015,**
+Other team sports,Korfball,WA,Western Australia,5,-25.33,122.3,0.0,0,0.005,-0.005,**
+Other team sports,Lacrosse,ACT,Australian Capital Territory,8,-35.49,149.0,0.0,0,0.03,-0.03,**
+Other team sports,Lacrosse,NSW,New South Wales,1,-32.16,147.02,0.015,1043,0.03,-0.015,**
+Other team sports,Lacrosse,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.03,-0.03,**
+Other team sports,Lacrosse,QLD,Queensland,3,-22.49,144.43,0.012,576,0.03,-0.018,**
+Other team sports,Lacrosse,SA,South Australia,4,-30.06,135.8,0.031,492,0.03,0.001,**
+Other team sports,Lacrosse,TAS,Tasmania,6,-42.02,146.59,0.0,0,0.03,-0.03,**
+Other team sports,Lacrosse,VIC,Victoria,2,-36.85,144.28,0.073,4264,0.03,0.043,*
+Other team sports,Lacrosse,WA,Western Australia,5,-25.33,122.3,0.019,468,0.03,-0.011,**
+Other team sports,Netball,ACT,Australian Capital Territory,8,-35.49,149.0,1.958,7793,2.107,-0.149,
+Other team sports,Netball,NSW,New South Wales,1,-32.16,147.02,2.112,149059,2.107,0.005,
+Other team sports,Netball,NT,Northern Territory,7,-19.49,132.55,3.165,6594,2.107,1.057,*
+Other team sports,Netball,QLD,Queensland,3,-22.49,144.43,1.631,75438,2.107,-0.477,
+Other team sports,Netball,SA,South Australia,4,-30.06,135.8,2.839,44883,2.107,0.731,
+Other team sports,Netball,TAS,Tasmania,6,-42.02,146.59,1.545,7469,2.107,-0.562,
+Other team sports,Netball,VIC,Victoria,2,-36.85,144.28,2.268,131796,2.107,0.161,
+Other team sports,Netball,WA,Western Australia,5,-25.33,122.3,2.185,53941,2.107,0.078,
+Other team sports,Roller Derby,ACT,Australian Capital Territory,8,-35.49,149.0,0.089,353,0.013,0.075,**
+Other team sports,Roller Derby,NSW,New South Wales,1,-32.16,147.02,0.016,1159,0.013,0.003,**
+Other team sports,Roller Derby,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.013,-0.013,**
+Other team sports,Roller Derby,QLD,Queensland,3,-22.49,144.43,0.0,0,0.013,-0.013,**
+Other team sports,Roller Derby,SA,South Australia,4,-30.06,135.8,0.0,0,0.013,-0.013,**
+Other team sports,Roller Derby,TAS,Tasmania,6,-42.02,146.59,0.0,0,0.013,-0.013,**
+Other team sports,Roller Derby,VIC,Victoria,2,-36.85,144.28,0.016,949,0.013,0.003,**
+Other team sports,Roller Derby,WA,Western Australia,5,-25.33,122.3,0.023,579,0.013,0.01,**
+Other team sports,Sepak takraw,ACT,Australian Capital Territory,8,-35.49,149.0,0.0,0,0.003,-0.003,**
+Other team sports,Sepak takraw,NSW,New South Wales,1,-32.16,147.02,0.0,0,0.003,-0.003,**
+Other team sports,Sepak takraw,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.003,-0.003,**
+Other team sports,Sepak takraw,QLD,Queensland,3,-22.49,144.43,0.0,0,0.003,-0.003,**
+Other team sports,Sepak takraw,SA,South Australia,4,-30.06,135.8,0.0,0,0.003,-0.003,**
+Other team sports,Sepak takraw,TAS,Tasmania,6,-42.02,146.59,0.0,0,0.003,-0.003,**
+Other team sports,Sepak takraw,VIC,Victoria,2,-36.85,144.28,0.01,597,0.003,0.008,**
+Other team sports,Sepak takraw,WA,Western Australia,5,-25.33,122.3,0.0,0,0.003,-0.003,**
+Other team sports,Softball,ACT,Australian Capital Territory,8,-35.49,149.0,0.457,1819,0.136,0.321,*
+Other team sports,Softball,NSW,New South Wales,1,-32.16,147.02,0.156,10981,0.136,0.019,*
+Other team sports,Softball,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.136,-0.136,**
+Other team sports,Softball,QLD,Queensland,3,-22.49,144.43,0.097,4492,0.136,-0.039,*
+Other team sports,Softball,SA,South Australia,4,-30.06,135.8,0.09,1419,0.136,-0.046,**
+Other team sports,Softball,TAS,Tasmania,6,-42.02,146.59,0.206,994,0.136,0.069,**
+Other team sports,Softball,VIC,Victoria,2,-36.85,144.28,0.099,5761,0.136,-0.037,*
+Other team sports,Softball,WA,Western Australia,5,-25.33,122.3,0.217,5352,0.136,0.081,*
+Other team sports,Tee ball,ACT,Australian Capital Territory,8,-35.49,149.0,0.0,0,0.012,-0.012,**
+Other team sports,Tee ball,NSW,New South Wales,1,-32.16,147.02,0.014,1005,0.012,0.002,**
+Other team sports,Tee ball,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.012,-0.012,**
+Other team sports,Tee ball,QLD,Queensland,3,-22.49,144.43,0.01,463,0.012,-0.002,**
+Other team sports,Tee ball,SA,South Australia,4,-30.06,135.8,0.055,863,0.012,0.042,**
+Other team sports,Tee ball,TAS,Tasmania,6,-42.02,146.59,0.095,458,0.012,0.082,**
+Other team sports,Tee ball,VIC,Victoria,2,-36.85,144.28,0.0,0,0.012,-0.012,**
+Other team sports,Tee ball,WA,Western Australia,5,-25.33,122.3,0.0,0,0.012,-0.012,**
+Other team sports,Volleyball (indoor and outdoor),ACT,Australian Capital Territory,8,-35.49,149.0,0.597,2377,1.307,-0.71,*
+Other team sports,Volleyball (indoor and outdoor),NSW,New South Wales,1,-32.16,147.02,1.379,97299,1.307,0.072,
+Other team sports,Volleyball (indoor and outdoor),NT,Northern Territory,7,-19.49,132.55,2.135,4449,1.307,0.828,*
+Other team sports,Volleyball (indoor and outdoor),QLD,Queensland,3,-22.49,144.43,1.205,55751,1.307,-0.102,
+Other team sports,Volleyball (indoor and outdoor),SA,South Australia,4,-30.06,135.8,1.26,19922,1.307,-0.047,
+Other team sports,Volleyball (indoor and outdoor),TAS,Tasmania,6,-42.02,146.59,0.413,1998,1.307,-0.894,*
+Other team sports,Volleyball (indoor and outdoor),VIC,Victoria,2,-36.85,144.28,1.18,68548,1.307,-0.127,
+Other team sports,Volleyball (indoor and outdoor),WA,Western Australia,5,-25.33,122.3,1.843,45506,1.307,0.536,
+Racquet & target sports,Archery,ACT,Australian Capital Territory,8,-35.49,149.0,0.55,2187,0.179,0.37,*
+Racquet & target sports,Archery,NSW,New South Wales,1,-32.16,147.02,0.152,10699,0.179,-0.028,*
+Racquet & target sports,Archery,NT,Northern Territory,7,-19.49,132.55,0.189,394,0.179,0.01,**
+Racquet & target sports,Archery,QLD,Queensland,3,-22.49,144.43,0.213,9860,0.179,0.034,*
+Racquet & target sports,Archery,SA,South Australia,4,-30.06,135.8,0.066,1038,0.179,-0.114,**
+Racquet & target sports,Archery,TAS,Tasmania,6,-42.02,146.59,0.393,1898,0.179,0.213,*
+Racquet & target sports,Archery,VIC,Victoria,2,-36.85,144.28,0.13,7533,0.179,-0.05,*
+Racquet & target sports,Archery,WA,Western Australia,5,-25.33,122.3,0.283,6991,0.179,0.104,*
+Racquet & target sports,Badminton,ACT,Australian Capital Territory,8,-35.49,149.0,3.184,12673,1.886,1.298,
+Racquet & target sports,Badminton,NSW,New South Wales,1,-32.16,147.02,1.939,136874,1.886,0.053,
+Racquet & target sports,Badminton,NT,Northern Territory,7,-19.49,132.55,0.883,1840,1.886,-1.003,*
+Racquet & target sports,Badminton,QLD,Queensland,3,-22.49,144.43,1.163,53790,1.886,-0.724,
+Racquet & target sports,Badminton,SA,South Australia,4,-30.06,135.8,1.027,16237,1.886,-0.859,
+Racquet & target sports,Badminton,TAS,Tasmania,6,-42.02,146.59,1.156,5589,1.886,-0.73,*
+Racquet & target sports,Badminton,VIC,Victoria,2,-36.85,144.28,2.628,152744,1.886,0.742,
+Racquet & target sports,Badminton,WA,Western Australia,5,-25.33,122.3,1.911,47178,1.886,0.025,
+Racquet & target sports,Billiards/Snooker/Pool,ACT,Australian Capital Territory,8,-35.49,149.0,0.174,694,0.304,-0.13,**
+Racquet & target sports,Billiards/Snooker/Pool,NSW,New South Wales,1,-32.16,147.02,0.258,18196,0.304,-0.046,
+Racquet & target sports,Billiards/Snooker/Pool,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.304,-0.304,**
+Racquet & target sports,Billiards/Snooker/Pool,QLD,Queensland,3,-22.49,144.43,0.377,17423,0.304,0.073,
+Racquet & target sports,Billiards/Snooker/Pool,SA,South Australia,4,-30.06,135.8,0.267,4219,0.304,-0.037,*
+Racquet & target sports,Billiards/Snooker/Pool,TAS,Tasmania,6,-42.02,146.59,0.191,923,0.304,-0.113,**
+Racquet & target sports,Billiards/Snooker/Pool,VIC,Victoria,2,-36.85,144.28,0.323,18795,0.304,0.02,
+Racquet & target sports,Billiards/Snooker/Pool,WA,Western Australia,5,-25.33,122.3,0.345,8514,0.304,0.041,*
+Racquet & target sports,Bocce/Boules,ACT,Australian Capital Territory,8,-35.49,149.0,0.094,372,0.014,0.08,**
+Racquet & target sports,Bocce/Boules,NSW,New South Wales,1,-32.16,147.02,0.019,1359,0.014,0.005,**
+Racquet & target sports,Bocce/Boules,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.014,-0.014,**
+Racquet & target sports,Bocce/Boules,QLD,Queensland,3,-22.49,144.43,0.0,0,0.014,-0.014,**
+Racquet & target sports,Bocce/Boules,SA,South Australia,4,-30.06,135.8,0.0,0,0.014,-0.014,**
+Racquet & target sports,Bocce/Boules,TAS,Tasmania,6,-42.02,146.59,0.089,431,0.014,0.075,**
+Racquet & target sports,Bocce/Boules,VIC,Victoria,2,-36.85,144.28,0.009,514,0.014,-0.005,**
+Racquet & target sports,Bocce/Boules,WA,Western Australia,5,-25.33,122.3,0.019,480,0.014,0.006,**
+Racquet & target sports,Boccia,ACT,Australian Capital Territory,8,-35.49,149.0,0.0,0,0.0,0.0,**
+Racquet & target sports,Boccia,NSW,New South Wales,1,-32.16,147.02,0.0,0,0.0,0.0,**
+Racquet & target sports,Boccia,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.0,0.0,**
+Racquet & target sports,Boccia,QLD,Queensland,3,-22.49,144.43,0.0,0,0.0,0.0,**
+Racquet & target sports,Boccia,SA,South Australia,4,-30.06,135.8,0.0,0,0.0,0.0,**
+Racquet & target sports,Boccia,TAS,Tasmania,6,-42.02,146.59,0.0,0,0.0,0.0,**
+Racquet & target sports,Boccia,VIC,Victoria,2,-36.85,144.28,0.0,0,0.0,0.0,**
+Racquet & target sports,Boccia,WA,Western Australia,5,-25.33,122.3,0.0,0,0.0,0.0,**
+Racquet & target sports,Boomerang throwing,ACT,Australian Capital Territory,8,-35.49,149.0,0.0,0,0.015,-0.015,**
+Racquet & target sports,Boomerang throwing,NSW,New South Wales,1,-32.16,147.02,0.0,0,0.015,-0.015,**
+Racquet & target sports,Boomerang throwing,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.015,-0.015,**
+Racquet & target sports,Boomerang throwing,QLD,Queensland,3,-22.49,144.43,0.061,2823,0.015,0.046,**
+Racquet & target sports,Boomerang throwing,SA,South Australia,4,-30.06,135.8,0.0,0,0.015,-0.015,**
+Racquet & target sports,Boomerang throwing,TAS,Tasmania,6,-42.02,146.59,0.0,0,0.015,-0.015,**
+Racquet & target sports,Boomerang throwing,VIC,Victoria,2,-36.85,144.28,0.01,568,0.015,-0.005,**
+Racquet & target sports,Boomerang throwing,WA,Western Australia,5,-25.33,122.3,0.0,0,0.015,-0.015,**
+Racquet & target sports,Bowls,ACT,Australian Capital Territory,8,-35.49,149.0,0.412,1642,0.834,-0.422,*
+Racquet & target sports,Bowls,NSW,New South Wales,1,-32.16,147.02,0.868,61249,0.834,0.034,
+Racquet & target sports,Bowls,NT,Northern Territory,7,-19.49,132.55,1.055,2199,0.834,0.221,*
+Racquet & target sports,Bowls,QLD,Queensland,3,-22.49,144.43,0.92,42546,0.834,0.085,
+Racquet & target sports,Bowls,SA,South Australia,4,-30.06,135.8,1.027,16234,0.834,0.192,
+Racquet & target sports,Bowls,TAS,Tasmania,6,-42.02,146.59,1.273,6154,0.834,0.439,*
+Racquet & target sports,Bowls,VIC,Victoria,2,-36.85,144.28,0.741,43046,0.834,-0.094,
+Racquet & target sports,Bowls,WA,Western Australia,5,-25.33,122.3,0.639,15775,0.834,-0.195,
+Racquet & target sports,Croquet,ACT,Australian Capital Territory,8,-35.49,149.0,0.0,0,0.088,-0.088,**
+Racquet & target sports,Croquet,NSW,New South Wales,1,-32.16,147.02,0.072,5087,0.088,-0.016,*
+Racquet & target sports,Croquet,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.088,-0.088,**
+Racquet & target sports,Croquet,QLD,Queensland,3,-22.49,144.43,0.077,3572,0.088,-0.011,*
+Racquet & target sports,Croquet,SA,South Australia,4,-30.06,135.8,0.171,2711,0.088,0.083,**
+Racquet & target sports,Croquet,TAS,Tasmania,6,-42.02,146.59,0.134,648,0.088,0.046,**
+Racquet & target sports,Croquet,VIC,Victoria,2,-36.85,144.28,0.124,7191,0.088,0.035,*
+Racquet & target sports,Croquet,WA,Western Australia,5,-25.33,122.3,0.032,794,0.088,-0.056,**
+Racquet & target sports,Darts,ACT,Australian Capital Territory,8,-35.49,149.0,0.094,372,0.162,-0.069,**
+Racquet & target sports,Darts,NSW,New South Wales,1,-32.16,147.02,0.12,8464,0.162,-0.042,*
+Racquet & target sports,Darts,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.162,-0.162,**
+Racquet & target sports,Darts,QLD,Queensland,3,-22.49,144.43,0.163,7550,0.162,0.001,*
+Racquet & target sports,Darts,SA,South Australia,4,-30.06,135.8,0.267,4214,0.162,0.104,*
+Racquet & target sports,Darts,TAS,Tasmania,6,-42.02,146.59,0.343,1657,0.162,0.18,**
+Racquet & target sports,Darts,VIC,Victoria,2,-36.85,144.28,0.146,8505,0.162,-0.016,*
+Racquet & target sports,Darts,WA,Western Australia,5,-25.33,122.3,0.243,5988,0.162,0.08,*
+Racquet & target sports,Eight ball,ACT,Australian Capital Territory,8,-35.49,149.0,0.0,0,0.027,-0.027,**
+Racquet & target sports,Eight ball,NSW,New South Wales,1,-32.16,147.02,0.022,1563,0.027,-0.005,**
+Racquet & target sports,Eight ball,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.027,-0.027,**
+Racquet & target sports,Eight ball,QLD,Queensland,3,-22.49,144.43,0.026,1204,0.027,-0.001,**
+Racquet & target sports,Eight ball,SA,South Australia,4,-30.06,135.8,0.148,2347,0.027,0.121,**
+Racquet & target sports,Eight ball,TAS,Tasmania,6,-42.02,146.59,0.074,360,0.027,0.047,**
+Racquet & target sports,Eight ball,VIC,Victoria,2,-36.85,144.28,0.0,0,0.027,-0.027,**
+Racquet & target sports,Eight ball,WA,Western Australia,5,-25.33,122.3,0.026,630,0.027,-0.001,**
+Racquet & target sports,Golf,ACT,Australian Capital Territory,8,-35.49,149.0,4.365,17373,4.563,-0.198,
+Racquet & target sports,Golf,NSW,New South Wales,1,-32.16,147.02,4.495,317266,4.563,-0.068,
+Racquet & target sports,Golf,NT,Northern Territory,7,-19.49,132.55,4.816,10035,4.563,0.253,
+Racquet & target sports,Golf,QLD,Queensland,3,-22.49,144.43,4.337,200674,4.563,-0.226,
+Racquet & target sports,Golf,SA,South Australia,4,-30.06,135.8,4.097,64779,4.563,-0.466,
+Racquet & target sports,Golf,TAS,Tasmania,6,-42.02,146.59,5.124,24764,4.563,0.561,
+Racquet & target sports,Golf,VIC,Victoria,2,-36.85,144.28,4.764,276872,4.563,0.201,
+Racquet & target sports,Golf,WA,Western Australia,5,-25.33,122.3,4.904,121075,4.563,0.341,
+Racquet & target sports,Paintball,ACT,Australian Capital Territory,8,-35.49,149.0,0.0,0,0.012,-0.012,**
+Racquet & target sports,Paintball,NSW,New South Wales,1,-32.16,147.02,0.008,586,0.012,-0.004,**
+Racquet & target sports,Paintball,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.012,-0.012,**
+Racquet & target sports,Paintball,QLD,Queensland,3,-22.49,144.43,0.011,498,0.012,-0.001,**
+Racquet & target sports,Paintball,SA,South Australia,4,-30.06,135.8,0.073,1162,0.012,0.061,**
+Racquet & target sports,Paintball,TAS,Tasmania,6,-42.02,146.59,0.0,0,0.012,-0.012,**
+Racquet & target sports,Paintball,VIC,Victoria,2,-36.85,144.28,0.009,495,0.012,-0.004,**
+Racquet & target sports,Paintball,WA,Western Australia,5,-25.33,122.3,0.0,0,0.012,-0.012,**
+Racquet & target sports,Petanque,ACT,Australian Capital Territory,8,-35.49,149.0,0.0,0,0.003,-0.003,**
+Racquet & target sports,Petanque,NSW,New South Wales,1,-32.16,147.02,0.01,741,0.003,0.007,**
+Racquet & target sports,Petanque,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.003,-0.003,**
+Racquet & target sports,Petanque,QLD,Queensland,3,-22.49,144.43,0.0,0,0.003,-0.003,**
+Racquet & target sports,Petanque,SA,South Australia,4,-30.06,135.8,0.0,0,0.003,-0.003,**
+Racquet & target sports,Petanque,TAS,Tasmania,6,-42.02,146.59,0.0,0,0.003,-0.003,**
+Racquet & target sports,Petanque,VIC,Victoria,2,-36.85,144.28,0.0,0,0.003,-0.003,**
+Racquet & target sports,Petanque,WA,Western Australia,5,-25.33,122.3,0.0,0,0.003,-0.003,**
+Racquet & target sports,Pickleball/padel,ACT,Australian Capital Territory,8,-35.49,149.0,2.121,8439,1.314,0.807,
+Racquet & target sports,Pickleball/padel,NSW,New South Wales,1,-32.16,147.02,1.384,97689,1.314,0.071,
+Racquet & target sports,Pickleball/padel,NT,Northern Territory,7,-19.49,132.55,0.625,1302,1.314,-0.689,**
+Racquet & target sports,Pickleball/padel,QLD,Queensland,3,-22.49,144.43,1.171,54157,1.314,-0.143,
+Racquet & target sports,Pickleball/padel,SA,South Australia,4,-30.06,135.8,0.481,7606,1.314,-0.833,*
+Racquet & target sports,Pickleball/padel,TAS,Tasmania,6,-42.02,146.59,1.362,6584,1.314,0.048,*
+Racquet & target sports,Pickleball/padel,VIC,Victoria,2,-36.85,144.28,1.544,89700,1.314,0.23,
+Racquet & target sports,Pickleball/padel,WA,Western Australia,5,-25.33,122.3,1.291,31871,1.314,-0.023,
+Racquet & target sports,Shooting/field,ACT,Australian Capital Territory,8,-35.49,149.0,0.0,0,0.203,-0.203,**
+Racquet & target sports,Shooting/field,NSW,New South Wales,1,-32.16,147.02,0.231,16302,0.203,0.028,
+Racquet & target sports,Shooting/field,NT,Northern Territory,7,-19.49,132.55,0.532,1109,0.203,0.329,**
+Racquet & target sports,Shooting/field,QLD,Queensland,3,-22.49,144.43,0.104,4827,0.203,-0.099,*
+Racquet & target sports,Shooting/field,SA,South Australia,4,-30.06,135.8,0.139,2200,0.203,-0.064,**
+Racquet & target sports,Shooting/field,TAS,Tasmania,6,-42.02,146.59,0.312,1510,0.203,0.109,**
+Racquet & target sports,Shooting/field,VIC,Victoria,2,-36.85,144.28,0.268,15572,0.203,0.065,
+Racquet & target sports,Shooting/field,WA,Western Australia,5,-25.33,122.3,0.181,4477,0.203,-0.022,*
+Racquet & target sports,Shooting/range,ACT,Australian Capital Territory,8,-35.49,149.0,0.182,723,0.136,0.046,**
+Racquet & target sports,Shooting/range,NSW,New South Wales,1,-32.16,147.02,0.155,10944,0.136,0.02,*
+Racquet & target sports,Shooting/range,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.136,-0.136,**
+Racquet & target sports,Shooting/range,QLD,Queensland,3,-22.49,144.43,0.075,3461,0.136,-0.061,*
+Racquet & target sports,Shooting/range,SA,South Australia,4,-30.06,135.8,0.18,2841,0.136,0.044,**
+Racquet & target sports,Shooting/range,TAS,Tasmania,6,-42.02,146.59,0.105,509,0.136,-0.03,**
+Racquet & target sports,Shooting/range,VIC,Victoria,2,-36.85,144.28,0.115,6682,0.136,-0.021,*
+Racquet & target sports,Shooting/range,WA,Western Australia,5,-25.33,122.3,0.224,5523,0.136,0.088,*
+Racquet & target sports,Skirmish,ACT,Australian Capital Territory,8,-35.49,149.0,0.0,0,0.003,-0.003,**
+Racquet & target sports,Skirmish,NSW,New South Wales,1,-32.16,147.02,0.008,596,0.003,0.006,**
+Racquet & target sports,Skirmish,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.003,-0.003,**
+Racquet & target sports,Skirmish,QLD,Queensland,3,-22.49,144.43,0.0,0,0.003,-0.003,**
+Racquet & target sports,Skirmish,SA,South Australia,4,-30.06,135.8,0.0,0,0.003,-0.003,**
+Racquet & target sports,Skirmish,TAS,Tasmania,6,-42.02,146.59,0.0,0,0.003,-0.003,**
+Racquet & target sports,Skirmish,VIC,Victoria,2,-36.85,144.28,0.0,0,0.003,-0.003,**
+Racquet & target sports,Skirmish,WA,Western Australia,5,-25.33,122.3,0.0,0,0.003,-0.003,**
+Racquet & target sports,Squash,ACT,Australian Capital Territory,8,-35.49,149.0,0.75,2983,0.39,0.359,*
+Racquet & target sports,Squash,NSW,New South Wales,1,-32.16,147.02,0.314,22158,0.39,-0.076,
+Racquet & target sports,Squash,NT,Northern Territory,7,-19.49,132.55,1.145,2385,0.39,0.754,*
+Racquet & target sports,Squash,QLD,Queensland,3,-22.49,144.43,0.48,22203,0.39,0.09,
+Racquet & target sports,Squash,SA,South Australia,4,-30.06,135.8,0.489,7734,0.39,0.099,*
+Racquet & target sports,Squash,TAS,Tasmania,6,-42.02,146.59,0.424,2050,0.39,0.034,*
+Racquet & target sports,Squash,VIC,Victoria,2,-36.85,144.28,0.313,18172,0.39,-0.077,
+Racquet & target sports,Squash,WA,Western Australia,5,-25.33,122.3,0.43,10627,0.39,0.04,
+Racquet & target sports,Table tennis,ACT,Australian Capital Territory,8,-35.49,149.0,2.192,8722,1.79,0.401,
+Racquet & target sports,Table tennis,NSW,New South Wales,1,-32.16,147.02,1.932,136379,1.79,0.142,
+Racquet & target sports,Table tennis,NT,Northern Territory,7,-19.49,132.55,1.609,3352,1.79,-0.182,*
+Racquet & target sports,Table tennis,QLD,Queensland,3,-22.49,144.43,1.261,58330,1.79,-0.53,
+Racquet & target sports,Table tennis,SA,South Australia,4,-30.06,135.8,1.423,22492,1.79,-0.368,
+Racquet & target sports,Table tennis,TAS,Tasmania,6,-42.02,146.59,1.349,6522,1.79,-0.441,*
+Racquet & target sports,Table tennis,VIC,Victoria,2,-36.85,144.28,2.273,132077,1.79,0.482,
+Racquet & target sports,Table tennis,WA,Western Australia,5,-25.33,122.3,1.514,37378,1.79,-0.276,
+Racquet & target sports,Tennis,ACT,Australian Capital Territory,8,-35.49,149.0,7.031,27981,4.941,2.09,
+Racquet & target sports,Tennis,NSW,New South Wales,1,-32.16,147.02,5.852,413018,4.941,0.911,
+Racquet & target sports,Tennis,NT,Northern Territory,7,-19.49,132.55,4.202,8755,4.941,-0.739,
+Racquet & target sports,Tennis,QLD,Queensland,3,-22.49,144.43,3.934,182030,4.941,-1.007,
+Racquet & target sports,Tennis,SA,South Australia,4,-30.06,135.8,4.64,73370,4.941,-0.301,
+Racquet & target sports,Tennis,TAS,Tasmania,6,-42.02,146.59,3.759,18166,4.941,-1.183,
+Racquet & target sports,Tennis,VIC,Victoria,2,-36.85,144.28,5.133,298320,4.941,0.192,
+Racquet & target sports,Tennis,WA,Western Australia,5,-25.33,122.3,3.919,96767,4.941,-1.022,
+Racquet & target sports,Tenpin bowling,ACT,Australian Capital Territory,8,-35.49,149.0,0.417,1660,0.629,-0.212,*
+Racquet & target sports,Tenpin bowling,NSW,New South Wales,1,-32.16,147.02,0.663,46820,0.629,0.034,
+Racquet & target sports,Tenpin bowling,NT,Northern Territory,7,-19.49,132.55,1.666,3471,0.629,1.037,*
+Racquet & target sports,Tenpin bowling,QLD,Queensland,3,-22.49,144.43,0.616,28497,0.629,-0.013,
+Racquet & target sports,Tenpin bowling,SA,South Australia,4,-30.06,135.8,0.496,7837,0.629,-0.133,*
+Racquet & target sports,Tenpin bowling,TAS,Tasmania,6,-42.02,146.59,0.89,4300,0.629,0.261,*
+Racquet & target sports,Tenpin bowling,VIC,Victoria,2,-36.85,144.28,0.554,32200,0.629,-0.075,
+Racquet & target sports,Tenpin bowling,WA,Western Australia,5,-25.33,122.3,0.712,17573,0.629,0.083,
+Water sports,Canoeing/Kayaking,ACT,Australian Capital Territory,8,-35.49,149.0,0.943,3753,0.997,-0.053,*
+Water sports,Canoeing/Kayaking,NSW,New South Wales,1,-32.16,147.02,1.216,85796,0.997,0.219,
+Water sports,Canoeing/Kayaking,NT,Northern Territory,7,-19.49,132.55,1.714,3572,0.997,0.718,*
+Water sports,Canoeing/Kayaking,QLD,Queensland,3,-22.49,144.43,0.895,41394,0.997,-0.102,
+Water sports,Canoeing/Kayaking,SA,South Australia,4,-30.06,135.8,0.897,14176,0.997,-0.1,
+Water sports,Canoeing/Kayaking,TAS,Tasmania,6,-42.02,146.59,2.076,10034,0.997,1.08,
+Water sports,Canoeing/Kayaking,VIC,Victoria,2,-36.85,144.28,0.786,45678,0.997,-0.21,
+Water sports,Canoeing/Kayaking,WA,Western Australia,5,-25.33,122.3,0.857,21156,0.997,-0.14,
+Water sports,Diving,ACT,Australian Capital Territory,8,-35.49,149.0,0.0,0,0.05,-0.05,**
+Water sports,Diving,NSW,New South Wales,1,-32.16,147.02,0.032,2268,0.05,-0.018,**
+Water sports,Diving,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.05,-0.05,**
+Water sports,Diving,QLD,Queensland,3,-22.49,144.43,0.051,2358,0.05,0.001,**
+Water sports,Diving,SA,South Australia,4,-30.06,135.8,0.08,1265,0.05,0.03,**
+Water sports,Diving,TAS,Tasmania,6,-42.02,146.59,0.0,0,0.05,-0.05,**
+Water sports,Diving,VIC,Victoria,2,-36.85,144.28,0.037,2166,0.05,-0.012,**
+Water sports,Diving,WA,Western Australia,5,-25.33,122.3,0.129,3195,0.05,0.08,*
+Water sports,Dragon boat racing,ACT,Australian Capital Territory,8,-35.49,149.0,0.068,270,0.07,-0.002,**
+Water sports,Dragon boat racing,NSW,New South Wales,1,-32.16,147.02,0.102,7217,0.07,0.032,*
+Water sports,Dragon boat racing,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.07,-0.07,**
+Water sports,Dragon boat racing,QLD,Queensland,3,-22.49,144.43,0.106,4901,0.07,0.036,*
+Water sports,Dragon boat racing,SA,South Australia,4,-30.06,135.8,0.033,518,0.07,-0.037,**
+Water sports,Dragon boat racing,TAS,Tasmania,6,-42.02,146.59,0.097,468,0.07,0.027,**
+Water sports,Dragon boat racing,VIC,Victoria,2,-36.85,144.28,0.036,2078,0.07,-0.034,**
+Water sports,Dragon boat racing,WA,Western Australia,5,-25.33,122.3,0.015,374,0.07,-0.055,**
+Water sports,Jet skiing,ACT,Australian Capital Territory,8,-35.49,149.0,0.084,335,0.067,0.017,**
+Water sports,Jet skiing,NSW,New South Wales,1,-32.16,147.02,0.038,2665,0.067,-0.03,**
+Water sports,Jet skiing,NT,Northern Territory,7,-19.49,132.55,0.237,493,0.067,0.169,**
+Water sports,Jet skiing,QLD,Queensland,3,-22.49,144.43,0.098,4529,0.067,0.031,*
+Water sports,Jet skiing,SA,South Australia,4,-30.06,135.8,0.076,1197,0.067,0.008,**
+Water sports,Jet skiing,TAS,Tasmania,6,-42.02,146.59,0.056,270,0.067,-0.011,**
+Water sports,Jet skiing,VIC,Victoria,2,-36.85,144.28,0.064,3726,0.067,-0.003,*
+Water sports,Jet skiing,WA,Western Australia,5,-25.33,122.3,0.082,2019,0.067,0.014,**
+Water sports,Kitesurfing/kiteboarding,ACT,Australian Capital Territory,8,-35.49,149.0,0.089,353,0.013,0.076,**
+Water sports,Kitesurfing/kiteboarding,NSW,New South Wales,1,-32.16,147.02,0.007,529,0.013,-0.006,**
+Water sports,Kitesurfing/kiteboarding,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.013,-0.013,**
+Water sports,Kitesurfing/kiteboarding,QLD,Queensland,3,-22.49,144.43,0.014,640,0.013,0.001,**
+Water sports,Kitesurfing/kiteboarding,SA,South Australia,4,-30.06,135.8,0.0,0,0.013,-0.013,**
+Water sports,Kitesurfing/kiteboarding,TAS,Tasmania,6,-42.02,146.59,0.099,481,0.013,0.086,**
+Water sports,Kitesurfing/kiteboarding,VIC,Victoria,2,-36.85,144.28,0.008,488,0.013,-0.005,**
+Water sports,Kitesurfing/kiteboarding,WA,Western Australia,5,-25.33,122.3,0.02,496,0.013,0.007,**
+Water sports,Lifesaving royal,ACT,Australian Capital Territory,8,-35.49,149.0,0.144,573,0.005,0.139,**
+Water sports,Lifesaving royal,NSW,New South Wales,1,-32.16,147.02,0.0,0,0.005,-0.005,**
+Water sports,Lifesaving royal,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.005,-0.005,**
+Water sports,Lifesaving royal,QLD,Queensland,3,-22.49,144.43,0.0,0,0.005,-0.005,**
+Water sports,Lifesaving royal,SA,South Australia,4,-30.06,135.8,0.0,0,0.005,-0.005,**
+Water sports,Lifesaving royal,TAS,Tasmania,6,-42.02,146.59,0.0,0,0.005,-0.005,**
+Water sports,Lifesaving royal,VIC,Victoria,2,-36.85,144.28,0.01,595,0.005,0.005,**
+Water sports,Lifesaving royal,WA,Western Australia,5,-25.33,122.3,0.0,0,0.005,-0.005,**
+Water sports,Lifesaving surf,ACT,Australian Capital Territory,8,-35.49,149.0,0.0,0,0.13,-0.13,**
+Water sports,Lifesaving surf,NSW,New South Wales,1,-32.16,147.02,0.175,12317,0.13,0.045,
+Water sports,Lifesaving surf,NT,Northern Territory,7,-19.49,132.55,0.172,358,0.13,0.042,**
+Water sports,Lifesaving surf,QLD,Queensland,3,-22.49,144.43,0.144,6646,0.13,0.014,*
+Water sports,Lifesaving surf,SA,South Australia,4,-30.06,135.8,0.115,1814,0.13,-0.015,**
+Water sports,Lifesaving surf,TAS,Tasmania,6,-42.02,146.59,0.073,355,0.13,-0.056,**
+Water sports,Lifesaving surf,VIC,Victoria,2,-36.85,144.28,0.046,2650,0.13,-0.084,**
+Water sports,Lifesaving surf,WA,Western Australia,5,-25.33,122.3,0.213,5252,0.13,0.083,*
+Water sports,Outrigger canoe,ACT,Australian Capital Territory,8,-35.49,149.0,0.0,0,0.027,-0.027,**
+Water sports,Outrigger canoe,NSW,New South Wales,1,-32.16,147.02,0.021,1488,0.027,-0.006,**
+Water sports,Outrigger canoe,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.027,-0.027,**
+Water sports,Outrigger canoe,QLD,Queensland,3,-22.49,144.43,0.074,3421,0.027,0.047,*
+Water sports,Outrigger canoe,SA,South Australia,4,-30.06,135.8,0.0,0,0.027,-0.027,**
+Water sports,Outrigger canoe,TAS,Tasmania,6,-42.02,146.59,0.064,310,0.027,0.037,**
+Water sports,Outrigger canoe,VIC,Victoria,2,-36.85,144.28,0.0,0,0.027,-0.027,**
+Water sports,Outrigger canoe,WA,Western Australia,5,-25.33,122.3,0.035,860,0.027,0.008,**
+Water sports,Paddle sports,ACT,Australian Capital Territory,8,-35.49,149.0,0.304,1211,0.209,0.096,**
+Water sports,Paddle sports,NSW,New South Wales,1,-32.16,147.02,0.221,15620,0.209,0.013,
+Water sports,Paddle sports,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.209,-0.209,**
+Water sports,Paddle sports,QLD,Queensland,3,-22.49,144.43,0.181,8377,0.209,-0.028,*
+Water sports,Paddle sports,SA,South Australia,4,-30.06,135.8,0.24,3794,0.209,0.031,*
+Water sports,Paddle sports,TAS,Tasmania,6,-42.02,146.59,0.312,1506,0.209,0.103,**
+Water sports,Paddle sports,VIC,Victoria,2,-36.85,144.28,0.195,11323,0.209,-0.014,
+Water sports,Paddle sports,WA,Western Australia,5,-25.33,122.3,0.218,5389,0.209,0.01,*
+Water sports,Rowing,ACT,Australian Capital Territory,8,-35.49,149.0,1.254,4993,0.585,0.669,*
+Water sports,Rowing,NSW,New South Wales,1,-32.16,147.02,0.614,43299,0.585,0.029,
+Water sports,Rowing,NT,Northern Territory,7,-19.49,132.55,0.423,882,0.585,-0.162,**
+Water sports,Rowing,QLD,Queensland,3,-22.49,144.43,0.571,26437,0.585,-0.014,
+Water sports,Rowing,SA,South Australia,4,-30.06,135.8,0.76,12012,0.585,0.175,*
+Water sports,Rowing,TAS,Tasmania,6,-42.02,146.59,0.485,2342,0.585,-0.1,*
+Water sports,Rowing,VIC,Victoria,2,-36.85,144.28,0.523,30400,0.585,-0.062,
+Water sports,Rowing,WA,Western Australia,5,-25.33,122.3,0.488,12052,0.585,-0.097,
+Water sports,Sailing,ACT,Australian Capital Territory,8,-35.49,149.0,0.253,1006,0.327,-0.074,**
+Water sports,Sailing,NSW,New South Wales,1,-32.16,147.02,0.359,25367,0.327,0.032,
+Water sports,Sailing,NT,Northern Territory,7,-19.49,132.55,0.15,312,0.327,-0.177,**
+Water sports,Sailing,QLD,Queensland,3,-22.49,144.43,0.351,16226,0.327,0.024,
+Water sports,Sailing,SA,South Australia,4,-30.06,135.8,0.109,1716,0.327,-0.218,**
+Water sports,Sailing,TAS,Tasmania,6,-42.02,146.59,0.673,3254,0.327,0.346,*
+Water sports,Sailing,VIC,Victoria,2,-36.85,144.28,0.255,14841,0.327,-0.072,
+Water sports,Sailing,WA,Western Australia,5,-25.33,122.3,0.457,11294,0.327,0.13,
+Water sports,Surfing,ACT,Australian Capital Territory,8,-35.49,149.0,0.571,2272,1.385,-0.814,*
+Water sports,Surfing,NSW,New South Wales,1,-32.16,147.02,1.671,117953,1.385,0.287,
+Water sports,Surfing,NT,Northern Territory,7,-19.49,132.55,0.217,451,1.385,-1.168,**
+Water sports,Surfing,QLD,Queensland,3,-22.49,144.43,1.379,63787,1.385,-0.006,
+Water sports,Surfing,SA,South Australia,4,-30.06,135.8,1.277,20188,1.385,-0.108,
+Water sports,Surfing,TAS,Tasmania,6,-42.02,146.59,1.358,6566,1.385,-0.026,*
+Water sports,Surfing,VIC,Victoria,2,-36.85,144.28,1.01,58683,1.385,-0.375,
+Water sports,Surfing,WA,Western Australia,5,-25.33,122.3,1.762,43496,1.385,0.377,
+Water sports,Swimming,ACT,Australian Capital Territory,8,-35.49,149.0,17.554,69863,15.39,2.164,
+Water sports,Swimming,NSW,New South Wales,1,-32.16,147.02,16.544,1167560,15.39,1.154,
+Water sports,Swimming,NT,Northern Territory,7,-19.49,132.55,18.11,37736,15.39,2.72,
+Water sports,Swimming,QLD,Queensland,3,-22.49,144.43,16.706,772938,15.39,1.317,
+Water sports,Swimming,SA,South Australia,4,-30.06,135.8,11.831,187064,15.39,-3.559,
+Water sports,Swimming,TAS,Tasmania,6,-42.02,146.59,13.862,67001,15.39,-1.527,
+Water sports,Swimming,VIC,Victoria,2,-36.85,144.28,13.385,777826,15.39,-2.005,
+Water sports,Swimming,WA,Western Australia,5,-25.33,122.3,16.343,403484,15.39,0.953,
+Water sports,Synchronised swimming,ACT,Australian Capital Territory,8,-35.49,149.0,0.091,364,0.052,0.039,**
+Water sports,Synchronised swimming,NSW,New South Wales,1,-32.16,147.02,0.049,3424,0.052,-0.004,*
+Water sports,Synchronised swimming,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.052,-0.052,**
+Water sports,Synchronised swimming,QLD,Queensland,3,-22.49,144.43,0.061,2820,0.052,0.009,**
+Water sports,Synchronised swimming,SA,South Australia,4,-30.06,135.8,0.04,636,0.052,-0.012,**
+Water sports,Synchronised swimming,TAS,Tasmania,6,-42.02,146.59,0.0,0,0.052,-0.052,**
+Water sports,Synchronised swimming,VIC,Victoria,2,-36.85,144.28,0.057,3308,0.052,0.005,*
+Water sports,Synchronised swimming,WA,Western Australia,5,-25.33,122.3,0.052,1290,0.052,-0.0,**
+Water sports,Underwater sports,ACT,Australian Capital Territory,8,-35.49,149.0,1.168,4647,0.836,0.332,*
+Water sports,Underwater sports,NSW,New South Wales,1,-32.16,147.02,0.688,48581,0.836,-0.147,
+Water sports,Underwater sports,NT,Northern Territory,7,-19.49,132.55,2.584,5385,0.836,1.748,*
+Water sports,Underwater sports,QLD,Queensland,3,-22.49,144.43,0.785,36302,0.836,-0.051,
+Water sports,Underwater sports,SA,South Australia,4,-30.06,135.8,0.701,11083,0.836,-0.135,*
+Water sports,Underwater sports,TAS,Tasmania,6,-42.02,146.59,1.205,5823,0.836,0.369,*
+Water sports,Underwater sports,VIC,Victoria,2,-36.85,144.28,0.7,40650,0.836,-0.136,
+Water sports,Underwater sports,WA,Western Australia,5,-25.33,122.3,1.487,36722,0.836,0.652,
+Water sports,Water polo,ACT,Australian Capital Territory,8,-35.49,149.0,0.144,573,0.092,0.052,**
+Water sports,Water polo,NSW,New South Wales,1,-32.16,147.02,0.12,8448,0.092,0.027,*
+Water sports,Water polo,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.092,-0.092,**
+Water sports,Water polo,QLD,Queensland,3,-22.49,144.43,0.055,2557,0.092,-0.037,**
+Water sports,Water polo,SA,South Australia,4,-30.06,135.8,0.0,0,0.092,-0.092,**
+Water sports,Water polo,TAS,Tasmania,6,-42.02,146.59,0.075,361,0.092,-0.018,**
+Water sports,Water polo,VIC,Victoria,2,-36.85,144.28,0.099,5770,0.092,0.007,*
+Water sports,Water polo,WA,Western Australia,5,-25.33,122.3,0.129,3197,0.092,0.037,*
+Water sports,Waterskiing/Wakeboarding,ACT,Australian Capital Territory,8,-35.49,149.0,0.0,0,0.15,-0.15,**
+Water sports,Waterskiing/Wakeboarding,NSW,New South Wales,1,-32.16,147.02,0.141,9934,0.15,-0.009,*
+Water sports,Waterskiing/Wakeboarding,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.15,-0.15,**
+Water sports,Waterskiing/Wakeboarding,QLD,Queensland,3,-22.49,144.43,0.138,6374,0.15,-0.012,*
+Water sports,Waterskiing/Wakeboarding,SA,South Australia,4,-30.06,135.8,0.138,2177,0.15,-0.012,**
+Water sports,Waterskiing/Wakeboarding,TAS,Tasmania,6,-42.02,146.59,0.081,394,0.15,-0.069,**
+Water sports,Waterskiing/Wakeboarding,VIC,Victoria,2,-36.85,144.28,0.179,10392,0.15,0.029,*
+Water sports,Waterskiing/Wakeboarding,WA,Western Australia,5,-25.33,122.3,0.191,4711,0.15,0.041,*
+Combat sports & martial arts,Boxing,ACT,Australian Capital Territory,8,-35.49,149.0,1.094,4352,0.848,0.246,*
+Combat sports & martial arts,Boxing,NSW,New South Wales,1,-32.16,147.02,0.824,58119,0.848,-0.024,
+Combat sports & martial arts,Boxing,NT,Northern Territory,7,-19.49,132.55,0.208,432,0.848,-0.64,**
+Combat sports & martial arts,Boxing,QLD,Queensland,3,-22.49,144.43,0.795,36787,0.848,-0.053,
+Combat sports & martial arts,Boxing,SA,South Australia,4,-30.06,135.8,0.452,7145,0.848,-0.396,*
+Combat sports & martial arts,Boxing,TAS,Tasmania,6,-42.02,146.59,0.958,4631,0.848,0.11,*
+Combat sports & martial arts,Boxing,VIC,Victoria,2,-36.85,144.28,0.99,57542,0.848,0.142,
+Combat sports & martial arts,Boxing,WA,Western Australia,5,-25.33,122.3,0.928,22905,0.848,0.08,
+Combat sports & martial arts,Fencing,ACT,Australian Capital Territory,8,-35.49,149.0,0.1,396,0.045,0.054,**
+Combat sports & martial arts,Fencing,NSW,New South Wales,1,-32.16,147.02,0.039,2744,0.045,-0.007,**
+Combat sports & martial arts,Fencing,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.045,-0.045,**
+Combat sports & martial arts,Fencing,QLD,Queensland,3,-22.49,144.43,0.026,1214,0.045,-0.019,**
+Combat sports & martial arts,Fencing,SA,South Australia,4,-30.06,135.8,0.0,0,0.045,-0.045,**
+Combat sports & martial arts,Fencing,TAS,Tasmania,6,-42.02,146.59,0.081,393,0.045,0.036,**
+Combat sports & martial arts,Fencing,VIC,Victoria,2,-36.85,144.28,0.055,3190,0.045,0.01,*
+Combat sports & martial arts,Fencing,WA,Western Australia,5,-25.33,122.3,0.095,2337,0.045,0.049,**
+Combat sports & martial arts,Judo,ACT,Australian Capital Territory,8,-35.49,149.0,0.097,387,0.066,0.031,**
+Combat sports & martial arts,Judo,NSW,New South Wales,1,-32.16,147.02,0.103,7270,0.066,0.037,*
+Combat sports & martial arts,Judo,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.066,-0.066,**
+Combat sports & martial arts,Judo,QLD,Queensland,3,-22.49,144.43,0.046,2126,0.066,-0.02,**
+Combat sports & martial arts,Judo,SA,South Australia,4,-30.06,135.8,0.092,1452,0.066,0.025,**
+Combat sports & martial arts,Judo,TAS,Tasmania,6,-42.02,146.59,0.088,425,0.066,0.022,**
+Combat sports & martial arts,Judo,VIC,Victoria,2,-36.85,144.28,0.017,986,0.066,-0.049,**
+Combat sports & martial arts,Judo,WA,Western Australia,5,-25.33,122.3,0.096,2379,0.066,0.03,**
+Combat sports & martial arts,Jujitsu,ACT,Australian Capital Territory,8,-35.49,149.0,0.083,329,0.17,-0.088,**
+Combat sports & martial arts,Jujitsu,NSW,New South Wales,1,-32.16,147.02,0.163,11481,0.17,-0.008,
+Combat sports & martial arts,Jujitsu,NT,Northern Territory,7,-19.49,132.55,0.441,919,0.17,0.271,**
+Combat sports & martial arts,Jujitsu,QLD,Queensland,3,-22.49,144.43,0.189,8746,0.17,0.019,*
+Combat sports & martial arts,Jujitsu,SA,South Australia,4,-30.06,135.8,0.099,1569,0.17,-0.071,**
+Combat sports & martial arts,Jujitsu,TAS,Tasmania,6,-42.02,146.59,0.252,1219,0.17,0.082,**
+Combat sports & martial arts,Jujitsu,VIC,Victoria,2,-36.85,144.28,0.145,8453,0.17,-0.025,*
+Combat sports & martial arts,Jujitsu,WA,Western Australia,5,-25.33,122.3,0.238,5873,0.17,0.067,*
+Combat sports & martial arts,Karate,ACT,Australian Capital Territory,8,-35.49,149.0,0.11,438,0.186,-0.076,**
+Combat sports & martial arts,Karate,NSW,New South Wales,1,-32.16,147.02,0.17,11965,0.186,-0.017,
+Combat sports & martial arts,Karate,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.186,-0.186,**
+Combat sports & martial arts,Karate,QLD,Queensland,3,-22.49,144.43,0.146,6762,0.186,-0.04,*
+Combat sports & martial arts,Karate,SA,South Australia,4,-30.06,135.8,0.307,4859,0.186,0.121,*
+Combat sports & martial arts,Karate,TAS,Tasmania,6,-42.02,146.59,0.248,1197,0.186,0.061,**
+Combat sports & martial arts,Karate,VIC,Victoria,2,-36.85,144.28,0.22,12764,0.186,0.033,
+Combat sports & martial arts,Karate,WA,Western Australia,5,-25.33,122.3,0.171,4217,0.186,-0.016,*
+Combat sports & martial arts,Kendo,ACT,Australian Capital Territory,8,-35.49,149.0,0.0,0,0.03,-0.03,**
+Combat sports & martial arts,Kendo,NSW,New South Wales,1,-32.16,147.02,0.015,1040,0.03,-0.015,**
+Combat sports & martial arts,Kendo,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.03,-0.03,**
+Combat sports & martial arts,Kendo,QLD,Queensland,3,-22.49,144.43,0.0,0,0.03,-0.03,**
+Combat sports & martial arts,Kendo,SA,South Australia,4,-30.06,135.8,0.115,1815,0.03,0.085,**
+Combat sports & martial arts,Kendo,TAS,Tasmania,6,-42.02,146.59,0.0,0,0.03,-0.03,**
+Combat sports & martial arts,Kendo,VIC,Victoria,2,-36.85,144.28,0.044,2561,0.03,0.014,**
+Combat sports & martial arts,Kendo,WA,Western Australia,5,-25.33,122.3,0.054,1342,0.03,0.025,**
+Combat sports & martial arts,Kung fu wushu,ACT,Australian Capital Territory,8,-35.49,149.0,0.0,0,0.009,-0.009,**
+Combat sports & martial arts,Kung fu wushu,NSW,New South Wales,1,-32.16,147.02,0.007,522,0.009,-0.002,**
+Combat sports & martial arts,Kung fu wushu,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.009,-0.009,**
+Combat sports & martial arts,Kung fu wushu,QLD,Queensland,3,-22.49,144.43,0.014,640,0.009,0.005,**
+Combat sports & martial arts,Kung fu wushu,SA,South Australia,4,-30.06,135.8,0.0,0,0.009,-0.009,**
+Combat sports & martial arts,Kung fu wushu,TAS,Tasmania,6,-42.02,146.59,0.0,0,0.009,-0.009,**
+Combat sports & martial arts,Kung fu wushu,VIC,Victoria,2,-36.85,144.28,0.008,485,0.009,-0.001,**
+Combat sports & martial arts,Kung fu wushu,WA,Western Australia,5,-25.33,122.3,0.018,452,0.009,0.009,**
+Combat sports & martial arts,Martial arts,ACT,Australian Capital Territory,8,-35.49,149.0,0.818,3256,0.626,0.193,*
+Combat sports & martial arts,Martial arts,NSW,New South Wales,1,-32.16,147.02,0.536,37808,0.626,-0.09,
+Combat sports & martial arts,Martial arts,NT,Northern Territory,7,-19.49,132.55,0.179,374,0.626,-0.446,**
+Combat sports & martial arts,Martial arts,QLD,Queensland,3,-22.49,144.43,0.633,29276,0.626,0.007,
+Combat sports & martial arts,Martial arts,SA,South Australia,4,-30.06,135.8,0.671,10616,0.626,0.046,*
+Combat sports & martial arts,Martial arts,TAS,Tasmania,6,-42.02,146.59,0.476,2300,0.626,-0.15,*
+Combat sports & martial arts,Martial arts,VIC,Victoria,2,-36.85,144.28,0.774,44976,0.626,0.148,
+Combat sports & martial arts,Martial arts,WA,Western Australia,5,-25.33,122.3,0.527,13004,0.626,-0.099,
+Combat sports & martial arts,Mixed martial arts,ACT,Australian Capital Territory,8,-35.49,149.0,0.0,0,0.093,-0.093,**
+Combat sports & martial arts,Mixed martial arts,NSW,New South Wales,1,-32.16,147.02,0.092,6494,0.093,-0.001,*
+Combat sports & martial arts,Mixed martial arts,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.093,-0.093,**
+Combat sports & martial arts,Mixed martial arts,QLD,Queensland,3,-22.49,144.43,0.115,5339,0.093,0.023,*
+Combat sports & martial arts,Mixed martial arts,SA,South Australia,4,-30.06,135.8,0.193,3052,0.093,0.1,**
+Combat sports & martial arts,Mixed martial arts,TAS,Tasmania,6,-42.02,146.59,0.193,935,0.093,0.101,**
+Combat sports & martial arts,Mixed martial arts,VIC,Victoria,2,-36.85,144.28,0.078,4519,0.093,-0.015,*
+Combat sports & martial arts,Mixed martial arts,WA,Western Australia,5,-25.33,122.3,0.027,659,0.093,-0.066,**
+Combat sports & martial arts,Muay Thai,ACT,Australian Capital Territory,8,-35.49,149.0,0.123,489,0.166,-0.043,**
+Combat sports & martial arts,Muay Thai,NSW,New South Wales,1,-32.16,147.02,0.158,11162,0.166,-0.008,*
+Combat sports & martial arts,Muay Thai,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.166,-0.166,**
+Combat sports & martial arts,Muay Thai,QLD,Queensland,3,-22.49,144.43,0.228,10548,0.166,0.062,*
+Combat sports & martial arts,Muay Thai,SA,South Australia,4,-30.06,135.8,0.097,1529,0.166,-0.069,**
+Combat sports & martial arts,Muay Thai,TAS,Tasmania,6,-42.02,146.59,0.112,543,0.166,-0.054,**
+Combat sports & martial arts,Muay Thai,VIC,Victoria,2,-36.85,144.28,0.122,7115,0.166,-0.043,*
+Combat sports & martial arts,Muay Thai,WA,Western Australia,5,-25.33,122.3,0.25,6173,0.166,0.084,*
+Combat sports & martial arts,Sword fighting,ACT,Australian Capital Territory,8,-35.49,149.0,0.0,0,0.023,-0.023,**
+Combat sports & martial arts,Sword fighting,NSW,New South Wales,1,-32.16,147.02,0.016,1110,0.023,-0.007,**
+Combat sports & martial arts,Sword fighting,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.023,-0.023,**
+Combat sports & martial arts,Sword fighting,QLD,Queensland,3,-22.49,144.43,0.059,2738,0.023,0.037,**
+Combat sports & martial arts,Sword fighting,SA,South Australia,4,-30.06,135.8,0.044,703,0.023,0.022,**
+Combat sports & martial arts,Sword fighting,TAS,Tasmania,6,-42.02,146.59,0.0,0,0.023,-0.023,**
+Combat sports & martial arts,Sword fighting,VIC,Victoria,2,-36.85,144.28,0.009,542,0.023,-0.013,**
+Combat sports & martial arts,Sword fighting,WA,Western Australia,5,-25.33,122.3,0.0,0,0.023,-0.023,**
+Combat sports & martial arts,Taekwondo/Taekwon-do,ACT,Australian Capital Territory,8,-35.49,149.0,0.078,310,0.115,-0.037,**
+Combat sports & martial arts,Taekwondo/Taekwon-do,NSW,New South Wales,1,-32.16,147.02,0.131,9263,0.115,0.017,*
+Combat sports & martial arts,Taekwondo/Taekwon-do,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.115,-0.115,**
+Combat sports & martial arts,Taekwondo/Taekwon-do,QLD,Queensland,3,-22.49,144.43,0.089,4122,0.115,-0.026,*
+Combat sports & martial arts,Taekwondo/Taekwon-do,SA,South Australia,4,-30.06,135.8,0.04,634,0.115,-0.075,**
+Combat sports & martial arts,Taekwondo/Taekwon-do,TAS,Tasmania,6,-42.02,146.59,0.142,688,0.115,0.028,**
+Combat sports & martial arts,Taekwondo/Taekwon-do,VIC,Victoria,2,-36.85,144.28,0.116,6748,0.115,0.001,*
+Combat sports & martial arts,Taekwondo/Taekwon-do,WA,Western Australia,5,-25.33,122.3,0.17,4196,0.115,0.055,*
+Combat sports & martial arts,Wrestling,ACT,Australian Capital Territory,8,-35.49,149.0,0.0,0,0.04,-0.04,**
+Combat sports & martial arts,Wrestling,NSW,New South Wales,1,-32.16,147.02,0.015,1089,0.04,-0.025,**
+Combat sports & martial arts,Wrestling,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.04,-0.04,**
+Combat sports & martial arts,Wrestling,QLD,Queensland,3,-22.49,144.43,0.009,414,0.04,-0.031,**
+Combat sports & martial arts,Wrestling,SA,South Australia,4,-30.06,135.8,0.086,1358,0.04,0.045,**
+Combat sports & martial arts,Wrestling,TAS,Tasmania,6,-42.02,146.59,0.259,1250,0.04,0.218,**
+Combat sports & martial arts,Wrestling,VIC,Victoria,2,-36.85,144.28,0.07,4063,0.04,0.029,*
+Combat sports & martial arts,Wrestling,WA,Western Australia,5,-25.33,122.3,0.04,980,0.04,-0.001,**
+"Dance, gymnastics & performance",Baton twirling,ACT,Australian Capital Territory,8,-35.49,149.0,0.0,0,0.012,-0.012,**
+"Dance, gymnastics & performance",Baton twirling,NSW,New South Wales,1,-32.16,147.02,0.006,424,0.012,-0.006,**
+"Dance, gymnastics & performance",Baton twirling,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.012,-0.012,**
+"Dance, gymnastics & performance",Baton twirling,QLD,Queensland,3,-22.49,144.43,0.012,537,0.012,-0.0,**
+"Dance, gymnastics & performance",Baton twirling,SA,South Australia,4,-30.06,135.8,0.0,0,0.012,-0.012,**
+"Dance, gymnastics & performance",Baton twirling,TAS,Tasmania,6,-42.02,146.59,0.0,0,0.012,-0.012,**
+"Dance, gymnastics & performance",Baton twirling,VIC,Victoria,2,-36.85,144.28,0.029,1711,0.012,0.018,**
+"Dance, gymnastics & performance",Baton twirling,WA,Western Australia,5,-25.33,122.3,0.0,0,0.012,-0.012,**
+"Dance, gymnastics & performance",Calisthenics,ACT,Australian Capital Territory,8,-35.49,149.0,0.177,704,0.359,-0.182,**
+"Dance, gymnastics & performance",Calisthenics,NSW,New South Wales,1,-32.16,147.02,0.349,24642,0.359,-0.01,
+"Dance, gymnastics & performance",Calisthenics,NT,Northern Territory,7,-19.49,132.55,0.412,859,0.359,0.053,**
+"Dance, gymnastics & performance",Calisthenics,QLD,Queensland,3,-22.49,144.43,0.313,14460,0.359,-0.047,
+"Dance, gymnastics & performance",Calisthenics,SA,South Australia,4,-30.06,135.8,0.258,4078,0.359,-0.102,*
+"Dance, gymnastics & performance",Calisthenics,TAS,Tasmania,6,-42.02,146.59,0.296,1433,0.359,-0.063,**
+"Dance, gymnastics & performance",Calisthenics,VIC,Victoria,2,-36.85,144.28,0.426,24736,0.359,0.066,
+"Dance, gymnastics & performance",Calisthenics,WA,Western Australia,5,-25.33,122.3,0.423,10442,0.359,0.064,
+"Dance, gymnastics & performance",Circus,ACT,Australian Capital Territory,8,-35.49,149.0,0.0,0,0.034,-0.034,**
+"Dance, gymnastics & performance",Circus,NSW,New South Wales,1,-32.16,147.02,0.038,2671,0.034,0.004,**
+"Dance, gymnastics & performance",Circus,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.034,-0.034,**
+"Dance, gymnastics & performance",Circus,QLD,Queensland,3,-22.49,144.43,0.009,414,0.034,-0.025,**
+"Dance, gymnastics & performance",Circus,SA,South Australia,4,-30.06,135.8,0.037,581,0.034,0.003,**
+"Dance, gymnastics & performance",Circus,TAS,Tasmania,6,-42.02,146.59,0.0,0,0.034,-0.034,**
+"Dance, gymnastics & performance",Circus,VIC,Victoria,2,-36.85,144.28,0.069,3984,0.034,0.035,*
+"Dance, gymnastics & performance",Circus,WA,Western Australia,5,-25.33,122.3,0.0,0,0.034,-0.034,**
+"Dance, gymnastics & performance",DanceSport,ACT,Australian Capital Territory,8,-35.49,149.0,2.457,9779,1.123,1.334,
+"Dance, gymnastics & performance",DanceSport,NSW,New South Wales,1,-32.16,147.02,1.194,84291,1.123,0.071,
+"Dance, gymnastics & performance",DanceSport,NT,Northern Territory,7,-19.49,132.55,1.701,3544,1.123,0.578,*
+"Dance, gymnastics & performance",DanceSport,QLD,Queensland,3,-22.49,144.43,0.987,45678,1.123,-0.136,
+"Dance, gymnastics & performance",DanceSport,SA,South Australia,4,-30.06,135.8,0.961,15200,1.123,-0.162,
+"Dance, gymnastics & performance",DanceSport,TAS,Tasmania,6,-42.02,146.59,0.663,3203,1.123,-0.46,*
+"Dance, gymnastics & performance",DanceSport,VIC,Victoria,2,-36.85,144.28,1.13,65666,1.123,0.007,
+"Dance, gymnastics & performance",DanceSport,WA,Western Australia,5,-25.33,122.3,1.086,26806,1.123,-0.037,
+"Dance, gymnastics & performance",Dancing (recreational),ACT,Australian Capital Territory,8,-35.49,149.0,1.665,6627,1.629,0.036,
+"Dance, gymnastics & performance",Dancing (recreational),NSW,New South Wales,1,-32.16,147.02,1.743,123046,1.629,0.115,
+"Dance, gymnastics & performance",Dancing (recreational),NT,Northern Territory,7,-19.49,132.55,0.88,1835,1.629,-0.749,*
+"Dance, gymnastics & performance",Dancing (recreational),QLD,Queensland,3,-22.49,144.43,1.491,68978,1.629,-0.138,
+"Dance, gymnastics & performance",Dancing (recreational),SA,South Australia,4,-30.06,135.8,1.307,20661,1.629,-0.322,
+"Dance, gymnastics & performance",Dancing (recreational),TAS,Tasmania,6,-42.02,146.59,1.674,8091,1.629,0.045,
+"Dance, gymnastics & performance",Dancing (recreational),VIC,Victoria,2,-36.85,144.28,1.597,92821,1.629,-0.032,
+"Dance, gymnastics & performance",Dancing (recreational),WA,Western Australia,5,-25.33,122.3,1.89,46661,1.629,0.261,
+"Dance, gymnastics & performance",Gymnastics,ACT,Australian Capital Territory,8,-35.49,149.0,0.719,2863,0.54,0.18,*
+"Dance, gymnastics & performance",Gymnastics,NSW,New South Wales,1,-32.16,147.02,0.505,35620,0.54,-0.035,
+"Dance, gymnastics & performance",Gymnastics,NT,Northern Territory,7,-19.49,132.55,0.628,1309,0.54,0.089,**
+"Dance, gymnastics & performance",Gymnastics,QLD,Queensland,3,-22.49,144.43,0.576,26652,0.54,0.037,
+"Dance, gymnastics & performance",Gymnastics,SA,South Australia,4,-30.06,135.8,0.18,2842,0.54,-0.36,**
+"Dance, gymnastics & performance",Gymnastics,TAS,Tasmania,6,-42.02,146.59,0.372,1796,0.54,-0.168,*
+"Dance, gymnastics & performance",Gymnastics,VIC,Victoria,2,-36.85,144.28,0.666,38674,0.54,0.126,
+"Dance, gymnastics & performance",Gymnastics,WA,Western Australia,5,-25.33,122.3,0.501,12373,0.54,-0.038,
+"Dance, gymnastics & performance",Marching,ACT,Australian Capital Territory,8,-35.49,149.0,0.0,0,0.012,-0.012,**
+"Dance, gymnastics & performance",Marching,NSW,New South Wales,1,-32.16,147.02,0.007,525,0.012,-0.004,**
+"Dance, gymnastics & performance",Marching,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.012,-0.012,**
+"Dance, gymnastics & performance",Marching,QLD,Queensland,3,-22.49,144.43,0.009,404,0.012,-0.003,**
+"Dance, gymnastics & performance",Marching,SA,South Australia,4,-30.06,135.8,0.032,504,0.012,0.02,**
+"Dance, gymnastics & performance",Marching,TAS,Tasmania,6,-42.02,146.59,0.0,0,0.012,-0.012,**
+"Dance, gymnastics & performance",Marching,VIC,Victoria,2,-36.85,144.28,0.021,1235,0.012,0.009,**
+"Dance, gymnastics & performance",Marching,WA,Western Australia,5,-25.33,122.3,0.0,0,0.012,-0.012,**
+"Dance, gymnastics & performance",Physical Culture,ACT,Australian Capital Territory,8,-35.49,149.0,0.0,0,0.061,-0.061,**
+"Dance, gymnastics & performance",Physical Culture,NSW,New South Wales,1,-32.16,147.02,0.064,4546,0.061,0.004,*
+"Dance, gymnastics & performance",Physical Culture,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.061,-0.061,**
+"Dance, gymnastics & performance",Physical Culture,QLD,Queensland,3,-22.49,144.43,0.022,1013,0.061,-0.039,**
+"Dance, gymnastics & performance",Physical Culture,SA,South Australia,4,-30.06,135.8,0.266,4199,0.061,0.205,*
+"Dance, gymnastics & performance",Physical Culture,TAS,Tasmania,6,-42.02,146.59,0.445,2151,0.061,0.384,*
+"Dance, gymnastics & performance",Physical Culture,VIC,Victoria,2,-36.85,144.28,0.026,1495,0.061,-0.035,**
+"Dance, gymnastics & performance",Physical Culture,WA,Western Australia,5,-25.33,122.3,0.014,355,0.061,-0.046,**
+"Cycling, wheels & motor",BMX,ACT,Australian Capital Territory,8,-35.49,149.0,0.0,0,0.028,-0.028,**
+"Cycling, wheels & motor",BMX,NSW,New South Wales,1,-32.16,147.02,0.03,2100,0.028,0.002,**
+"Cycling, wheels & motor",BMX,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.028,-0.028,**
+"Cycling, wheels & motor",BMX,QLD,Queensland,3,-22.49,144.43,0.068,3139,0.028,0.04,*
+"Cycling, wheels & motor",BMX,SA,South Australia,4,-30.06,135.8,0.0,0,0.028,-0.028,**
+"Cycling, wheels & motor",BMX,TAS,Tasmania,6,-42.02,146.59,0.0,0,0.028,-0.028,**
+"Cycling, wheels & motor",BMX,VIC,Victoria,2,-36.85,144.28,0.019,1098,0.028,-0.009,**
+"Cycling, wheels & motor",BMX,WA,Western Australia,5,-25.33,122.3,0.0,0,0.028,-0.028,**
+"Cycling, wheels & motor",Cycling,ACT,Australian Capital Territory,8,-35.49,149.0,13.988,55669,8.294,5.694,
+"Cycling, wheels & motor",Cycling,NSW,New South Wales,1,-32.16,147.02,6.967,491673,8.294,-1.327,
+"Cycling, wheels & motor",Cycling,NT,Northern Territory,7,-19.49,132.55,9.936,20705,8.294,1.642,
+"Cycling, wheels & motor",Cycling,QLD,Queensland,3,-22.49,144.43,7.61,352078,8.294,-0.684,
+"Cycling, wheels & motor",Cycling,SA,South Australia,4,-30.06,135.8,8.364,132256,8.294,0.071,
+"Cycling, wheels & motor",Cycling,TAS,Tasmania,6,-42.02,146.59,9.143,44189,8.294,0.849,
+"Cycling, wheels & motor",Cycling,VIC,Victoria,2,-36.85,144.28,9.044,525596,8.294,0.751,
+"Cycling, wheels & motor",Cycling,WA,Western Australia,5,-25.33,122.3,10.336,255173,8.294,2.042,
+"Cycling, wheels & motor",Motor cycling,ACT,Australian Capital Territory,8,-35.49,149.0,1.525,6070,0.947,0.578,*
+"Cycling, wheels & motor",Motor cycling,NSW,New South Wales,1,-32.16,147.02,0.995,70201,0.947,0.048,
+"Cycling, wheels & motor",Motor cycling,NT,Northern Territory,7,-19.49,132.55,1.839,3832,0.947,0.893,*
+"Cycling, wheels & motor",Motor cycling,QLD,Queensland,3,-22.49,144.43,0.917,42410,0.947,-0.03,
+"Cycling, wheels & motor",Motor cycling,SA,South Australia,4,-30.06,135.8,0.805,12722,0.947,-0.142,
+"Cycling, wheels & motor",Motor cycling,TAS,Tasmania,6,-42.02,146.59,1.169,5652,0.947,0.223,*
+"Cycling, wheels & motor",Motor cycling,VIC,Victoria,2,-36.85,144.28,0.86,49948,0.947,-0.087,
+"Cycling, wheels & motor",Motor cycling,WA,Western Australia,5,-25.33,122.3,0.949,23431,0.947,0.002,
+"Cycling, wheels & motor",Motor sport,ACT,Australian Capital Territory,8,-35.49,149.0,0.302,1201,0.254,0.048,**
+"Cycling, wheels & motor",Motor sport,NSW,New South Wales,1,-32.16,147.02,0.249,17556,0.254,-0.005,
+"Cycling, wheels & motor",Motor sport,NT,Northern Territory,7,-19.49,132.55,0.255,532,0.254,0.002,**
+"Cycling, wheels & motor",Motor sport,QLD,Queensland,3,-22.49,144.43,0.188,8696,0.254,-0.066,*
+"Cycling, wheels & motor",Motor sport,SA,South Australia,4,-30.06,135.8,0.326,5161,0.254,0.073,*
+"Cycling, wheels & motor",Motor sport,TAS,Tasmania,6,-42.02,146.59,0.36,1742,0.254,0.107,*
+"Cycling, wheels & motor",Motor sport,VIC,Victoria,2,-36.85,144.28,0.357,20746,0.254,0.103,
+"Cycling, wheels & motor",Motor sport,WA,Western Australia,5,-25.33,122.3,0.073,1804,0.254,-0.181,**
+"Cycling, wheels & motor",Mountain biking,ACT,Australian Capital Territory,8,-35.49,149.0,1.281,5098,0.726,0.555,*
+"Cycling, wheels & motor",Mountain biking,NSW,New South Wales,1,-32.16,147.02,0.574,40498,0.726,-0.152,
+"Cycling, wheels & motor",Mountain biking,NT,Northern Territory,7,-19.49,132.55,1.027,2139,0.726,0.301,*
+"Cycling, wheels & motor",Mountain biking,QLD,Queensland,3,-22.49,144.43,0.909,42076,0.726,0.184,
+"Cycling, wheels & motor",Mountain biking,SA,South Australia,4,-30.06,135.8,0.532,8415,0.726,-0.193,*
+"Cycling, wheels & motor",Mountain biking,TAS,Tasmania,6,-42.02,146.59,1.768,8544,0.726,1.042,
+"Cycling, wheels & motor",Mountain biking,VIC,Victoria,2,-36.85,144.28,0.502,29167,0.726,-0.224,
+"Cycling, wheels & motor",Mountain biking,WA,Western Australia,5,-25.33,122.3,1.146,28288,0.726,0.42,
+"Cycling, wheels & motor",Scootering,ACT,Australian Capital Territory,8,-35.49,149.0,0.1,399,0.085,0.015,**
+"Cycling, wheels & motor",Scootering,NSW,New South Wales,1,-32.16,147.02,0.084,5902,0.085,-0.002,*
+"Cycling, wheels & motor",Scootering,NT,Northern Territory,7,-19.49,132.55,0.208,432,0.085,0.122,**
+"Cycling, wheels & motor",Scootering,QLD,Queensland,3,-22.49,144.43,0.086,3972,0.085,0.001,*
+"Cycling, wheels & motor",Scootering,SA,South Australia,4,-30.06,135.8,0.043,679,0.085,-0.042,**
+"Cycling, wheels & motor",Scootering,TAS,Tasmania,6,-42.02,146.59,0.166,802,0.085,0.081,**
+"Cycling, wheels & motor",Scootering,VIC,Victoria,2,-36.85,144.28,0.103,5957,0.085,0.017,*
+"Cycling, wheels & motor",Scootering,WA,Western Australia,5,-25.33,122.3,0.046,1145,0.085,-0.039,**
+"Cycling, wheels & motor",Skate,ACT,Australian Capital Territory,8,-35.49,149.0,0.498,1981,0.396,0.102,*
+"Cycling, wheels & motor",Skate,NSW,New South Wales,1,-32.16,147.02,0.371,26176,0.396,-0.025,
+"Cycling, wheels & motor",Skate,NT,Northern Territory,7,-19.49,132.55,0.225,468,0.396,-0.171,**
+"Cycling, wheels & motor",Skate,QLD,Queensland,3,-22.49,144.43,0.299,13818,0.396,-0.097,
+"Cycling, wheels & motor",Skate,SA,South Australia,4,-30.06,135.8,0.339,5366,0.396,-0.056,*
+"Cycling, wheels & motor",Skate,TAS,Tasmania,6,-42.02,146.59,0.604,2917,0.396,0.208,*
+"Cycling, wheels & motor",Skate,VIC,Victoria,2,-36.85,144.28,0.476,27633,0.396,0.08,
+"Cycling, wheels & motor",Skate,WA,Western Australia,5,-25.33,122.3,0.453,11174,0.396,0.057,
+Equestrian,Campdrafting,ACT,Australian Capital Territory,8,-35.49,149.0,0.0,0,0.013,-0.013,**
+Equestrian,Campdrafting,NSW,New South Wales,1,-32.16,147.02,0.005,381,0.013,-0.008,**
+Equestrian,Campdrafting,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.013,-0.013,**
+Equestrian,Campdrafting,QLD,Queensland,3,-22.49,144.43,0.046,2140,0.013,0.033,**
+Equestrian,Campdrafting,SA,South Australia,4,-30.06,135.8,0.0,0,0.013,-0.013,**
+Equestrian,Campdrafting,TAS,Tasmania,6,-42.02,146.59,0.0,0,0.013,-0.013,**
+Equestrian,Campdrafting,VIC,Victoria,2,-36.85,144.28,0.007,409,0.013,-0.006,**
+Equestrian,Campdrafting,WA,Western Australia,5,-25.33,122.3,0.0,0,0.013,-0.013,**
+Equestrian,Equestrian,ACT,Australian Capital Territory,8,-35.49,149.0,0.368,1465,0.442,-0.073,**
+Equestrian,Equestrian,NSW,New South Wales,1,-32.16,147.02,0.424,29914,0.442,-0.018,
+Equestrian,Equestrian,NT,Northern Territory,7,-19.49,132.55,1.567,3265,0.442,1.125,*
+Equestrian,Equestrian,QLD,Queensland,3,-22.49,144.43,0.41,18991,0.442,-0.031,
+Equestrian,Equestrian,SA,South Australia,4,-30.06,135.8,0.202,3200,0.442,-0.239,*
+Equestrian,Equestrian,TAS,Tasmania,6,-42.02,146.59,1.293,6248,0.442,0.851,*
+Equestrian,Equestrian,VIC,Victoria,2,-36.85,144.28,0.446,25894,0.442,0.004,
+Equestrian,Equestrian,WA,Western Australia,5,-25.33,122.3,0.444,10972,0.442,0.003,
+Equestrian,Harness racing,ACT,Australian Capital Territory,8,-35.49,149.0,0.0,0,0.011,-0.011,**
+Equestrian,Harness racing,NSW,New South Wales,1,-32.16,147.02,0.0,0,0.011,-0.011,**
+Equestrian,Harness racing,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.011,-0.011,**
+Equestrian,Harness racing,QLD,Queensland,3,-22.49,144.43,0.024,1113,0.011,0.013,**
+Equestrian,Harness racing,SA,South Australia,4,-30.06,135.8,0.0,0,0.011,-0.011,**
+Equestrian,Harness racing,TAS,Tasmania,6,-42.02,146.59,0.044,212,0.011,0.033,**
+Equestrian,Harness racing,VIC,Victoria,2,-36.85,144.28,0.019,1085,0.011,0.008,**
+Equestrian,Harness racing,WA,Western Australia,5,-25.33,122.3,0.0,0,0.011,-0.011,**
+Equestrian,Horse racing,ACT,Australian Capital Territory,8,-35.49,149.0,0.0,0,0.024,-0.024,**
+Equestrian,Horse racing,NSW,New South Wales,1,-32.16,147.02,0.01,724,0.024,-0.014,**
+Equestrian,Horse racing,NT,Northern Territory,7,-19.49,132.55,0.2,416,0.024,0.175,**
+Equestrian,Horse racing,QLD,Queensland,3,-22.49,144.43,0.0,0,0.024,-0.024,**
+Equestrian,Horse racing,SA,South Australia,4,-30.06,135.8,0.096,1513,0.024,0.071,**
+Equestrian,Horse racing,TAS,Tasmania,6,-42.02,146.59,0.0,0,0.024,-0.024,**
+Equestrian,Horse racing,VIC,Victoria,2,-36.85,144.28,0.05,2878,0.024,0.025,*
+Equestrian,Horse racing,WA,Western Australia,5,-25.33,122.3,0.0,0,0.024,-0.024,**
+Equestrian,Polo,ACT,Australian Capital Territory,8,-35.49,149.0,0.0,0,0.001,-0.001,**
+Equestrian,Polo,NSW,New South Wales,1,-32.16,147.02,0.0,0,0.001,-0.001,**
+Equestrian,Polo,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.001,-0.001,**
+Equestrian,Polo,QLD,Queensland,3,-22.49,144.43,0.0,0,0.001,-0.001,**
+Equestrian,Polo,SA,South Australia,4,-30.06,135.8,0.0,0,0.001,-0.001,**
+Equestrian,Polo,TAS,Tasmania,6,-42.02,146.59,0.0,0,0.001,-0.001,**
+Equestrian,Polo,VIC,Victoria,2,-36.85,144.28,0.0,0,0.001,-0.001,**
+Equestrian,Polo,WA,Western Australia,5,-25.33,122.3,0.013,332,0.001,0.012,**
+Equestrian,Polocrosse,ACT,Australian Capital Territory,8,-35.49,149.0,0.0,0,0.004,-0.004,**
+Equestrian,Polocrosse,NSW,New South Wales,1,-32.16,147.02,0.0,0,0.004,-0.004,**
+Equestrian,Polocrosse,NT,Northern Territory,7,-19.49,132.55,0.225,469,0.004,0.221,**
+Equestrian,Polocrosse,QLD,Queensland,3,-22.49,144.43,0.012,539,0.004,0.007,**
+Equestrian,Polocrosse,SA,South Australia,4,-30.06,135.8,0.0,0,0.004,-0.004,**
+Equestrian,Polocrosse,TAS,Tasmania,6,-42.02,146.59,0.0,0,0.004,-0.004,**
+Equestrian,Polocrosse,VIC,Victoria,2,-36.85,144.28,0.0,0,0.004,-0.004,**
+Equestrian,Polocrosse,WA,Western Australia,5,-25.33,122.3,0.0,0,0.004,-0.004,**
+Equestrian,Pony Club,ACT,Australian Capital Territory,8,-35.49,149.0,0.068,269,0.046,0.022,**
+Equestrian,Pony Club,NSW,New South Wales,1,-32.16,147.02,0.036,2571,0.046,-0.009,**
+Equestrian,Pony Club,NT,Northern Territory,7,-19.49,132.55,0.225,469,0.046,0.179,**
+Equestrian,Pony Club,QLD,Queensland,3,-22.49,144.43,0.067,3108,0.046,0.022,*
+Equestrian,Pony Club,SA,South Australia,4,-30.06,135.8,0.0,0,0.046,-0.046,**
+Equestrian,Pony Club,TAS,Tasmania,6,-42.02,146.59,0.166,801,0.046,0.12,**
+Equestrian,Pony Club,VIC,Victoria,2,-36.85,144.28,0.044,2542,0.046,-0.002,**
+Equestrian,Pony Club,WA,Western Australia,5,-25.33,122.3,0.022,547,0.046,-0.023,**
+Equestrian,Rodeo,ACT,Australian Capital Territory,8,-35.49,149.0,0.0,0,0.003,-0.003,**
+Equestrian,Rodeo,NSW,New South Wales,1,-32.16,147.02,0.008,595,0.003,0.006,**
+Equestrian,Rodeo,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.003,-0.003,**
+Equestrian,Rodeo,QLD,Queensland,3,-22.49,144.43,0.0,0,0.003,-0.003,**
+Equestrian,Rodeo,SA,South Australia,4,-30.06,135.8,0.0,0,0.003,-0.003,**
+Equestrian,Rodeo,TAS,Tasmania,6,-42.02,146.59,0.0,0,0.003,-0.003,**
+Equestrian,Rodeo,VIC,Victoria,2,-36.85,144.28,0.0,0,0.003,-0.003,**
+Equestrian,Rodeo,WA,Western Australia,5,-25.33,122.3,0.0,0,0.003,-0.003,**
+Winter & ice sports,Biathlon,ACT,Australian Capital Territory,8,-35.49,149.0,0.0,0,0.006,-0.006,**
+Winter & ice sports,Biathlon,NSW,New South Wales,1,-32.16,147.02,0.0,0,0.006,-0.006,**
+Winter & ice sports,Biathlon,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.006,-0.006,**
+Winter & ice sports,Biathlon,QLD,Queensland,3,-22.49,144.43,0.014,650,0.006,0.008,**
+Winter & ice sports,Biathlon,SA,South Australia,4,-30.06,135.8,0.0,0,0.006,-0.006,**
+Winter & ice sports,Biathlon,TAS,Tasmania,6,-42.02,146.59,0.0,0,0.006,-0.006,**
+Winter & ice sports,Biathlon,VIC,Victoria,2,-36.85,144.28,0.0,0,0.006,-0.006,**
+Winter & ice sports,Biathlon,WA,Western Australia,5,-25.33,122.3,0.027,659,0.006,0.021,**
+Winter & ice sports,Bobsledding,ACT,Australian Capital Territory,8,-35.49,149.0,0.0,0,0.002,-0.002,**
+Winter & ice sports,Bobsledding,NSW,New South Wales,1,-32.16,147.02,0.006,428,0.002,0.004,**
+Winter & ice sports,Bobsledding,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.002,-0.002,**
+Winter & ice sports,Bobsledding,QLD,Queensland,3,-22.49,144.43,0.0,0,0.002,-0.002,**
+Winter & ice sports,Bobsledding,SA,South Australia,4,-30.06,135.8,0.0,0,0.002,-0.002,**
+Winter & ice sports,Bobsledding,TAS,Tasmania,6,-42.02,146.59,0.0,0,0.002,-0.002,**
+Winter & ice sports,Bobsledding,VIC,Victoria,2,-36.85,144.28,0.0,0,0.002,-0.002,**
+Winter & ice sports,Bobsledding,WA,Western Australia,5,-25.33,122.3,0.0,0,0.002,-0.002,**
+Winter & ice sports,Broomball,ACT,Australian Capital Territory,8,-35.49,149.0,0.0,0,0.002,-0.002,**
+Winter & ice sports,Broomball,NSW,New South Wales,1,-32.16,147.02,0.008,546,0.002,0.005,**
+Winter & ice sports,Broomball,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.002,-0.002,**
+Winter & ice sports,Broomball,QLD,Queensland,3,-22.49,144.43,0.0,0,0.002,-0.002,**
+Winter & ice sports,Broomball,SA,South Australia,4,-30.06,135.8,0.0,0,0.002,-0.002,**
+Winter & ice sports,Broomball,TAS,Tasmania,6,-42.02,146.59,0.0,0,0.002,-0.002,**
+Winter & ice sports,Broomball,VIC,Victoria,2,-36.85,144.28,0.0,0,0.002,-0.002,**
+Winter & ice sports,Broomball,WA,Western Australia,5,-25.33,122.3,0.0,0,0.002,-0.002,**
+Winter & ice sports,Curling,ACT,Australian Capital Territory,8,-35.49,149.0,0.0,0,0.01,-0.01,**
+Winter & ice sports,Curling,NSW,New South Wales,1,-32.16,147.02,0.0,0,0.01,-0.01,**
+Winter & ice sports,Curling,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.01,-0.01,**
+Winter & ice sports,Curling,QLD,Queensland,3,-22.49,144.43,0.015,701,0.01,0.005,**
+Winter & ice sports,Curling,SA,South Australia,4,-30.06,135.8,0.0,0,0.01,-0.01,**
+Winter & ice sports,Curling,TAS,Tasmania,6,-42.02,146.59,0.0,0,0.01,-0.01,**
+Winter & ice sports,Curling,VIC,Victoria,2,-36.85,144.28,0.009,510,0.01,-0.001,**
+Winter & ice sports,Curling,WA,Western Australia,5,-25.33,122.3,0.041,1002,0.01,0.031,**
+Winter & ice sports,Ice hockey,ACT,Australian Capital Territory,8,-35.49,149.0,0.115,457,0.061,0.054,**
+Winter & ice sports,Ice hockey,NSW,New South Wales,1,-32.16,147.02,0.06,4210,0.061,-0.001,*
+Winter & ice sports,Ice hockey,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.061,-0.061,**
+Winter & ice sports,Ice hockey,QLD,Queensland,3,-22.49,144.43,0.0,0,0.061,-0.061,**
+Winter & ice sports,Ice hockey,SA,South Australia,4,-30.06,135.8,0.147,2318,0.061,0.086,**
+Winter & ice sports,Ice hockey,TAS,Tasmania,6,-42.02,146.59,0.0,0,0.061,-0.061,**
+Winter & ice sports,Ice hockey,VIC,Victoria,2,-36.85,144.28,0.035,2039,0.061,-0.025,**
+Winter & ice sports,Ice hockey,WA,Western Australia,5,-25.33,122.3,0.19,4688,0.061,0.129,*
+Winter & ice sports,Ice racing/speed skating,ACT,Australian Capital Territory,8,-35.49,149.0,0.0,0,0.007,-0.007,**
+Winter & ice sports,Ice racing/speed skating,NSW,New South Wales,1,-32.16,147.02,0.008,532,0.007,0.001,**
+Winter & ice sports,Ice racing/speed skating,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.007,-0.007,**
+Winter & ice sports,Ice racing/speed skating,QLD,Queensland,3,-22.49,144.43,0.012,561,0.007,0.005,**
+Winter & ice sports,Ice racing/speed skating,SA,South Australia,4,-30.06,135.8,0.0,0,0.007,-0.007,**
+Winter & ice sports,Ice racing/speed skating,TAS,Tasmania,6,-42.02,146.59,0.0,0,0.007,-0.007,**
+Winter & ice sports,Ice racing/speed skating,VIC,Victoria,2,-36.85,144.28,0.008,456,0.007,0.001,**
+Winter & ice sports,Ice racing/speed skating,WA,Western Australia,5,-25.33,122.3,0.0,0,0.007,-0.007,**
+Winter & ice sports,Ice skating,ACT,Australian Capital Territory,8,-35.49,149.0,0.247,982,0.214,0.033,**
+Winter & ice sports,Ice skating,NSW,New South Wales,1,-32.16,147.02,0.311,21923,0.214,0.097,
+Winter & ice sports,Ice skating,NT,Northern Territory,7,-19.49,132.55,0.86,1793,0.214,0.647,*
+Winter & ice sports,Ice skating,QLD,Queensland,3,-22.49,144.43,0.112,5173,0.214,-0.102,*
+Winter & ice sports,Ice skating,SA,South Australia,4,-30.06,135.8,0.234,3697,0.214,0.02,*
+Winter & ice sports,Ice skating,TAS,Tasmania,6,-42.02,146.59,0.071,343,0.214,-0.143,**
+Winter & ice sports,Ice skating,VIC,Victoria,2,-36.85,144.28,0.167,9731,0.214,-0.046,*
+Winter & ice sports,Ice skating,WA,Western Australia,5,-25.33,122.3,0.192,4743,0.214,-0.022,*
+Winter & ice sports,Luging,ACT,Australian Capital Territory,8,-35.49,149.0,0.0,0,0.0,0.0,**
+Winter & ice sports,Luging,NSW,New South Wales,1,-32.16,147.02,0.0,0,0.0,0.0,**
+Winter & ice sports,Luging,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.0,0.0,**
+Winter & ice sports,Luging,QLD,Queensland,3,-22.49,144.43,0.0,0,0.0,0.0,**
+Winter & ice sports,Luging,SA,South Australia,4,-30.06,135.8,0.0,0,0.0,0.0,**
+Winter & ice sports,Luging,TAS,Tasmania,6,-42.02,146.59,0.0,0,0.0,0.0,**
+Winter & ice sports,Luging,VIC,Victoria,2,-36.85,144.28,0.0,0,0.0,0.0,**
+Winter & ice sports,Luging,WA,Western Australia,5,-25.33,122.3,0.0,0,0.0,0.0,**
+Winter & ice sports,Skeleton,ACT,Australian Capital Territory,8,-35.49,149.0,0.0,0,0.0,0.0,**
+Winter & ice sports,Skeleton,NSW,New South Wales,1,-32.16,147.02,0.0,0,0.0,0.0,**
+Winter & ice sports,Skeleton,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.0,0.0,**
+Winter & ice sports,Skeleton,QLD,Queensland,3,-22.49,144.43,0.0,0,0.0,0.0,**
+Winter & ice sports,Skeleton,SA,South Australia,4,-30.06,135.8,0.0,0,0.0,0.0,**
+Winter & ice sports,Skeleton,TAS,Tasmania,6,-42.02,146.59,0.0,0,0.0,0.0,**
+Winter & ice sports,Skeleton,VIC,Victoria,2,-36.85,144.28,0.0,0,0.0,0.0,**
+Winter & ice sports,Skeleton,WA,Western Australia,5,-25.33,122.3,0.0,0,0.0,0.0,**
+Winter & ice sports,Ski & snowboard,ACT,Australian Capital Territory,8,-35.49,149.0,1.771,7050,0.812,0.96,
+Winter & ice sports,Ski & snowboard,NSW,New South Wales,1,-32.16,147.02,1.154,81460,0.812,0.343,
+Winter & ice sports,Ski & snowboard,NT,Northern Territory,7,-19.49,132.55,0.87,1812,0.812,0.058,*
+Winter & ice sports,Ski & snowboard,QLD,Queensland,3,-22.49,144.43,0.587,27141,0.812,-0.225,
+Winter & ice sports,Ski & snowboard,SA,South Australia,4,-30.06,135.8,0.256,4050,0.812,-0.555,*
+Winter & ice sports,Ski & snowboard,TAS,Tasmania,6,-42.02,146.59,0.403,1948,0.812,-0.408,*
+Winter & ice sports,Ski & snowboard,VIC,Victoria,2,-36.85,144.28,0.824,47882,0.812,0.012,
+Winter & ice sports,Ski & snowboard,WA,Western Australia,5,-25.33,122.3,0.501,12366,0.812,-0.311,
+Winter & ice sports,Tobogganing,ACT,Australian Capital Territory,8,-35.49,149.0,0.0,0,0.002,-0.002,**
+Winter & ice sports,Tobogganing,NSW,New South Wales,1,-32.16,147.02,0.0,0,0.002,-0.002,**
+Winter & ice sports,Tobogganing,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.002,-0.002,**
+Winter & ice sports,Tobogganing,QLD,Queensland,3,-22.49,144.43,0.0,0,0.002,-0.002,**
+Winter & ice sports,Tobogganing,SA,South Australia,4,-30.06,135.8,0.0,0,0.002,-0.002,**
+Winter & ice sports,Tobogganing,TAS,Tasmania,6,-42.02,146.59,0.0,0,0.002,-0.002,**
+Winter & ice sports,Tobogganing,VIC,Victoria,2,-36.85,144.28,0.009,545,0.002,0.007,**
+Winter & ice sports,Tobogganing,WA,Western Australia,5,-25.33,122.3,0.0,0,0.002,-0.002,**
+Other,Air sports,ACT,Australian Capital Territory,8,-35.49,149.0,0.0,0,0.224,-0.224,**
+Other,Air sports,NSW,New South Wales,1,-32.16,147.02,0.307,21695,0.224,0.083,
+Other,Air sports,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.224,-0.224,**
+Other,Air sports,QLD,Queensland,3,-22.49,144.43,0.098,4541,0.224,-0.126,*
+Other,Air sports,SA,South Australia,4,-30.06,135.8,0.047,747,0.224,-0.177,**
+Other,Air sports,TAS,Tasmania,6,-42.02,146.59,0.095,458,0.224,-0.129,**
+Other,Air sports,VIC,Victoria,2,-36.85,144.28,0.29,16825,0.224,0.065,
+Other,Air sports,WA,Western Australia,5,-25.33,122.3,0.262,6467,0.224,0.038,*
+Other,Guides,ACT,Australian Capital Territory,8,-35.49,149.0,0.0,0,0.004,-0.004,**
+Other,Guides,NSW,New South Wales,1,-32.16,147.02,0.008,596,0.004,0.004,**
+Other,Guides,NT,Northern Territory,7,-19.49,132.55,0.167,348,0.004,0.163,**
+Other,Guides,QLD,Queensland,3,-22.49,144.43,0.0,0,0.004,-0.004,**
+Other,Guides,SA,South Australia,4,-30.06,135.8,0.0,0,0.004,-0.004,**
+Other,Guides,TAS,Tasmania,6,-42.02,146.59,0.0,0,0.004,-0.004,**
+Other,Guides,VIC,Victoria,2,-36.85,144.28,0.0,0,0.004,-0.004,**
+Other,Guides,WA,Western Australia,5,-25.33,122.3,0.0,0,0.004,-0.004,**
+Other,Modern pentathlon,ACT,Australian Capital Territory,8,-35.49,149.0,0.0,0,0.003,-0.003,**
+Other,Modern pentathlon,NSW,New South Wales,1,-32.16,147.02,0.0,0,0.003,-0.003,**
+Other,Modern pentathlon,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.003,-0.003,**
+Other,Modern pentathlon,QLD,Queensland,3,-22.49,144.43,0.015,682,0.003,0.012,**
+Other,Modern pentathlon,SA,South Australia,4,-30.06,135.8,0.0,0,0.003,-0.003,**
+Other,Modern pentathlon,TAS,Tasmania,6,-42.02,146.59,0.0,0,0.003,-0.003,**
+Other,Modern pentathlon,VIC,Victoria,2,-36.85,144.28,0.0,0,0.003,-0.003,**
+Other,Modern pentathlon,WA,Western Australia,5,-25.33,122.3,0.0,0,0.003,-0.003,**
+Other,Ready Steady Go Kids,ACT,Australian Capital Territory,8,-35.49,149.0,0.0,0,0.008,-0.008,**
+Other,Ready Steady Go Kids,NSW,New South Wales,1,-32.16,147.02,0.017,1206,0.008,0.009,**
+Other,Ready Steady Go Kids,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.008,-0.008,**
+Other,Ready Steady Go Kids,QLD,Queensland,3,-22.49,144.43,0.0,0,0.008,-0.008,**
+Other,Ready Steady Go Kids,SA,South Australia,4,-30.06,135.8,0.033,515,0.008,0.025,**
+Other,Ready Steady Go Kids,TAS,Tasmania,6,-42.02,146.59,0.0,0,0.008,-0.008,**
+Other,Ready Steady Go Kids,VIC,Victoria,2,-36.85,144.28,0.0,0,0.008,-0.008,**
+Other,Ready Steady Go Kids,WA,Western Australia,5,-25.33,122.3,0.0,0,0.008,-0.008,**
+Other,Scouts,ACT,Australian Capital Territory,8,-35.49,149.0,0.0,0,0.022,-0.022,**
+Other,Scouts,NSW,New South Wales,1,-32.16,147.02,0.018,1243,0.022,-0.004,**
+Other,Scouts,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.022,-0.022,**
+Other,Scouts,QLD,Queensland,3,-22.49,144.43,0.013,614,0.022,-0.008,**
+Other,Scouts,SA,South Australia,4,-30.06,135.8,0.042,666,0.022,0.02,**
+Other,Scouts,TAS,Tasmania,6,-42.02,146.59,0.0,0,0.022,-0.022,**
+Other,Scouts,VIC,Victoria,2,-36.85,144.28,0.041,2377,0.022,0.019,**
+Other,Scouts,WA,Western Australia,5,-25.33,122.3,0.0,0,0.022,-0.022,**
+Other,Wood chopping,ACT,Australian Capital Territory,8,-35.49,149.0,0.0,0,0.033,-0.033,**
+Other,Wood chopping,NSW,New South Wales,1,-32.16,147.02,0.02,1424,0.033,-0.013,**
+Other,Wood chopping,NT,Northern Territory,7,-19.49,132.55,0.0,0,0.033,-0.033,**
+Other,Wood chopping,QLD,Queensland,3,-22.49,144.43,0.035,1628,0.033,0.002,**
+Other,Wood chopping,SA,South Australia,4,-30.06,135.8,0.0,0,0.033,-0.033,**
+Other,Wood chopping,TAS,Tasmania,6,-42.02,146.59,0.0,0,0.033,-0.033,**
+Other,Wood chopping,VIC,Victoria,2,-36.85,144.28,0.058,3389,0.033,0.026,*
+Other,Wood chopping,WA,Western Australia,5,-25.33,122.3,0.04,986,0.033,0.007,**
+Other,eSports,ACT,Australian Capital Territory,8,-35.49,149.0,0.711,2829,0.211,0.5,*
+Other,eSports,NSW,New South Wales,1,-32.16,147.02,0.228,16067,0.211,0.017,
+Other,eSports,NT,Northern Territory,7,-19.49,132.55,0.241,503,0.211,0.031,**
+Other,eSports,QLD,Queensland,3,-22.49,144.43,0.189,8751,0.211,-0.022,*
+Other,eSports,SA,South Australia,4,-30.06,135.8,0.147,2326,0.211,-0.064,**
+Other,eSports,TAS,Tasmania,6,-42.02,146.59,0.268,1293,0.211,0.057,**
+Other,eSports,VIC,Victoria,2,-36.85,144.28,0.204,11849,0.211,-0.007,
+Other,eSports,WA,Western Australia,5,-25.33,122.3,0.165,4086,0.211,-0.045,*

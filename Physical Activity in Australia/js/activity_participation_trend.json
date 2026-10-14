@@ -3,21 +3,40 @@
   "background": "transparent",
   "title": {
     "text": "Rising or Falling? Participation by Activity, 2024-2025",
-    "subtitle": "Percentage-point change in adult participation rate, biggest movers"
+    "subtitle": "Percentage-point change in adult participation rate by activity category",
+    "fontSize": 22,
+    "subtitleFontSize": 17
   },
   "data": { "url": "data/activity_change_2024_2025.csv" },
   "params": [
     {
-      "name": "topN",
-      "value": 20,
-      "bind": { "input": "range", "min": 10, "max": 40, "step": 5, "name": "Number of top movers: " }
+      "name": "categorySel",
+      "value": "Fitness & gym",
+      "bind": {
+        "input": "select",
+        "name": "Activity category: ",
+        "options": [
+          "Fitness & gym",
+          "Running, walking & outdoor",
+          "Football codes",
+          "Other team sports",
+          "Racquet & target sports",
+          "Water sports",
+          "Combat sports & martial arts",
+          "Dance, gymnastics & performance",
+          "Cycling, wheels & motor",
+          "Equestrian",
+          "Winter & ice sports",
+          "Other"
+        ]
+      }
     }
   ],
   "width": "container",
-  "height": { "step": 20 },
+  "height": "container",
   "autosize": { "type": "fit", "contains": "padding", "resize": true },
   "transform": [
-    { "filter": "datum.mover_rank <= topN" },
+    { "filter": "datum.category === categorySel" },
     {
       "calculate": "datum.reliability == '**' ? 'Very high sampling error: use with caution' : datum.reliability == '*' ? 'High sampling error: use with caution' : 'OK'",
       "as": "rel_note"
@@ -49,7 +68,7 @@
           "field": "direction",
           "type": "nominal",
           "title": null,
-          "scale": { "domain": ["Rising", "Falling"], "range": ["#1a9850", "#d73027"] }
+          "scale": { "domain": ["Rising", "Falling"], "range": ["#2166ac", "#b2182b"] }
         },
         "tooltip": [
           { "field": "activity", "title": "Activity" },

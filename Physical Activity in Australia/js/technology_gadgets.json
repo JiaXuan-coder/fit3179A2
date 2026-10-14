@@ -111,8 +111,8 @@
             "fields": [
               "tech_label"
             ],
-            "on": "pointerover",
-            "clear": "pointerout"
+            "on": "mouseover",
+            "clear": "mouseout"
           }
         },
         {

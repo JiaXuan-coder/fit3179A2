@@ -27,7 +27,7 @@ body {
 main {
     margin: 0 auto;
     max-width: 1548px;
-    padding: 0 25px;
+    padding: 0 50px;
     width: 100%;
 }
 
@@ -48,7 +48,9 @@ main {
 }
 
 .section-2-heading h1,
-.section-3-heading h1 {
+.section-3-heading h1,
+.section-4-heading h1,
+.section-5-heading h1 {
     color: #0D4E83;
     font-family: "Times New Roman", Times, serif;
     font-size: clamp(26px, 3vw, 42px);
@@ -133,11 +135,232 @@ main {
 }
 
 .trend-charts-grid {
+    align-items: stretch;
     display: grid;
     gap: 12px;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     margin: 0 auto 28px;
     max-width: 1500px;
+}
+
+.state-participation-section {
+    align-items: stretch;
+    display: grid;
+    gap: 12px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin: 0 auto 28px;
+    max-width: 1500px;
+}
+
+.state-gender-gap-section {
+    align-items: stretch;
+    display: grid;
+    gap: 12px;
+    grid-template-columns: auto minmax(300px, 1fr);
+    margin: 0 auto 28px;
+    max-width: 1500px;
+}
+
+.state-explanation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.state-map-panel {
+    display: flex;
+    justify-content: center;
+}
+
+/* State activity section: title banner, then one card holding the radial chart and treemap side by side */
+.state-activity-section {
+    display: grid;
+    gap: 12px;
+    margin: 0 auto 28px;
+    max-width: 1500px;
+    width: 100%;
+}
+
+.state-activity-header {
+    background: #EAF6FC;
+    border: 1px solid #C8E2EE;
+    border-radius: 10px;
+    padding: 16px 20px;
+}
+
+.state-activity-header h2 {
+    color: #0D4E83;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 24px;
+    margin: 0 0 8px;
+}
+
+.state-activity-header p {
+    color: #28668E;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.4;
+    margin: 0;
+}
+
+.state-activity-panel {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    padding: 16px 0 14px;
+}
+
+.state-activity-col {
+    min-width: 0;
+    padding: 0 18px;
+}
+
+.state-activity-col + .state-activity-col {
+    border-left: 1px solid #C8E2EE;
+}
+
+.state-activity-panel h3 {
+    color: #0D4E83;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.state-activity-panel .vega-embed svg,
+.state-activity-panel .vega-embed canvas {
+    margin: 0 auto;
+}
+
+#state_participation_chart {
+    max-width: 100%;
+}
+
+/* Socioeconomic section: one row per factor, chart on the left and its insight on the right */
+.socio-section {
+    background: #F5FBFE;
+    border: 1px solid #C8E2EE;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: auto minmax(300px, 1fr);
+    margin: 0 auto 28px;
+    max-width: 1500px;
+    overflow: hidden;
+}
+
+.socio-header {
+    grid-column: 1 / -1;
+    padding: 18px 20px 8px;
+}
+
+.socio-header h2,
+.socio-chart-block h3,
+.socio-insights-heading {
+    color: #0D4E83;
+    font-family: "Times New Roman", Times, serif;
+    margin: 0 0 8px;
+}
+
+.socio-header h2 {
+    font-size: 24px;
+}
+
+.socio-header p {
+    color: #28668E;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.4;
+    margin: 0 0 6px;
+}
+
+.socio-header .socio-subtitle {
+    color: #3479A8;
+    font-size: 14px;
+}
+
+.socio-insights-heading {
+    background: #EAF6FC;
+    font-size: 20px;
+    grid-column: 2;
+    margin: 0;
+    padding: 14px 20px 0;
+}
+
+.socio-chart-block {
+    border-top: 1px solid #C8E2EE;
+    grid-column: 1;
+    min-width: 0;
+    overflow-x: auto;
+    padding: 14px 20px 10px;
+}
+
+.socio-chart-block h3 {
+    font-size: 17px;
+}
+
+.socio-insight {
+    background: #EAF6FC;
+    border-top: 1px solid #C8E2EE;
+    color: #28668E;
+    display: flex;
+    flex-direction: column;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 15px;
+    grid-column: 2;
+    justify-content: center;
+    line-height: 1.4;
+    padding: 14px 20px;
+    text-align: left;
+}
+
+.socio-insight > :last-child {
+    margin-bottom: 0;
+}
+
+.socio-insights-heading + .socio-chart-block,
+.socio-insights-heading + .socio-chart-block + .socio-insight {
+    border-top: 0;
+}
+
+.socio-insight-span {
+    grid-row: span 2;
+}
+
+.socio-insight p {
+    margin: 0 0 8px;
+}
+
+.socio-insight ul {
+    margin: 0 0 8px;
+    padding-left: 18px;
+}
+
+.socio-insight li {
+    margin-bottom: 4px;
+}
+
+.trend-charts-grid > .chart-panel {
+    display: flex;
+    min-height: 0;
+}
+
+#active_trend_chart,
+#activity_participation_trend_chart {
+    flex: 1;
+    height: 100%;
+    min-height: 0;
+    width: 100%;
+}
+
+.activity-change-panel {
+    grid-column: 2;
+    justify-self: end;
+    width: 100%;
+}
+
+.activity-change-explanation {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .barriers-chart-panel {
@@ -219,6 +442,76 @@ main {
     padding-top: 12px;
 }
 
+/* Technology names in the explanation, coloured to match their line in the bump chart (tableau20) */
+.tech-name {
+    font-weight: 700;
+}
+
+.tech-bike { color: #4C78A8; }
+.tech-headphones { color: #F58518; }
+.tech-maps { color: #54A24B; }
+.tech-motion { color: #88D27A; }
+.tech-music { color: #B79A20; }
+.tech-online-training { color: #F2CF5B; }
+.tech-paid-online { color: #439894; }
+.tech-tracking { color: #FF9D98; }
+.tech-wearables { color: #79706E; }
+
+/* Gender and age groups in the motivation/barrier explanations, coloured to match the dumbbell charts */
+.grp-name {
+    font-weight: 700;
+}
+
+.grp-female { color: #E0529C; }
+.grp-male { color: #3A63D8; }
+.grp-55-64 { color: #443983; }
+.grp-65 { color: #440154; }
+
+.grp-15-17 {
+    color: #fad900;
+    font-size: calc(1em - 1px);
+}
+
+/* Activities in the 2024-2025 change explanation, coloured to match the Rising/Falling bars */
+.chg-name {
+    font-weight: 700;
+}
+
+.chg-rising { color: #2166AC; }
+.chg-falling { color: #B2182B; }
+
+/* Top-activities insights: activity names in the bar chart's purple */
+.act-name {
+    font-weight: 700;
+}
+
+.act-top15 { color: #5D4DC5; }
+
+/* State participation map: blue = above the national rate, red = below */
+.st-name {
+    font-weight: 700;
+}
+
+.st-above { color: #2166AC; }
+.st-below { color: #B2182B; }
+
+/* Health status chart: lowest-risk group green, higher-risk groups orange/red */
+.risk-name {
+    font-weight: 700;
+}
+
+.risk-lowest { color: #34A85D; }
+.risk-high { color: #E8833A; }
+.risk-highest { color: #B03A2E; }
+
+/* Socioeconomic lollipops: green = above the national rate, orange = below */
+.socio-name {
+    font-weight: 700;
+}
+
+.socio-above { color: #34A85D; }
+.socio-below { color: #E8833A; }
+
 .panel-number {
     align-items: center;
     background: #07508A;
@@ -243,6 +536,20 @@ main {
 .vega-embed {
     max-width: 100%;
     width: 100%;
+}
+
+/* Scale fixed-width Vega-Lite charts down so they never overflow their panel */
+.chart-panel > div,
+.chart-panel .vega-embed {
+    max-width: 100%;
+    min-width: 0;
+}
+
+.chart-panel .vega-embed svg,
+.chart-panel .vega-embed canvas {
+    display: block;
+    height: auto !important;
+    max-width: 100%;
 }
 
 #who_organised_chart .vega-embed {
@@ -288,11 +595,6 @@ main {
     padding: 12px 0;
 }
 
-.insight-item:first-of-type {
-    border-top: 0;
-    padding-top: 0;
-}
-
 .insight-item img {
     flex: 0 0 42px;
     height: 42px;
@@ -308,6 +610,12 @@ main {
     margin: 0;
 }
 
+@media (max-width: 1400px) {
+    .state-gender-gap-section {
+        grid-template-columns: 1fr;
+    }
+}
+
 @media (max-width: 1050px) {
     .section-1-heading {
         grid-template-columns: minmax(0, 1fr);
@@ -321,8 +629,31 @@ main {
         grid-template-columns: 1fr;
     }
 
-    .technology-section {
+    .technology-section,
+    .state-participation-section,
+    .state-activity-panel,
+    .socio-section {
         grid-template-columns: 1fr;
+    }
+
+    .state-activity-col + .state-activity-col {
+        border-left: 0;
+        border-top: 1px solid #C8E2EE;
+        margin-top: 14px;
+        padding-top: 14px;
+    }
+
+    .socio-insights-heading {
+        display: none;
+    }
+
+    .socio-chart-block,
+    .socio-insight {
+        grid-column: 1;
+    }
+
+    .socio-insight-span {
+        grid-row: auto;
     }
 
     .motivation-barriers-grid {
@@ -331,6 +662,10 @@ main {
 
     .trend-charts-grid {
         grid-template-columns: minmax(0, 1fr);
+    }
+
+    .activity-change-panel {
+        grid-column: 1;
     }
 
     .barriers-chart-panel {
@@ -355,5 +690,10 @@ main {
 
     .insights-panel {
         display: block;
+    }
+
+    .insight-item:first-of-type {
+        border-top: 0;
+        padding-top: 0;
     }
 }

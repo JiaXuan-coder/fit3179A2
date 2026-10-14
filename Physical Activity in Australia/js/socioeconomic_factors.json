@@ -1,0 +1,165 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Template for one socioeconomic factor. vega_lite_vis.js adds a filter for each factor and embeds one chart per row, so each chart can sit beside its matching insight.",
+  "background": "transparent",
+  "width": 520,
+  "height": {
+    "step": 26
+  },
+  "data": {
+    "url": "data/participation_by_socioeconomic_factor.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "category_order": "number",
+        "year": "number",
+        "rate": "number",
+        "national_rate": "number",
+        "diff_from_national": "number"
+      }
+    }
+  },
+  "transform": [
+    { "filter": "datum.year == 2025 && datum.frequency === 'At least once per week'" },
+    { "filter": "datum.category !== 'Other' && datum.category !== 'Not stated'" },
+    {
+      "calculate": "datum.category === 'University degree or higher (including postgraduate diploma)' ? 'University degree or higher' : datum.category === 'Undergraduate diploma or associate diploma' ? 'Undergraduate / associate diploma' : datum.category === 'Certificate, trade qualification or apprenticeship' ? 'Certificate / trade / apprenticeship' : datum.category === 'Highest level of secondary school' ? 'Completed secondary school' : datum.category === 'Did not complete highest level of school' ? 'Did not complete school' : datum.category === 'Younger family (most children under 15 years)' ? 'Younger family (kids mostly <15)' : datum.category === 'Mature family (most children 15 years or over)' ? 'Mature family (kids mostly 15+)' : datum.category === 'Mid family (equal number of children 15 years and over and under 15 years)' ? 'Mid family (mixed ages)' : datum.category",
+      "as": "cat_short"
+    },
+    {
+      "calculate": "format(datum.rate, '.1f') + '%  (' + (datum.diff_from_national >= 0 ? '+' : '−') + format(abs(datum.diff_from_national), '.1f') + ')'",
+      "as": "label"
+    }
+  ],
+  "encoding": {
+    "y": {
+      "field": "cat_short",
+      "type": "nominal",
+      "title": null,
+      "sort": {
+        "field": "category_order",
+        "op": "min"
+      },
+      "axis": {
+        "labelFontSize": 12,
+        "labelColor": "#28668E",
+        "labelLimit": 220,
+        "minExtent": 220,
+        "maxExtent": 220,
+        "domain": false,
+        "ticks": false,
+        "labelPadding": 8
+      }
+    },
+    "x": {
+      "field": "diff_from_national",
+      "type": "quantitative",
+      "title": null,
+      "scale": {
+        "domain": [-30, 16]
+      },
+      "axis": {
+        "format": "+d",
+        "values": [-30, -25, -20, -15, -10, -5, 0, 5, 10, 15]
+      }
+    }
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "rule",
+        "color": "#9FBFD3",
+        "strokeWidth": 1.5
+      },
+      "encoding": {
+        "x": {
+          "datum": 0,
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "rule",
+        "strokeWidth": 2.5
+      },
+      "encoding": {
+        "x2": { "datum": 0 },
+        "color": {
+          "condition": {
+            "test": "datum.diff_from_national >= 0",
+            "value": "#34a85d"
+          },
+          "value": "#e84e3a"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "circle",
+        "size": 150,
+        "opacity": 1
+      },
+      "encoding": {
+        "color": {
+          "condition": {
+            "test": "datum.diff_from_national >= 0",
+            "value": "#34a85d"
+          },
+          "value": "#E8833A"
+        },
+        "tooltip": [
+          { "field": "factor", "title": "Factor" },
+          { "field": "category", "title": "Group" },
+          { "field": "rate", "title": "Active weekly (%)", "format": ".1f" },
+          { "field": "national_rate", "title": "National rate (%)", "format": ".1f" },
+          { "field": "diff_from_national", "title": "Difference (pp)", "format": "+.1f" }
+        ]
+      }
+    },
+    {
+      "transform": [
+        { "filter": "datum.diff_from_national >= 0" }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 10,
+        "fontSize": 11,
+        "color": "#333333"
+      },
+      "encoding": {
+        "text": { "field": "label" }
+      }
+    },
+    {
+      "transform": [
+        { "filter": "datum.diff_from_national < 0" }
+      ],
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "dx": -10,
+        "fontSize": 11,
+        "color": "#333333"
+      },
+      "encoding": {
+        "text": { "field": "label" }
+      }
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFontSize": 11,
+      "titleFontSize": 12,
+      "labelColor": "#28668E",
+      "titleColor": "#28668E",
+      "gridColor": "#E3EEF4",
+      "domainColor": "#9FBFD3",
+      "tickColor": "#9FBFD3"
+    }
+  }
+}

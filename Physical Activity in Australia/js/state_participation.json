@@ -1,0 +1,165 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "background": "transparent",
+  "title": {
+    "text": "How Much Does Australia Move?",
+    "subtitle": "Adult participation rate by state, compared with the national rate: 2024 vs 2025",
+    "fontSize": 22,
+    "subtitleFontSize": 17
+  },
+  "params": [
+    {
+      "name": "freqSel",
+      "value": "At least once per week",
+      "bind": {
+        "input": "radio",
+        "name": "Participation: ",
+        "options": ["At least once per week", "At least three times per week"]
+      }
+    }
+  ],
+  "spacing": 20,
+  "hconcat": [
+    {
+      "title": { "text": "2024", "fontSize": 14 },
+      "width": 340,
+      "height": 300,
+      "projection": { "type": "mercator" },
+      "layer": [
+        {
+          "data": { "url": "data/state_participation_2024_2025.csv" },
+          "transform": [
+            { "filter": "datum.frequency === freqSel && datum.year == 2024 && datum.sex === 'All'" },
+            {
+              "lookup": "state_name",
+              "from": {
+                "data": {
+                  "url": "https://raw.githubusercontent.com/rowanhogan/australian-states/master/states.geojson",
+                  "format": { "type": "json", "property": "features" }
+                },
+                "key": "properties.STATE_NAME"
+              },
+              "as": "geo"
+            }
+          ],
+          "mark": { "type": "geoshape", "stroke": "white", "strokeWidth": 1 },
+          "encoding": {
+            "shape": { "field": "geo", "type": "geojson" },
+            "color": {
+              "field": "diff_from_national",
+              "type": "quantitative",
+              "title": "Difference from national rate (pp)",
+              "scale": { "scheme": "redblue", "domain": [-13, 13] },
+              "legend": {
+                "format": "+d",
+                "orient": "bottom",
+                "direction": "horizontal",
+                "gradientLength": 300
+              }
+            },
+            "tooltip": [
+              { "field": "state_name", "title": "State" },
+              { "field": "year", "title": "Year" },
+              { "field": "rate", "title": "Participation rate (%)", "format": ".1f" },
+              { "field": "national_rate", "title": "National rate (%)", "format": ".1f" },
+              { "field": "diff_from_national", "title": "Difference (pp)", "format": "+.1f" }
+            ]
+          }
+        },
+        {
+          "data": {
+            "values": [
+              { "state_code": "WA", "lon": 122.0, "lat": -26.0 },
+              { "state_code": "NT", "lon": 133.5, "lat": -19.5 },
+              { "state_code": "SA", "lon": 135.5, "lat": -30.0 },
+              { "state_code": "QLD", "lon": 144.5, "lat": -22.5 },
+              { "state_code": "NSW", "lon": 146.5, "lat": -32.5 },
+              { "state_code": "VIC", "lon": 144.0, "lat": -37.0 },
+              { "state_code": "TAS", "lon": 146.6, "lat": -42.1 },
+              { "state_code": "ACT", "lon": 151.5, "lat": -35.5 }
+            ]
+          },
+          "mark": { "type": "text", "fontSize": 11, "fontWeight": "bold", "color": "#222222" },
+          "encoding": {
+            "longitude": { "field": "lon", "type": "quantitative" },
+            "latitude": { "field": "lat", "type": "quantitative" },
+            "text": { "field": "state_code" }
+          }
+        }
+      ]
+    },
+    {
+      "title": { "text": "2025", "fontSize": 14 },
+      "width": 340,
+      "height": 300,
+      "projection": { "type": "mercator" },
+      "layer": [
+        {
+          "data": { "url": "data/state_participation_2024_2025.csv" },
+          "transform": [
+            { "filter": "datum.frequency === freqSel && datum.year == 2025 && datum.sex === 'All'" },
+            {
+              "lookup": "state_name",
+              "from": {
+                "data": {
+                  "url": "https://raw.githubusercontent.com/rowanhogan/australian-states/master/states.geojson",
+                  "format": { "type": "json", "property": "features" }
+                },
+                "key": "properties.STATE_NAME"
+              },
+              "as": "geo"
+            }
+          ],
+          "mark": { "type": "geoshape", "stroke": "white", "strokeWidth": 1 },
+          "encoding": {
+            "shape": { "field": "geo", "type": "geojson" },
+            "color": {
+              "field": "diff_from_national",
+              "type": "quantitative",
+              "title": "Difference from national rate (pp)",
+              "scale": { "scheme": "redblue", "domain": [-13, 13] },
+              "legend": {
+                "format": "+d",
+                "orient": "bottom",
+                "direction": "horizontal",
+                "gradientLength": 300
+              }
+            },
+            "tooltip": [
+              { "field": "state_name", "title": "State" },
+              { "field": "year", "title": "Year" },
+              { "field": "rate", "title": "Participation rate (%)", "format": ".1f" },
+              { "field": "national_rate", "title": "National rate (%)", "format": ".1f" },
+              { "field": "diff_from_national", "title": "Difference (pp)", "format": "+.1f" }
+            ]
+          }
+        },
+        {
+          "data": {
+            "values": [
+              { "state_code": "WA", "lon": 122.0, "lat": -26.0 },
+              { "state_code": "NT", "lon": 133.5, "lat": -19.5 },
+              { "state_code": "SA", "lon": 135.5, "lat": -30.0 },
+              { "state_code": "QLD", "lon": 144.5, "lat": -22.5 },
+              { "state_code": "NSW", "lon": 146.5, "lat": -32.5 },
+              { "state_code": "VIC", "lon": 144.0, "lat": -37.0 },
+              { "state_code": "TAS", "lon": 146.6, "lat": -42.1 },
+              { "state_code": "ACT", "lon": 151.5, "lat": -35.5 }
+            ]
+          },
+          "mark": { "type": "text", "fontSize": 11, "fontWeight": "bold", "color": "#222222" },
+          "encoding": {
+            "longitude": { "field": "lon", "type": "quantitative" },
+            "latitude": { "field": "lat", "type": "quantitative" },
+            "text": { "field": "state_code" }
+          }
+        }
+      ]
+    }
+  ],
+  "resolve": { "scale": { "color": "shared" } },
+  "config": {
+    "view": { "stroke": null },
+    "legend": { "labelFontSize": 12, "titleFontSize": 12 }
+  }
+}
