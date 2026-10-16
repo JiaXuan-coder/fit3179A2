@@ -16,7 +16,8 @@
     }
   ],
   "width": 450,
-  "height": { "step": 22 },
+  "height": "container",
+  "autosize": { "type": "fit-y", "contains": "padding" },
   "transform": [
     { "calculate": "datum.group === 'All adults' ? datum.percentage : null", "as": "allPct_row" },
     {
@@ -70,13 +71,7 @@
               "expr": "dimSel === 'Gender' ? ['Female', 'Male'] : ['15-17', '18-24', '25-34', '35-44', '45-54', '55-64', '65+']"
             }
           }
-        },
-        "tooltip": [
-          { "field": "motivation", "title": "Motivation" },
-          { "field": "group", "title": "Group" },
-          { "field": "percentage", "title": "% of group", "format": ".1f" },
-          { "field": "rel_note", "title": "Reliability" }
-        ]
+        }
       }
     }
   ],

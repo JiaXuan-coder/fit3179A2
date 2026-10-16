@@ -70,13 +70,7 @@
               "expr": "dimSel === 'Gender' ? ['Female', 'Male'] : ['15-17', '18-24', '25-34', '35-44', '45-54', '55-64', '65+']"
             }
           }
-        },
-        "tooltip": [
-          { "field": "barrier", "title": "Barrier" },
-          { "field": "group", "title": "Group" },
-          { "field": "percentage", "title": "% of group", "format": ".1f" },
-          { "field": "rel_note", "title": "Reliability" }
-        ]
+        }
       }
     }
   ],

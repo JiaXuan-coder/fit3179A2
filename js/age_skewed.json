@@ -14,11 +14,6 @@
       "joinaggregate": [{ "op": "sum", "field": "participants", "as": "total" }],
       "groupby": ["activity"]
     },
-    {
-      "window": [{ "op": "dense_rank", "as": "rank" }],
-      "sort": [{ "field": "total", "order": "descending" }]
-    },
-    { "filter": "datum.rank <= 150" },
     { "calculate": "datum.participants / datum.total", "as": "pct" },
     {
       "calculate": "indexof(['15-17','18-24','25-34','35-44','45-54','55-64','65+'], datum.group)",
@@ -39,7 +34,7 @@
   ],
   "vconcat": [
     {
-      "title": { "text": "Top 10 skewed towards the young (share aged 15–24)", "fontSize": 16, "anchor": "start" },
+      "title": { "text": "Top 10 skewed towards the young (share aged 15-24)", "fontSize": 16, "anchor": "start" },
       "width": 400,
       "height": { "step": 22 },
       "transform": [
@@ -55,7 +50,8 @@
           "field": "activity",
           "type": "nominal",
           "title": null,
-          "sort": { "field": "pctYoung", "op": "max", "order": "descending" }
+          "sort": { "field": "pctYoung", "op": "max", "order": "descending" },
+          "axis": { "labelExpr": "datum.label === 'Volleyball (indoor and outdoor)' ? 'Volleyball' : datum.label" }
         },
         "x": {
           "field": "participants",

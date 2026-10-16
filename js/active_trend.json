@@ -4,11 +4,12 @@
   "title": {
     "text": "Participation Trends by Gender, 2017-2025",
     "subtitle": [
-      "Annual participation rate. 2017-2023 are financial years (FY17 = Jul 2016–Jun 2017);",
-      "2024-2025 are calendar years from a newer release, so the line breaks between them."
+      "Annual participation rate. 2017-2023 are financial years",
+      "(FY17 = Jul 2016–Jun 2017); 2024-2025 are calendar years",
+      "from a newer release, so the line breaks between them."
     ],
     "fontSize": 22,
-    "subtitleFontSize": 17,
+    "subtitleFontSize": 14,
     "subtitlePadding": 6
   },
   "data": { "url": "data/participation_frequency_2017_2025.csv" },
@@ -25,7 +26,7 @@
   ],
   "width": "container",
   "height": "container",
-  "autosize": { "type": "fit", "contains": "padding", "resize": true },
+  "autosize": { "type": "fit", "contains": "padding", "resize": false },
   "transform": [
     { "filter": "datum.frequency === freqSel" },
     { "filter": "datum.dimension === 'Gender'" }

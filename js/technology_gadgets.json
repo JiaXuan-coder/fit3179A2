@@ -103,43 +103,10 @@
   },
   "layer": [
     {
-      "params": [
-        {
-          "name": "highlight",
-          "select": {
-            "type": "point",
-            "fields": [
-              "tech_label"
-            ],
-            "on": "mouseover",
-            "clear": "mouseout"
-          }
-        },
-        {
-          "name": "pinned",
-          "select": {
-            "type": "point",
-            "fields": [
-              "tech_label"
-            ],
-            "on": "click",
-            "toggle": "true"
-          }
-        }
-      ],
       "mark": {
         "type": "line",
         "strokeWidth": 3,
         "interpolate": "monotone"
-      },
-      "encoding": {
-        "opacity": {
-          "condition": {
-            "test": "(!length(data('highlight_store')) && !length(data('pinned_store'))) || highlight || pinned",
-            "value": 1
-          },
-          "value": 0.12
-        }
       }
     },
     {
@@ -148,33 +115,6 @@
         "size": 110,
         "stroke": "white",
         "strokeWidth": 1.5
-      },
-      "encoding": {
-        "opacity": {
-          "condition": {
-            "test": "(!length(data('highlight_store')) && !length(data('pinned_store'))) || highlight || pinned",
-            "value": 1
-          },
-          "value": 0.12
-        },
-        "tooltip": [
-          {
-            "field": "technology",
-            "type": "nominal",
-            "title": "Technology"
-          },
-          {
-            "field": "age_group",
-            "type": "ordinal",
-            "title": "Age group"
-          },
-          {
-            "field": "percentage",
-            "type": "quantitative",
-            "title": "% of active adults",
-            "format": ".1f"
-          }
-        ]
       }
     },
     {
@@ -192,13 +132,6 @@
       "encoding": {
         "text": {
           "field": "rank_label"
-        },
-        "opacity": {
-          "condition": {
-            "test": "(!length(data('highlight_store')) && !length(data('pinned_store'))) || highlight || pinned",
-            "value": 1
-          },
-          "value": 0.25
         }
       }
     },
@@ -217,13 +150,6 @@
       "encoding": {
         "text": {
           "field": "rank_label"
-        },
-        "opacity": {
-          "condition": {
-            "test": "(!length(data('highlight_store')) && !length(data('pinned_store'))) || highlight || pinned",
-            "value": 1
-          },
-          "value": 0.25
         }
       }
     }
@@ -231,7 +157,6 @@
   "config": {
     "view": {
       "stroke": null
-    },
-    "font": "Helvetica, Arial, sans-serif"
+    }
   }
 }

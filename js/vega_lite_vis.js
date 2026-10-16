@@ -1,4 +1,4 @@
-var top15Spec = "js/top15_activities_participated.json";
+var top15Spec = "js/top25_activities_participated.json";
 var ageSkewedSpec = "js/age_skewed.json";
 var whoorganised = "js/who_organises_activities.json";
 var technologySpec = "js/technology_gadgets.json";

@@ -3,9 +3,12 @@
   "background": "transparent",
   "title": {
     "text": "Rising or Falling? Participation by Activity, 2024-2025",
-    "subtitle": "Percentage-point change in adult participation rate by activity category",
+    "subtitle": [
+      "Percentage-point change in adult participation rate",
+      "by activity category"
+    ],
     "fontSize": 22,
-    "subtitleFontSize": 17
+    "subtitleFontSize": 14
   },
   "data": { "url": "data/activity_change_2024_2025.csv" },
   "params": [
@@ -34,7 +37,7 @@
   ],
   "width": "container",
   "height": "container",
-  "autosize": { "type": "fit", "contains": "padding", "resize": true },
+  "autosize": { "type": "fit", "contains": "padding", "resize": false },
   "transform": [
     { "filter": "datum.category === categorySel" },
     {
