@@ -71,7 +71,7 @@
           "field": "direction",
           "type": "nominal",
           "title": null,
-          "scale": { "domain": ["Rising", "Falling"], "range": ["#2166ac", "#b2182b"] }
+          "scale": { "domain": ["Rising", "Falling"], "range": ["#2166ac", "#E66101"] }
         },
         "tooltip": [
           { "field": "activity", "title": "Activity" },
@@ -93,9 +93,9 @@
     },
     {
       "transform": [{ "filter": "datum.change_pp < 0" }],
-      "mark": { "type": "text", "fontSize": 11, "align": "left", "dx": 4 },
+      "mark": { "type": "text", "fontSize": 11, "align": "right", "dx": 0 },
       "encoding": {
-        "x": { "datum": 0 },
+        "x": { "field": "change_pp", "type": "quantitative" },
         "text": { "field": "change_pp", "type": "quantitative", "format": "+.2f" }
       }
     },

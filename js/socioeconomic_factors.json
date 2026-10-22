@@ -88,9 +88,9 @@
         "color": {
           "condition": {
             "test": "datum.diff_from_national >= 0",
-            "value": "#34a85d"
+            "value": "#2166AC"
           },
-          "value": "#e84e3a"
+          "value": "#E66101"
         }
       }
     },
@@ -104,9 +104,9 @@
         "color": {
           "condition": {
             "test": "datum.diff_from_national >= 0",
-            "value": "#34a85d"
+            "value": "#2166AC"
           },
-          "value": "#E8833A"
+          "value": "#E66101"
         },
         "tooltip": [
           { "field": "factor", "title": "Factor" },

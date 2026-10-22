@@ -1,295 +1,171 @@
+/* ---------- Tokens ---------- */
+:root {
+    --navy: #12164A;
+    --ink: #1F2340;
+    --muted: #5B6080;
+    --accent: #1F6FD1;
+    --cyan: #5ED3F3;
+    --bg: #F7F9FC;
+    --card: #FFFFFF;
+    --rule: #E3E8F0;
+    --tint: #F2F6FC;
+    --night-text: #EAF0FB;
+    --night-muted: #B3BDDB;
+    --serif: "Fraunces", Georgia, serif;
+    --sans: "Source Sans 3", "Open Sans", Arial, sans-serif;
+}
+
 /* ---------- Base ---------- */
 *, *::before, *::after { box-sizing: border-box; }
+html, body { overflow-x: clip; }
 
-html, body {
-    background-color: #FFFFFF;
+body {
+    background: var(--bg);
+    color: var(--ink);
+    font: 17px/1.6 var(--sans);
     margin: 0;
-    overflow-x: hidden;
-    width: 100%;
 }
+
+.wrap { margin: 0 auto; max-width: 1280px; padding: 0 24px; }
+
+h1, h2, h3, h4 { font-family: var(--serif); font-weight: 600; letter-spacing: -0.01em; line-height: 1.2; }
+h1 { font-size: clamp(2rem, 4vw, 3.2rem); margin: 0 0 12px; max-width: 26ch; }
+h2 { font-size: clamp(1.7rem, 3vw, 2.5rem); margin: 0 0 12px; max-width: 30ch; }
 
 /* Full-width banner image at the top of the page */
 .page-banner { width: 100%; }
 .page-banner img { display: block; height: auto; width: 100%; }
 
-/* Centred page container */
-main {
-    margin: 0 auto;
-    max-width: 1548px;
-    padding: 0 100px;
-    width: 100%;
+/* ---------- Chapters ---------- */
+.chapter { padding: 72px 0 40px; }
+.ch-play   { background: linear-gradient(180deg, #EAF2FC 0%, #F3F7FD calc(100% - 120px), #FFF1E8 100%); }
+.ch-why    { background: linear-gradient(180deg, #FFF1E8 0%, #FCF6F1 calc(100% - 120px), #F0EDFC 100%); }
+.ch-trends { background: linear-gradient(180deg, #F0EDFC 0%, #F7F5FD calc(100% - 120px), #E7F4F2 100%); }
+.ch-states { background: linear-gradient(180deg, #E7F4F2 0%, #F2F9F8 calc(100% - 120px), #EDF4E8 100%); }
+.ch-life   { background: linear-gradient(180deg, #EDF4E8 0%, #F6F9F2 100%); }
+
+.eyebrow {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #5b4fc4;
 }
 
-/* Serif navy headings */
-main h1,
-.insights-panel h2,
-.organiser-explanation h2,
-.organiser-explanation h3,
-.state-activity-header h2,
-.state-activity-panel h3,
-.socio-header h2,
-.socio-chart-block h3,
-.socio-insights-heading {
-    color: #0D4E83;
-    font-family: "Times New Roman", Times, serif;
-    margin: 0;
+.chapter-lede { color: var(--muted); font-size: 1.15rem; margin: 0 0 40px; max-width: 60ch; }
+
+/* Text beside a chart */
+.two-col { align-items: center; display: grid; gap: 48px; grid-template-columns: minmax(0, 1fr) minmax(0, 1.75fr); margin-bottom: 64px; }
+
+/* Text above a wide chart */
+.stacked { margin-bottom: 64px; }
+.stacked .text { margin-bottom: 24px; max-width: 80ch; }
+.stacked .text-columns { column-gap: 48px; columns: 2 340px; max-width: none; }
+.stacked .text-columns h3 { column-span: all; }
+.stacked .text-columns li { break-inside: avoid; }
+
+.text h3 { font-size: 1.45rem; margin: 0 0 10px; }
+.text h4 { font-size: 1.12rem; margin: 22px 0 8px; }
+.text p { margin: 0 0 12px; max-width: 65ch; }
+.text ul { margin: 0; padding-left: 20px; }
+.text li { margin-bottom: 10px; }
+.text .note, .text .sub { color: var(--muted); font-size: .92rem; }
+.text .note { border-top: 1px solid var(--rule); margin-top: 16px; padding-top: 12px; }
+
+/* ---------- Figures sit on calm white cards ---------- */
+.fig { margin: 0; min-width: 0; }
+.card {
+    background: var(--card);
+    border-radius: 16px;
+    box-shadow: 0 1px 2px rgba(18, 22, 74, .05), 0 10px 30px rgba(18, 22, 74, .10);
+    color: var(--ink);
+    padding: 24px 24px 18px;
 }
+.chart { min-width: 0; width: 100%; }
 
-/* Section titles (h1 in each section heading) */
-main h1 { font-size: clamp(26px, 3vw, 42px); }
+.pair { display: grid; gap: 24px; grid-template-columns: repeat(2, minmax(0, 1fr)); margin-bottom: 48px; }
 
-/* Sans-serif body text used in explanation cards */
-.insight-item p,
-.organiser-explanation p,
-.organiser-explanation li,
-.state-activity-header p,
-.socio-header p,
+/* Charts sized to their container need an explicit height */
+#active_trend_chart { height: 440px; }
+#activity_participation_trend_chart { height: 640px; }
+#motivation_age_gender_chart { height: 560px; }
+
+/* Scale fixed-width charts down so they never overflow their card */
+.card .vega-embed { max-width: 100%; min-width: 0; }
+.card .vega-embed svg,
+.card .vega-embed canvas { display: block; height: auto !important; max-width: 100%; }
+
+/* Centre narrower charts and their controls */
+.centred .vega-embed { display: block; text-align: center; }
+.centred .vega-embed svg,
+.centred .vega-embed canvas,
+.state-activity-card .vega-embed svg,
+.state-activity-card .vega-embed canvas { margin: 0 auto; }
+.centred .vega-bindings { display: flex; justify-content: center; }
+
+/* Vega-Lite bound inputs */
+.vega-bindings { color: var(--muted); font-family: var(--sans); font-size: .9rem; margin-top: 10px; }
+.vega-bind { display: inline-block; margin-right: 12px; }
+.vega-bind input { accent-color: var(--accent); }
+.vega-bind select { border: 1px solid var(--rule); border-radius: 8px; font: inherit; padding: 4px 8px; }
+
+/* ---------- Key insight cards (chapter 1) ---------- */
+.block-title { font-size: 1.45rem; margin: 0 0 18px; }
+.takeaways { display: grid; gap: 18px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); list-style: none; margin: 0 0 72px; padding: 0; }
+.takeaways li {
+    background: var(--card);
+    border-radius: 14px;
+    border-top: 4px solid var(--accent);
+    box-shadow: 0 10px 30px rgba(18, 22, 74, .08);
+    padding: 20px 20px 18px;
+}
+.takeaways img { display: block; height: 44px; margin-bottom: 10px; object-fit: contain; width: 44px; }
+.takeaways p { font-size: .98rem; line-height: 1.5; margin: 0; }
+
+/* ---------- State activity (radial chart + treemap in one card) ---------- */
+.state-activity-card { display: grid; gap: 0; grid-template-columns: repeat(2, minmax(0, 1fr)); padding: 24px 0 18px; }
+.state-activity-col { min-width: 0; padding: 0 24px; }
+.state-activity-col + .state-activity-col { border-left: 1px solid var(--rule); }
+.state-activity-col h4 { font-size: 1.1rem; margin: 0 0 12px; }
+
+/* ---------- Socioeconomic card (chart left, insight right, per row) ---------- */
+.socio-card { display: grid; grid-template-columns: auto minmax(300px, 1fr); overflow: hidden; padding: 0; }
+.socio-insights-heading { background: var(--tint); font-size: 1.1rem; grid-column: 2; margin: 0; padding: 20px 24px 0; }
+.socio-chart-block { border-top: 1px solid var(--rule); grid-column: 1; min-width: 0; overflow-x: auto; padding: 18px 24px 12px; }
+.socio-chart-block h4 { font-size: 1.05rem; margin: 0 0 8px; }
 .socio-insight {
-    color: #28668E;
-    font-family: "Open Sans", Arial, sans-serif;
-    font-size: 15px;
-    line-height: 1.4;
-}
-
-/* Intro heading: subtitle and divider under the first title */
-.intro-heading {
-    border-bottom: 1px solid #C8DFEA;
-    margin: 0 auto;
-    max-width: 1500px;
-    padding: 14px 24px 12px;
-}
-
-.intro-heading p { color: #3479A8; font-size: 15px; margin: 4px 0 0; }
-
-/* Every section is a centred grid with 12px gaps */
-.section-1-heading,
-.technology-section,
-.motivation-barriers-grid,
-.trend-charts-grid,
-.state-participation-section,
-.state-gender-gap-section,
-.state-activity-section {
-    align-items: stretch;
-    display: grid;
-    gap: 12px;
-    margin: 0 auto 28px;
-    max-width: 1500px;
-}
-
-/* Column layouts: two equal columns, wide chart + text, or auto chart + text */
-.section-1-heading,
-.motivation-barriers-grid,
-.trend-charts-grid,
-.state-participation-section,
-.state-activity-panel { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-
-.technology-section,
-.organiser-row { grid-template-columns: minmax(0, 1.7fr) minmax(320px, 1fr); }
-
-.state-gender-gap-section,
-.socio-section { grid-template-columns: auto minmax(300px, 1fr); }
-
-/* Section-specific tweaks */
-.section-1-heading { margin-bottom: 0; padding: 14px 12px 28px; }
-.motivation-barriers-grid { align-items: start; }
-.state-activity-section { width: 100%; }
-
-/* Organiser heatmap + explanation row spans the full width of section 1 */
-.organiser-row {
-    align-items: stretch;
-    display: grid;
-    gap: 12px;
-}
-
-.section-1-heading > .insights-panel,
-.section-1-heading > .organiser-row { grid-column: 1 / -1; }
-
-/* Cards */
-.chart-panel,
-.insights-panel,
-.organiser-explanation,
-.state-activity-header,
-.socio-section {
-    border: 1px solid #C8E2EE;
-    border-radius: 10px;
-}
-
-/* Light background for chart cards, tinted background for text cards */
-.chart-panel, .socio-section { background: #F5FBFE; }
-
-.insights-panel,
-.organiser-explanation,
-.state-activity-header,
-.socio-insights-heading,
-.socio-insight { background: #EAF6FC; }
-
-.chart-panel, .insights-panel { min-width: 0; overflow: hidden; position: relative; }
-.chart-panel { height: 100%; padding: 12px 8px 8px; }
-.technology-panel { min-width: 0; }
-
-/* Charts placed in the right column, aligned to the right edge */
-.activity-change-panel,
-.barriers-chart-panel { grid-column: 2; justify-self: end; width: 100%; }
-
-/* Centre chart inside these panels */
-.organiser-panel,
-.state-map-panel { display: flex; justify-content: center; }
-.organiser-panel { align-items: center; min-width: 0; }
-
-/* Trend and motivation charts stretch to fill their panel */
-.trend-charts-grid > .chart-panel,
-.motivation-chart-panel { display: flex; min-height: 0; }
-
-#active_trend_chart,
-#activity_participation_trend_chart,
-#motivation_age_gender_chart {
-    flex: 1;
-    height: 100%;
-    min-height: 0;
-    width: 100%;
-}
-
-/* Keep the motivation chart readable when it stacks above its text */
-#motivation_age_gender_chart { min-height: 450px; }
-
-/* Key insights panel (section 1) */
-.insights-panel {
-    display: grid;
-    gap: 0 18px;
-    grid-column: 1 / -1;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    padding: 17px 14px 10px;
-}
-
-.insights-panel h2 { font-size: 22px; grid-column: 1 / -1; margin-bottom: 14px; }
-
-/* Icon + text insight */
-.insight-item {
-    align-items: flex-start;
-    border-top: 1px solid #C8E2EE;
-    display: flex;
-    gap: 10px;
-    padding: 12px 0;
-}
-
-.insight-item img { flex: 0 0 42px; height: 42px; object-fit: contain; width: 42px; }
-.insight-item p { line-height: 1.35; margin: 0; }
-
-/* Explanation cards */
-.organiser-explanation { min-width: 0; padding: 18px 20px; }
-.organiser-explanation h2 { font-size: 24px; margin-bottom: 10px; }
-.organiser-explanation h3 { font-size: 20px; margin: 16px 0 10px; }
-.organiser-explanation p { margin: 0 0 10px; }
-.organiser-explanation ul { margin: 0; padding-left: 18px; }
-.organiser-explanation li { margin-bottom: 9px; }
-
-/* Footnote under an explanation, separated by a divider */
-.organiser-explanation .organiser-note {
-    border-top: 1px solid #C8E2EE;
-    margin-top: 14px;
-    padding-top: 12px;
-}
-
-/* Vertically centre explanation text beside its chart */
-.state-explanation,
-.activity-change-explanation,
-.barriers-explanation,
-.socio-insight {
+    background: var(--tint);
+    border-top: 1px solid var(--rule);
     display: flex;
     flex-direction: column;
-    justify-content: center;
-}
-
-.activity-change-explanation,
-.barriers-explanation { align-self: stretch; }
-
-.barriers-explanation ul { list-style-position: inside; }
-
-/* State activity (radial chart + treemap in one card) */
-.state-activity-header { padding: 16px 20px; }
-.state-activity-header h2 { font-size: 24px; margin-bottom: 8px; }
-.state-activity-header p { margin: 0; }
-
-.state-activity-panel { display: grid; padding: 16px 0 14px; }
-.state-activity-panel h3 { font-size: 20px; margin-bottom: 10px; }
-.state-activity-col { min-width: 0; padding: 0 18px; }
-.state-activity-col + .state-activity-col { border-left: 1px solid #C8E2EE; }
-
-/* Socioeconomic section (chart left, insight right, per row) */
-.socio-section {
-    display: grid;
-    margin: 0 auto 28px;
-    max-width: 1500px;
-    overflow: hidden;
-}
-
-.socio-header { grid-column: 1 / -1; padding: 18px 20px 8px; }
-.socio-header h2 { font-size: 24px; margin-bottom: 8px; }
-.socio-header p { margin: 0 0 6px; }
-.socio-header .socio-subtitle { color: #3479A8; font-size: 14px; }
-
-.socio-insights-heading { font-size: 20px; grid-column: 2; padding: 14px 20px 0; }
-
-.socio-chart-block {
-    border-top: 1px solid #C8E2EE;
-    grid-column: 1;
-    min-width: 0;
-    overflow-x: auto;
-    padding: 14px 20px 10px;
-}
-
-.socio-chart-block h3 { font-size: 17px; margin-bottom: 8px; }
-
-.socio-insight {
-    border-top: 1px solid #C8E2EE;
+    font-size: .98rem;
     grid-column: 2;
-    padding: 14px 20px;
+    justify-content: center;
+    padding: 18px 24px;
 }
-
-/* No divider on the first row, directly under the "Insights" heading */
 .socio-insights-heading + .socio-chart-block,
 .socio-insights-heading + .socio-chart-block + .socio-insight { border-top: 0; }
-
 .socio-insight-span { grid-row: span 2; }
 .socio-insight p { margin: 0 0 8px; }
 .socio-insight ul { margin: 0 0 8px; padding-left: 18px; }
 .socio-insight li { margin-bottom: 4px; }
 .socio-insight > :last-child { margin-bottom: 0; }
 
-/* Vega-Lite chart sizing */
-#top15_activities_chart,
-#age_skewed_chart,
-#who_organised_chart,
-#technology_gadgets_chart,
-.vega-embed { max-width: 100%; width: 100%; }
-
-#state_participation_chart { max-width: 100%; }
-
-/* Scale fixed-width charts down so they never overflow their panel */
-.chart-panel > div,
-.chart-panel .vega-embed { max-width: 100%; min-width: 0; }
-
-.chart-panel .vega-embed svg,
-.chart-panel .vega-embed canvas {
-    display: block;
-    height: auto !important;
-    max-width: 100%;
+/* ---------- Footer ---------- */
+.site-footer { background: var(--navy); color: var(--night-muted); font-size: .9rem; padding: 40px 0 48px; }
+.site-footer p { margin: 0; }
+.site-footer strong { color: var(--night-text); }
+.site-footer .sources {
+  font-size: 0.85rem;
+  line-height: 1.6;
+  opacity: 0.8;
+}
+.site-footer .sources a {
+  color: inherit;
+  text-decoration: underline;
 }
 
-/* Horizontally centre these charts and their controls */
-.state-activity-panel .vega-embed svg,
-.state-activity-panel .vega-embed canvas,
-#who_organised_chart svg,
-#who_organised_chart canvas { margin: 0 auto; }
-
-#who_organised_chart svg,
-#who_organised_chart canvas { display: block; }
-
-#who_organised_chart .vega-embed,
-#who_organised_chart .vega-bindings { display: flex; justify-content: center; }
-#who_organised_chart .vega-embed { text-align: center; }
-
-/* Coloured keywords matching chart colours */
+/* ---------- Coloured keywords matching chart colours ---------- */
 .tech-name, .grp-name, .chg-name, .act-name, .st-name, .risk-name, .socio-name { font-weight: 700; }
 
 /* Technologies (bump chart, tableau20) */
@@ -312,57 +188,44 @@ main h1 { font-size: clamp(26px, 3vw, 42px); }
 
 /* Activity change (rising/falling bars) and state map (above/below national rate) */
 .chg-rising, .st-above { color: #2166AC; }
-.chg-falling, .st-below { color: #B2182B; }
+.chg-falling { color: #E66101; }
+.st-below { color: #B2182B; }
 
 /* Top activities (bar chart purple) */
 .act-top15 { color: #5D4DC5; }
 
-/* Health status risk levels */
-.risk-lowest, .socio-above { color: #34A85D; }
-.risk-high, .socio-below { color: #E8833A; }
-.risk-highest { color: #B03A2E; }
+/* Health status risk levels (blue = lowest risk, red = highest) and socioeconomic gaps (above/below national rate) */
+.risk-lowest, .socio-above { color: #2166AC; }
+.risk-high { color: #EF8A62; }
+.risk-highest { color: #B2182B; }
+.socio-below { color: #E66101; }
 
-/* Responsive */
-/* Stack the gender gap map above its explanation */
-@media (max-width: 1400px) {
-    .state-gender-gap-section { grid-template-columns: 1fr; }
-}
-
-/* Tablet: collapse two-column grids into one column */
+/* ---------- Responsive ---------- */
 @media (max-width: 1050px) {
-    .section-1-heading,
-    .motivation-barriers-grid,
-    .trend-charts-grid { grid-template-columns: minmax(0, 1fr); }
+    .two-col, .pair, .state-activity-card, .socio-card { grid-template-columns: minmax(0, 1fr); }
+    .two-col { gap: 24px; }
 
-    .organiser-row,
-    .technology-section,
-    .state-participation-section,
-    .state-activity-panel,
-    .socio-section { grid-template-columns: 1fr; }
-
-    .insights-panel { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-
-    .activity-change-panel,
-    .barriers-chart-panel,
-    .socio-chart-block,
-    .socio-insight { grid-column: 1; }
-
-    /* Divider moves from left to top when the state charts stack */
     .state-activity-col + .state-activity-col {
         border-left: 0;
-        border-top: 1px solid #C8E2EE;
-        margin-top: 14px;
-        padding-top: 14px;
+        border-top: 1px solid var(--rule);
+        margin-top: 18px;
+        padding-top: 18px;
     }
 
+    .socio-chart-block, .socio-insight { grid-column: 1; }
     .socio-insights-heading { display: none; }
     .socio-insight-span { grid-row: auto; }
 }
 
-/* Mobile: tighter padding, insights as a single list */
-@media (max-width: 700px) {
-    main { padding: 0 10px; }
-    .chart-panel, .insights-panel { margin-bottom: 12px; }
-    .insights-panel { display: block; }
-    .insight-item:first-of-type { border-top: 0; padding-top: 0; }
+@media (max-width: 860px) {
+    .chapter { padding: 48px 0 24px; }
+    .card { border-radius: 12px; padding: 18px 14px 12px; }
+    .state-activity-card { padding: 18px 0 12px; }
+    .state-activity-col { padding: 0 14px; }
+    .chart { overflow-x: auto; }
+}
+
+@media (max-width: 600px) {
+    .wrap { padding: 0 16px; }
+    #activity_participation_trend_chart { height: 560px; }
 }

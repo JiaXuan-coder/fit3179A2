@@ -14,748 +14,204 @@
     {
       "name": "freqSel",
       "value": "At least once per week",
-      "bind": {
-        "input": "radio",
-        "name": "Participation: ",
-        "options": [
-          "At least once per week",
-          "At least three times per week"
-        ]
-      }
+      "bind": {"input": "radio", "name": "Participation: ", "options": ["At least once per week", "At least three times per week"]}
     }
   ],
   "spacing": 20,
   "hconcat": [
     {
-      "title": {
-        "text": "2024",
-        "fontSize": 14
-      },
+      "title": {"text": "2024", "fontSize": 14},
       "width": 480,
       "height": 400,
-      "projection": {
-        "type": "mercator",
-        "center": [
-          134,
-          -28
-        ],
-        "scale": 560,
-        "translate": [
-          230,
-          200
-        ]
-      },
+      "projection": {"type": "mercator", "center": [134, -28], "scale": 560, "translate": [230, 200]},
       "layer": [
         {
-          "data": {
-            "url": "https://raw.githubusercontent.com/rowanhogan/australian-states/master/states.geojson",
-            "format": {
-              "type": "json",
-              "property": "features"
-            }
-          },
-          "mark": {
-            "type": "geoshape",
-            "fill": "#e6e6e6",
-            "stroke": "white",
-            "strokeWidth": 1
-          }
+          "data": {"url": "https://raw.githubusercontent.com/rowanhogan/australian-states/master/states.geojson", "format": {"type": "json", "property": "features"}},
+          "mark": {"type": "geoshape", "fill": "#e6e6e6", "stroke": "white", "strokeWidth": 1}
         },
         {
           "data": {
             "url": "data/gender_gap_by_state.csv",
             "format": {
               "type": "csv",
-              "parse": {
-                "latitude": "number",
-                "longitude": "number",
-                "year": "number",
-                "male_rate": "number",
-                "female_rate": "number",
-                "gap_pp": "number",
-                "abs_gap_pp": "number",
-                "national_gap_pp": "number"
-              }
+              "parse": {"latitude": "number", "longitude": "number", "year": "number", "male_rate": "number", "female_rate": "number", "gap_pp": "number", "abs_gap_pp": "number", "national_gap_pp": "number"}
             }
           },
           "transform": [
-            {
-              "filter": "datum.frequency === freqSel && datum.year == 2024"
-            },
-            {
-              "calculate": "datum.state_code === 'ACT' ? 155.5 : datum.longitude",
-              "as": "plot_lon"
-            },
-            {
-              "calculate": "datum.state_code === 'ACT' ? -37 : datum.latitude",
-              "as": "plot_lat"
-            },
-            {
-              "calculate": "(datum.gap_pp >= 0 ? '+' : '−') + format(datum.abs_gap_pp, '.1f') + ' pp'",
-              "as": "gap_label"
-            },
-            {
-              "calculate": "datum.gap_pp >= 0 ? 'Women participate more' : 'Men participate more'",
-              "as": "skew_label"
-            },
-            {
-              "calculate": "sqrt(datum.abs_gap_pp / 12 * 6000 / PI)",
-              "as": "r_px"
-            },
-            {
-              "calculate": "datum.state_code === 'ACT' ? 'B' : 'R'",
-              "as": "lab_side"
-            },
-            {
-              "calculate": "datum.lab_side === 'R' ? datum.plot_lon + (datum.r_px + 6) / 9.774 : datum.plot_lon",
-              "as": "lab_lon"
-            },
+            {"filter": "datum.frequency === freqSel && datum.year == 2024"},
+            {"calculate": "datum.state_code === 'ACT' ? 155.5 : datum.longitude", "as": "plot_lon"},
+            {"calculate": "datum.state_code === 'ACT' ? -37 : datum.latitude", "as": "plot_lat"},
+            {"calculate": "(datum.gap_pp >= 0 ? '+' : '−') + format(datum.abs_gap_pp, '.1f') + ' pp'", "as": "gap_label"},
+            {"calculate": "datum.gap_pp >= 0 ? 'Women participate more' : 'Men participate more'", "as": "skew_label"},
+            {"calculate": "sqrt(datum.abs_gap_pp / 12 * 6000 / PI)", "as": "r_px"},
+            {"calculate": "datum.state_code === 'ACT' ? 'B' : 'R'", "as": "lab_side"},
+            {"calculate": "datum.lab_side === 'R' ? datum.plot_lon + (datum.r_px + 6) / 9.774 : datum.plot_lon", "as": "lab_lon"},
             {
               "calculate": "datum.lab_side === 'R' ? datum.plot_lat : datum.plot_lat - (datum.r_px + 8) / (9.774 / cos(datum.plot_lat * PI / 180))",
               "as": "lab_lat"
             },
-            {
-              "calculate": "[datum.state_code, datum.gap_label]",
-              "as": "lab_lines"
-            }
+            {"calculate": "[datum.state_code, datum.gap_label]", "as": "lab_lines"}
           ],
           "layer": [
             {
-              "transform": [
-                {
-                  "filter": "datum.state_code === 'ACT'"
-                }
-              ],
-              "mark": {
-                "type": "rule",
-                "color": "#888888",
-                "strokeDash": [
-                  3,
-                  3
-                ]
-              },
-              "encoding": {
-                "longitude": {
-                  "field": "longitude",
-                  "type": "quantitative"
-                },
-                "latitude": {
-                  "field": "latitude",
-                  "type": "quantitative"
-                },
-                "longitude2": {
-                  "field": "plot_lon"
-                },
-                "latitude2": {
-                  "field": "plot_lat"
-                }
-              }
+              "transform": [{"filter": "datum.state_code === 'ACT'"}],
+              "mark": {"type": "rule", "color": "#888888", "strokeDash": [3, 3]},
+              "encoding": {"longitude": {"field": "longitude", "type": "quantitative"}, "latitude": {"field": "latitude", "type": "quantitative"}, "longitude2": {"field": "plot_lon"}, "latitude2": {"field": "plot_lat"}}
             },
             {
-              "mark": {
-                "type": "circle",
-                "opacity": 0.9,
-                "stroke": "#444444",
-                "strokeWidth": 1
-              },
+              "mark": {"type": "circle", "opacity": 0.9, "stroke": "#444444", "strokeWidth": 1},
               "encoding": {
-                "longitude": {
-                  "field": "plot_lon",
-                  "type": "quantitative"
-                },
-                "latitude": {
-                  "field": "plot_lat",
-                  "type": "quantitative"
-                },
+                "longitude": {"field": "plot_lon", "type": "quantitative"},
+                "latitude": {"field": "plot_lat", "type": "quantitative"},
                 "size": {
                   "field": "abs_gap_pp",
                   "type": "quantitative",
                   "title": "Size of gap (pp)",
-                  "scale": {
-                    "domain": [
-                      0,
-                      12
-                    ],
-                    "range": [
-                      0,
-                      6000
-                    ]
-                  },
-                  "legend": {
-                    "orient": "bottom",
-                    "direction": "horizontal",
-                    "titleOrient": "left",
-                    "titleAnchor": "middle",
-                    "values": [
-                      1,
-                      4,
-                      8,
-                      12
-                    ],
-                    "symbolFillColor": "#bbbbbb",
-                    "symbolStrokeColor": "#777777"
-                  }
+                  "scale": {"domain": [0, 12], "range": [0, 6000]},
+                  "legend": {"orient": "bottom", "direction": "horizontal", "titleOrient": "left", "titleAnchor": "middle", "values": [1, 4, 8, 12], "symbolFillColor": "#bbbbbb", "symbolStrokeColor": "#777777"}
                 },
                 "color": {
                   "field": "skew_label",
                   "type": "nominal",
                   "title": null,
-                  "scale": {
-                    "domain": [
-                      "Women participate more",
-                      "Men participate more"
-                    ],
-                    "range": [
-                      "#e0529c",
-                      "#3a63d8"
-                    ]
-                  },
-                  "legend": {
-                    "orient": "top",
-                    "symbolSize": 150
-                  }
+                  "scale": {"domain": ["Women participate more", "Men participate more"], "range": ["#e0529c", "#3a63d8"]},
+                  "legend": {"orient": "top", "symbolSize": 150}
                 },
-                "order": {
-                  "field": "abs_gap_pp",
-                  "sort": "descending"
-                },
+                "order": {"field": "abs_gap_pp", "sort": "descending"},
                 "tooltip": [
-                  {
-                    "field": "state_name",
-                    "title": "State"
-                  },
-                  {
-                    "field": "female_rate",
-                    "title": "Women (%)",
-                    "format": ".1f"
-                  },
-                  {
-                    "field": "male_rate",
-                    "title": "Men (%)",
-                    "format": ".1f"
-                  },
-                  {
-                    "field": "gap_label",
-                    "title": "Gap (women − men)"
-                  },
-                  {
-                    "field": "national_gap_pp",
-                    "title": "National gap (pp)",
-                    "format": "+.1f"
-                  }
+                  {"field": "state_name", "title": "State"},
+                  {"field": "female_rate", "title": "Women (%)", "format": ".1f"},
+                  {"field": "male_rate", "title": "Men (%)", "format": ".1f"},
+                  {"field": "gap_label", "title": "Gap (women − men)"},
+                  {"field": "national_gap_pp", "title": "National gap (pp)", "format": "+.1f"}
                 ]
               }
             },
             {
-              "mark": {
-                "type": "circle",
-                "size": 14,
-                "color": "#222222",
-                "opacity": 1
-              },
-              "encoding": {
-                "longitude": {
-                  "field": "plot_lon",
-                  "type": "quantitative"
-                },
-                "latitude": {
-                  "field": "plot_lat",
-                  "type": "quantitative"
-                }
-              }
+              "mark": {"type": "circle", "size": 14, "color": "#222222", "opacity": 1},
+              "encoding": {"longitude": {"field": "plot_lon", "type": "quantitative"}, "latitude": {"field": "plot_lat", "type": "quantitative"}}
             },
             {
-              "transform": [
-                {
-                  "filter": "datum.lab_side === 'R'"
-                }
-              ],
-              "mark": {
-                "type": "text",
-                "fontSize": 11,
-                "lineHeight": 13,
-                "align": "left",
-                "baseline": "middle",
-                "stroke": "white",
-                "strokeWidth": 3,
-                "strokeJoin": "round"
-              },
-              "encoding": {
-                "longitude": {
-                  "field": "lab_lon",
-                  "type": "quantitative"
-                },
-                "latitude": {
-                  "field": "lab_lat",
-                  "type": "quantitative"
-                },
-                "text": {
-                  "field": "lab_lines"
-                }
-              }
+              "transform": [{"filter": "datum.lab_side === 'R'"}],
+              "mark": {"type": "text", "fontSize": 11, "lineHeight": 13, "align": "left", "baseline": "middle", "stroke": "white", "strokeWidth": 3, "strokeJoin": "round"},
+              "encoding": {"longitude": {"field": "lab_lon", "type": "quantitative"}, "latitude": {"field": "lab_lat", "type": "quantitative"}, "text": {"field": "lab_lines"}}
             },
             {
-              "transform": [
-                {
-                  "filter": "datum.lab_side === 'R'"
-                }
-              ],
-              "mark": {
-                "type": "text",
-                "fontSize": 11,
-                "lineHeight": 13,
-                "align": "left",
-                "baseline": "middle",
-                "color": "#1a1a1a"
-              },
-              "encoding": {
-                "longitude": {
-                  "field": "lab_lon",
-                  "type": "quantitative"
-                },
-                "latitude": {
-                  "field": "lab_lat",
-                  "type": "quantitative"
-                },
-                "text": {
-                  "field": "lab_lines"
-                }
-              }
+              "transform": [{"filter": "datum.lab_side === 'R'"}],
+              "mark": {"type": "text", "fontSize": 11, "lineHeight": 13, "align": "left", "baseline": "middle", "color": "#1a1a1a"},
+              "encoding": {"longitude": {"field": "lab_lon", "type": "quantitative"}, "latitude": {"field": "lab_lat", "type": "quantitative"}, "text": {"field": "lab_lines"}}
             },
             {
-              "transform": [
-                {
-                  "filter": "datum.lab_side === 'B'"
-                }
-              ],
-              "mark": {
-                "type": "text",
-                "fontSize": 11,
-                "lineHeight": 13,
-                "align": "center",
-                "baseline": "top",
-                "stroke": "white",
-                "strokeWidth": 3,
-                "strokeJoin": "round"
-              },
-              "encoding": {
-                "longitude": {
-                  "field": "lab_lon",
-                  "type": "quantitative"
-                },
-                "latitude": {
-                  "field": "lab_lat",
-                  "type": "quantitative"
-                },
-                "text": {
-                  "field": "lab_lines"
-                }
-              }
+              "transform": [{"filter": "datum.lab_side === 'B'"}],
+              "mark": {"type": "text", "fontSize": 11, "lineHeight": 13, "align": "center", "baseline": "top", "stroke": "white", "strokeWidth": 3, "strokeJoin": "round"},
+              "encoding": {"longitude": {"field": "lab_lon", "type": "quantitative"}, "latitude": {"field": "lab_lat", "type": "quantitative"}, "text": {"field": "lab_lines"}}
             },
             {
-              "transform": [
-                {
-                  "filter": "datum.lab_side === 'B'"
-                }
-              ],
-              "mark": {
-                "type": "text",
-                "fontSize": 11,
-                "lineHeight": 13,
-                "align": "center",
-                "baseline": "top",
-                "color": "#1a1a1a"
-              },
-              "encoding": {
-                "longitude": {
-                  "field": "lab_lon",
-                  "type": "quantitative"
-                },
-                "latitude": {
-                  "field": "lab_lat",
-                  "type": "quantitative"
-                },
-                "text": {
-                  "field": "lab_lines"
-                }
-              }
+              "transform": [{"filter": "datum.lab_side === 'B'"}],
+              "mark": {"type": "text", "fontSize": 11, "lineHeight": 13, "align": "center", "baseline": "top", "color": "#1a1a1a"},
+              "encoding": {"longitude": {"field": "lab_lon", "type": "quantitative"}, "latitude": {"field": "lab_lat", "type": "quantitative"}, "text": {"field": "lab_lines"}}
             }
           ]
         }
       ]
     },
     {
-      "title": {
-        "text": "2025",
-        "fontSize": 14
-      },
+      "title": {"text": "2025", "fontSize": 14},
       "width": 480,
       "height": 400,
-      "projection": {
-        "type": "mercator",
-        "center": [
-          134,
-          -28
-        ],
-        "scale": 560,
-        "translate": [
-          230,
-          200
-        ]
-      },
+      "projection": {"type": "mercator", "center": [134, -28], "scale": 560, "translate": [230, 200]},
       "layer": [
         {
-          "data": {
-            "url": "https://raw.githubusercontent.com/rowanhogan/australian-states/master/states.geojson",
-            "format": {
-              "type": "json",
-              "property": "features"
-            }
-          },
-          "mark": {
-            "type": "geoshape",
-            "fill": "#e6e6e6",
-            "stroke": "white",
-            "strokeWidth": 1
-          }
+          "data": {"url": "https://raw.githubusercontent.com/rowanhogan/australian-states/master/states.geojson", "format": {"type": "json", "property": "features"}},
+          "mark": {"type": "geoshape", "fill": "#e6e6e6", "stroke": "white", "strokeWidth": 1}
         },
         {
           "data": {
             "url": "data/gender_gap_by_state.csv",
             "format": {
               "type": "csv",
-              "parse": {
-                "latitude": "number",
-                "longitude": "number",
-                "year": "number",
-                "male_rate": "number",
-                "female_rate": "number",
-                "gap_pp": "number",
-                "abs_gap_pp": "number",
-                "national_gap_pp": "number"
-              }
+              "parse": {"latitude": "number", "longitude": "number", "year": "number", "male_rate": "number", "female_rate": "number", "gap_pp": "number", "abs_gap_pp": "number", "national_gap_pp": "number"}
             }
           },
           "transform": [
-            {
-              "filter": "datum.frequency === freqSel && datum.year == 2025"
-            },
-            {
-              "calculate": "datum.state_code === 'ACT' ? 155.5 : datum.longitude",
-              "as": "plot_lon"
-            },
-            {
-              "calculate": "datum.state_code === 'ACT' ? -37 : datum.latitude",
-              "as": "plot_lat"
-            },
-            {
-              "calculate": "(datum.gap_pp >= 0 ? '+' : '−') + format(datum.abs_gap_pp, '.1f') + ' pp'",
-              "as": "gap_label"
-            },
-            {
-              "calculate": "datum.gap_pp >= 0 ? 'Women participate more' : 'Men participate more'",
-              "as": "skew_label"
-            },
-            {
-              "calculate": "sqrt(datum.abs_gap_pp / 12 * 6000 / PI)",
-              "as": "r_px"
-            },
-            {
-              "calculate": "datum.state_code === 'ACT' ? 'B' : 'R'",
-              "as": "lab_side"
-            },
-            {
-              "calculate": "datum.lab_side === 'R' ? datum.plot_lon + (datum.r_px + 6) / 9.774 : datum.plot_lon",
-              "as": "lab_lon"
-            },
+            {"filter": "datum.frequency === freqSel && datum.year == 2025"},
+            {"calculate": "datum.state_code === 'ACT' ? 155.5 : datum.longitude", "as": "plot_lon"},
+            {"calculate": "datum.state_code === 'ACT' ? -37 : datum.latitude", "as": "plot_lat"},
+            {"calculate": "(datum.gap_pp >= 0 ? '+' : '−') + format(datum.abs_gap_pp, '.1f') + ' pp'", "as": "gap_label"},
+            {"calculate": "datum.gap_pp >= 0 ? 'Women participate more' : 'Men participate more'", "as": "skew_label"},
+            {"calculate": "sqrt(datum.abs_gap_pp / 12 * 6000 / PI)", "as": "r_px"},
+            {"calculate": "datum.state_code === 'ACT' ? 'B' : 'R'", "as": "lab_side"},
+            {"calculate": "datum.lab_side === 'R' ? datum.plot_lon + (datum.r_px + 6) / 9.774 : datum.plot_lon", "as": "lab_lon"},
             {
               "calculate": "datum.lab_side === 'R' ? datum.plot_lat : datum.plot_lat - (datum.r_px + 8) / (9.774 / cos(datum.plot_lat * PI / 180))",
               "as": "lab_lat"
             },
-            {
-              "calculate": "[datum.state_code, datum.gap_label]",
-              "as": "lab_lines"
-            }
+            {"calculate": "[datum.state_code, datum.gap_label]", "as": "lab_lines"}
           ],
           "layer": [
             {
-              "transform": [
-                {
-                  "filter": "datum.state_code === 'ACT'"
-                }
-              ],
-              "mark": {
-                "type": "rule",
-                "color": "#888888",
-                "strokeDash": [
-                  3,
-                  3
-                ]
-              },
-              "encoding": {
-                "longitude": {
-                  "field": "longitude",
-                  "type": "quantitative"
-                },
-                "latitude": {
-                  "field": "latitude",
-                  "type": "quantitative"
-                },
-                "longitude2": {
-                  "field": "plot_lon"
-                },
-                "latitude2": {
-                  "field": "plot_lat"
-                }
-              }
+              "transform": [{"filter": "datum.state_code === 'ACT'"}],
+              "mark": {"type": "rule", "color": "#888888", "strokeDash": [3, 3]},
+              "encoding": {"longitude": {"field": "longitude", "type": "quantitative"}, "latitude": {"field": "latitude", "type": "quantitative"}, "longitude2": {"field": "plot_lon"}, "latitude2": {"field": "plot_lat"}}
             },
             {
-              "mark": {
-                "type": "circle",
-                "opacity": 0.9,
-                "stroke": "#444444",
-                "strokeWidth": 1
-              },
+              "mark": {"type": "circle", "opacity": 0.9, "stroke": "#444444", "strokeWidth": 1},
               "encoding": {
-                "longitude": {
-                  "field": "plot_lon",
-                  "type": "quantitative"
-                },
-                "latitude": {
-                  "field": "plot_lat",
-                  "type": "quantitative"
-                },
+                "longitude": {"field": "plot_lon", "type": "quantitative"},
+                "latitude": {"field": "plot_lat", "type": "quantitative"},
                 "size": {
                   "field": "abs_gap_pp",
                   "type": "quantitative",
                   "title": "Size of gap (pp)",
-                  "scale": {
-                    "domain": [
-                      0,
-                      12
-                    ],
-                    "range": [
-                      0,
-                      6000
-                    ]
-                  },
-                  "legend": {
-                    "orient": "bottom",
-                    "direction": "horizontal",
-                    "titleOrient": "left",
-                    "titleAnchor": "middle",
-                    "values": [
-                      1,
-                      4,
-                      8,
-                      12
-                    ],
-                    "symbolFillColor": "#bbbbbb",
-                    "symbolStrokeColor": "#777777"
-                  }
+                  "scale": {"domain": [0, 12], "range": [0, 6000]},
+                  "legend": {"orient": "bottom", "direction": "horizontal", "titleOrient": "left", "titleAnchor": "middle", "values": [1, 4, 8, 12], "symbolFillColor": "#bbbbbb", "symbolStrokeColor": "#777777"}
                 },
                 "color": {
                   "field": "skew_label",
                   "type": "nominal",
                   "title": null,
-                  "scale": {
-                    "domain": [
-                      "Women participate more",
-                      "Men participate more"
-                    ],
-                    "range": [
-                      "#e0529c",
-                      "#3a63d8"
-                    ]
-                  },
-                  "legend": {
-                    "orient": "top",
-                    "symbolSize": 150
-                  }
+                  "scale": {"domain": ["Women participate more", "Men participate more"], "range": ["#e0529c", "#3a63d8"]},
+                  "legend": {"orient": "top", "symbolSize": 150}
                 },
-                "order": {
-                  "field": "abs_gap_pp",
-                  "sort": "descending"
-                },
+                "order": {"field": "abs_gap_pp", "sort": "descending"},
                 "tooltip": [
-                  {
-                    "field": "state_name",
-                    "title": "State"
-                  },
-                  {
-                    "field": "female_rate",
-                    "title": "Women (%)",
-                    "format": ".1f"
-                  },
-                  {
-                    "field": "male_rate",
-                    "title": "Men (%)",
-                    "format": ".1f"
-                  },
-                  {
-                    "field": "gap_label",
-                    "title": "Gap (women − men)"
-                  },
-                  {
-                    "field": "national_gap_pp",
-                    "title": "National gap (pp)",
-                    "format": "+.1f"
-                  }
+                  {"field": "state_name", "title": "State"},
+                  {"field": "female_rate", "title": "Women (%)", "format": ".1f"},
+                  {"field": "male_rate", "title": "Men (%)", "format": ".1f"},
+                  {"field": "gap_label", "title": "Gap (women − men)"},
+                  {"field": "national_gap_pp", "title": "National gap (pp)", "format": "+.1f"}
                 ]
               }
             },
             {
-              "mark": {
-                "type": "circle",
-                "size": 14,
-                "color": "#222222",
-                "opacity": 1
-              },
-              "encoding": {
-                "longitude": {
-                  "field": "plot_lon",
-                  "type": "quantitative"
-                },
-                "latitude": {
-                  "field": "plot_lat",
-                  "type": "quantitative"
-                }
-              }
+              "mark": {"type": "circle", "size": 14, "color": "#222222", "opacity": 1},
+              "encoding": {"longitude": {"field": "plot_lon", "type": "quantitative"}, "latitude": {"field": "plot_lat", "type": "quantitative"}}
             },
             {
-              "transform": [
-                {
-                  "filter": "datum.lab_side === 'R'"
-                }
-              ],
-              "mark": {
-                "type": "text",
-                "fontSize": 11,
-                "lineHeight": 13,
-                "align": "left",
-                "baseline": "middle",
-                "stroke": "white",
-                "strokeWidth": 3,
-                "strokeJoin": "round"
-              },
-              "encoding": {
-                "longitude": {
-                  "field": "lab_lon",
-                  "type": "quantitative"
-                },
-                "latitude": {
-                  "field": "lab_lat",
-                  "type": "quantitative"
-                },
-                "text": {
-                  "field": "lab_lines"
-                }
-              }
+              "transform": [{"filter": "datum.lab_side === 'R'"}],
+              "mark": {"type": "text", "fontSize": 11, "lineHeight": 13, "align": "left", "baseline": "middle", "stroke": "white", "strokeWidth": 3, "strokeJoin": "round"},
+              "encoding": {"longitude": {"field": "lab_lon", "type": "quantitative"}, "latitude": {"field": "lab_lat", "type": "quantitative"}, "text": {"field": "lab_lines"}}
             },
             {
-              "transform": [
-                {
-                  "filter": "datum.lab_side === 'R'"
-                }
-              ],
-              "mark": {
-                "type": "text",
-                "fontSize": 11,
-                "lineHeight": 13,
-                "align": "left",
-                "baseline": "middle",
-                "color": "#1a1a1a"
-              },
-              "encoding": {
-                "longitude": {
-                  "field": "lab_lon",
-                  "type": "quantitative"
-                },
-                "latitude": {
-                  "field": "lab_lat",
-                  "type": "quantitative"
-                },
-                "text": {
-                  "field": "lab_lines"
-                }
-              }
+              "transform": [{"filter": "datum.lab_side === 'R'"}],
+              "mark": {"type": "text", "fontSize": 11, "lineHeight": 13, "align": "left", "baseline": "middle", "color": "#1a1a1a"},
+              "encoding": {"longitude": {"field": "lab_lon", "type": "quantitative"}, "latitude": {"field": "lab_lat", "type": "quantitative"}, "text": {"field": "lab_lines"}}
             },
             {
-              "transform": [
-                {
-                  "filter": "datum.lab_side === 'B'"
-                }
-              ],
-              "mark": {
-                "type": "text",
-                "fontSize": 11,
-                "lineHeight": 13,
-                "align": "center",
-                "baseline": "top",
-                "stroke": "white",
-                "strokeWidth": 3,
-                "strokeJoin": "round"
-              },
-              "encoding": {
-                "longitude": {
-                  "field": "lab_lon",
-                  "type": "quantitative"
-                },
-                "latitude": {
-                  "field": "lab_lat",
-                  "type": "quantitative"
-                },
-                "text": {
-                  "field": "lab_lines"
-                }
-              }
+              "transform": [{"filter": "datum.lab_side === 'B'"}],
+              "mark": {"type": "text", "fontSize": 11, "lineHeight": 13, "align": "center", "baseline": "top", "stroke": "white", "strokeWidth": 3, "strokeJoin": "round"},
+              "encoding": {"longitude": {"field": "lab_lon", "type": "quantitative"}, "latitude": {"field": "lab_lat", "type": "quantitative"}, "text": {"field": "lab_lines"}}
             },
             {
-              "transform": [
-                {
-                  "filter": "datum.lab_side === 'B'"
-                }
-              ],
-              "mark": {
-                "type": "text",
-                "fontSize": 11,
-                "lineHeight": 13,
-                "align": "center",
-                "baseline": "top",
-                "color": "#1a1a1a"
-              },
-              "encoding": {
-                "longitude": {
-                  "field": "lab_lon",
-                  "type": "quantitative"
-                },
-                "latitude": {
-                  "field": "lab_lat",
-                  "type": "quantitative"
-                },
-                "text": {
-                  "field": "lab_lines"
-                }
-              }
+              "transform": [{"filter": "datum.lab_side === 'B'"}],
+              "mark": {"type": "text", "fontSize": 11, "lineHeight": 13, "align": "center", "baseline": "top", "color": "#1a1a1a"},
+              "encoding": {"longitude": {"field": "lab_lon", "type": "quantitative"}, "latitude": {"field": "lab_lat", "type": "quantitative"}, "text": {"field": "lab_lines"}}
             }
           ]
         }
       ]
     }
   ],
-  "resolve": {
-    "scale": {
-      "color": "shared",
-      "size": "shared"
-    }
-  },
-  "config": {
-    "view": {
-      "stroke": null
-    },
-    "legend": {
-      "labelFontSize": 12,
-      "titleFontSize": 12
-    }
-  }
+  "resolve": {"scale": {"color": "shared", "size": "shared"}},
+  "config": {"view": {"stroke": null}, "legend": {"labelFontSize": 12, "titleFontSize": 12}}
 }

@@ -45,10 +45,6 @@
     "axis": {
       "labelFontSize": 15,
       "titleFontSize": 13
-    },
-    "legend": {
-      "labelFontSize": 15,
-      "titleFontSize": 13
     }
   }
 }

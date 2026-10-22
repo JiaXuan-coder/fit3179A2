@@ -9,308 +9,125 @@
         "id": "ACT1",
         "state_name": "Australian Capital Territory",
         "headline": "Gym capital of Australia",
-        "body": [
-          "44% of ACT adults do",
-          "fitness/gym, the highest of",
-          "any state and 10 points above",
-          "the national 34%."
-        ],
+        "body": [ "44% of ACT adults do", "fitness/gym, the highest of", "any state and 10 points above", "the national 34%." ],
         "corner": "TR"
       },
       {
         "id": "ACT2",
         "state_name": "Australian Capital Territory",
         "headline": "Top in three more sports",
-        "body": [
-          "The ACT also has Australia's",
-          "highest rates of cycling",
-          "(14.0% vs 8.3% nationally),",
-          "badminton (3.2% vs 1.9%) and",
-          "DanceSport (2.5% vs 1.1%)."
-        ],
+        "body": [ "The ACT also has Australia's", "highest rates of cycling", "(14.0% vs 8.3% nationally),", "badminton (3.2% vs 1.9%) and", "DanceSport (2.5% vs 1.1%)." ],
         "corner": "BL"
       },
       {
         "id": "NSW1",
         "state_name": "New South Wales",
         "headline": "Soccer's heartland",
-        "body": [
-          "7.1% play football/soccer, the",
-          "highest share of any state",
-          "(national 5.6%)."
-        ],
+        "body": [ "7.1% play football/soccer, the", "highest share of any state", "(national 5.6%)." ],
         "corner": "TR"
       },
       {
         "id": "NSW2",
         "state_name": "New South Wales",
         "headline": "AFL takes a back seat",
-        "body": [
-          "Only about 1 in 90 NSW adults",
-          "(1.1%) plays Australian",
-          "football, less than half the",
-          "national 2.4%. Soccer is far",
-          "more popular (7.1%)."
-        ],
+        "body": [ "Only about 1 in 90 NSW adults", "(1.1%) plays Australian", "football, less than half the", "national 2.4%. Soccer is far", "more popular (7.1%)." ],
         "corner": "BR"
       },
       {
         "id": "NT1",
         "state_name": "Northern Territory",
         "headline": "Yoga nearly doubles",
-        "body": [
-          "9.8% practise yoga, almost",
-          "twice the national 5.1%. No",
-          "other state is above 5.3%."
-        ],
+        "body": [ "9.8% practise yoga, almost", "twice the national 5.1%. No", "other state is above 5.3%." ],
         "corner": "TR"
       },
       {
         "id": "NT2",
         "state_name": "Northern Territory",
         "headline": "The real AFL stronghold",
-        "body": [
-          "At 4.5%, the NT has the",
-          "highest Australian football",
-          "rate in the country, ahead of",
-          "Victoria (3.8%) and nearly",
-          "double the national 2.4%."
-        ],
+        "body": [ "At 4.5%, the NT has the", "highest Australian football", "rate in the country, ahead of", "Victoria (3.8%) and nearly", "double the national 2.4%." ],
         "corner": "BR"
       },
       {
         "id": "NT3",
         "state_name": "Northern Territory",
         "headline": "Why so many gaps?",
-        "body": [
-          "Many NT bars are missing: no",
-          "participation was recorded in",
-          "73 of 142 activities, the most",
-          "of any state (NSW: 15). The",
-          "NT's small survey sample means",
-          "rare sports, like most combat",
-          "sports, may have been missed",
-          "rather than not played."
-        ],
+        "body": [ "Many NT bars are missing: no", "participation was recorded in", "73 of 142 activities, the most", "of any state (NSW: 15). The", "NT's small survey sample means", "rare sports, like most combat", "sports, may have been missed", "rather than not played." ],
         "corner": "BL"
       },
       {
         "id": "QLD1",
         "state_name": "Queensland",
         "headline": "Fewer hoops",
-        "body": [
-          "3.1% play basketball, the",
-          "lowest of any state (national",
-          "4.5%)."
-        ],
+        "body": [ "3.1% play basketball, the", "lowest of any state (national", "4.5%)." ],
         "corner": "TR"
       },
       {
         "id": "TAS1",
         "state_name": "Tasmania",
         "headline": "Into the wild",
-        "body": [
-          "28% bushwalk, the highest of",
-          "any state and 10 points above",
-          "the national 17%."
-        ],
+        "body": [ "28% bushwalk, the highest of", "any state and 10 points above", "the national 17%." ],
         "corner": "TR"
       },
       {
         "id": "TAS2",
         "state_name": "Tasmania",
         "headline": "Less time in the gym",
-        "body": [
-          "30% do fitness/gym, the lowest",
-          "of any state and 4 points",
-          "below the national 34%."
-        ],
+        "body": [ "30% do fitness/gym, the lowest", "of any state and 4 points", "below the national 34%." ],
         "corner": "TL"
       },
       {
         "id": "VIC1",
         "state_name": "Victoria",
         "headline": "Basketball's biggest state",
-        "body": [
-          "5.5% play basketball, the",
-          "highest rate in Australia",
-          "(national 4.5%)."
-        ],
+        "body": [ "5.5% play basketball, the", "highest rate in Australia", "(national 4.5%)." ],
         "corner": "TR"
       },
       {
         "id": "WA1",
         "state_name": "Western Australia",
         "headline": "Beach sports lead",
-        "body": [
-          "WA has Australia's highest",
-          "surfing rate (1.8% vs 1.4%",
-          "nationally) and one of the",
-          "highest volleyball rates (1.8%",
-          "vs 1.3%)."
-        ],
+        "body": [ "WA has Australia's highest", "surfing rate (1.8% vs 1.4%", "nationally) and one of the", "highest volleyball rates (1.8%", "vs 1.3%)." ],
         "corner": "BR"
       },
       {
         "id": "SA1",
         "state_name": "South Australia",
         "headline": "Netball stronghold",
-        "body": [
-          "2.8% play netball, well above",
-          "the national 2.1% and the",
-          "highest among states with",
-          "reliable estimates."
-        ],
+        "body": [ "2.8% play netball, well above", "the national 2.1% and the", "highest among states with", "reliable estimates." ],
         "corner": "TR"
       }
     ],
     "note_pointers": [
-      {
-        "key": "Australian Capital Territory|Fitness/Gym",
-        "note_id": "ACT1",
-        "primary": true,
-        "route": "direct"
-      },
-      {
-        "key": "Australian Capital Territory|Cycling",
-        "note_id": "ACT2",
-        "primary": true,
-        "route": "direct"
-      },
-      {
-        "key": "Australian Capital Territory|DanceSport",
-        "note_id": "ACT2",
-        "primary": false,
-        "route": "direct"
-      },
-      {
-        "key": "Australian Capital Territory|Badminton",
-        "note_id": "ACT2",
-        "primary": false,
-        "route": "bottom"
-      },
-      {
-        "key": "New South Wales|Football/soccer",
-        "note_id": "NSW1",
-        "primary": true,
-        "route": "direct"
-      },
-      {
-        "key": "New South Wales|Australian football",
-        "note_id": "NSW2",
-        "primary": true,
-        "route": "direct"
-      },
-      {
-        "key": "Northern Territory|Yoga",
-        "note_id": "NT1",
-        "primary": true,
-        "route": "direct"
-      },
-      {
-        "key": "Northern Territory|Australian football",
-        "note_id": "NT2",
-        "primary": true,
-        "route": "direct"
-      },
-      {
-        "key": "Northern Territory|Karate",
-        "note_id": "NT3",
-        "primary": true,
-        "route": "direct"
-      },
-      {
-        "key": "Queensland|Basketball",
-        "note_id": "QLD1",
-        "primary": true,
-        "route": "direct"
-      },
-      {
-        "key": "Tasmania|Bush walking",
-        "note_id": "TAS1",
-        "primary": true,
-        "route": "direct"
-      },
-      {
-        "key": "Tasmania|Fitness/Gym",
-        "note_id": "TAS2",
-        "primary": true,
-        "route": "direct"
-      },
-      {
-        "key": "Victoria|Basketball",
-        "note_id": "VIC1",
-        "primary": true,
-        "route": "direct"
-      },
-      {
-        "key": "Western Australia|Volleyball (indoor and outdoor)",
-        "note_id": "WA1",
-        "primary": true,
-        "route": "direct"
-      },
-      {
-        "key": "Western Australia|Surfing",
-        "note_id": "WA1",
-        "primary": false,
-        "route": "direct"
-      },
-      {
-        "key": "South Australia|Netball",
-        "note_id": "SA1",
-        "primary": true,
-        "route": "direct"
-      }
+      { "key": "Australian Capital Territory|Fitness/Gym", "note_id": "ACT1", "primary": true, "route": "direct" },
+      { "key": "Australian Capital Territory|Cycling", "note_id": "ACT2", "primary": true, "route": "direct" },
+      { "key": "Australian Capital Territory|DanceSport", "note_id": "ACT2", "primary": false, "route": "direct" },
+      { "key": "Australian Capital Territory|Badminton", "note_id": "ACT2", "primary": false, "route": "bottom" },
+      { "key": "New South Wales|Football/soccer", "note_id": "NSW1", "primary": true, "route": "direct" },
+      { "key": "New South Wales|Australian football", "note_id": "NSW2", "primary": true, "route": "direct" },
+      { "key": "Northern Territory|Yoga", "note_id": "NT1", "primary": true, "route": "direct" },
+      { "key": "Northern Territory|Australian football", "note_id": "NT2", "primary": true, "route": "direct" },
+      { "key": "Northern Territory|Karate", "note_id": "NT3", "primary": true, "route": "direct" },
+      { "key": "Queensland|Basketball", "note_id": "QLD1", "primary": true, "route": "direct" },
+      { "key": "Tasmania|Bush walking", "note_id": "TAS1", "primary": true, "route": "direct" },
+      { "key": "Tasmania|Fitness/Gym", "note_id": "TAS2", "primary": true, "route": "direct" },
+      { "key": "Victoria|Basketball", "note_id": "VIC1", "primary": true, "route": "direct" },
+      { "key": "Western Australia|Volleyball (indoor and outdoor)", "note_id": "WA1", "primary": true, "route": "direct" },
+      { "key": "Western Australia|Surfing", "note_id": "WA1", "primary": false, "route": "direct" },
+      { "key": "South Australia|Netball", "note_id": "SA1", "primary": true, "route": "direct" }
     ],
     "group_lines": [
-      {
-        "category": "Fitness & gym",
-        "lines": "Fitness & gym"
-      },
-      {
-        "category": "Running, walking & outdoor",
-        "lines": "Running, walking|& outdoor"
-      },
-      {
-        "category": "Football codes",
-        "lines": "Football codes"
-      },
-      {
-        "category": "Other team sports",
-        "lines": "Other team|sports"
-      },
-      {
-        "category": "Racquet & target sports",
-        "lines": "Racquet &|target sports"
-      },
-      {
-        "category": "Water sports",
-        "lines": "Water sports"
-      },
-      {
-        "category": "Combat sports & martial arts",
-        "lines": "Combat sports|& martial arts"
-      },
-      {
-        "category": "Dance, gymnastics & performance",
-        "lines": "Dance, gymnastics|& performance"
-      },
-      {
-        "category": "Cycling, wheels & motor",
-        "lines": "Cycling, wheels|& motor"
-      },
-      {
-        "category": "Equestrian",
-        "lines": "Equestrian"
-      },
-      {
-        "category": "Winter & ice sports",
-        "lines": "Winter &|ice sports"
-      },
-      {
-        "category": "Other",
-        "lines": "Other"
-      }
+      { "category": "Fitness & gym", "lines": "Fitness & gym" },
+      { "category": "Running, walking & outdoor", "lines": "Running, walking|& outdoor" },
+      { "category": "Football codes", "lines": "Football codes" },
+      { "category": "Other team sports", "lines": "Other team|sports" },
+      { "category": "Racquet & target sports", "lines": "Racquet &|target sports" },
+      { "category": "Water sports", "lines": "Water sports" },
+      { "category": "Combat sports & martial arts", "lines": "Combat sports|& martial arts" },
+      { "category": "Dance, gymnastics & performance", "lines": "Dance, gymnastics|& performance" },
+      { "category": "Cycling, wheels & motor", "lines": "Cycling, wheels|& motor" },
+      { "category": "Equestrian", "lines": "Equestrian" },
+      { "category": "Winter & ice sports", "lines": "Winter &|ice sports" },
+      { "category": "Other", "lines": "Other" }
     ]
   },
   "layer": [
@@ -319,140 +136,65 @@
         {
           "transform": [
             {
-              "filter": {
-                "param": "stateSel",
-                "empty": false
-              }
+              "filter": { "param": "stateSel", "empty": false }
             },
-            {
-              "calculate": "indexof(['Fitness & gym', 'Running, walking & outdoor', 'Football codes', 'Other team sports', 'Racquet & target sports', 'Water sports', 'Combat sports & martial arts', 'Dance, gymnastics & performance', 'Cycling, wheels & motor', 'Equestrian', 'Winter & ice sports', 'Other'], datum.category)",
-              "as": "cat_order"
-            },
+            { "calculate": "indexof(['Fitness & gym', 'Running, walking & outdoor', 'Football codes', 'Other team sports', 'Racquet & target sports', 'Water sports', 'Combat sports & martial arts', 'Dance, gymnastics & performance', 'Cycling, wheels & motor', 'Equestrian', 'Winter & ice sports', 'Other'], datum.category)", "as": "cat_order" },
             {
               "window": [
-                {
-                  "op": "row_number",
-                  "as": "idx"
-                }
+                { "op": "row_number", "as": "idx" }
               ],
               "sort": [
-                {
-                  "field": "cat_order",
-                  "order": "ascending"
-                },
-                {
-                  "field": "rate",
-                  "order": "descending"
-                }
+                { "field": "cat_order", "order": "ascending" },
+                { "field": "rate", "order": "descending" }
               ]
             },
-            {
-              "calculate": "datum.idx - 1 + datum.cat_order",
-              "as": "theta_start"
-            },
-            {
-              "calculate": "datum.idx + datum.cat_order",
-              "as": "theta_end"
-            },
+            { "calculate": "datum.idx - 1 + datum.cat_order", "as": "theta_start" },
+            { "calculate": "datum.idx + datum.cat_order", "as": "theta_end" },
             {
               "joinaggregate": [
-                {
-                  "op": "max",
-                  "field": "theta_end",
-                  "as": "max_end"
-                }
+                { "op": "max", "field": "theta_end", "as": "max_end" }
               ]
             },
-            {
-              "calculate": "datum.max_end + 1",
-              "as": "n_slots"
-            },
-            {
-              "calculate": "datum.theta_start / datum.n_slots",
-              "as": "t0"
-            },
-            {
-              "calculate": "datum.theta_end / datum.n_slots",
-              "as": "t1"
-            }
+            { "calculate": "datum.max_end + 1", "as": "n_slots" },
+            { "calculate": "datum.theta_start / datum.n_slots", "as": "t0" },
+            { "calculate": "datum.theta_end / datum.n_slots", "as": "t1" }
           ],
-          "mark": {
-            "type": "arc",
-            "padAngle": 0.004,
-            "stroke": null
-          },
+          "mark": { "type": "arc", "padAngle": 0.004, "stroke": null },
           "encoding": {
             "theta": {
               "field": "t0",
               "type": "quantitative",
               "stack": null,
               "scale": {
-                "domain": [
-                  0,
-                  1
-                ],
-                "range": [
-                  0,
-                  6.2832
-                ]
+                "domain": [ 0, 1 ],
+                "range": [ 0, 6.2832 ]
               }
             },
-            "theta2": {
-              "field": "t1"
-            },
+            "theta2": { "field": "t1" },
             "radius": {
               "field": "rate",
               "type": "quantitative",
               "scale": {
                 "type": "sqrt",
                 "zero": true,
-                "range": [
-                  100,
-                  225
-                ],
+                "range": [ 100, 225 ],
                 "nice": false
               }
             },
-            "radius2": {
-              "value": 100
-            },
+            "radius2": { "value": 100 },
             "color": {
               "field": "category",
               "type": "nominal",
               "legend": null,
               "scale": {
-                "domain": [
-                  "Fitness & gym",
-                  "Running, walking & outdoor",
-                  "Football codes",
-                  "Other team sports",
-                  "Racquet & target sports",
-                  "Water sports",
-                  "Combat sports & martial arts",
-                  "Dance, gymnastics & performance",
-                  "Cycling, wheels & motor",
-                  "Equestrian",
-                  "Winter & ice sports",
-                  "Other"
-                ],
+                "domain": [ "Fitness & gym", "Running, walking & outdoor", "Football codes", "Other team sports", "Racquet & target sports", "Water sports", "Combat sports & martial arts", "Dance, gymnastics & performance", "Cycling, wheels & motor", "Equestrian", "Winter & ice sports", "Other" ],
                 "scheme": "tableau20"
               }
             },
             "tooltip": [
-              {
-                "field": "activity",
-                "title": "Activity"
-              },
-              {
-                "field": "rate",
-                "title": "Participation rate (%)",
-                "format": ".2f"
-              },
-              {
-                "field": "national_rate",
-                "title": "National rate (%)",
-                "format": ".2f"
-              }
+              { "field": "activity", "title": "Activity" },
+              { "field": "rate", "title": "Participation rate (%)", "format": ".2f" },
+              { "field": "national_rate", "title": "National rate (%)", "format": ".2f" }
             ]
           }
         }
@@ -461,226 +203,87 @@
         "url": "data/activity_by_state_2025.csv",
         "format": {
           "type": "csv",
-          "parse": {
-            "rate": "number",
-            "national_rate": "number",
-            "participants": "number"
-          }
+          "parse": { "rate": "number", "national_rate": "number", "participants": "number" }
         }
       }
     },
     {
       "transform": [
         {
-          "filter": {
-            "param": "stateSel",
-            "empty": false
-          }
+          "filter": { "param": "stateSel", "empty": false }
         },
-        {
-          "calculate": "indexof(['Fitness & gym', 'Running, walking & outdoor', 'Football codes', 'Other team sports', 'Racquet & target sports', 'Water sports', 'Combat sports & martial arts', 'Dance, gymnastics & performance', 'Cycling, wheels & motor', 'Equestrian', 'Winter & ice sports', 'Other'], datum.category)",
-          "as": "cat_order"
-        },
+        { "calculate": "indexof(['Fitness & gym', 'Running, walking & outdoor', 'Football codes', 'Other team sports', 'Racquet & target sports', 'Water sports', 'Combat sports & martial arts', 'Dance, gymnastics & performance', 'Cycling, wheels & motor', 'Equestrian', 'Winter & ice sports', 'Other'], datum.category)", "as": "cat_order" },
         {
           "window": [
-            {
-              "op": "row_number",
-              "as": "idx"
-            }
+            { "op": "row_number", "as": "idx" }
           ],
           "sort": [
-            {
-              "field": "cat_order",
-              "order": "ascending"
-            },
-            {
-              "field": "rate",
-              "order": "descending"
-            }
+            { "field": "cat_order", "order": "ascending" },
+            { "field": "rate", "order": "descending" }
           ]
         },
-        {
-          "calculate": "datum.idx - 1 + datum.cat_order",
-          "as": "theta_start"
-        },
-        {
-          "calculate": "datum.idx + datum.cat_order",
-          "as": "theta_end"
-        },
+        { "calculate": "datum.idx - 1 + datum.cat_order", "as": "theta_start" },
+        { "calculate": "datum.idx + datum.cat_order", "as": "theta_end" },
         {
           "joinaggregate": [
-            {
-              "op": "max",
-              "field": "theta_end",
-              "as": "max_end"
-            }
+            { "op": "max", "field": "theta_end", "as": "max_end" }
           ]
         },
         {
           "aggregate": [
-            {
-              "op": "min",
-              "field": "theta_start",
-              "as": "g_start"
-            },
-            {
-              "op": "max",
-              "field": "theta_end",
-              "as": "g_end"
-            },
-            {
-              "op": "sum",
-              "field": "rate",
-              "as": "g_rate"
-            },
-            {
-              "op": "max",
-              "field": "rate",
-              "as": "g_max"
-            },
-            {
-              "op": "max",
-              "field": "max_end",
-              "as": "max_end"
-            }
+            { "op": "min", "field": "theta_start", "as": "g_start" },
+            { "op": "max", "field": "theta_end", "as": "g_end" },
+            { "op": "sum", "field": "rate", "as": "g_rate" },
+            { "op": "max", "field": "rate", "as": "g_max" },
+            { "op": "max", "field": "max_end", "as": "max_end" }
           ],
-          "groupby": [
-            "category"
-          ]
+          "groupby": [ "category" ]
         },
         {
           "joinaggregate": [
-            {
-              "op": "sum",
-              "field": "g_rate",
-              "as": "total_rate"
-            },
-            {
-              "op": "max",
-              "field": "g_max",
-              "as": "st_max"
-            }
+            { "op": "sum", "field": "g_rate", "as": "total_rate" },
+            { "op": "max", "field": "g_max", "as": "st_max" }
           ]
         },
-        {
-          "calculate": "100 + 125 * sqrt(datum.g_max / datum.st_max)",
-          "as": "r_g"
-        },
-        {
-          "calculate": "datum.g_rate / datum.total_rate",
-          "as": "g_share"
-        },
-        {
-          "calculate": "datum.g_share < 0.01 ? format(datum.g_share, '.1%') : format(datum.g_share, '.0%')",
-          "as": "share_label"
-        },
-        {
-          "calculate": "(datum.g_start + datum.g_end) / 2 / (datum.max_end + 1) * 2 * PI",
-          "as": "ang"
-        },
-        {
-          "calculate": "sin(datum.ang)",
-          "as": "sx"
-        },
-        {
-          "calculate": "cos(datum.ang)",
-          "as": "cy"
-        },
+        { "calculate": "100 + 125 * sqrt(datum.g_max / datum.st_max)", "as": "r_g" },
+        { "calculate": "datum.g_rate / datum.total_rate", "as": "g_share" },
+        { "calculate": "datum.g_share < 0.01 ? format(datum.g_share, '.1%') : format(datum.g_share, '.0%')", "as": "share_label" },
+        { "calculate": "(datum.g_start + datum.g_end) / 2 / (datum.max_end + 1) * 2 * PI", "as": "ang" },
+        { "calculate": "sin(datum.ang)", "as": "sx" },
+        { "calculate": "cos(datum.ang)", "as": "cy" },
         {
           "lookup": "category",
           "from": {
-            "data": {
-              "name": "group_lines"
-            },
+            "data": { "name": "group_lines" },
             "key": "category",
-            "fields": [
-              "lines"
-            ]
+            "fields": [ "lines" ]
           }
         },
-        {
-          "calculate": "split(datum.lines + '|' + datum.share_label, '|')",
-          "as": "label_lines"
-        },
-        {
-          "calculate": "max(datum.r_g + 14, 150)",
-          "as": "r_lbl"
-        },
-        {
-          "calculate": "340.0 + (datum.r_lbl - 10) * datum.sx",
-          "as": "tx0"
-        },
-        {
-          "calculate": "380.0 - (datum.r_lbl - 10) * datum.cy",
-          "as": "ty0"
-        },
-        {
-          "calculate": "340.0 + (datum.r_lbl - 3) * datum.sx",
-          "as": "tx1"
-        },
-        {
-          "calculate": "380.0 - (datum.r_lbl - 3) * datum.cy",
-          "as": "ty1"
-        },
-        {
-          "calculate": "340.0 + datum.r_lbl * datum.sx",
-          "as": "lx"
-        },
-        {
-          "calculate": "380.0 - datum.r_lbl * datum.cy",
-          "as": "ly"
-        },
-        {
-          "calculate": "datum.sx > 0.35 ? 'left' : datum.sx < -0.35 ? 'right' : 'center'",
-          "as": "l_align"
-        },
-        {
-          "calculate": "datum.cy > 0.35 ? 'bottom' : datum.cy < -0.35 ? 'top' : 'middle'",
-          "as": "l_base"
-        }
+        { "calculate": "split(datum.lines + '|' + datum.share_label, '|')", "as": "label_lines" },
+        { "calculate": "max(datum.r_g + 14, 150)", "as": "r_lbl" },
+        { "calculate": "340.0 + (datum.r_lbl - 10) * datum.sx", "as": "tx0" },
+        { "calculate": "380.0 - (datum.r_lbl - 10) * datum.cy", "as": "ty0" },
+        { "calculate": "340.0 + (datum.r_lbl - 3) * datum.sx", "as": "tx1" },
+        { "calculate": "380.0 - (datum.r_lbl - 3) * datum.cy", "as": "ty1" },
+        { "calculate": "340.0 + datum.r_lbl * datum.sx", "as": "lx" },
+        { "calculate": "380.0 - datum.r_lbl * datum.cy", "as": "ly" },
+        { "calculate": "datum.sx > 0.35 ? 'left' : datum.sx < -0.35 ? 'right' : 'center'", "as": "l_align" },
+        { "calculate": "datum.cy > 0.35 ? 'bottom' : datum.cy < -0.35 ? 'top' : 'middle'", "as": "l_base" }
       ],
       "layer": [
         {
-          "mark": {
-            "type": "rule",
-            "strokeWidth": 2
-          },
+          "mark": { "type": "rule", "strokeWidth": 2 },
           "encoding": {
-            "x": {
-              "field": "tx0",
-              "type": "quantitative",
-              "scale": null
-            },
-            "y": {
-              "field": "ty0",
-              "type": "quantitative",
-              "scale": null
-            },
-            "x2": {
-              "field": "tx1"
-            },
-            "y2": {
-              "field": "ty1"
-            },
+            "x": { "field": "tx0", "type": "quantitative", "scale": null },
+            "y": { "field": "ty0", "type": "quantitative", "scale": null },
+            "x2": { "field": "tx1" },
+            "y2": { "field": "ty1" },
             "color": {
               "field": "category",
               "type": "nominal",
               "legend": null,
               "scale": {
-                "domain": [
-                  "Fitness & gym",
-                  "Running, walking & outdoor",
-                  "Football codes",
-                  "Other team sports",
-                  "Racquet & target sports",
-                  "Water sports",
-                  "Combat sports & martial arts",
-                  "Dance, gymnastics & performance",
-                  "Cycling, wheels & motor",
-                  "Equestrian",
-                  "Winter & ice sports",
-                  "Other"
-                ],
+                "domain": [ "Fitness & gym", "Running, walking & outdoor", "Football codes", "Other team sports", "Racquet & target sports", "Water sports", "Combat sports & martial arts", "Dance, gymnastics & performance", "Cycling, wheels & motor", "Equestrian", "Winter & ice sports", "Other" ],
                 "scheme": "tableau20"
               }
             }
@@ -691,203 +294,84 @@
         "url": "data/activity_by_state_2025.csv",
         "format": {
           "type": "csv",
-          "parse": {
-            "rate": "number",
-            "national_rate": "number",
-            "participants": "number"
-          }
+          "parse": { "rate": "number", "national_rate": "number", "participants": "number" }
         }
       }
     },
     {
       "transform": [
         {
-          "filter": {
-            "param": "stateSel",
-            "empty": false
-          }
+          "filter": { "param": "stateSel", "empty": false }
         },
-        {
-          "calculate": "indexof(['Fitness & gym', 'Running, walking & outdoor', 'Football codes', 'Other team sports', 'Racquet & target sports', 'Water sports', 'Combat sports & martial arts', 'Dance, gymnastics & performance', 'Cycling, wheels & motor', 'Equestrian', 'Winter & ice sports', 'Other'], datum.category)",
-          "as": "cat_order"
-        },
+        { "calculate": "indexof(['Fitness & gym', 'Running, walking & outdoor', 'Football codes', 'Other team sports', 'Racquet & target sports', 'Water sports', 'Combat sports & martial arts', 'Dance, gymnastics & performance', 'Cycling, wheels & motor', 'Equestrian', 'Winter & ice sports', 'Other'], datum.category)", "as": "cat_order" },
         {
           "window": [
-            {
-              "op": "row_number",
-              "as": "idx"
-            }
+            { "op": "row_number", "as": "idx" }
           ],
           "sort": [
-            {
-              "field": "cat_order",
-              "order": "ascending"
-            },
-            {
-              "field": "rate",
-              "order": "descending"
-            }
+            { "field": "cat_order", "order": "ascending" },
+            { "field": "rate", "order": "descending" }
           ]
         },
-        {
-          "calculate": "datum.idx - 1 + datum.cat_order",
-          "as": "theta_start"
-        },
-        {
-          "calculate": "datum.idx + datum.cat_order",
-          "as": "theta_end"
-        },
+        { "calculate": "datum.idx - 1 + datum.cat_order", "as": "theta_start" },
+        { "calculate": "datum.idx + datum.cat_order", "as": "theta_end" },
         {
           "joinaggregate": [
-            {
-              "op": "max",
-              "field": "theta_end",
-              "as": "max_end"
-            }
+            { "op": "max", "field": "theta_end", "as": "max_end" }
           ]
         },
         {
           "joinaggregate": [
-            {
-              "op": "max",
-              "field": "rate",
-              "as": "max_rate"
-            }
+            { "op": "max", "field": "rate", "as": "max_rate" }
           ]
         },
-        {
-          "calculate": "datum.state_name + '|' + datum.activity",
-          "as": "key"
-        },
+        { "calculate": "datum.state_name + '|' + datum.activity", "as": "key" },
         {
           "lookup": "key",
           "from": {
-            "data": {
-              "name": "note_pointers"
-            },
+            "data": { "name": "note_pointers" },
             "key": "key",
-            "fields": [
-              "note_id",
-              "primary",
-              "route"
-            ]
+            "fields": [ "note_id", "primary", "route" ]
           }
         },
-        {
-          "filter": "isValid(datum.note_id)"
-        },
+        { "filter": "isValid(datum.note_id)" },
         {
           "lookup": "note_id",
           "from": {
-            "data": {
-              "name": "notes"
-            },
+            "data": { "name": "notes" },
             "key": "id",
-            "fields": [
-              "corner",
-              "headline",
-              "body"
-            ]
+            "fields": [ "corner", "headline", "body" ]
           }
         },
+        { "calculate": "(datum.theta_start + 0.5) / (datum.max_end + 1) * 2 * PI", "as": "ang" },
+        { "calculate": "100 + 125 * sqrt(datum.rate / datum.max_rate) + 4", "as": "r_tip" },
+        { "calculate": "340.0 + datum.r_tip * sin(datum.ang)", "as": "x_tip" },
+        { "calculate": "380.0 - datum.r_tip * cos(datum.ang)", "as": "y_tip" },
+        { "calculate": "340.0 + (datum.r_tip + 12) * sin(datum.ang)", "as": "x_elb" },
+        { "calculate": "380.0 - (datum.r_tip + 12) * cos(datum.ang)", "as": "y_elb" },
+        { "calculate": "48 + 17 * length(datum.body)", "as": "box_h" },
+        { "calculate": "substring(datum.corner, 1, 2) === 'L' ? 0 : 444", "as": "bx0" },
+        { "calculate": "datum.bx0 + 236", "as": "bx1" },
+        { "calculate": "substring(datum.corner, 0, 1) === 'T' ? 0 : 760 - datum.box_h", "as": "by0" },
+        { "calculate": "datum.by0 + datum.box_h", "as": "by1" },
+        { "calculate": "clamp(datum.x_elb, datum.bx0, datum.bx1)", "as": "ax" },
+        { "calculate": "clamp(datum.y_elb, datum.by0, datum.by1)", "as": "ay" },
+        { "calculate": "datum.route === 'bottom' ? [{'i': 0, 'px': datum.x_tip, 'py': datum.y_tip}, {'i': 1, 'px': datum.x_elb, 'py': datum.y_elb}, {'i': 2, 'px': datum.x_elb, 'py': datum.by1 - 14}, {'i': 3, 'px': substring(datum.corner, 1, 2) === 'L' ? datum.bx1 : datum.bx0, 'py': datum.by1 - 14}] : [{'i': 0, 'px': datum.x_tip, 'py': datum.y_tip}, {'i': 1, 'px': datum.x_elb, 'py': datum.y_elb}, {'i': 2, 'px': datum.ax, 'py': datum.ay}]", "as": "pts" },
         {
-          "calculate": "(datum.theta_start + 0.5) / (datum.max_end + 1) * 2 * PI",
-          "as": "ang"
+          "flatten": [ "pts" ]
         },
-        {
-          "calculate": "100 + 125 * sqrt(datum.rate / datum.max_rate) + 4",
-          "as": "r_tip"
-        },
-        {
-          "calculate": "340.0 + datum.r_tip * sin(datum.ang)",
-          "as": "x_tip"
-        },
-        {
-          "calculate": "380.0 - datum.r_tip * cos(datum.ang)",
-          "as": "y_tip"
-        },
-        {
-          "calculate": "340.0 + (datum.r_tip + 12) * sin(datum.ang)",
-          "as": "x_elb"
-        },
-        {
-          "calculate": "380.0 - (datum.r_tip + 12) * cos(datum.ang)",
-          "as": "y_elb"
-        },
-        {
-          "calculate": "48 + 17 * length(datum.body)",
-          "as": "box_h"
-        },
-        {
-          "calculate": "substring(datum.corner, 1, 2) === 'L' ? 0 : 444",
-          "as": "bx0"
-        },
-        {
-          "calculate": "datum.bx0 + 236",
-          "as": "bx1"
-        },
-        {
-          "calculate": "substring(datum.corner, 0, 1) === 'T' ? 0 : 760 - datum.box_h",
-          "as": "by0"
-        },
-        {
-          "calculate": "datum.by0 + datum.box_h",
-          "as": "by1"
-        },
-        {
-          "calculate": "clamp(datum.x_elb, datum.bx0, datum.bx1)",
-          "as": "ax"
-        },
-        {
-          "calculate": "clamp(datum.y_elb, datum.by0, datum.by1)",
-          "as": "ay"
-        },
-        {
-          "calculate": "datum.route === 'bottom' ? [{'i': 0, 'px': datum.x_tip, 'py': datum.y_tip}, {'i': 1, 'px': datum.x_elb, 'py': datum.y_elb}, {'i': 2, 'px': datum.x_elb, 'py': datum.by1 - 14}, {'i': 3, 'px': substring(datum.corner, 1, 2) === 'L' ? datum.bx1 : datum.bx0, 'py': datum.by1 - 14}] : [{'i': 0, 'px': datum.x_tip, 'py': datum.y_tip}, {'i': 1, 'px': datum.x_elb, 'py': datum.y_elb}, {'i': 2, 'px': datum.ax, 'py': datum.ay}]",
-          "as": "pts"
-        },
-        {
-          "flatten": [
-            "pts"
-          ]
-        },
-        {
-          "calculate": "datum.pts.px",
-          "as": "px"
-        },
-        {
-          "calculate": "datum.pts.py",
-          "as": "py"
-        },
-        {
-          "calculate": "datum.pts.i",
-          "as": "pi"
-        }
+        { "calculate": "datum.pts.px", "as": "px" },
+        { "calculate": "datum.pts.py", "as": "py" },
+        { "calculate": "datum.pts.i", "as": "pi" }
       ],
       "layer": [
         {
-          "mark": {
-            "type": "line",
-            "color": "#5B7183",
-            "strokeWidth": 1.2
-          },
+          "mark": { "type": "line", "color": "#5B7183", "strokeWidth": 1.2 },
           "encoding": {
-            "x": {
-              "field": "px",
-              "type": "quantitative",
-              "scale": null
-            },
-            "y": {
-              "field": "py",
-              "type": "quantitative",
-              "scale": null
-            },
-            "order": {
-              "field": "pi"
-            },
-            "detail": {
-              "field": "key"
-            }
+            "x": { "field": "px", "type": "quantitative", "scale": null },
+            "y": { "field": "py", "type": "quantitative", "scale": null },
+            "order": { "field": "pi" },
+            "detail": { "field": "key" }
           }
         }
       ],
@@ -895,265 +379,100 @@
         "url": "data/activity_by_state_2025.csv",
         "format": {
           "type": "csv",
-          "parse": {
-            "rate": "number",
-            "national_rate": "number",
-            "participants": "number"
-          }
+          "parse": { "rate": "number", "national_rate": "number", "participants": "number" }
         }
       }
     },
     {
       "transform": [
         {
-          "filter": {
-            "param": "stateSel",
-            "empty": false
-          }
+          "filter": { "param": "stateSel", "empty": false }
         },
-        {
-          "calculate": "indexof(['Fitness & gym', 'Running, walking & outdoor', 'Football codes', 'Other team sports', 'Racquet & target sports', 'Water sports', 'Combat sports & martial arts', 'Dance, gymnastics & performance', 'Cycling, wheels & motor', 'Equestrian', 'Winter & ice sports', 'Other'], datum.category)",
-          "as": "cat_order"
-        },
+        { "calculate": "indexof(['Fitness & gym', 'Running, walking & outdoor', 'Football codes', 'Other team sports', 'Racquet & target sports', 'Water sports', 'Combat sports & martial arts', 'Dance, gymnastics & performance', 'Cycling, wheels & motor', 'Equestrian', 'Winter & ice sports', 'Other'], datum.category)", "as": "cat_order" },
         {
           "window": [
-            {
-              "op": "row_number",
-              "as": "idx"
-            }
+            { "op": "row_number", "as": "idx" }
           ],
           "sort": [
-            {
-              "field": "cat_order",
-              "order": "ascending"
-            },
-            {
-              "field": "rate",
-              "order": "descending"
-            }
+            { "field": "cat_order", "order": "ascending" },
+            { "field": "rate", "order": "descending" }
           ]
         },
-        {
-          "calculate": "datum.idx - 1 + datum.cat_order",
-          "as": "theta_start"
-        },
-        {
-          "calculate": "datum.idx + datum.cat_order",
-          "as": "theta_end"
-        },
+        { "calculate": "datum.idx - 1 + datum.cat_order", "as": "theta_start" },
+        { "calculate": "datum.idx + datum.cat_order", "as": "theta_end" },
         {
           "joinaggregate": [
-            {
-              "op": "max",
-              "field": "theta_end",
-              "as": "max_end"
-            }
+            { "op": "max", "field": "theta_end", "as": "max_end" }
           ]
         },
         {
           "aggregate": [
-            {
-              "op": "min",
-              "field": "theta_start",
-              "as": "g_start"
-            },
-            {
-              "op": "max",
-              "field": "theta_end",
-              "as": "g_end"
-            },
-            {
-              "op": "sum",
-              "field": "rate",
-              "as": "g_rate"
-            },
-            {
-              "op": "max",
-              "field": "rate",
-              "as": "g_max"
-            },
-            {
-              "op": "max",
-              "field": "max_end",
-              "as": "max_end"
-            }
+            { "op": "min", "field": "theta_start", "as": "g_start" },
+            { "op": "max", "field": "theta_end", "as": "g_end" },
+            { "op": "sum", "field": "rate", "as": "g_rate" },
+            { "op": "max", "field": "rate", "as": "g_max" },
+            { "op": "max", "field": "max_end", "as": "max_end" }
           ],
-          "groupby": [
-            "category"
-          ]
+          "groupby": [ "category" ]
         },
         {
           "joinaggregate": [
-            {
-              "op": "sum",
-              "field": "g_rate",
-              "as": "total_rate"
-            },
-            {
-              "op": "max",
-              "field": "g_max",
-              "as": "st_max"
-            }
+            { "op": "sum", "field": "g_rate", "as": "total_rate" },
+            { "op": "max", "field": "g_max", "as": "st_max" }
           ]
         },
-        {
-          "calculate": "100 + 125 * sqrt(datum.g_max / datum.st_max)",
-          "as": "r_g"
-        },
-        {
-          "calculate": "datum.g_rate / datum.total_rate",
-          "as": "g_share"
-        },
-        {
-          "calculate": "datum.g_share < 0.01 ? format(datum.g_share, '.1%') : format(datum.g_share, '.0%')",
-          "as": "share_label"
-        },
-        {
-          "calculate": "(datum.g_start + datum.g_end) / 2 / (datum.max_end + 1) * 2 * PI",
-          "as": "ang"
-        },
-        {
-          "calculate": "sin(datum.ang)",
-          "as": "sx"
-        },
-        {
-          "calculate": "cos(datum.ang)",
-          "as": "cy"
-        },
+        { "calculate": "100 + 125 * sqrt(datum.g_max / datum.st_max)", "as": "r_g" },
+        { "calculate": "datum.g_rate / datum.total_rate", "as": "g_share" },
+        { "calculate": "datum.g_share < 0.01 ? format(datum.g_share, '.1%') : format(datum.g_share, '.0%')", "as": "share_label" },
+        { "calculate": "(datum.g_start + datum.g_end) / 2 / (datum.max_end + 1) * 2 * PI", "as": "ang" },
+        { "calculate": "sin(datum.ang)", "as": "sx" },
+        { "calculate": "cos(datum.ang)", "as": "cy" },
         {
           "lookup": "category",
           "from": {
-            "data": {
-              "name": "group_lines"
-            },
+            "data": { "name": "group_lines" },
             "key": "category",
-            "fields": [
-              "lines"
-            ]
+            "fields": [ "lines" ]
           }
         },
-        {
-          "calculate": "split(datum.lines + '|' + datum.share_label, '|')",
-          "as": "label_lines"
-        },
-        {
-          "calculate": "max(datum.r_g + 14, 150)",
-          "as": "r_lbl"
-        },
-        {
-          "calculate": "340.0 + (datum.r_lbl - 10) * datum.sx",
-          "as": "tx0"
-        },
-        {
-          "calculate": "380.0 - (datum.r_lbl - 10) * datum.cy",
-          "as": "ty0"
-        },
-        {
-          "calculate": "340.0 + (datum.r_lbl - 3) * datum.sx",
-          "as": "tx1"
-        },
-        {
-          "calculate": "380.0 - (datum.r_lbl - 3) * datum.cy",
-          "as": "ty1"
-        },
-        {
-          "calculate": "340.0 + datum.r_lbl * datum.sx",
-          "as": "lx"
-        },
-        {
-          "calculate": "380.0 - datum.r_lbl * datum.cy",
-          "as": "ly"
-        },
-        {
-          "calculate": "datum.sx > 0.35 ? 'left' : datum.sx < -0.35 ? 'right' : 'center'",
-          "as": "l_align"
-        },
-        {
-          "calculate": "datum.cy > 0.35 ? 'bottom' : datum.cy < -0.35 ? 'top' : 'middle'",
-          "as": "l_base"
-        }
+        { "calculate": "split(datum.lines + '|' + datum.share_label, '|')", "as": "label_lines" },
+        { "calculate": "max(datum.r_g + 14, 150)", "as": "r_lbl" },
+        { "calculate": "340.0 + (datum.r_lbl - 10) * datum.sx", "as": "tx0" },
+        { "calculate": "380.0 - (datum.r_lbl - 10) * datum.cy", "as": "ty0" },
+        { "calculate": "340.0 + (datum.r_lbl - 3) * datum.sx", "as": "tx1" },
+        { "calculate": "380.0 - (datum.r_lbl - 3) * datum.cy", "as": "ty1" },
+        { "calculate": "340.0 + datum.r_lbl * datum.sx", "as": "lx" },
+        { "calculate": "380.0 - datum.r_lbl * datum.cy", "as": "ly" },
+        { "calculate": "datum.sx > 0.35 ? 'left' : datum.sx < -0.35 ? 'right' : 'center'", "as": "l_align" },
+        { "calculate": "datum.cy > 0.35 ? 'bottom' : datum.cy < -0.35 ? 'top' : 'middle'", "as": "l_base" }
       ],
       "layer": [
         {
           "transform": [
-            {
-              "filter": "datum.l_align === 'left' && datum.l_base === 'top'"
-            }
+            { "filter": "datum.l_align === 'left' && datum.l_base === 'top'" }
           ],
-          "mark": {
-            "type": "text",
-            "align": "left",
-            "baseline": "top",
-            "fontSize": 13,
-            "fontWeight": "bold",
-            "lineHeight": 16,
-            "stroke": "#F5FBFE",
-            "strokeWidth": 4,
-            "strokeJoin": "round"
-          },
+          "mark": { "type": "text", "align": "left", "baseline": "top", "fontSize": 13, "fontWeight": "bold", "lineHeight": 16, "stroke": "#F5FBFE", "strokeWidth": 4, "strokeJoin": "round" },
           "encoding": {
-            "x": {
-              "field": "lx",
-              "type": "quantitative",
-              "scale": null
-            },
-            "y": {
-              "field": "ly",
-              "type": "quantitative",
-              "scale": null
-            },
-            "text": {
-              "field": "label_lines"
-            }
+            "x": { "field": "lx", "type": "quantitative", "scale": null },
+            "y": { "field": "ly", "type": "quantitative", "scale": null },
+            "text": { "field": "label_lines" }
           }
         },
         {
           "transform": [
-            {
-              "filter": "datum.l_align === 'left' && datum.l_base === 'top'"
-            }
+            { "filter": "datum.l_align === 'left' && datum.l_base === 'top'" }
           ],
-          "mark": {
-            "type": "text",
-            "align": "left",
-            "baseline": "top",
-            "fontSize": 13,
-            "fontWeight": "bold",
-            "lineHeight": 16
-          },
+          "mark": { "type": "text", "align": "left", "baseline": "top", "fontSize": 13, "fontWeight": "bold", "lineHeight": 16 },
           "encoding": {
-            "x": {
-              "field": "lx",
-              "type": "quantitative",
-              "scale": null
-            },
-            "y": {
-              "field": "ly",
-              "type": "quantitative",
-              "scale": null
-            },
-            "text": {
-              "field": "label_lines"
-            },
+            "x": { "field": "lx", "type": "quantitative", "scale": null },
+            "y": { "field": "ly", "type": "quantitative", "scale": null },
+            "text": { "field": "label_lines" },
             "color": {
               "field": "category",
               "type": "nominal",
               "legend": null,
               "scale": {
-                "domain": [
-                  "Fitness & gym",
-                  "Running, walking & outdoor",
-                  "Football codes",
-                  "Other team sports",
-                  "Racquet & target sports",
-                  "Water sports",
-                  "Combat sports & martial arts",
-                  "Dance, gymnastics & performance",
-                  "Cycling, wheels & motor",
-                  "Equestrian",
-                  "Winter & ice sports",
-                  "Other"
-                ],
+                "domain": [ "Fitness & gym", "Running, walking & outdoor", "Football codes", "Other team sports", "Racquet & target sports", "Water sports", "Combat sports & martial arts", "Dance, gymnastics & performance", "Cycling, wheels & motor", "Equestrian", "Winter & ice sports", "Other" ],
                 "scheme": "tableau20"
               }
             }
@@ -1161,84 +480,30 @@
         },
         {
           "transform": [
-            {
-              "filter": "datum.l_align === 'left' && datum.l_base === 'middle'"
-            }
+            { "filter": "datum.l_align === 'left' && datum.l_base === 'middle'" }
           ],
-          "mark": {
-            "type": "text",
-            "align": "left",
-            "baseline": "middle",
-            "fontSize": 13,
-            "fontWeight": "bold",
-            "lineHeight": 16,
-            "stroke": "#F5FBFE",
-            "strokeWidth": 4,
-            "strokeJoin": "round"
-          },
+          "mark": { "type": "text", "align": "left", "baseline": "middle", "fontSize": 13, "fontWeight": "bold", "lineHeight": 16, "stroke": "#F5FBFE", "strokeWidth": 4, "strokeJoin": "round" },
           "encoding": {
-            "x": {
-              "field": "lx",
-              "type": "quantitative",
-              "scale": null
-            },
-            "y": {
-              "field": "ly",
-              "type": "quantitative",
-              "scale": null
-            },
-            "text": {
-              "field": "label_lines"
-            }
+            "x": { "field": "lx", "type": "quantitative", "scale": null },
+            "y": { "field": "ly", "type": "quantitative", "scale": null },
+            "text": { "field": "label_lines" }
           }
         },
         {
           "transform": [
-            {
-              "filter": "datum.l_align === 'left' && datum.l_base === 'middle'"
-            }
+            { "filter": "datum.l_align === 'left' && datum.l_base === 'middle'" }
           ],
-          "mark": {
-            "type": "text",
-            "align": "left",
-            "baseline": "middle",
-            "fontSize": 13,
-            "fontWeight": "bold",
-            "lineHeight": 16
-          },
+          "mark": { "type": "text", "align": "left", "baseline": "middle", "fontSize": 13, "fontWeight": "bold", "lineHeight": 16 },
           "encoding": {
-            "x": {
-              "field": "lx",
-              "type": "quantitative",
-              "scale": null
-            },
-            "y": {
-              "field": "ly",
-              "type": "quantitative",
-              "scale": null
-            },
-            "text": {
-              "field": "label_lines"
-            },
+            "x": { "field": "lx", "type": "quantitative", "scale": null },
+            "y": { "field": "ly", "type": "quantitative", "scale": null },
+            "text": { "field": "label_lines" },
             "color": {
               "field": "category",
               "type": "nominal",
               "legend": null,
               "scale": {
-                "domain": [
-                  "Fitness & gym",
-                  "Running, walking & outdoor",
-                  "Football codes",
-                  "Other team sports",
-                  "Racquet & target sports",
-                  "Water sports",
-                  "Combat sports & martial arts",
-                  "Dance, gymnastics & performance",
-                  "Cycling, wheels & motor",
-                  "Equestrian",
-                  "Winter & ice sports",
-                  "Other"
-                ],
+                "domain": [ "Fitness & gym", "Running, walking & outdoor", "Football codes", "Other team sports", "Racquet & target sports", "Water sports", "Combat sports & martial arts", "Dance, gymnastics & performance", "Cycling, wheels & motor", "Equestrian", "Winter & ice sports", "Other" ],
                 "scheme": "tableau20"
               }
             }
@@ -1246,84 +511,30 @@
         },
         {
           "transform": [
-            {
-              "filter": "datum.l_align === 'left' && datum.l_base === 'bottom'"
-            }
+            { "filter": "datum.l_align === 'left' && datum.l_base === 'bottom'" }
           ],
-          "mark": {
-            "type": "text",
-            "align": "left",
-            "baseline": "bottom",
-            "fontSize": 13,
-            "fontWeight": "bold",
-            "lineHeight": 16,
-            "stroke": "#F5FBFE",
-            "strokeWidth": 4,
-            "strokeJoin": "round"
-          },
+          "mark": { "type": "text", "align": "left", "baseline": "bottom", "fontSize": 13, "fontWeight": "bold", "lineHeight": 16, "stroke": "#F5FBFE", "strokeWidth": 4, "strokeJoin": "round" },
           "encoding": {
-            "x": {
-              "field": "lx",
-              "type": "quantitative",
-              "scale": null
-            },
-            "y": {
-              "field": "ly",
-              "type": "quantitative",
-              "scale": null
-            },
-            "text": {
-              "field": "label_lines"
-            }
+            "x": { "field": "lx", "type": "quantitative", "scale": null },
+            "y": { "field": "ly", "type": "quantitative", "scale": null },
+            "text": { "field": "label_lines" }
           }
         },
         {
           "transform": [
-            {
-              "filter": "datum.l_align === 'left' && datum.l_base === 'bottom'"
-            }
+            { "filter": "datum.l_align === 'left' && datum.l_base === 'bottom'" }
           ],
-          "mark": {
-            "type": "text",
-            "align": "left",
-            "baseline": "bottom",
-            "fontSize": 13,
-            "fontWeight": "bold",
-            "lineHeight": 16
-          },
+          "mark": { "type": "text", "align": "left", "baseline": "bottom", "fontSize": 13, "fontWeight": "bold", "lineHeight": 16 },
           "encoding": {
-            "x": {
-              "field": "lx",
-              "type": "quantitative",
-              "scale": null
-            },
-            "y": {
-              "field": "ly",
-              "type": "quantitative",
-              "scale": null
-            },
-            "text": {
-              "field": "label_lines"
-            },
+            "x": { "field": "lx", "type": "quantitative", "scale": null },
+            "y": { "field": "ly", "type": "quantitative", "scale": null },
+            "text": { "field": "label_lines" },
             "color": {
               "field": "category",
               "type": "nominal",
               "legend": null,
               "scale": {
-                "domain": [
-                  "Fitness & gym",
-                  "Running, walking & outdoor",
-                  "Football codes",
-                  "Other team sports",
-                  "Racquet & target sports",
-                  "Water sports",
-                  "Combat sports & martial arts",
-                  "Dance, gymnastics & performance",
-                  "Cycling, wheels & motor",
-                  "Equestrian",
-                  "Winter & ice sports",
-                  "Other"
-                ],
+                "domain": [ "Fitness & gym", "Running, walking & outdoor", "Football codes", "Other team sports", "Racquet & target sports", "Water sports", "Combat sports & martial arts", "Dance, gymnastics & performance", "Cycling, wheels & motor", "Equestrian", "Winter & ice sports", "Other" ],
                 "scheme": "tableau20"
               }
             }
@@ -1331,84 +542,30 @@
         },
         {
           "transform": [
-            {
-              "filter": "datum.l_align === 'right' && datum.l_base === 'top'"
-            }
+            { "filter": "datum.l_align === 'right' && datum.l_base === 'top'" }
           ],
-          "mark": {
-            "type": "text",
-            "align": "right",
-            "baseline": "top",
-            "fontSize": 13,
-            "fontWeight": "bold",
-            "lineHeight": 16,
-            "stroke": "#F5FBFE",
-            "strokeWidth": 4,
-            "strokeJoin": "round"
-          },
+          "mark": { "type": "text", "align": "right", "baseline": "top", "fontSize": 13, "fontWeight": "bold", "lineHeight": 16, "stroke": "#F5FBFE", "strokeWidth": 4, "strokeJoin": "round" },
           "encoding": {
-            "x": {
-              "field": "lx",
-              "type": "quantitative",
-              "scale": null
-            },
-            "y": {
-              "field": "ly",
-              "type": "quantitative",
-              "scale": null
-            },
-            "text": {
-              "field": "label_lines"
-            }
+            "x": { "field": "lx", "type": "quantitative", "scale": null },
+            "y": { "field": "ly", "type": "quantitative", "scale": null },
+            "text": { "field": "label_lines" }
           }
         },
         {
           "transform": [
-            {
-              "filter": "datum.l_align === 'right' && datum.l_base === 'top'"
-            }
+            { "filter": "datum.l_align === 'right' && datum.l_base === 'top'" }
           ],
-          "mark": {
-            "type": "text",
-            "align": "right",
-            "baseline": "top",
-            "fontSize": 13,
-            "fontWeight": "bold",
-            "lineHeight": 16
-          },
+          "mark": { "type": "text", "align": "right", "baseline": "top", "fontSize": 13, "fontWeight": "bold", "lineHeight": 16 },
           "encoding": {
-            "x": {
-              "field": "lx",
-              "type": "quantitative",
-              "scale": null
-            },
-            "y": {
-              "field": "ly",
-              "type": "quantitative",
-              "scale": null
-            },
-            "text": {
-              "field": "label_lines"
-            },
+            "x": { "field": "lx", "type": "quantitative", "scale": null },
+            "y": { "field": "ly", "type": "quantitative", "scale": null },
+            "text": { "field": "label_lines" },
             "color": {
               "field": "category",
               "type": "nominal",
               "legend": null,
               "scale": {
-                "domain": [
-                  "Fitness & gym",
-                  "Running, walking & outdoor",
-                  "Football codes",
-                  "Other team sports",
-                  "Racquet & target sports",
-                  "Water sports",
-                  "Combat sports & martial arts",
-                  "Dance, gymnastics & performance",
-                  "Cycling, wheels & motor",
-                  "Equestrian",
-                  "Winter & ice sports",
-                  "Other"
-                ],
+                "domain": [ "Fitness & gym", "Running, walking & outdoor", "Football codes", "Other team sports", "Racquet & target sports", "Water sports", "Combat sports & martial arts", "Dance, gymnastics & performance", "Cycling, wheels & motor", "Equestrian", "Winter & ice sports", "Other" ],
                 "scheme": "tableau20"
               }
             }
@@ -1416,84 +573,30 @@
         },
         {
           "transform": [
-            {
-              "filter": "datum.l_align === 'right' && datum.l_base === 'middle'"
-            }
+            { "filter": "datum.l_align === 'right' && datum.l_base === 'middle'" }
           ],
-          "mark": {
-            "type": "text",
-            "align": "right",
-            "baseline": "middle",
-            "fontSize": 13,
-            "fontWeight": "bold",
-            "lineHeight": 16,
-            "stroke": "#F5FBFE",
-            "strokeWidth": 4,
-            "strokeJoin": "round"
-          },
+          "mark": { "type": "text", "align": "right", "baseline": "middle", "fontSize": 13, "fontWeight": "bold", "lineHeight": 16, "stroke": "#F5FBFE", "strokeWidth": 4, "strokeJoin": "round" },
           "encoding": {
-            "x": {
-              "field": "lx",
-              "type": "quantitative",
-              "scale": null
-            },
-            "y": {
-              "field": "ly",
-              "type": "quantitative",
-              "scale": null
-            },
-            "text": {
-              "field": "label_lines"
-            }
+            "x": { "field": "lx", "type": "quantitative", "scale": null },
+            "y": { "field": "ly", "type": "quantitative", "scale": null },
+            "text": { "field": "label_lines" }
           }
         },
         {
           "transform": [
-            {
-              "filter": "datum.l_align === 'right' && datum.l_base === 'middle'"
-            }
+            { "filter": "datum.l_align === 'right' && datum.l_base === 'middle'" }
           ],
-          "mark": {
-            "type": "text",
-            "align": "right",
-            "baseline": "middle",
-            "fontSize": 13,
-            "fontWeight": "bold",
-            "lineHeight": 16
-          },
+          "mark": { "type": "text", "align": "right", "baseline": "middle", "fontSize": 13, "fontWeight": "bold", "lineHeight": 16 },
           "encoding": {
-            "x": {
-              "field": "lx",
-              "type": "quantitative",
-              "scale": null
-            },
-            "y": {
-              "field": "ly",
-              "type": "quantitative",
-              "scale": null
-            },
-            "text": {
-              "field": "label_lines"
-            },
+            "x": { "field": "lx", "type": "quantitative", "scale": null },
+            "y": { "field": "ly", "type": "quantitative", "scale": null },
+            "text": { "field": "label_lines" },
             "color": {
               "field": "category",
               "type": "nominal",
               "legend": null,
               "scale": {
-                "domain": [
-                  "Fitness & gym",
-                  "Running, walking & outdoor",
-                  "Football codes",
-                  "Other team sports",
-                  "Racquet & target sports",
-                  "Water sports",
-                  "Combat sports & martial arts",
-                  "Dance, gymnastics & performance",
-                  "Cycling, wheels & motor",
-                  "Equestrian",
-                  "Winter & ice sports",
-                  "Other"
-                ],
+                "domain": [ "Fitness & gym", "Running, walking & outdoor", "Football codes", "Other team sports", "Racquet & target sports", "Water sports", "Combat sports & martial arts", "Dance, gymnastics & performance", "Cycling, wheels & motor", "Equestrian", "Winter & ice sports", "Other" ],
                 "scheme": "tableau20"
               }
             }
@@ -1501,84 +604,30 @@
         },
         {
           "transform": [
-            {
-              "filter": "datum.l_align === 'right' && datum.l_base === 'bottom'"
-            }
+            { "filter": "datum.l_align === 'right' && datum.l_base === 'bottom'" }
           ],
-          "mark": {
-            "type": "text",
-            "align": "right",
-            "baseline": "bottom",
-            "fontSize": 13,
-            "fontWeight": "bold",
-            "lineHeight": 16,
-            "stroke": "#F5FBFE",
-            "strokeWidth": 4,
-            "strokeJoin": "round"
-          },
+          "mark": { "type": "text", "align": "right", "baseline": "bottom", "fontSize": 13, "fontWeight": "bold", "lineHeight": 16, "stroke": "#F5FBFE", "strokeWidth": 4, "strokeJoin": "round" },
           "encoding": {
-            "x": {
-              "field": "lx",
-              "type": "quantitative",
-              "scale": null
-            },
-            "y": {
-              "field": "ly",
-              "type": "quantitative",
-              "scale": null
-            },
-            "text": {
-              "field": "label_lines"
-            }
+            "x": { "field": "lx", "type": "quantitative", "scale": null },
+            "y": { "field": "ly", "type": "quantitative", "scale": null },
+            "text": { "field": "label_lines" }
           }
         },
         {
           "transform": [
-            {
-              "filter": "datum.l_align === 'right' && datum.l_base === 'bottom'"
-            }
+            { "filter": "datum.l_align === 'right' && datum.l_base === 'bottom'" }
           ],
-          "mark": {
-            "type": "text",
-            "align": "right",
-            "baseline": "bottom",
-            "fontSize": 13,
-            "fontWeight": "bold",
-            "lineHeight": 16
-          },
+          "mark": { "type": "text", "align": "right", "baseline": "bottom", "fontSize": 13, "fontWeight": "bold", "lineHeight": 16 },
           "encoding": {
-            "x": {
-              "field": "lx",
-              "type": "quantitative",
-              "scale": null
-            },
-            "y": {
-              "field": "ly",
-              "type": "quantitative",
-              "scale": null
-            },
-            "text": {
-              "field": "label_lines"
-            },
+            "x": { "field": "lx", "type": "quantitative", "scale": null },
+            "y": { "field": "ly", "type": "quantitative", "scale": null },
+            "text": { "field": "label_lines" },
             "color": {
               "field": "category",
               "type": "nominal",
               "legend": null,
               "scale": {
-                "domain": [
-                  "Fitness & gym",
-                  "Running, walking & outdoor",
-                  "Football codes",
-                  "Other team sports",
-                  "Racquet & target sports",
-                  "Water sports",
-                  "Combat sports & martial arts",
-                  "Dance, gymnastics & performance",
-                  "Cycling, wheels & motor",
-                  "Equestrian",
-                  "Winter & ice sports",
-                  "Other"
-                ],
+                "domain": [ "Fitness & gym", "Running, walking & outdoor", "Football codes", "Other team sports", "Racquet & target sports", "Water sports", "Combat sports & martial arts", "Dance, gymnastics & performance", "Cycling, wheels & motor", "Equestrian", "Winter & ice sports", "Other" ],
                 "scheme": "tableau20"
               }
             }
@@ -1586,84 +635,30 @@
         },
         {
           "transform": [
-            {
-              "filter": "datum.l_align === 'center' && datum.l_base === 'top'"
-            }
+            { "filter": "datum.l_align === 'center' && datum.l_base === 'top'" }
           ],
-          "mark": {
-            "type": "text",
-            "align": "center",
-            "baseline": "top",
-            "fontSize": 13,
-            "fontWeight": "bold",
-            "lineHeight": 16,
-            "stroke": "#F5FBFE",
-            "strokeWidth": 4,
-            "strokeJoin": "round"
-          },
+          "mark": { "type": "text", "align": "center", "baseline": "top", "fontSize": 13, "fontWeight": "bold", "lineHeight": 16, "stroke": "#F5FBFE", "strokeWidth": 4, "strokeJoin": "round" },
           "encoding": {
-            "x": {
-              "field": "lx",
-              "type": "quantitative",
-              "scale": null
-            },
-            "y": {
-              "field": "ly",
-              "type": "quantitative",
-              "scale": null
-            },
-            "text": {
-              "field": "label_lines"
-            }
+            "x": { "field": "lx", "type": "quantitative", "scale": null },
+            "y": { "field": "ly", "type": "quantitative", "scale": null },
+            "text": { "field": "label_lines" }
           }
         },
         {
           "transform": [
-            {
-              "filter": "datum.l_align === 'center' && datum.l_base === 'top'"
-            }
+            { "filter": "datum.l_align === 'center' && datum.l_base === 'top'" }
           ],
-          "mark": {
-            "type": "text",
-            "align": "center",
-            "baseline": "top",
-            "fontSize": 13,
-            "fontWeight": "bold",
-            "lineHeight": 16
-          },
+          "mark": { "type": "text", "align": "center", "baseline": "top", "fontSize": 13, "fontWeight": "bold", "lineHeight": 16 },
           "encoding": {
-            "x": {
-              "field": "lx",
-              "type": "quantitative",
-              "scale": null
-            },
-            "y": {
-              "field": "ly",
-              "type": "quantitative",
-              "scale": null
-            },
-            "text": {
-              "field": "label_lines"
-            },
+            "x": { "field": "lx", "type": "quantitative", "scale": null },
+            "y": { "field": "ly", "type": "quantitative", "scale": null },
+            "text": { "field": "label_lines" },
             "color": {
               "field": "category",
               "type": "nominal",
               "legend": null,
               "scale": {
-                "domain": [
-                  "Fitness & gym",
-                  "Running, walking & outdoor",
-                  "Football codes",
-                  "Other team sports",
-                  "Racquet & target sports",
-                  "Water sports",
-                  "Combat sports & martial arts",
-                  "Dance, gymnastics & performance",
-                  "Cycling, wheels & motor",
-                  "Equestrian",
-                  "Winter & ice sports",
-                  "Other"
-                ],
+                "domain": [ "Fitness & gym", "Running, walking & outdoor", "Football codes", "Other team sports", "Racquet & target sports", "Water sports", "Combat sports & martial arts", "Dance, gymnastics & performance", "Cycling, wheels & motor", "Equestrian", "Winter & ice sports", "Other" ],
                 "scheme": "tableau20"
               }
             }
@@ -1671,84 +666,30 @@
         },
         {
           "transform": [
-            {
-              "filter": "datum.l_align === 'center' && datum.l_base === 'middle'"
-            }
+            { "filter": "datum.l_align === 'center' && datum.l_base === 'middle'" }
           ],
-          "mark": {
-            "type": "text",
-            "align": "center",
-            "baseline": "middle",
-            "fontSize": 13,
-            "fontWeight": "bold",
-            "lineHeight": 16,
-            "stroke": "#F5FBFE",
-            "strokeWidth": 4,
-            "strokeJoin": "round"
-          },
+          "mark": { "type": "text", "align": "center", "baseline": "middle", "fontSize": 13, "fontWeight": "bold", "lineHeight": 16, "stroke": "#F5FBFE", "strokeWidth": 4, "strokeJoin": "round" },
           "encoding": {
-            "x": {
-              "field": "lx",
-              "type": "quantitative",
-              "scale": null
-            },
-            "y": {
-              "field": "ly",
-              "type": "quantitative",
-              "scale": null
-            },
-            "text": {
-              "field": "label_lines"
-            }
+            "x": { "field": "lx", "type": "quantitative", "scale": null },
+            "y": { "field": "ly", "type": "quantitative", "scale": null },
+            "text": { "field": "label_lines" }
           }
         },
         {
           "transform": [
-            {
-              "filter": "datum.l_align === 'center' && datum.l_base === 'middle'"
-            }
+            { "filter": "datum.l_align === 'center' && datum.l_base === 'middle'" }
           ],
-          "mark": {
-            "type": "text",
-            "align": "center",
-            "baseline": "middle",
-            "fontSize": 13,
-            "fontWeight": "bold",
-            "lineHeight": 16
-          },
+          "mark": { "type": "text", "align": "center", "baseline": "middle", "fontSize": 13, "fontWeight": "bold", "lineHeight": 16 },
           "encoding": {
-            "x": {
-              "field": "lx",
-              "type": "quantitative",
-              "scale": null
-            },
-            "y": {
-              "field": "ly",
-              "type": "quantitative",
-              "scale": null
-            },
-            "text": {
-              "field": "label_lines"
-            },
+            "x": { "field": "lx", "type": "quantitative", "scale": null },
+            "y": { "field": "ly", "type": "quantitative", "scale": null },
+            "text": { "field": "label_lines" },
             "color": {
               "field": "category",
               "type": "nominal",
               "legend": null,
               "scale": {
-                "domain": [
-                  "Fitness & gym",
-                  "Running, walking & outdoor",
-                  "Football codes",
-                  "Other team sports",
-                  "Racquet & target sports",
-                  "Water sports",
-                  "Combat sports & martial arts",
-                  "Dance, gymnastics & performance",
-                  "Cycling, wheels & motor",
-                  "Equestrian",
-                  "Winter & ice sports",
-                  "Other"
-                ],
+                "domain": [ "Fitness & gym", "Running, walking & outdoor", "Football codes", "Other team sports", "Racquet & target sports", "Water sports", "Combat sports & martial arts", "Dance, gymnastics & performance", "Cycling, wheels & motor", "Equestrian", "Winter & ice sports", "Other" ],
                 "scheme": "tableau20"
               }
             }
@@ -1756,84 +697,30 @@
         },
         {
           "transform": [
-            {
-              "filter": "datum.l_align === 'center' && datum.l_base === 'bottom'"
-            }
+            { "filter": "datum.l_align === 'center' && datum.l_base === 'bottom'" }
           ],
-          "mark": {
-            "type": "text",
-            "align": "center",
-            "baseline": "bottom",
-            "fontSize": 13,
-            "fontWeight": "bold",
-            "lineHeight": 16,
-            "stroke": "#F5FBFE",
-            "strokeWidth": 4,
-            "strokeJoin": "round"
-          },
+          "mark": { "type": "text", "align": "center", "baseline": "bottom", "fontSize": 13, "fontWeight": "bold", "lineHeight": 16, "stroke": "#F5FBFE", "strokeWidth": 4, "strokeJoin": "round" },
           "encoding": {
-            "x": {
-              "field": "lx",
-              "type": "quantitative",
-              "scale": null
-            },
-            "y": {
-              "field": "ly",
-              "type": "quantitative",
-              "scale": null
-            },
-            "text": {
-              "field": "label_lines"
-            }
+            "x": { "field": "lx", "type": "quantitative", "scale": null },
+            "y": { "field": "ly", "type": "quantitative", "scale": null },
+            "text": { "field": "label_lines" }
           }
         },
         {
           "transform": [
-            {
-              "filter": "datum.l_align === 'center' && datum.l_base === 'bottom'"
-            }
+            { "filter": "datum.l_align === 'center' && datum.l_base === 'bottom'" }
           ],
-          "mark": {
-            "type": "text",
-            "align": "center",
-            "baseline": "bottom",
-            "fontSize": 13,
-            "fontWeight": "bold",
-            "lineHeight": 16
-          },
+          "mark": { "type": "text", "align": "center", "baseline": "bottom", "fontSize": 13, "fontWeight": "bold", "lineHeight": 16 },
           "encoding": {
-            "x": {
-              "field": "lx",
-              "type": "quantitative",
-              "scale": null
-            },
-            "y": {
-              "field": "ly",
-              "type": "quantitative",
-              "scale": null
-            },
-            "text": {
-              "field": "label_lines"
-            },
+            "x": { "field": "lx", "type": "quantitative", "scale": null },
+            "y": { "field": "ly", "type": "quantitative", "scale": null },
+            "text": { "field": "label_lines" },
             "color": {
               "field": "category",
               "type": "nominal",
               "legend": null,
               "scale": {
-                "domain": [
-                  "Fitness & gym",
-                  "Running, walking & outdoor",
-                  "Football codes",
-                  "Other team sports",
-                  "Racquet & target sports",
-                  "Water sports",
-                  "Combat sports & martial arts",
-                  "Dance, gymnastics & performance",
-                  "Cycling, wheels & motor",
-                  "Equestrian",
-                  "Winter & ice sports",
-                  "Other"
-                ],
+                "domain": [ "Fitness & gym", "Running, walking & outdoor", "Football codes", "Other team sports", "Racquet & target sports", "Water sports", "Combat sports & martial arts", "Dance, gymnastics & performance", "Cycling, wheels & motor", "Equestrian", "Winter & ice sports", "Other" ],
                 "scheme": "tableau20"
               }
             }
@@ -1844,285 +731,113 @@
         "url": "data/activity_by_state_2025.csv",
         "format": {
           "type": "csv",
-          "parse": {
-            "rate": "number",
-            "national_rate": "number",
-            "participants": "number"
-          }
+          "parse": { "rate": "number", "national_rate": "number", "participants": "number" }
         }
       }
     },
     {
       "transform": [
         {
-          "filter": {
-            "param": "stateSel",
-            "empty": false
-          }
+          "filter": { "param": "stateSel", "empty": false }
         },
-        {
-          "calculate": "indexof(['Fitness & gym', 'Running, walking & outdoor', 'Football codes', 'Other team sports', 'Racquet & target sports', 'Water sports', 'Combat sports & martial arts', 'Dance, gymnastics & performance', 'Cycling, wheels & motor', 'Equestrian', 'Winter & ice sports', 'Other'], datum.category)",
-          "as": "cat_order"
-        },
+        { "calculate": "indexof(['Fitness & gym', 'Running, walking & outdoor', 'Football codes', 'Other team sports', 'Racquet & target sports', 'Water sports', 'Combat sports & martial arts', 'Dance, gymnastics & performance', 'Cycling, wheels & motor', 'Equestrian', 'Winter & ice sports', 'Other'], datum.category)", "as": "cat_order" },
         {
           "window": [
-            {
-              "op": "row_number",
-              "as": "idx"
-            }
+            { "op": "row_number", "as": "idx" }
           ],
           "sort": [
-            {
-              "field": "cat_order",
-              "order": "ascending"
-            },
-            {
-              "field": "rate",
-              "order": "descending"
-            }
+            { "field": "cat_order", "order": "ascending" },
+            { "field": "rate", "order": "descending" }
           ]
         },
-        {
-          "calculate": "datum.idx - 1 + datum.cat_order",
-          "as": "theta_start"
-        },
-        {
-          "calculate": "datum.idx + datum.cat_order",
-          "as": "theta_end"
-        },
+        { "calculate": "datum.idx - 1 + datum.cat_order", "as": "theta_start" },
+        { "calculate": "datum.idx + datum.cat_order", "as": "theta_end" },
         {
           "joinaggregate": [
-            {
-              "op": "max",
-              "field": "theta_end",
-              "as": "max_end"
-            }
+            { "op": "max", "field": "theta_end", "as": "max_end" }
           ]
         },
         {
           "joinaggregate": [
-            {
-              "op": "max",
-              "field": "rate",
-              "as": "max_rate"
-            }
+            { "op": "max", "field": "rate", "as": "max_rate" }
           ]
         },
-        {
-          "calculate": "datum.state_name + '|' + datum.activity",
-          "as": "key"
-        },
+        { "calculate": "datum.state_name + '|' + datum.activity", "as": "key" },
         {
           "lookup": "key",
           "from": {
-            "data": {
-              "name": "note_pointers"
-            },
+            "data": { "name": "note_pointers" },
             "key": "key",
-            "fields": [
-              "note_id",
-              "primary",
-              "route"
-            ]
+            "fields": [ "note_id", "primary", "route" ]
           }
         },
-        {
-          "filter": "isValid(datum.note_id)"
-        },
+        { "filter": "isValid(datum.note_id)" },
         {
           "lookup": "note_id",
           "from": {
-            "data": {
-              "name": "notes"
-            },
+            "data": { "name": "notes" },
             "key": "id",
-            "fields": [
-              "corner",
-              "headline",
-              "body"
-            ]
+            "fields": [ "corner", "headline", "body" ]
           }
         },
-        {
-          "calculate": "(datum.theta_start + 0.5) / (datum.max_end + 1) * 2 * PI",
-          "as": "ang"
-        },
-        {
-          "calculate": "100 + 125 * sqrt(datum.rate / datum.max_rate) + 4",
-          "as": "r_tip"
-        },
-        {
-          "calculate": "340.0 + datum.r_tip * sin(datum.ang)",
-          "as": "x_tip"
-        },
-        {
-          "calculate": "380.0 - datum.r_tip * cos(datum.ang)",
-          "as": "y_tip"
-        },
-        {
-          "calculate": "340.0 + (datum.r_tip + 12) * sin(datum.ang)",
-          "as": "x_elb"
-        },
-        {
-          "calculate": "380.0 - (datum.r_tip + 12) * cos(datum.ang)",
-          "as": "y_elb"
-        },
-        {
-          "calculate": "48 + 17 * length(datum.body)",
-          "as": "box_h"
-        },
-        {
-          "calculate": "substring(datum.corner, 1, 2) === 'L' ? 0 : 444",
-          "as": "bx0"
-        },
-        {
-          "calculate": "datum.bx0 + 236",
-          "as": "bx1"
-        },
-        {
-          "calculate": "substring(datum.corner, 0, 1) === 'T' ? 0 : 760 - datum.box_h",
-          "as": "by0"
-        },
-        {
-          "calculate": "datum.by0 + datum.box_h",
-          "as": "by1"
-        },
-        {
-          "calculate": "clamp(datum.x_elb, datum.bx0, datum.bx1)",
-          "as": "ax"
-        },
-        {
-          "calculate": "clamp(datum.y_elb, datum.by0, datum.by1)",
-          "as": "ay"
-        }
+        { "calculate": "(datum.theta_start + 0.5) / (datum.max_end + 1) * 2 * PI", "as": "ang" },
+        { "calculate": "100 + 125 * sqrt(datum.rate / datum.max_rate) + 4", "as": "r_tip" },
+        { "calculate": "340.0 + datum.r_tip * sin(datum.ang)", "as": "x_tip" },
+        { "calculate": "380.0 - datum.r_tip * cos(datum.ang)", "as": "y_tip" },
+        { "calculate": "340.0 + (datum.r_tip + 12) * sin(datum.ang)", "as": "x_elb" },
+        { "calculate": "380.0 - (datum.r_tip + 12) * cos(datum.ang)", "as": "y_elb" },
+        { "calculate": "48 + 17 * length(datum.body)", "as": "box_h" },
+        { "calculate": "substring(datum.corner, 1, 2) === 'L' ? 0 : 444", "as": "bx0" },
+        { "calculate": "datum.bx0 + 236", "as": "bx1" },
+        { "calculate": "substring(datum.corner, 0, 1) === 'T' ? 0 : 760 - datum.box_h", "as": "by0" },
+        { "calculate": "datum.by0 + datum.box_h", "as": "by1" },
+        { "calculate": "clamp(datum.x_elb, datum.bx0, datum.bx1)", "as": "ax" },
+        { "calculate": "clamp(datum.y_elb, datum.by0, datum.by1)", "as": "ay" }
       ],
       "layer": [
         {
-          "mark": {
-            "type": "circle",
-            "size": 36,
-            "color": "#1F3B57",
-            "opacity": 1
-          },
+          "mark": { "type": "circle", "size": 36, "color": "#1F3B57", "opacity": 1 },
           "encoding": {
-            "x": {
-              "field": "x_tip",
-              "type": "quantitative",
-              "scale": null
-            },
-            "y": {
-              "field": "y_tip",
-              "type": "quantitative",
-              "scale": null
-            }
+            "x": { "field": "x_tip", "type": "quantitative", "scale": null },
+            "y": { "field": "y_tip", "type": "quantitative", "scale": null }
           }
         },
         {
           "transform": [
-            {
-              "filter": "datum.primary"
-            }
+            { "filter": "datum.primary" }
           ],
-          "mark": {
-            "type": "rect",
-            "fill": "#FFFFFF",
-            "stroke": "#9CC9DF",
-            "strokeWidth": 1,
-            "cornerRadius": 8
-          },
+          "mark": { "type": "rect", "fill": "#FFFFFF", "stroke": "#9CC9DF", "strokeWidth": 1, "cornerRadius": 8 },
           "encoding": {
-            "x": {
-              "field": "bx0",
-              "type": "quantitative",
-              "scale": null
-            },
-            "y": {
-              "field": "by0",
-              "type": "quantitative",
-              "scale": null
-            },
-            "x2": {
-              "field": "bx1"
-            },
-            "y2": {
-              "field": "by1"
-            }
+            "x": { "field": "bx0", "type": "quantitative", "scale": null },
+            "y": { "field": "by0", "type": "quantitative", "scale": null },
+            "x2": { "field": "bx1" },
+            "y2": { "field": "by1" }
           }
         },
         {
           "transform": [
-            {
-              "filter": "datum.primary"
-            },
-            {
-              "calculate": "datum.bx0 + 12",
-              "as": "hx"
-            },
-            {
-              "calculate": "datum.by0 + 12",
-              "as": "hy"
-            }
+            { "filter": "datum.primary" },
+            { "calculate": "datum.bx0 + 12", "as": "hx" },
+            { "calculate": "datum.by0 + 12", "as": "hy" }
           ],
-          "mark": {
-            "type": "text",
-            "align": "left",
-            "baseline": "top",
-            "fontSize": 14,
-            "fontWeight": "bold",
-            "color": "#0D4E83"
-          },
+          "mark": { "type": "text", "align": "left", "baseline": "top", "fontSize": 14, "fontWeight": "bold", "color": "#0D4E83" },
           "encoding": {
-            "x": {
-              "field": "hx",
-              "type": "quantitative",
-              "scale": null
-            },
-            "y": {
-              "field": "hy",
-              "type": "quantitative",
-              "scale": null
-            },
-            "text": {
-              "field": "headline"
-            }
+            "x": { "field": "hx", "type": "quantitative", "scale": null },
+            "y": { "field": "hy", "type": "quantitative", "scale": null },
+            "text": { "field": "headline" }
           }
         },
         {
           "transform": [
-            {
-              "filter": "datum.primary"
-            },
-            {
-              "calculate": "datum.bx0 + 12",
-              "as": "hx"
-            },
-            {
-              "calculate": "datum.by0 + 36",
-              "as": "hy"
-            }
+            { "filter": "datum.primary" },
+            { "calculate": "datum.bx0 + 12", "as": "hx" },
+            { "calculate": "datum.by0 + 36", "as": "hy" }
           ],
-          "mark": {
-            "type": "text",
-            "align": "left",
-            "baseline": "top",
-            "fontSize": 13,
-            "lineHeight": 17,
-            "color": "#28668E"
-          },
+          "mark": { "type": "text", "align": "left", "baseline": "top", "fontSize": 13, "lineHeight": 17, "color": "#28668E" },
           "encoding": {
-            "x": {
-              "field": "hx",
-              "type": "quantitative",
-              "scale": null
-            },
-            "y": {
-              "field": "hy",
-              "type": "quantitative",
-              "scale": null
-            },
-            "text": {
-              "field": "body"
-            }
+            "x": { "field": "hx", "type": "quantitative", "scale": null },
+            "y": { "field": "hy", "type": "quantitative", "scale": null },
+            "text": { "field": "body" }
           }
         }
       ],
@@ -2130,87 +845,53 @@
         "url": "data/activity_by_state_2025.csv",
         "format": {
           "type": "csv",
-          "parse": {
-            "rate": "number",
-            "national_rate": "number",
-            "participants": "number"
-          }
+          "parse": { "rate": "number", "national_rate": "number", "participants": "number" }
         }
       }
     },
     {
       "data": {
         "url": "https://raw.githubusercontent.com/rowanhogan/australian-states/master/states.geojson",
-        "format": {
-          "type": "json",
-          "property": "features"
-        }
+        "format": { "type": "json", "property": "features" }
       },
       "transform": [
-        {
-          "calculate": "datum.properties.STATE_NAME",
-          "as": "state_name"
-        }
+        { "calculate": "datum.properties.STATE_NAME", "as": "state_name" }
       ],
       "params": [
         {
           "name": "stateSel",
           "select": {
             "type": "point",
-            "fields": [
-              "state_name"
-            ],
+            "fields": [ "state_name" ],
             "on": "click[event.item && event.item.datum && event.item.datum.properties]",
             "toggle": false,
             "clear": false
           },
           "value": [
-            {
-              "state_name": "Victoria"
-            }
+            { "state_name": "Victoria" }
           ]
         }
       ],
       "projection": {
         "type": "mercator",
-        "center": [
-          134,
-          -30.5
-        ],
+        "center": [ 134, -30.5 ],
         "scale": 220,
-        "translate": [
-          340.0,
-          372.0
-        ]
+        "translate": [ 340.0, 372.0 ]
       },
-      "mark": {
-        "type": "geoshape",
-        "stroke": "white",
-        "strokeWidth": 1,
-        "cursor": "pointer"
-      },
+      "mark": { "type": "geoshape", "stroke": "white", "strokeWidth": 1, "cursor": "pointer" },
       "encoding": {
         "color": {
-          "condition": {
-            "param": "stateSel",
-            "empty": false,
-            "value": "#555555"
-          },
+          "condition": { "param": "stateSel", "empty": false, "value": "#555555" },
           "value": "#cccccc"
         },
         "tooltip": [
-          {
-            "field": "state_name",
-            "title": "State"
-          }
+          { "field": "state_name", "title": "State" }
         ]
       }
     }
   ],
   "config": {
-    "view": {
-      "stroke": null
-    },
+    "view": { "stroke": null },
     "font": "Open Sans, Arial, sans-serif"
   }
 }

@@ -104,7 +104,6 @@
     }
   ],
   "config": {
-    "axis": { "grid": true, "tickBand": "extent", "labelFontSize": 15, "titleFontSize": 13 },
-    "view": { "stroke": null }
+    "axis": { "grid": true, "tickBand": "extent", "labelFontSize": 15, "titleFontSize": 13 }
   }
 }

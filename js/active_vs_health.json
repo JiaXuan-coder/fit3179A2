@@ -2,7 +2,11 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
     "text": "Does Health Status Change How Active We Are?",
-    "subtitle": ["Average minutes per day spent inactive and in light, moderate and vigorous activity (accelerometer-measured).", "Each line is one health state. Higher on every axis = healthier: the Inactive axis is reversed, so less sitting is higher.", "Each axis has its own scale. Choose a health factor below."],
+    "subtitle": [
+      "Average minutes per day spent inactive and in light, moderate and vigorous activity (accelerometer-measured).",
+      "Each line is one health state. Higher on every axis = healthier: the Inactive axis is reversed, so less sitting is higher.",
+      "Each axis has its own scale. Choose a health factor below."
+    ],
     "fontSize": 22,
     "subtitleFontSize": 17
   },
@@ -23,29 +27,12 @@
   "height": 340,
   "data": {
     "url": "data/activity_by_health_factor.csv",
-    "format": {
-      "type": "csv",
-      "parse": {
-        "factor_order": "number",
-        "state_order": "number",
-        "axis_order": "number",
-        "minutes": "number"
-      }
-    }
+    "format": {"type": "csv", "parse": {"factor_order": "number", "state_order": "number", "axis_order": "number", "minutes": "number"}}
   },
   "layer": [
     {
-      "transform": [
-        {
-          "aggregate": [],
-          "groupby": ["axis"]
-        }
-      ],
-      "mark": {
-        "type": "rule",
-        "color": "#9FBFD3",
-        "strokeWidth": 1.5
-      },
+      "transform": [{"aggregate": [], "groupby": ["axis"]}],
+      "mark": {"type": "rule", "color": "#9FBFD3", "strokeWidth": 1.5},
       "encoding": {
         "x": {
           "field": "axis",
@@ -63,71 +50,25 @@
             "labelPadding": 18,
             "labelExpr": "datum.value === 'Inactive' ? 'Inactive (reversed)' : datum.value"
           },
-          "scale": {
-            "padding": 0.4
-          }
+          "scale": {"padding": 0.4}
         },
-        "y": {
-          "datum": 0,
-          "type": "quantitative",
-          "scale": {
-            "domain": [0, 1]
-          },
-          "axis": null
-        },
-        "y2": { "datum": 1 }
+        "y": {"datum": 0, "type": "quantitative", "scale": {"domain": [0, 1]}, "axis": null},
+        "y2": {"datum": 1}
       }
     },
     {
       "transform": [
-        {
-          "aggregate": [
-            {
-              "op": "min",
-              "field": "minutes",
-              "as": "ax_min"
-            },
-            {
-              "op": "max",
-              "field": "minutes",
-              "as": "ax_max"
-            }
-          ],
-          "groupby": ["axis"]
-        },
-        {
-          "calculate": "floor(datum.ax_min - 0.1 * (datum.ax_max - datum.ax_min))",
-          "as": "lo"
-        },
-        {
-          "calculate": "ceil(datum.ax_max + 0.1 * (datum.ax_max - datum.ax_min))",
-          "as": "hi"
-        },
-        {
-          "calculate": "[{'v': datum.lo, 'p': 0}, {'v': (datum.lo + datum.hi) / 2, 'p': 0.5}, {'v': datum.hi, 'p': 1}]",
-          "as": "ticks"
-        },
-        {
-          "flatten": ["ticks"]
-        },
-        {
-          "calculate": "datum.ticks.v",
-          "as": "tick_v"
-        },
-        {
-          "calculate": "datum.axis === 'Inactive' ? 1 - datum.ticks.p : datum.ticks.p",
-          "as": "tick_p"
-        }
+        {"aggregate": [{"op": "min", "field": "minutes", "as": "ax_min"}, {"op": "max", "field": "minutes", "as": "ax_max"}], "groupby": ["axis"]},
+        {"calculate": "floor(datum.ax_min - 0.1 * (datum.ax_max - datum.ax_min))", "as": "lo"},
+        {"calculate": "ceil(datum.ax_max + 0.1 * (datum.ax_max - datum.ax_min))", "as": "hi"},
+        {"calculate": "[{'v': datum.lo, 'p': 0}, {'v': (datum.lo + datum.hi) / 2, 'p': 0.5}, {'v': datum.hi, 'p': 1}]", "as": "ticks"},
+        {"flatten": ["ticks"]},
+        {"calculate": "datum.ticks.v", "as": "tick_v"},
+        {"calculate": "datum.axis === 'Inactive' ? 1 - datum.ticks.p : datum.ticks.p", "as": "tick_p"}
       ],
       "layer": [
         {
-          "mark": {
-            "type": "tick",
-            "orient": "horizontal",
-            "size": 8,
-            "color": "#9FBFD3",
-            "thickness": 1.5
-          },
+          "mark": {"type": "tick", "orient": "horizontal", "size": 8, "color": "#9FBFD3", "thickness": 1.5},
           "encoding": {
             "x": {
               "field": "axis",
@@ -145,28 +86,13 @@
                 "labelPadding": 18,
                 "labelExpr": "datum.value === 'Inactive' ? 'Inactive (reversed)' : datum.value"
               },
-              "scale": {
-                "padding": 0.4
-              }
+              "scale": {"padding": 0.4}
             },
-            "y": {
-              "field": "tick_p",
-              "type": "quantitative",
-              "scale": {
-                "domain": [0, 1]
-              },
-              "axis": null
-            }
+            "y": {"field": "tick_p", "type": "quantitative", "scale": {"domain": [0, 1]}, "axis": null}
           }
         },
         {
-          "mark": {
-            "type": "text",
-            "align": "right",
-            "dx": -8,
-            "fontSize": 10,
-            "color": "#28668E"
-          },
+          "mark": {"type": "text", "align": "right", "dx": -8, "fontSize": 10, "color": "#28668E"},
           "encoding": {
             "x": {
               "field": "axis",
@@ -184,69 +110,26 @@
                 "labelPadding": 18,
                 "labelExpr": "datum.value === 'Inactive' ? 'Inactive (reversed)' : datum.value"
               },
-              "scale": {
-                "padding": 0.4
-              }
+              "scale": {"padding": 0.4}
             },
-            "y": {
-              "field": "tick_p",
-              "type": "quantitative",
-              "scale": {
-                "domain": [0, 1]
-              },
-              "axis": null
-            },
-            "text": {
-              "field": "tick_v",
-              "type": "quantitative",
-              "format": ".0f"
-            }
+            "y": {"field": "tick_p", "type": "quantitative", "scale": {"domain": [0, 1]}, "axis": null},
+            "text": {"field": "tick_v", "type": "quantitative", "format": ".0f"}
           }
         }
       ]
     },
     {
       "transform": [
-        {
-          "joinaggregate": [
-            {
-              "op": "min",
-              "field": "minutes",
-              "as": "ax_min"
-            },
-            {
-              "op": "max",
-              "field": "minutes",
-              "as": "ax_max"
-            }
-          ],
-          "groupby": ["axis"]
-        },
-        {
-          "calculate": "floor(datum.ax_min - 0.1 * (datum.ax_max - datum.ax_min))",
-          "as": "lo"
-        },
-        {
-          "calculate": "ceil(datum.ax_max + 0.1 * (datum.ax_max - datum.ax_min))",
-          "as": "hi"
-        },
-        {
-          "calculate": "(datum.minutes - datum.lo) / (datum.hi - datum.lo)",
-          "as": "norm_raw"
-        },
-        {
-          "calculate": "datum.axis === 'Inactive' ? 1 - datum.norm_raw : datum.norm_raw",
-          "as": "norm"
-        },
-        { "filter": "datum.factor === factorSel" }
+        {"joinaggregate": [{"op": "min", "field": "minutes", "as": "ax_min"}, {"op": "max", "field": "minutes", "as": "ax_max"}], "groupby": ["axis"]},
+        {"calculate": "floor(datum.ax_min - 0.1 * (datum.ax_max - datum.ax_min))", "as": "lo"},
+        {"calculate": "ceil(datum.ax_max + 0.1 * (datum.ax_max - datum.ax_min))", "as": "hi"},
+        {"calculate": "(datum.minutes - datum.lo) / (datum.hi - datum.lo)", "as": "norm_raw"},
+        {"calculate": "datum.axis === 'Inactive' ? 1 - datum.norm_raw : datum.norm_raw", "as": "norm"},
+        {"filter": "datum.factor === factorSel"}
       ],
       "layer": [
         {
-          "mark": {
-            "type": "line",
-            "strokeWidth": 3,
-            "opacity": 0.9
-          },
+          "mark": {"type": "line", "strokeWidth": 3, "opacity": 0.9},
           "encoding": {
             "x": {
               "field": "axis",
@@ -264,46 +147,22 @@
                 "labelPadding": 18,
                 "labelExpr": "datum.value === 'Inactive' ? 'Inactive (reversed)' : datum.value"
               },
-              "scale": {
-                "padding": 0.4
-              }
+              "scale": {"padding": 0.4}
             },
-            "y": {
-              "field": "norm",
-              "type": "quantitative",
-              "scale": {
-                "domain": [0, 1]
-              },
-              "axis": null
-            },
+            "y": {"field": "norm", "type": "quantitative", "scale": {"domain": [0, 1]}, "axis": null},
             "color": {
               "field": "state",
               "type": "nominal",
               "title": "Health state (least → most risk)",
-              "sort": {
-                "field": "state_order",
-                "op": "min"
-              },
-              "scale": {
-                "range": ["#34a85d", "#F2B447", "#E8833A", "#B03A2E"]
-              },
-              "legend": {
-                "orient": "bottom",
-                "direction": "horizontal",
-                "labelLimit": 260
-              }
+              "sort": {"field": "state_order", "op": "min"},
+              "scale": {"range": ["#2166AC", "#67A9CF", "#EF8A62", "#B2182B"]},
+              "legend": {"orient": "bottom", "direction": "horizontal", "labelLimit": 260}
             },
-            "detail": { "field": "state" }
+            "detail": {"field": "state"}
           }
         },
         {
-          "mark": {
-            "type": "circle",
-            "size": 80,
-            "opacity": 1,
-            "stroke": "white",
-            "strokeWidth": 1
-          },
+          "mark": {"type": "circle", "size": 80, "opacity": 1, "stroke": "white", "strokeWidth": 1},
           "encoding": {
             "x": {
               "field": "axis",
@@ -321,66 +180,23 @@
                 "labelPadding": 18,
                 "labelExpr": "datum.value === 'Inactive' ? 'Inactive (reversed)' : datum.value"
               },
-              "scale": {
-                "padding": 0.4
-              }
+              "scale": {"padding": 0.4}
             },
-            "y": {
-              "field": "norm",
-              "type": "quantitative",
-              "scale": {
-                "domain": [0, 1]
-              },
-              "axis": null
-            },
+            "y": {"field": "norm", "type": "quantitative", "scale": {"domain": [0, 1]}, "axis": null},
             "color": {
               "field": "state",
               "type": "nominal",
               "title": "Health state (least → most risk)",
-              "sort": {
-                "field": "state_order",
-                "op": "min"
-              },
-              "scale": {
-                "range": ["#34a85d", "#F2B447", "#E8833A", "#B03A2E"]
-              },
-              "legend": {
-                "orient": "bottom",
-                "direction": "horizontal",
-                "labelLimit": 260
-              }
+              "sort": {"field": "state_order", "op": "min"},
+              "scale": {"range": ["#2166AC", "#67A9CF", "#EF8A62", "#B2182B"]},
+              "legend": {"orient": "bottom", "direction": "horizontal", "labelLimit": 260}
             },
-            "tooltip": [
-              {
-                "field": "factor",
-                "title": "Health factor"
-              },
-              {
-                "field": "state",
-                "title": "State"
-              },
-              {
-                "field": "axis",
-                "title": "Activity type"
-              },
-              {
-                "field": "minutes",
-                "title": "Minutes per day"
-              }
-            ]
+            "tooltip": [{"field": "factor", "title": "Health factor"}, {"field": "state", "title": "State"}, {"field": "axis", "title": "Activity type"}, {"field": "minutes", "title": "Minutes per day"}]
           }
         },
         {
-          "transform": [
-            { "filter": "datum.axis === 'Vigorous'" }
-          ],
-          "mark": {
-            "type": "text",
-            "align": "left",
-            "dx": 10,
-            "fontSize": 11,
-            "fontWeight": "bold"
-          },
+          "transform": [{"filter": "datum.axis === 'Vigorous'"}],
+          "mark": {"type": "text", "align": "left", "dx": 10, "fontSize": 11, "fontWeight": "bold"},
           "encoding": {
             "x": {
               "field": "axis",
@@ -398,53 +214,23 @@
                 "labelPadding": 18,
                 "labelExpr": "datum.value === 'Inactive' ? 'Inactive (reversed)' : datum.value"
               },
-              "scale": {
-                "padding": 0.4
-              }
+              "scale": {"padding": 0.4}
             },
-            "y": {
-              "field": "norm",
-              "type": "quantitative",
-              "scale": {
-                "domain": [0, 1]
-              },
-              "axis": null
-            },
+            "y": {"field": "norm", "type": "quantitative", "scale": {"domain": [0, 1]}, "axis": null},
             "color": {
               "field": "state",
               "type": "nominal",
               "title": "Health state (least → most risk)",
-              "sort": {
-                "field": "state_order",
-                "op": "min"
-              },
-              "scale": {
-                "range": ["#34a85d", "#F2B447", "#E8833A", "#B03A2E"]
-              },
-              "legend": {
-                "orient": "bottom",
-                "direction": "horizontal",
-                "labelLimit": 260
-              }
+              "sort": {"field": "state_order", "op": "min"},
+              "scale": {"range": ["#2166AC", "#67A9CF", "#EF8A62", "#B2182B"]},
+              "legend": {"orient": "bottom", "direction": "horizontal", "labelLimit": 260}
             },
-            "text": {
-              "field": "minutes",
-              "type": "quantitative",
-              "format": ".0f"
-            }
+            "text": {"field": "minutes", "type": "quantitative", "format": ".0f"}
           }
         },
         {
-          "transform": [
-            { "filter": "datum.axis === 'Inactive'" }
-          ],
-          "mark": {
-            "type": "text",
-            "align": "right",
-            "dx": -34,
-            "fontSize": 11,
-            "fontWeight": "bold"
-          },
+          "transform": [{"filter": "datum.axis === 'Inactive'"}],
+          "mark": {"type": "text", "align": "right", "dx": -34, "fontSize": 11, "fontWeight": "bold"},
           "encoding": {
             "x": {
               "field": "axis",
@@ -462,56 +248,25 @@
                 "labelPadding": 18,
                 "labelExpr": "datum.value === 'Inactive' ? 'Inactive (reversed)' : datum.value"
               },
-              "scale": {
-                "padding": 0.4
-              }
+              "scale": {"padding": 0.4}
             },
-            "y": {
-              "field": "norm",
-              "type": "quantitative",
-              "scale": {
-                "domain": [0, 1]
-              },
-              "axis": null
-            },
+            "y": {"field": "norm", "type": "quantitative", "scale": {"domain": [0, 1]}, "axis": null},
             "color": {
               "field": "state",
               "type": "nominal",
               "title": "Health state (least → most risk)",
-              "sort": {
-                "field": "state_order",
-                "op": "min"
-              },
-              "scale": {
-                "range": ["#34a85d", "#F2B447", "#E8833A", "#B03A2E"]
-              },
-              "legend": {
-                "orient": "bottom",
-                "direction": "horizontal",
-                "labelLimit": 260
-              }
+              "sort": {"field": "state_order", "op": "min"},
+              "scale": {"range": ["#2166AC", "#67A9CF", "#EF8A62", "#B2182B"]},
+              "legend": {"orient": "bottom", "direction": "horizontal", "labelLimit": 260}
             },
-            "text": {
-              "field": "minutes",
-              "type": "quantitative",
-              "format": ".0f"
-            }
+            "text": {"field": "minutes", "type": "quantitative", "format": ".0f"}
           }
         }
       ]
     }
   ],
   "config": {
-    "view": {
-      "stroke": null
-    },
-    "legend": {
-      "labelFontSize": 12,
-      "titleFontSize": 12,
-      "labelColor": "#28668E",
-      "titleColor": "#28668E",
-      "symbolType": "stroke",
-      "symbolStrokeWidth": 3
-    }
+    "view": {"stroke": null},
+    "legend": {"labelFontSize": 12, "titleFontSize": 12, "labelColor": "#28668E", "titleColor": "#28668E", "symbolType": "stroke", "symbolStrokeWidth": 3}
   }
 }

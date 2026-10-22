@@ -6,10 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="css/layout.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/layout.css">
 
     <script src="https://cdn.jsdelivr.net/npm/vega@5.30.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.21.0"></script>
@@ -26,305 +26,335 @@
     </header>
 
     <main>
-        <section class="intro-heading">
-            <h1>How Australians Stay Active: Activities, Ages, Organisers and Tech</h1>
-            <p>Participation in sports and activities among Australians aged 15 and over</p>
-        </section>
+        <!-- ---------- 1. What we play ---------- -->
+        <section class="chapter ch-play">
+            <div class="wrap">
+                <p class="eyebrow"><span>1 · What we play</span></p>
+                <h1>How Australians Stay Active: Activities, Ages, Organisers and Tech</h1>
+                <p class="chapter-lede">Participation in sports and activities among Australians aged 15 and over</p>
 
-        <section class="section-1-heading" aria-label="Physical activity charts and key insights">
-            <article class="chart-panel ranking-panel">
-                <div id="top15_activities_chart"></div>
-            </article>
-
-            <article class="chart-panel age-panel">
-                <div id="age_skewed_chart"></div>
-            </article>
-
-            <aside class="insights-panel">
-                <h2>Key insights</h2>
-                <div class="insight-item">
-                    <img src="images/shoe icon.png" alt="" />
-                    <p><span class="act-name act-top15">Recreational walking</span> is the most popular activity, with roughly 11 million Australians aged 15+ taking part, about 1.5 times as many as <span class="act-name act-top15">fitness/gym</span>.</p>
+                <div class="pair" aria-label="Physical activity charts">
+                    <figure class="fig card">
+                        <div class="chart" id="top15_activities_chart"></div>
+                    </figure>
+                    <figure class="fig card">
+                        <div class="chart" id="age_skewed_chart"></div>
+                    </figure>
                 </div>
-                <div class="insight-item">
-                    <img src="images/thumbs up.png" alt="" />
-                    <p><span class="act-name act-top15">Fitness/gym</span>, <span class="act-name act-top15">bushwalking</span>, <span class="act-name act-top15">running/jogging</span> and <span class="act-name act-top15">swimming</span> follow, each with roughly 3.5–8 million participants, while other top-25 activities have under 2 million.</p>
+
+                <h3 class="block-title">Key insights</h3>
+                <ul class="takeaways">
+                    <li>
+                        <img src="images/shoe icon.png" alt="" />
+                        <p><span class="act-name act-top15">Recreational walking</span> is the most popular activity, with roughly 11 million Australians aged 15+ taking part, about 1.5 times as many as <span class="act-name act-top15">fitness/gym</span>.</p>
+                    </li>
+                    <li>
+                        <img src="images/thumbs up.png" alt="" />
+                        <p><span class="act-name act-top15">Fitness/gym</span>, <span class="act-name act-top15">bushwalking</span>, <span class="act-name act-top15">running/jogging</span> and <span class="act-name act-top15">swimming</span> follow, each with roughly 3.5–8 million participants, while other top-25 activities have under 2 million.</p>
+                    </li>
+                    <li>
+                        <img src="images/young.png" alt="" />
+                        <p>Team and field sports such as volleyball, handball, gridiron and Oztag draw most of their players from young people, with around 55–65% aged 15–24.</p>
+                    </li>
+                    <li>
+                        <img src="images/elderly.png" alt="" />
+                        <p>Low-intensity activities such as croquet and bowls are dominated by Australians <span class="grp-name grp-65">aged 65+</span>, while golf and walking also draw about a quarter from this age group.</p>
+                    </li>
+                </ul>
+
+                <div class="two-col">
+                    <div class="text">
+                        <h3>Who Organises Australia's Sports and Activities?</h3>
+                        <p>The organiser behind an activity depends on what that activity needs. Competition runs through clubs, facilities and equipment through businesses, and first exposure through schools.</p>
+                        <h4>Key insights</h4>
+                        <ul>
+                            <li><strong>Sports clubs run competitive sport.</strong> Clubs are the main organiser for team and traditional sports such as Hockey (69%), Shooting/field (69%), and Sailing (65%).</li>
+                            <li><strong>Commercial businesses lead lifestyle fitness and equipment-based activities.</strong> Pilates (61%), Yoga (54%) and Dancing (51%) are mostly delivered by paid providers. So are Underwater sports (62%), Canoeing/Kayaking (43%) and Ice skating (43%).</li>
+                            <li><strong>Gyms and leisure centres anchor strength and fitness training.</strong> Crossfit (47%) and Fitness/Gym (45%) are mainly organised through gyms.</li>
+                            <li><strong>Personal coaches are a major secondary organiser.</strong> They account for 22% of Fitness/Gym and 25% of Weight lifting mentions, and lead Equestrian (35%).</li>
+                            <li><strong>Everyday activities have no dominant organiser.</strong> Running, Walking, Cycling and Bush walking are spread across all organiser types, reflecting their largely informal, self-organised nature.</li>
+                        </ul>
+                        <p class="note"><strong>Note:</strong> Participants could name more than one organiser, so percentages show each organiser's share of mentions, not of participants. Activities with very few survey responses have been removed, and results for other small activities are less precise.</p>
+                    </div>
+                    <figure class="fig card centred">
+                        <div class="chart" id="who_organised_chart"></div>
+                    </figure>
                 </div>
-                <div class="insight-item">
-                    <img src="images/young.png" alt="" />
-                    <p>Team and field sports such as volleyball, handball, gridiron and Oztag draw most of their players from young people, with around 55–65% aged 15–24.</p>
+
+                <div class="two-col">
+                    <div class="text">
+                        <h3>Technology and the Modern Athlete</h3>
+                        <p>Which technology people use during sport shifts with age, from entertainment for younger participants to health tracking for older ones.</p>
+                        <h4>Key insights</h4>
+                        <ul>
+                            <li><strong>The same five technologies stay on top.</strong> <span class="tech-name tech-music">Music apps</span>, <span class="tech-name tech-headphones">headphones</span>, <span class="tech-name tech-tracking">tracking apps</span>, <span class="tech-name tech-wearables">wearables</span> and <span class="tech-name tech-maps">Maps/GPS</span> are the top five in every age group; only their order changes.</li>
+                            <li><strong>Gaming-based exercise is mainly for teenagers.</strong> <span class="tech-name tech-motion">Motion-sensing games</span> rank 8th among 15–17 year olds but fall to 14th among those aged 65+. Use drops from 11% to under 1%.</li>
+                            <li><strong><span class="tech-name tech-bike">Bike computers</span> rise from 12th to 6th with age.</strong> Their usage stays at 6–9% across all ages.</li>
+                            <li><strong>Few people pay for digital training.</strong> <span class="tech-name tech-online-training">Online training platforms</span> and <span class="tech-name tech-paid-online">paid online programs</span> rank near the bottom for every age group.</li>
+                        </ul>
+                        <p class="note"><strong>Note:</strong> Ranks show how popular each technology is within an age group, not how many people use it. Overall technology use declines with age, e.g. <span class="tech-name tech-music">music app</span> use falls from 66% of 15–17 year olds to 12% of those aged 65+.</p>
+                    </div>
+                    <figure class="fig card">
+                        <div class="chart" id="technology_gadgets_chart"></div>
+                    </figure>
                 </div>
-                <div class="insight-item">
-                    <img src="images/elderly.png" alt="" />
-                    <p>Low-intensity activities such as croquet and bowls are dominated by Australians <span class="grp-name grp-65">aged 65+</span>, while golf and walking also draw about a quarter from this age group.</p>
+            </div>
+        </section>
+
+        <!-- ---------- 2. Why we move ---------- -->
+        <section class="chapter ch-why">
+            <div class="wrap">
+                <p class="eyebrow"><span>2 · Why we move</span></p>
+                <h2>Why Australians Stay Active and Why They don't</h2>
+                <p class="chapter-lede">Motivations and Barriers to Physical Activity in Australia</p>
+
+                <div class="two-col">
+                    <div class="text">
+                        <h3>Why Do Australians Play Sport?</h3>
+                        <p>Australians share the same top reasons for playing sport: physical health and fun rank first and second across every age group and both genders. Beyond these, motivations shift with life stage.</p>
+                        <h4>Key insights</h4>
+                        <ul>
+                            <li><strong>Health is the leading motivation, and it grows with age.</strong> Physical health or fitness motivates 62% of <span class="grp-name grp-15-17">15–17 year olds</span>, rising to 74% of those <span class="grp-name grp-65">aged 65+</span>.</li>
+                            <li><strong>Young people play for fun, friends and challenge.</strong> <span class="grp-name grp-15-17">15–17 year olds</span> are more likely than those <span class="grp-name grp-65">aged 65+</span> to play for fun (72% vs 50%), social reasons (57% vs 40%) and competition (35% vs 9%).</li>
+                            <li><strong>Older adults exercise to stay mobile.</strong> Physio and rehabilitation motivates 16% of those <span class="grp-name grp-65">aged 65+</span>, nearly three times the 6% of <span class="grp-name grp-15-17">15–17 year olds</span>.</li>
+                            <li><strong>Weight management and being outdoors peak before retirement.</strong> Both are highest among <span class="grp-name grp-55-64">55–64 year olds</span> (60% and 58%). Weight management then falls to 46% at <span class="grp-name grp-65">65+</span>.</li>
+                            <li><strong><span class="grp-name grp-female">Women</span> are driven more by wellbeing.</strong> <span class="grp-name grp-female">Women</span> lead <span class="grp-name grp-male">men</span> on mental health (42% vs 33%), weight management (56% vs 51%), being outdoors (54% vs 48%) and walking the dog (24% vs 16%).</li>
+                            <li><strong><span class="grp-name grp-male">Men</span> are driven more by performance.</strong> <span class="grp-name grp-male">Men</span> lead <span class="grp-name grp-female">women</span> on competition (18% vs 10%), training (25% vs 16%) and playing as a hobby (32% vs 25%).</li>
+                            <li><strong>Few play sport for work.</strong> Only 4% of adults are motivated by professional or work-related reasons, the lowest of all motivations.</li>
+                        </ul>
+                    </div>
+                    <figure class="fig card">
+                        <div class="chart" id="motivation_age_gender_chart"></div>
+                    </figure>
                 </div>
-            </aside>
 
-            <section class="organiser-row" aria-label="Organiser heatmap and explanation">
-                <article class="chart-panel organiser-panel">
-                    <div id="who_organised_chart"></div>
-                </article>
-
-                <aside class="organiser-explanation">
-                    <h2>Who Organises Australia's Sports and Activities?</h2>
-                    <p>The organiser behind an activity depends on what that activity needs. Competition runs through clubs, facilities and equipment through businesses, and first exposure through schools.</p>
-                    <h3>Key insights</h3>
-                    <ul>
-                        <li><strong>Sports clubs run competitive sport.</strong> Clubs are the main organiser for team and traditional sports such as Hockey (69%), Shooting/field (69%), and Sailing (65%).</li>
-                        <li><strong>Commercial businesses lead lifestyle fitness and equipment-based activities.</strong> Pilates (61%), Yoga (54%) and Dancing (51%) are mostly delivered by paid providers. So are Underwater sports (62%), Canoeing/Kayaking (43%) and Ice skating (43%).</li>
-                        <li><strong>Gyms and leisure centres anchor strength and fitness training.</strong> Crossfit (47%) and Fitness/Gym (45%) are mainly organised through gyms.</li>
-                        <li><strong>Personal coaches are a major secondary organiser.</strong> They account for 22% of Fitness/Gym and 25% of Weight lifting mentions, and lead Equestrian (35%).</li>
-                        <li><strong>Everyday activities have no dominant organiser.</strong> Running, Walking, Cycling and Bush walking are spread across all organiser types, reflecting their largely informal, self-organised nature.</li>
-                    </ul>
-                    <p class="organiser-note"><strong>Note:</strong> Participants could name more than one organiser, so percentages show each organiser's share of mentions, not of participants. Activities with very few survey responses have been removed, and results for other small activities are less precise.</p>
-                </aside>
-            </section>
-        </section>
-
-        <section class="technology-section" aria-label="Technology used during physical activity">
-            <article class="chart-panel technology-panel">
-                <div id="technology_gadgets_chart"></div>
-            </article>
-
-            <aside class="organiser-explanation technology-explanation">
-                <h2>Technology and the Modern Athlete</h2>
-                <p>Which technology people use during sport shifts with age, from entertainment for younger participants to health tracking for older ones.</p>
-                <h3>Key insights</h3>
-                <ul>
-                    <li><strong>The same five technologies stay on top.</strong> <span class="tech-name tech-music">Music apps</span>, <span class="tech-name tech-headphones">headphones</span>, <span class="tech-name tech-tracking">tracking apps</span>, <span class="tech-name tech-wearables">wearables</span> and <span class="tech-name tech-maps">Maps/GPS</span> are the top five in every age group; only their order changes.</li>
-                    <li><strong>Gaming-based exercise is mainly for teenagers.</strong> <span class="tech-name tech-motion">Motion-sensing games</span> rank 8th among 15–17 year olds but fall to 14th among those aged 65+. Use drops from 11% to under 1%.</li>
-                    <li><strong><span class="tech-name tech-bike">Bike computers</span> rise from 12th to 6th with age.</strong> Their usage stays at 6–9% across all ages.</li>
-                    <li><strong>Few people pay for digital training.</strong> <span class="tech-name tech-online-training">Online training platforms</span> and <span class="tech-name tech-paid-online">paid online programs</span> rank near the bottom for every age group.</li>
-                </ul>
-                <p class="organiser-note"><strong>Note:</strong> Ranks show how popular each technology is within an age group, not how many people use it. Overall technology use declines with age, e.g. <span class="tech-name tech-music">music app</span> use falls from 66% of 15–17 year olds to 12% of those aged 65+.</p>
-            </aside>
-        </section>
-
-        <section class="section-2-heading">
-            <h1>Why Australians Stay Active and Why They don't</h1>
-            <p>Motivations and Barriers to Physical Activity in Australia</p>
-        </section>
-
-        <section class="motivation-barriers-grid" aria-label="Motivations and barriers by gender and age">
-            <article class="chart-panel motivation-chart-panel">
-                <div id="motivation_age_gender_chart"></div>
-            </article>
-
-            <aside class="organiser-explanation motivation-explanation">
-                <h2>Why Do Australians Play Sport?</h2>
-                <p>Australians share the same top reasons for playing sport: physical health and fun rank first and second across every age group and both genders. Beyond these, motivations shift with life stage.</p>
-                <h3>Key insights</h3>
-                <ul>
-                    <li><strong>Health is the leading motivation, and it grows with age.</strong> Physical health or fitness motivates 62% of <span class="grp-name grp-15-17">15–17 year olds</span>, rising to 74% of those <span class="grp-name grp-65">aged 65+</span>.</li>
-                    <li><strong>Young people play for fun, friends and challenge.</strong> <span class="grp-name grp-15-17">15–17 year olds</span> are more likely than those <span class="grp-name grp-65">aged 65+</span> to play for fun (72% vs 50%), social reasons (57% vs 40%) and competition (35% vs 9%).</li>
-                    <li><strong>Older adults exercise to stay mobile.</strong> Physio and rehabilitation motivates 16% of those <span class="grp-name grp-65">aged 65+</span>, nearly three times the 6% of <span class="grp-name grp-15-17">15–17 year olds</span>.</li>
-                    <li><strong>Weight management and being outdoors peak before retirement.</strong> Both are highest among <span class="grp-name grp-55-64">55–64 year olds</span> (60% and 58%). Weight management then falls to 46% at <span class="grp-name grp-65">65+</span>.</li>
-                    <li><strong><span class="grp-name grp-female">Women</span> are driven more by wellbeing.</strong> <span class="grp-name grp-female">Women</span> lead <span class="grp-name grp-male">men</span> on mental health (42% vs 33%), weight management (56% vs 51%), being outdoors (54% vs 48%) and walking the dog (24% vs 16%).</li>
-                    <li><strong><span class="grp-name grp-male">Men</span> are driven more by performance.</strong> <span class="grp-name grp-male">Men</span> lead <span class="grp-name grp-female">women</span> on competition (18% vs 10%), training (25% vs 16%) and playing as a hobby (32% vs 25%).</li>
-                    <li><strong>Few play sport for work.</strong> Only 4% of adults are motivated by professional or work-related reasons, the lowest of all motivations.</li>
-                </ul>
-            </aside>
-
-            <aside class="organiser-explanation barriers-explanation">
-                <h2>What Stops Australians Being Active?</h2>
-                <p>Reasons for not being active are more varied than reasons for playing. The most common barriers relate to physical condition (poor health, age and disability) and personal preference (low motivation, disliking sport and other priorities).</p>
-                <h3>Key insights</h3>
-                <ul>
-                    <li><strong>Physical condition is the biggest barrier.</strong> Poor health or injury and increasing age are the most common reasons adults are inactive.</li>
-                    <li><strong>Barriers shift from attitude to the body with age.</strong></li>
-                    <li><strong>Confidence holds young people back.</strong> <span class="grp-name grp-15-17">15–17 year olds</span> are the most likely to feel not good enough (17.2%), have nobody to be active with (17.0%) or fear discrimination (10.0%).</li>
-                    <li><strong>Barriers are similar regardless of gender.</strong> <span class="grp-name grp-male">Men</span> and <span class="grp-name grp-female">women</span> report broadly the same reasons for not being active.</li>
-                    <li><strong>Access is rarely the issue.</strong> Only a small proportion cite a lack of facilities or transport. This suggests inactivity is driven by health and attitude rather than infrastructure.</li>
-                </ul>
-            </aside>
-
-            <article class="chart-panel barriers-chart-panel">
-                <div id="barriers_age_gender_chart"></div>
-            </article>
-        </section>
-
-        <section class="section-3-heading">
-            <h1>How Australians' Participation Has Changed Over Time</h1>
-            <p>How has adult participation in physical activity changed between 2024 and 2025?</p>
-        </section>
-
-        <section class="trend-charts-grid" aria-label="Participation trends from 2024 to 2025">
-            <article class="chart-panel">
-                <div id="active_trend_chart"></div>
-            </article>
-
-            <aside class="organiser-explanation trend-explanation">
-                <h2>Participation Trends by Gender, 2016-2025</h2>
-                <p><span class="grp-name grp-female">Women</span> have consistently been as active as, or more active than, <span class="grp-name grp-male">men</span>, and participation for both genders rose between 2024 and 2025.</p>
-                <h3>Why the line drops after 2022</h3>
-                <p>The fall between 2022 and 2024 reflects a change in how the survey was run, not a real drop in activity:</p>
-                <ul>
-                    <li><strong>The survey method changed.</strong> In July 2023, AusPlay moved from phone interviews to online surveys, and made other improvements at the same time.</li>
-                    <li><strong>The two methods measure participation differently.</strong> People can answer differently to an interviewer than when completing a form online, so the two sets of results sit at different levels.</li>
-                    <li><strong>The two periods can't be compared.</strong> The Australian Sports Commission treats 2024 onward as a new baseline that cannot be directly compared with 2016–2022. Trends should only be compared within each period.</li>
-                </ul>
-                <h3>Key insights</h3>
-                <ul>
-                    <li><strong><span class="grp-name grp-female">Women</span> lead, especially in regular activity.</strong> From 2016 to 2022, <span class="grp-name grp-female">women</span> were more active than <span class="grp-name grp-male">men</span> every year. The gap was widest for activity three or more times a week, at around 5–7 percentage points.</li>
-                    <li><strong>About half of adults are active three times a week.</strong> In 2025, around 50% of adults were active at least three times weekly, compared with about 69% at least once a week.</li>
-                </ul>
-            </aside>
-
-            <aside class="organiser-explanation activity-change-explanation">
-                <h2>Rising or Falling? Participation by Activity, 2024-2025</h2>
-                <p>Between 2024 and 2025, participation in most activities barely changed. The biggest shifts were in <span class="chg-name chg-rising">Fitness/Gym</span> and <span class="chg-name chg-rising">Pilates</span>, while several traditional sports declined slightly.</p>
-                <h3>Key insights</h3>
-                <ul>
-                    <li><strong>Fitness is driving growth.</strong> <span class="chg-name chg-rising">Fitness/Gym (+3.77 pp)</span> and <span class="chg-name chg-rising">Pilates (+1.39 pp)</span> recorded the largest gains of any activity, far ahead of all other sports.</li>
-                    <li><strong><span class="chg-name chg-rising">Pickleball</span> is the breakout sport.</strong> <span class="chg-name chg-rising">Pickleball/padel</span> rose by <span class="chg-name chg-rising">+0.61 pp</span>, the largest gain outside fitness and outdoor activities.</li>
-                    <li><strong>Some traditional sports are slipping, but not all.</strong> <span class="chg-name chg-falling">Cycling (−0.29 pp)</span>, <span class="chg-name chg-falling">basketball (−0.21 pp)</span>, <span class="chg-name chg-falling">athletics (−0.19 pp)</span> and <span class="chg-name chg-falling">Australian football (−0.19 pp)</span> recorded the largest falls outside the gym. Others, such as <span class="chg-name chg-rising">swimming (+0.20 pp)</span>, <span class="chg-name chg-rising">football/soccer (+0.19 pp)</span> and <span class="chg-name chg-rising">cricket (+0.07 pp)</span>, rose slightly.</li>
-                    <li><strong>Skill- and location-dependent activities hold steady.</strong> Activities that take time to master or need specific locations, such as surfing, diving, sailing, equestrian and winter sports, changed by 0.02 pp or less. This suggests they rely on a small, committed base of participants, with few people taking them up or dropping them in a single year.</li>
-                    <li><strong>Most sports are stable.</strong> The majority of activities, including most team, water, combat, equestrian and winter sports, changed by less than 0.1 pp.</li>
-                </ul>
-            </aside>
-
-            <article class="chart-panel activity-change-panel">
-                <div id="activity_participation_trend_chart"></div>
-            </article>
-        </section>
-
-        <section class="section-4-heading">
-            <h1>Mapping the Nation's Activity</h1>
-            <p>Overall engagement, activity choice, and gender gaps between different demographic groups.</p>
-        </section>
-
-        <section class="state-participation-section" aria-label="State participation map">
-            <article class="chart-panel state-map-panel">
-                <div id="state_participation_chart"></div>
-            </article>
-
-            <aside class="organiser-explanation state-explanation">
-                <h2>How Much Does Australia Move?</h2>
-                <p>Physical activity participation is similar across Australian states, with most sitting within about 2 percentage points (pp) of the national rate.</p>
-                <h3>Key insights</h3>
-                <ul>
-                    <li><strong>The <span class="st-name st-above">Australian Capital Territory</span> is Australia's most active jurisdiction.</strong> In 2025, 78.3% of adults in the <span class="st-name st-above">Australian Capital Territory</span> were active weekly, about <span class="st-name st-above">9.5 pp above</span> the national rate of 68.8%.</li>
-                    <li><strong>The <span class="st-name st-above">Northern Territory</span> ranks second.</strong> The <span class="st-name st-above">Northern Territory</span> was around <span class="st-name st-above">4 pp above</span> the national rate on both measures in 2025 (73.0% weekly, 54.4% three times weekly).</li>
-                    <li><strong><span class="st-name st-above">Western Australia</span> has overtaken the national average in a year.</strong> <span class="st-name st-above">Western Australia</span> sat close to the national rate in 2024 but rose above it in 2025 (<span class="st-name st-above">+2.1 pp</span> weekly, <span class="st-name st-above">+2.4 pp</span> three times weekly). This indicates that participation in <span class="st-name st-above">Western Australia</span> grew faster than the national average over the year.</li>
-                    <li><strong><span class="st-name st-below">South Australia</span>, <span class="st-name st-below">New South Wales</span> and <span class="st-name st-below">Queensland</span> trail the nation.</strong> All three were below the national rate in 2025. <span class="st-name st-below">New South Wales</span> had the lowest rate of regular activity, at 47.9% active three times a week, <span class="st-name st-below">2.2 pp below</span> the national rate.</li>
-                </ul>
-            </aside>
-        </section>
-
-        <section class="state-activity-section" aria-label="Activity participation by state">
-            <header class="state-activity-header">
-                <h2>What Does Each State Play?</h2>
-                <p>Each bar is one activity; bar length = adult participation rate (2025). Click a state on the map to switch.</p>
-                <p>The treemap on the right shows each activity group's share of the selected state's total participation.</p>
-            </header>
-            <article class="chart-panel state-activity-panel">
-                <div class="state-activity-col">
-                    <h3>Participation Rate by Activity</h3>
-                    <div id="state_activity_chart"></div>
+                <div class="two-col">
+                    <div class="text">
+                        <h3>What Stops Australians Being Active?</h3>
+                        <p>Reasons for not being active are more varied than reasons for playing. The most common barriers relate to physical condition (poor health, age and disability) and personal preference (low motivation, disliking sport and other priorities).</p>
+                        <h4>Key insights</h4>
+                        <ul>
+                            <li><strong>Physical condition is the biggest barrier.</strong> Poor health or injury and increasing age are the most common reasons adults are inactive.</li>
+                            <li><strong>Barriers shift from attitude to the body with age.</strong></li>
+                            <li><strong>Confidence holds young people back.</strong> <span class="grp-name grp-15-17">15–17 year olds</span> are the most likely to feel not good enough (17.2%), have nobody to be active with (17.0%) or fear discrimination (10.0%).</li>
+                            <li><strong>Barriers are similar regardless of gender.</strong> <span class="grp-name grp-male">Men</span> and <span class="grp-name grp-female">women</span> report broadly the same reasons for not being active.</li>
+                            <li><strong>Access is rarely the issue.</strong> Only a small proportion cite a lack of facilities or transport. This suggests inactivity is driven by health and attitude rather than infrastructure.</li>
+                        </ul>
+                    </div>
+                    <figure class="fig card">
+                        <div class="chart" id="barriers_age_gender_chart"></div>
+                    </figure>
                 </div>
-                <div class="state-activity-col">
-                    <h3>How Participation Splits by Activity Group</h3>
-                    <div id="state_activity_treemap_chart"></div>
+            </div>
+        </section>
+
+        <!-- ---------- 3. Over time ---------- -->
+        <section class="chapter ch-trends">
+            <div class="wrap">
+                <p class="eyebrow"><span>3 · Over time</span></p>
+                <h2>How Australians' Participation Has Changed Over Time</h2>
+                <p class="chapter-lede">How has adult participation in physical activity changed between 2024 and 2025?</p>
+
+                <div class="two-col">
+                    <div class="text">
+                        <h3>Participation Trends by Gender, 2016-2025</h3>
+                        <p><span class="grp-name grp-female">Women</span> have consistently been as active as, or more active than, <span class="grp-name grp-male">men</span>, and participation for both genders rose between 2024 and 2025.</p>
+                        <h4>Why the line drops after 2022</h4>
+                        <p>The fall between 2022 and 2024 reflects a change in how the survey was run, not a real drop in activity:</p>
+                        <ul>
+                            <li><strong>The survey method changed.</strong> In July 2023, AusPlay moved from phone interviews to online surveys, and made other improvements at the same time.</li>
+                            <li><strong>The two methods measure participation differently.</strong> People can answer differently to an interviewer than when completing a form online, so the two sets of results sit at different levels.</li>
+                            <li><strong>The two periods can't be compared.</strong> The Australian Sports Commission treats 2024 onward as a new baseline that cannot be directly compared with 2016-2022. Trends should only be compared within each period.</li>
+                        </ul>
+                        <h4>Key insights</h4>
+                        <ul>
+                            <li><strong><span class="grp-name grp-female">Women</span> lead, especially in regular activity.</strong> From 2016 to 2022, <span class="grp-name grp-female">women</span> were more active than <span class="grp-name grp-male">men</span> every year. The gap was widest for activity three or more times a week, at around 3 percentage points.</li>
+                            <li><strong>About half of adults are active three times a week.</strong> In 2025, around 50% of adults were active at least three times weekly, compared with about 69% at least once a week.</li>
+                        </ul>
+                    </div>
+                    <figure class="fig card">
+                        <div class="chart" id="active_trend_chart"></div>
+                    </figure>
                 </div>
-            </article>
+
+                <div class="two-col">
+                    <div class="text">
+                        <h3>Rising or Falling? Participation by Activity, 2024-2025</h3>
+                        <p>Between 2024 and 2025, participation in most activities barely changed. The biggest shifts were in <span class="chg-name chg-rising">Fitness/Gym</span> and <span class="chg-name chg-rising">Pilates</span>, while several traditional sports declined slightly.</p>
+                        <h4>Key insights</h4>
+                        <ul>
+                            <li><strong>Fitness is driving growth.</strong> <span class="chg-name chg-rising">Fitness/Gym (+3.77 pp)</span> and <span class="chg-name chg-rising">Pilates (+1.39 pp)</span> recorded the largest gains of any activity, far ahead of all other sports.</li>
+                            <li><strong><span class="chg-name chg-rising">Pickleball</span> is the breakout sport.</strong> <span class="chg-name chg-rising">Pickleball/padel</span> rose by <span class="chg-name chg-rising">+0.61 pp</span>, the largest gain outside fitness and outdoor activities.</li>
+                            <li><strong>Some traditional sports are slipping, but not all.</strong> <span class="chg-name chg-falling">Cycling (−0.29 pp)</span>, <span class="chg-name chg-falling">basketball (−0.21 pp)</span>, <span class="chg-name chg-falling">athletics (−0.19 pp)</span> and <span class="chg-name chg-falling">Australian football (−0.19 pp)</span> recorded the largest falls outside the gym. Others, such as <span class="chg-name chg-rising">swimming (+0.20 pp)</span>, <span class="chg-name chg-rising">football/soccer (+0.19 pp)</span> and <span class="chg-name chg-rising">cricket (+0.07 pp)</span>, rose slightly.</li>
+                            <li><strong>Skill- and location-dependent activities hold steady.</strong> Activities that take time to master or need specific locations, such as surfing, diving, sailing, equestrian and winter sports, changed by 0.02 pp or less. This suggests they rely on a small, committed base of participants, with few people taking them up or dropping them in a single year.</li>
+                            <li><strong>Most sports are stable.</strong> The majority of activities, including most team, water, combat, equestrian and winter sports, changed by less than 0.1 pp.</li>
+                        </ul>
+                    </div>
+                    <figure class="fig card">
+                        <div class="chart" id="activity_participation_trend_chart"></div>
+                    </figure>
+                </div>
+            </div>
         </section>
 
-        <section class="state-gender-gap-section" aria-label="Gender gap in participation by state">
-            <article class="chart-panel state-map-panel">
-                <div id="state_gender_gap_chart"></div>
-            </article>
+        <!-- ---------- 4. Across the states ---------- -->
+        <section class="chapter ch-states">
+            <div class="wrap">
+                <p class="eyebrow"><span>4 · Across the states</span></p>
+                <h2>Mapping the Nation's Activity</h2>
+                <p class="chapter-lede">Overall engagement, activity choice, and gender gaps between different demographic groups.</p>
 
-            <aside class="organiser-explanation state-explanation">
-                <h2>Where Is the Gender Gap Widest?</h2>
-                <p>Across most of Australia, <span class="grp-name grp-male">men</span> and <span class="grp-name grp-female">women</span> are active at similar rates. The largest states stay within about 1 percentage point (pp) of parity. The widest gaps appear in the smaller states and territories.</p>
-                <h3>Key insights</h3>
-                <ul>
-                    <li><strong>The largest states are close to equal.</strong> In New South Wales, Victoria and Queensland, the gap between <span class="grp-name grp-female">women</span> and <span class="grp-name grp-male">men</span> stayed within about 1 pp in both 2024 and 2025.</li>
-                    <li><strong>Tasmania has the most consistent gap.</strong> <span class="grp-name grp-female">Women</span> in Tasmania were more active than <span class="grp-name grp-male">men</span> in both years (<span class="grp-name grp-female">+4.4 pp</span> in 2024, <span class="grp-name grp-female">+4.7 pp</span> in 2025).</li>
-                    <li><strong>The Northern Territory shows the widest but least stable gap.</strong> It swung from <span class="grp-name grp-male">men leading by 7.0 pp</span> in 2024 to <span class="grp-name grp-female">women leading by 10.8 pp</span> in 2025.</li>
-                    <li><strong><span class="grp-name grp-female">Women</span> lead more clearly in regular activity.</strong> For activity at least three times a week, <span class="grp-name grp-female">women</span> were more active than <span class="grp-name grp-male">men</span> in every state and territory except South Australia in 2025.</li>
-                </ul>
-            </aside>
+                <div class="two-col">
+                    <div class="text">
+                        <h3>How Much Does Australia Move?</h3>
+                        <p>Physical activity participation is similar across Australian states, with most sitting within about 2 percentage points (pp) of the national rate.</p>
+                        <h4>Key insights</h4>
+                        <ul>
+                            <li><strong>The <span class="st-name st-above">Australian Capital Territory</span> is Australia's most active jurisdiction.</strong> In 2025, 78.3% of adults in the <span class="st-name st-above">Australian Capital Territory</span> were active weekly, about <span class="st-name st-above">9.5 pp above</span> the national rate of 68.8%.</li>
+                            <li><strong>The <span class="st-name st-above">Northern Territory</span> ranks second.</strong> The <span class="st-name st-above">Northern Territory</span> was around <span class="st-name st-above">4 pp above</span> the national rate on both measures in 2025 (73.0% weekly, 54.4% three times weekly).</li>
+                            <li><strong><span class="st-name st-above">Western Australia</span> has overtaken the national average in a year.</strong> <span class="st-name st-above">Western Australia</span> sat close to the national rate in 2024 but rose above it in 2025 (<span class="st-name st-above">+2.1 pp</span> weekly, <span class="st-name st-above">+2.4 pp</span> three times weekly). This indicates that participation in <span class="st-name st-above">Western Australia</span> grew faster than the national average over the year.</li>
+                            <li><strong><span class="st-name st-below">South Australia</span>, <span class="st-name st-below">New South Wales</span> and <span class="st-name st-below">Queensland</span> trail the nation.</strong> All three were below the national rate in 2025. <span class="st-name st-below">New South Wales</span> had the lowest rate of regular activity, at 47.9% active three times a week, <span class="st-name st-below">2.2 pp below</span> the national rate.</li>
+                        </ul>
+                    </div>
+                    <figure class="fig card centred">
+                        <div class="chart" id="state_participation_chart"></div>
+                    </figure>
+                </div>
+
+                <div class="stacked">
+                    <div class="text">
+                        <h3>What Does Each State Play?</h3>
+                        <p>Each bar is one activity; bar length = adult participation rate (2025). Click a state on the map to switch.</p>
+                        <p>The treemap on the right shows each activity group's share of the selected state's total participation.</p>
+                    </div>
+                    <figure class="fig card state-activity-card">
+                        <div class="state-activity-col">
+                            <h4>Participation Rate by Activity</h4>
+                            <div class="chart" id="state_activity_chart"></div>
+                        </div>
+                        <div class="state-activity-col">
+                            <h4>How Participation Splits by Activity Group</h4>
+                            <div class="chart" id="state_activity_treemap_chart"></div>
+                        </div>
+                    </figure>
+                </div>
+
+                <div class="stacked">
+                    <div class="text text-columns">
+                        <h3>Where Is the Gender Gap Widest?</h3>
+                        <p>Across most of Australia, <span class="grp-name grp-male">men</span> and <span class="grp-name grp-female">women</span> are active at similar rates. The largest states stay within about 1 percentage point (pp) of parity. The widest gaps appear in the smaller states and territories.</p>
+                        <h4>Key insights</h4>
+                        <ul>
+                            <li><strong>The largest states are close to equal.</strong> In New South Wales, Victoria and Queensland, the gap between <span class="grp-name grp-female">women</span> and <span class="grp-name grp-male">men</span> stayed within about 1 pp in both 2024 and 2025.</li>
+                            <li><strong>Tasmania has the most consistent gap.</strong> <span class="grp-name grp-female">Women</span> in Tasmania were more active than <span class="grp-name grp-male">men</span> in both years (<span class="grp-name grp-female">+4.4 pp</span> in 2024, <span class="grp-name grp-female">+4.7 pp</span> in 2025).</li>
+                            <li><strong>The Northern Territory shows the widest but least stable gap.</strong> It swung from <span class="grp-name grp-male">men leading by 7.0 pp</span> in 2024 to <span class="grp-name grp-female">women leading by 10.8 pp</span> in 2025.</li>
+                            <li><strong><span class="grp-name grp-female">Women</span> lead more clearly in regular activity.</strong> For activity at least three times a week, <span class="grp-name grp-female">women</span> were more active than <span class="grp-name grp-male">men</span> in every state and territory except South Australia in 2025.</li>
+                        </ul>
+                    </div>
+                    <figure class="fig card centred">
+                        <div class="chart" id="state_gender_gap_chart"></div>
+                    </figure>
+                </div>
+            </div>
         </section>
 
-        <section class="section-5-heading">
-            <h1>Life Shapes Movement</h1>
-            <p>How a person's health and socioeconomic circumstances influence their activity levels.</p>
-        </section>
+        <!-- ---------- 5. Life & health ---------- -->
+        <section class="chapter ch-life">
+            <div class="wrap">
+                <p class="eyebrow"><span>5 · Life &amp; health</span></p>
+                <h2>Life Shapes Movement</h2>
+                <p class="chapter-lede">How a person's health and socioeconomic circumstances influence their activity levels.</p>
 
-        <section class="state-gender-gap-section" aria-label="Physical activity by health status">
-            <article class="chart-panel state-map-panel">
-                <div id="active_vs_health_chart"></div>
-            </article>
+                <div class="two-col">
+                    <div class="text">
+                        <h3>Does Health Status Change How Active We Are?</h3>
+                        <p>Across every health factor, people in poorer health spend more time inactive and less time in vigorous activity. The healthiest group is the most active on almost every measure.</p>
+                        <h4>Key insights</h4>
+                        <ul>
+                            <li><strong>A clear health gradient.</strong> For every health factor, activity falls from the lowest-risk to the highest-risk group.</li>
+                            <li><strong>Body size shows one of the largest gaps.</strong> <span class="risk-name risk-high">Adults with obesity</span> spend <span class="risk-name risk-high">12 hours 24 minutes</span> a day inactive, about 1 hour more than those of a <span class="risk-name risk-lowest">healthy weight</span> (<span class="risk-name risk-lowest">11 hours 23 minutes</span>). They do a third as much vigorous activity (2 vs 6 minutes). Waist circumference shows the same pattern (<span class="risk-name risk-high">12 hours 14 minutes</span> vs <span class="risk-name risk-lowest">11 hours 21 minutes</span> inactive). Low activity can contribute to weight gain, as fewer calories are burned each day.</li>
+                            <li><strong>Heart disease is linked to the lowest activity.</strong> <span class="risk-name risk-highest">Adults with heart, stroke or vascular disease</span> spend <span class="risk-name risk-highest">12 hours 51 minutes</span> a day inactive, over 1 hour more than those with <span class="risk-name risk-lowest">no condition</span> (<span class="risk-name risk-lowest">11 hours 47 minutes</span>). They record the lowest light and moderate activity of any group, and just 1 minute of vigorous activity. This is expected, as intense exercise puts extra strain on the heart, and many people with these conditions are advised to limit strenuous activity.</li>
+                        </ul>
+                    </div>
+                    <figure class="fig card centred">
+                        <div class="chart" id="active_vs_health_chart"></div>
+                    </figure>
+                </div>
 
-            <aside class="organiser-explanation state-explanation">
-                <h2>Does Health Status Change How Active We Are?</h2>
-                <p>Across every health factor, people in poorer health spend more time inactive and less time in vigorous activity. The healthiest group is the most active on almost every measure.</p>
-                <h3>Key insights</h3>
-                <ul>
-                    <li><strong>A clear health gradient.</strong> For every health factor, activity falls from the lowest-risk to the highest-risk group.</li>
-                    <li><strong>Body size shows one of the largest gaps.</strong> <span class="risk-name risk-high">Adults with obesity</span> spend <span class="risk-name risk-high">12 hours 24 minutes</span> a day inactive, about 1 hour more than those of a <span class="risk-name risk-lowest">healthy weight</span> (<span class="risk-name risk-lowest">11 hours 23 minutes</span>). They do a third as much vigorous activity (2 vs 6 minutes). Waist circumference shows the same pattern (<span class="risk-name risk-high">12 hours 14 minutes</span> vs <span class="risk-name risk-lowest">11 hours 21 minutes</span> inactive). Low activity can contribute to weight gain, as fewer calories are burned each day.</li>
-                    <li><strong>Heart disease is linked to the lowest activity.</strong> <span class="risk-name risk-highest">Adults with heart, stroke or vascular disease</span> spend <span class="risk-name risk-highest">12 hours 51 minutes</span> a day inactive, over 1 hour more than those with <span class="risk-name risk-lowest">no condition</span> (<span class="risk-name risk-lowest">11 hours 47 minutes</span>). They record the lowest light and moderate activity of any group, and just 1 minute of vigorous activity. This is expected, as intense exercise puts extra strain on the heart, and many people with these conditions are advised to limit strenuous activity.</li>
-                </ul>
-            </aside>
-        </section>
+                <div class="stacked">
+                    <div class="text">
+                        <h3>Who Is Missing Out on Being Active?</h3>
+                        <p>Socioeconomic factors such as employment, education and income show the widest gaps in weekly activity.</p>
+                        <p class="sub">Share of adults who are physically active at least once a week (2025), compared with the national rate of 68.8%. <span class="socio-name socio-above">Blue</span> = above the national rate, <span class="socio-name socio-below">orange</span> = below. Labels show each group's participation rate and its gap.</p>
+                    </div>
 
-        <section class="socio-section" aria-label="Physical activity by socioeconomic factor">
-            <header class="socio-header">
-                <h2>Who Is Missing Out on Being Active?</h2>
-                <p>Socioeconomic factors such as employment, education and income show the widest gaps in weekly activity.</p>
-                <p class="socio-subtitle">Share of adults who are physically active at least once a week (2025), compared with the national rate of 68.8%. <span class="socio-name socio-above">Green</span> = above the national rate, <span class="socio-name socio-below">orange</span> = below. Labels show each group's participation rate and its gap.</p>
-            </header>
+                    <figure class="fig card socio-card" aria-label="Physical activity by socioeconomic factor">
+                        <h4 class="socio-insights-heading">Key insights</h4>
 
-            <h3 class="socio-insights-heading">Key insights</h3>
+                        <div class="socio-chart-block">
+                            <h4>Annual household income</h4>
+                            <div class="socio-chart" id="socio_income_chart"></div>
+                        </div>
+                        <div class="socio-insight">
+                            <p><strong>Income shows the largest gap.</strong> Weekly participation rises steadily with household income, from <span class="socio-name socio-below">52.9% for households earning under $40,000</span> to <span class="socio-name socio-above">80.8% for those earning $200,000 or more</span>.</p>
+                            <p>This suggests that financial resources play a role, as higher-income households can more readily afford gym memberships, club fees and equipment.</p>
+                        </div>
 
-            <div class="socio-chart-block">
-                <h3>Annual household income</h3>
-                <div class="socio-chart" id="socio_income_chart"></div>
-            </div>
-            <div class="socio-insight">
-                <p><strong>Income shows the largest gap.</strong> Weekly participation rises steadily with household income, from <span class="socio-name socio-below">52.9% for households earning under $40,000</span> to <span class="socio-name socio-above">80.8% for those earning $200,000 or more</span>.</p>
-                <p>This suggests that financial resources play a role, as higher-income households can more readily afford gym memberships, club fees and equipment.</p>
-            </div>
+                        <div class="socio-chart-block">
+                            <h4>Highest education completed</h4>
+                            <div class="socio-chart" id="socio_education_chart"></div>
+                        </div>
+                        <div class="socio-insight">
+                            <p><strong>Education follows the same pattern.</strong> <span class="socio-name socio-above">Adults with a university degree</span> are the most active group, followed by those <span class="socio-name socio-above">still at secondary school</span>, which likely reflects access to school sport and organised club activities.</p>
+                            <p><span class="socio-name socio-below">Adults who did not complete school</span> are the least active group on the chart (<span class="socio-name socio-below">48.9%</span>). This is consistent with the income pattern, as lower educational attainment is often associated with lower income and fewer resources for physical activity.</p>
+                        </div>
 
-            <div class="socio-chart-block">
-                <h3>Highest education completed</h3>
-                <div class="socio-chart" id="socio_education_chart"></div>
-            </div>
-            <div class="socio-insight">
-                <p><strong>Education follows the same pattern.</strong> <span class="socio-name socio-above">Adults with a university degree</span> are the most active group, followed by those <span class="socio-name socio-above">still at secondary school</span>, which likely reflects access to school sport and organised club activities.</p>
-                <p><span class="socio-name socio-below">Adults who did not complete school</span> are the least active group on the chart (<span class="socio-name socio-below">48.9%</span>). This is consistent with the income pattern, as lower educational attainment is often associated with lower income and fewer resources for physical activity.</p>
-            </div>
+                        <div class="socio-chart-block">
+                            <h4>Employment status</h4>
+                            <div class="socio-chart" id="socio_employment_chart"></div>
+                        </div>
+                        <div class="socio-insight">
+                            <p><strong>Those outside the workforce are less active.</strong> <span class="socio-name socio-below">Unemployed adults (56.8%)</span>, <span class="socio-name socio-below">people engaged in home duties (59.8%)</span> and <span class="socio-name socio-below">retirees (63.2%)</span> all fall below the national rate.</p>
+                            <p>This suggests that having more free time does not necessarily lead to greater activity. Each group faces different constraints:</p>
+                            <ul>
+                                <li><span class="socio-name socio-below">Unemployed adults</span> often have limited financial resources.</li>
+                                <li><span class="socio-name socio-below">People engaged in home duties</span> may be constrained by caring responsibilities.</li>
+                                <li><span class="socio-name socio-below">Retirees</span> are more likely to be affected by age-related health limitations.</li>
+                            </ul>
+                            <p>Employment may also support activity by providing income, daily routine and social connections.</p>
+                        </div>
 
-            <div class="socio-chart-block">
-                <h3>Employment status</h3>
-                <div class="socio-chart" id="socio_employment_chart"></div>
-            </div>
-            <div class="socio-insight">
-                <p><strong>Those outside the workforce are less active.</strong> <span class="socio-name socio-below">Unemployed adults (56.8%)</span>, <span class="socio-name socio-below">people engaged in home duties (59.8%)</span> and <span class="socio-name socio-below">retirees (63.2%)</span> all fall below the national rate.</p>
-                <p>This suggests that having more free time does not necessarily lead to greater activity. Each group faces different constraints:</p>
-                <ul>
-                    <li><span class="socio-name socio-below">Unemployed adults</span> often have limited financial resources.</li>
-                    <li><span class="socio-name socio-below">People engaged in home duties</span> may be constrained by caring responsibilities.</li>
-                    <li><span class="socio-name socio-below">Retirees</span> are more likely to be affected by age-related health limitations.</li>
-                </ul>
-                <p>Employment may also support activity by providing income, daily routine and social connections.</p>
-            </div>
+                        <div class="socio-chart-block">
+                            <h4>Remoteness</h4>
+                            <div class="socio-chart" id="socio_remoteness_chart"></div>
+                        </div>
+                        <div class="socio-insight socio-insight-span">
+                            <p><strong>Location and household structure have only a small effect.</strong> All remoteness areas and household types sit within 3 pp of the national rate.</p>
+                        </div>
 
-            <div class="socio-chart-block">
-                <h3>Remoteness</h3>
-                <div class="socio-chart" id="socio_remoteness_chart"></div>
-            </div>
-            <div class="socio-insight socio-insight-span">
-                <p><strong>Location and household structure have only a small effect.</strong> All remoteness areas and household types sit within 3 pp of the national rate.</p>
-            </div>
-
-            <div class="socio-chart-block">
-                <h3>Household structure</h3>
-                <div class="socio-chart" id="socio_household_chart"></div>
+                        <div class="socio-chart-block">
+                            <h4>Household structure</h4>
+                            <div class="socio-chart" id="socio_household_chart"></div>
+                        </div>
+                    </figure>
+                </div>
             </div>
         </section>
     </main>
+
+    <footer class="site-footer">
+        <div class="wrap">
+            <p><strong>Physical Activity in Australia 2025</strong> · FIT3179 Data Visualisation 2</p>
+
+            <p class="sources">
+            <strong>Data sources:</strong>
+            <a href="https://www.clearinghouseforsport.gov.au/research/ausplay" target="_blank" rel="noopener">AusPlay</a>,
+            Australian Sports Commission / Clearinghouse for Sport, national, state and territory data tables (30 April 2026) and participation trend tables (2016–2023);
+            <a href="https://www.abs.gov.au" target="_blank" rel="noopener">Australian Bureau of Statistics</a>,
+            <em>National Nutrition and Physical Activity Survey: Measured Physical Activity and Sleep, 2023</em> (released 24 March 2026).
+            </p>
+        </div>
+    </footer>
 </body>
 
 </html>
